@@ -1,8 +1,9 @@
 # NIGGHTERS — automatic Instagram publishing
 
-Every new Instagram post is pulled into the website automatically. No git, no
-manual steps: you post on Instagram, and within ~5 minutes the post (images,
-video, caption) is live on the site as a new carousel.
+Every new Instagram post is pulled into the website automatically. You post on
+Instagram, and within ~5 minutes the post (images, video, caption) is live on
+the site as a new carousel. The project is under git so every change has
+history and can be rolled back.
 
 ## How it works
 
@@ -93,18 +94,41 @@ No app secret is needed: Instagram's `ig_refresh_token` endpoint refreshes the
 long-lived token using only the token itself, so the daily refresh function
 keeps it alive without `IG_APP_SECRET`.
 
-### 4. Deploy (once)
+### 4. Connect git → Netlify (recommended)
 
-You don't need git. Install the Netlify CLI and deploy the project folder:
+The repo is already initialized on the `main` branch and `netlify.toml` is
+CI-ready. Two steps remain, and both need your credentials:
+
+```bash
+# 1) Create a GitHub repo, then point this local repo at it:
+git remote add origin https://github.com/<you>/<repo>.git
+git push -u origin main
+
+# 2) Connect Netlify to the GitHub repo:
+#    Netlify Dashboard → Add new site → Import an existing project → GitHub
+#    → pick the repo → build command `npm run build`, publish dir `dist`.
+```
+
+From then on **every `git push` deploys automatically** (works even when your
+laptop is off), and Netlify keeps a deploy history you can roll back to.
+
+### 5. Deploy locally (faster, without git)
+
+Install the Netlify CLI and push `dist/` + the functions directly:
 
 ```bash
 npm install -g netlify-cli
 netlify login
 netlify init          # links this folder to your existing Netlify site
-netlify deploy --prod # deploys dist/ + the functions
+npm run deploy        # builds + pushes dist/ and the functions to production
+npm run deploy:watch  # re-deploys on every save (Ctrl+C to stop)
 ```
 
-### 5. Backfill your recent posts
+> Note: the Netlify Functions live in this repo (under `netlify/functions/`) and
+> are committed and deployed like any other file, but the *data* they manage —
+> the Instagram posts and media in Netlify Blobs — lives on Netlify, not in git.
+
+### 6. Backfill your recent posts
 
 Trigger a sync immediately (also useful for testing before waiting 5 minutes):
 
@@ -136,7 +160,13 @@ Functions page.)
   `netlify/`, or `index.html`, it waits 3 seconds (in case you're still
   editing) and runs the deploy automatically. `node watch-deploy.mjs --dry-run`
   shows what would deploy without sending anything. The watcher only runs while
-  it's open; for deploys that work even when your laptop is off, connect this
-  folder to a GitHub repo with Netlify's continuous deployment.
+  it's open; the recommended long-term setup is git → GitHub → Netlify
+  continuous deployment above, which deploys even when your laptop is off.
+- **Working with git.** Secrets (`.ig-sync-token`, `.netlify-token`, `.env.*`)
+  and build output (`dist/`, `node_modules/`) are git-ignored, so you can commit
+  freely without ever leaking tokens. Make a change, then `git add -A && git
+  commit` and `git push` to trigger a deploy. To change the commit identity,
+  run `git config user.name` / `git config user.email` in this folder (stored
+  locally, not globally).
 - **Local development:** `netlify dev` serves the site and the functions
   locally so you can test the sync against your real Instagram account.
