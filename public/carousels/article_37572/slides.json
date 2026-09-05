@@ -1,0 +1,63 @@
+{
+  "renderer": "comfyui",
+  "category": "technology",
+  "published_at": "2026-08-23T11:44:00",
+  "image_url": "https://s.yimg.com/lo/mysterio/api/30D2BD1A793422B863EA0E777203AF4280C433188D93CD17068D56DF3A00D382/subgraphmysterio/resizefill_w1200_h766;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2F2f24df5355297691792461c97926893e.jpg",
+  "texts": {
+    "title_text": "Microsoft stock dropped 30% from its all-time high, but could double by 2030",
+    "slide_1_text": "Microsoft's stellar earnings report surged its 2027 price target to $625, a 30% premium over current shares.",
+    "slide_2_text": "Microsoft's AI edge gives it a competitive boost, particularly in cloud computing and AI development, outpacing rivals.",
+    "slide_3_text": "Azure's 43% year-over-year growth is driven by AI-powered developer tools and enhanced customer service, setting a strong stage.",
+    "slide_4_text": "The $3.2 billion gain from Microsoft's investment in Anthropic supports its strategic bets and growth prospects, significantly bolstering its value."
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens, medium shot, neutral color grading, no text, calm facial expression, Microsoft executive walking past a crowded press conference, slight telephoto compression.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, extreme-wide contextual establishing shot of a Microsoft office building or a cityscape with a large Microsoft skyscraper, or a crowd of people gathered outside a Microsoft conference center.",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium two-shot of two people, one male and one female, shaking hands or exchanging business cards, with a neutral background and a subtle blur effect to emphasize the interaction.",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, no cinematic color, a large graph showing the growth of Microsoft's Azure revenue over the past few years, with a red arrow pointing upwards to highlight the 43% year-over-year growth.",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR A single, large, silver dollar coin rests atop a stack of smaller, identical coins, with a faint Microsoft logo embossed on its surface, signifying the potential for significant growth."
+  },
+  "topic": "AI",
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "regen_ad568d4c.png",
+      "text": "Microsoft stock dropped 30% from its all-time high, but could double by 2030",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens, medium shot, neutral color grading, no text, calm facial expression, Microsoft executive walking past a crowded press conference, slight telephoto compression.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "video",
+      "file": "regen_ea0157f2.mp4",
+      "text": "Microsoft's stellar earnings report surged its 2027 price target to $625, a 30% premium over current shares.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, extreme-wide contextual establishing shot of a Microsoft office building or a cityscape with a large Microsoft skyscraper, or a crowd of people gathered outside a Microsoft conference center.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_37572_slide_2.png",
+      "text": "Microsoft's AI edge gives it a competitive boost, particularly in cloud computing and AI development, outpacing rivals.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium two-shot of two people, one male and one female, shaking hands or exchanging business cards, with a neutral background and a subtle blur effect to emphasize the interaction.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_37572_slide_3.png",
+      "text": "Azure's 43% year-over-year growth is driven by AI-powered developer tools and enhanced customer service, setting a strong stage.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, no cinematic color, a large graph showing the growth of Microsoft's Azure revenue over the past few years, with a red arrow pointing upwards to highlight the 43% year-over-year growth.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_37572_slide_4.png",
+      "text": "The $3.2 billion gain from Microsoft's investment in Anthropic supports its strategic bets and growth prospects, significantly bolstering its value.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR A single, large, silver dollar coin rests atop a stack of smaller, identical coins, with a faint Microsoft logo embossed on its surface, signifying the potential for significant growth.",
+      "user_source": ""
+    }
+  ]
+}

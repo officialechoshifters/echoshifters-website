@@ -1,0 +1,39 @@
+{
+  "renderer": "comfyui",
+  "category": "politics",
+  "published_at": "2026-08-28T16:00:43.672262",
+  "image_url": "https://static.dw.com/image/77592246_6.jpg",
+  "texts": {
+    "title_text": "US judge blocks Pentagon's blacklisting of Anthropic AI",
+    "slide_1_text": "A federal judge ruled the Pentagon's labeling of Anthropic a 'supply chain risk' was unlawful and retaliatory.",
+    "slide_2_text": "The decision came after Anthropic refused military access to its AI and criticized the DoD's use of the technology.",
+    "slide_3_text": "Judge Lin called the government's actions a 'public example' of 'arrogance' rather than a national security threat.",
+    "slide_4_text": "Anthropic plans to launch an IPO soon, potentially surpassing SpaceX's record raise — follow for more.",
+    "slide_5_text": ""
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot of California district judge Rita Lin speaking at a podium, looking straight into the camera with a serious expression.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, low-angle wide shot of the White House or a government building, with a crowd of people protesting or holding signs, or a news conference with government officials and Anthropic representatives.",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, natural neutral facial expressions only, two people, a judge and a lawyer, shaking hands in a neutral background.",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the image, extreme-wide shot of the Pentagon building exterior, with the US flag waving in the wind, and a caption of 'Department of Defense' in the foreground, no people in focus.",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the image, macro close-up of a stock certificate with the company's logo, a wooden gavel with an official seal, or a currency note with a unique symbol.",
+    "slide_5_prompt": ""
+  },
+  "topic": "AI & POLITICS",
+  "topic_scores": {
+    "AI": 95,
+    "ARTS": 0,
+    "BUSINESS": 75,
+    "CULTURE": 0,
+    "ECONOMY": 0,
+    "FINANCE": 0,
+    "HEALTH": 0,
+    "LIFESTYLE": 0,
+    "MARKETS": 83,
+    "POLITICS": 92,
+    "SCIENCE": 0,
+    "SPORTS": 0,
+    "TECHNOLOGY": 92,
+    "NATURE": 0
+  }
+}

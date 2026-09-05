@@ -1,0 +1,71 @@
+{
+  "renderer": "comfyui",
+  "category": "technology",
+  "published_at": "2026-08-10T15:45:04",
+  "image_url": "https://s.yimg.com/lo/mysterio/api/48037C85A7BAC677D918B51CA46917259398F2F5C9D10FF981B0D480EEE4EF0F/subgraphmysterio/resizefill_w1200_h677;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2Fe34da1e44fe235c06d38d8525b97161c",
+  "texts": {
+    "title_text": "Gene Munster says SpaceX is poised to dominate AI with its 15 GW compute capacity target.",
+    "slide_1_text": "Gene Munster Warns Alphabet's AI Division Faces Two Major Problemspoiuytrewqioiuytrewqwertyu",
+    "slide_2_text": "As Gemini slips in AI rankings, Google's chances of staying competitive are dwindling.",
+    "slide_3_text": "xAI's CEO credits Grok with promising improvements, citing potential ranking boosts as new versions are released.",
+    "slide_4_text": "Elon Musk's ambitious vision for X: How SpaceX is primed to capture $750 billion in annual AI revenue"
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of Gene Munster speaking at a podium or walking past press pool.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of a Google executive speaking at a press conference, at a podium, or walking past press.",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of a person standing alone at a table with papers, laptop, and other AI-related equipment, looking concerned or uncertain.",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of xAI's CEO at a podium, office background with subtle AI-related visuals",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of Elon Musk standing confidently at a podium or walking towards the camera."
+  },
+  "topic": "AI",
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "regen_72987a02.png",
+      "text": "Gene Munster says SpaceX is poised to dominate AI with its 15 GW compute capacity target.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of Gene Munster speaking at a podium or walking past press pool.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "regen_5826c5ec.png",
+      "text": "Gene Munster Warns Alphabet's AI Division Faces Two Major Problemspoiuytrewqioiuytrewqwertyu",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of a Google executive speaking at a press conference, at a podium, or walking past press.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_23840_slide_2.png",
+      "text": "As Gemini slips in AI rankings, Google's chances of staying competitive are dwindling.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of a person standing alone at a table with papers, laptop, and other AI-related equipment, looking concerned or uncertain.",
+      "user_source": ""
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_23840_slide_3.png",
+      "text": "xAI's CEO credits Grok with promising improvements, citing potential ranking boosts as new versions are released.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of xAI's CEO at a podium, office background with subtle AI-related visuals",
+      "user_source": ""
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_23840_slide_4.png",
+      "text": "Elon Musk's ambitious vision for X: How SpaceX is primed to capture $750 billion in annual AI revenue",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of Elon Musk standing confidently at a podium or walking towards the camera.",
+      "user_source": ""
+    },
+    {
+      "id": "custom_4448f6c4",
+      "kind": "image",
+      "file": "upload_64e09813.png",
+      "text": "",
+      "prompt": "",
+      "user_source": ""
+    }
+  ]
+}

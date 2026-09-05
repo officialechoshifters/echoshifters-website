@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Secrets & local env (never commit these) ---
+# The manual-sync guard token (must match Netlify's IG_SYNC_TOKEN env var)
+.ig-sync-token
+# The Netlify personal access token used by deploy.mjs / watch-deploy.mjs
+.netlify-token
+# Netlify local site link state
+.netlify/
+# Local environment files (keep the .env.example committed)
+.env
+.env.local
+.env.*.local
+
+# Vendored reference copy of the Clerk SDK source (not part of the deploy)
+clerk-javascript/

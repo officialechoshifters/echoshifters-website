@@ -1,0 +1,27 @@
+RISKY BUSINESS TECHNOLOGY: Slovakia finds Russian backdoor in traffic speed cameras
+
+Risky Bulletin Newsletter August 19, 2026
+
+Slovakia's national security service NBU has issued a security alert against the use of NERO R-ONE high-speed traffic cameras.
+
+The agency says the cameras contain a backdoor mechanism that grants shell and network access to the devices via an SMS message received from a list of hardcoded Russian phone numbers. The cameras were bought as part of a €30 million EU-funded project to rebuild the country's national traffic monitoring system.
+
+According to the NBU, the cameras are a rebranded version of a Russian traffic camera model named CORDON PRO.M, produced by St. Petersburg-based Russian firm Semicon. The cameras were purchased by the Interior Ministry, which initially denied that the cameras were of Russian origin.
+
+The NBU report also found several security flaws in the cameras, including a turned-off SecureBoot security feature, multiple vulnerabilities in the web management portal, and live streams that can be accessed by anyone without a password.
+
+Interior Ministry officials paused the camera deployment after the NBU report and said it would order an additional assessment from an independent auditor to confirm the findings.
+
+The discovery highlights the potential risks of buying security cameras from Russia, which has been accused of developing malicious backdoors in its technology.
+
+As the situation unfolds, it remains to be seen how Slovakia's government will address this issue and ensure the security of its citizens.
+
+This incident is a reminder that even seemingly secure technology can contain hidden vulnerabilities.
+
+The Slovakian government's decision to pause the camera deployment is a cautious response to this new information.
+
+Only time will tell if this decision will be enough to prevent a larger incident.
+
+The world of cybersecurity is constantly evolving, and incidents like this serve as a stark reminder of the importance of vigilance and due diligence.
+
+By prioritizing security, we can protect ourselves and our communities from the threats that lurk in the shadows of the digital world.

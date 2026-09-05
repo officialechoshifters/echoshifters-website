@@ -1,0 +1,731 @@
+{
+  "generated_from": "data/carousels",
+  "carousels": [
+    {
+      "id": "23840",
+      "directory": "/carousels/article_23840",
+      "caption": "/carousels/article_23840/caption.txt",
+      "caption_text": "TECH & MEDIA: Analyst Warns Alphabet (GOOG) Faces Two Major AI Problems; SpaceX (SPCX) a Better AI Bet?\n\nAlphabet's AI division has seen a series of high-profile departures, sparking concerns about the company's ability to develop future AI models.\n\nGene Munster, managing partner at Deepwater Asset Management, warned that the brain drain could affect Alphabet's culture of innovation and its ability to compete in the rapidly evolving AI landscape. He noted that Gemini has started to slip in AI model rankings relative to competitors, while Grok is expected to break into the top three models as new versions are released.\n\nIn contrast, SpaceX's AI division has seen significant improvements, with the company boasting a 66% year-over-year increase in revenue from its Starlink connectivity business. Analysts believe that SpaceX's growth potential in AI could be substantial, with estimates suggesting $750 billion in annual revenue potential if the company can scale its AI compute capacity to 15 GW by 2027.\n\nHowever, critics argue that SpaceX's aggressive expansion plans may not be sustainable, given the company's significant cash burn and reliance on a small number of customers. JPMorgan estimates that SpaceX would need to spend $200 billion in capital expenditures per year from 2027 to 2028 to reach its ambitious growth targets.\n\nUltimately, the fate of Alphabet's AI division hangs in the balance, while SpaceX appears to be well-positioned for long-term success in the rapidly evolving tech landscape.",
+      "topic": "AI",
+      "tags": [
+        "ai"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_23840/regen_72987a02.png",
+          "text": "Gene Munster says SpaceX is poised to dominate AI with its 15 GW compute capacity target.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of Gene Munster speaking at a podium or walking past press pool.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_23840/regen_5826c5ec.png",
+          "text": "Gene Munster Warns Alphabet's AI Division Faces Two Major Problemspoiuytrewqioiuytrewqwertyu",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of a Google executive speaking at a press conference, at a podium, or walking past press.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_23840/article_23840_slide_2.png",
+          "text": "As Gemini slips in AI rankings, Google's chances of staying competitive are dwindling.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, medium shot of a person standing alone at a table with papers, laptop, and other AI-related equipment, looking concerned or uncertain.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_23840/article_23840_slide_3.png",
+          "text": "xAI's CEO credits Grok with promising improvements, citing potential ranking boosts as new versions are released.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of xAI's CEO at a podium, office background with subtle AI-related visuals",
+          "user_source": ""
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_23840/article_23840_slide_4.png",
+          "text": "Elon Musk's ambitious vision for X: How SpaceX is primed to capture $750 billion in annual AI revenue",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of Elon Musk standing confidently at a podium or walking towards the camera.",
+          "user_source": ""
+        },
+        {
+          "id": "custom_4448f6c4",
+          "kind": "image",
+          "file": "/carousels/article_23840/upload_64e09813.png",
+          "text": "",
+          "prompt": "",
+          "user_source": ""
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "36200",
+      "directory": "/carousels/article_36200",
+      "caption": "/carousels/article_36200/caption.txt",
+      "caption_text": "BUSINESS STORIES:\n\nTechCrunch Mobility: The custom chip driving Waymo’s robotaxi ambitions\n\nWaymo's sixth-generation self-driving system is central to its robotaxi ambitions, and the company has now revealed a custom silicon chip designed to handle the massive influx of raw data before it reaches the core “brain” of the self-driving system. The 5 nm ASIC chip delivers more than 1,000 TOPS of computing performance, a statistic that puts it roughly in the same performance range as Nvidia’s latest DRIVE AGX Thor automotive processor. The end result, Waymo says, is a system that has “unmatched efficiency and performance.”\n\nThe company listed a slew of partners for the chip, including AMD, Micron, Nvidia, Samsung, Sandisk, Socionext, and TSMC. A little bird told TechCrunch that the Idaho National Laboratory is evaluating whether Chinese lidar sensors might pose a security risk if they become widely used on vehicles in the United States. Several major companies, including Rivian, General Motors, and Ford, said they were unaware of the review. Aurora, Nvidia, and Zoox didn’t respond to questions.\n\nIn other news, startup incubated within Rivian has raised another $150 million in a Series D round led by Prysm Capital with participation from existing backers. Serve Robotics, a sidewalk delivery robot company, has partnered with Grubhub to use its sidewalk robots in several cities. Uber has sold its shares in Serve and reduced its use of its robots on the app, set to end next year. Einride, the Swedish electric and autonomous trucking company, has struck a deal with Tesla to buy 500 of its electric Semis.\n\nThe latest funding round for startup incubated within Rivian is notable, as is Serve’s ability to diversify its partnerships. Uber’s retreat from Serve illustrates the importance of diversification for companies attempting to scale. With these deals, it’s clear that the companies involved are racing to develop and deploy autonomous vehicles, and that this space is becoming increasingly crowded and competitive.",
+      "topic": "BUSINESS",
+      "tags": [
+        "business"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_36200/regen_4bb6274c.png",
+          "text": "Waymo's custom chip is the key to its robotaxi ambitions, delivering unmatched efficiency and performance",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of Waymo's engineer or engineer team working at a desk or in a lab, hands on the custom chip, with a subtle background of computer screens and engineering equipment, neutral facial expression.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "video",
+          "file": "/carousels/article_36200/regen_19817ca1.mp4",
+          "text": "Waymo announces custom silicon chip designed to handle massive data influx before reaching self-driving system core, with 1,000+ TOPS performance",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR Extreme-wide contextual establishing shot of a research laboratory or a testing facility, with scientists and engineers working on computer chips and self-driving system components, and a large screen displaying data and charts.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_36200/regen_1fc26c1d.png",
+          "text": "The 5nm ASIC chip handles massive data influx, delivering over 1,000 TOPS of computing performance",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, no text, medium two-shot of engineers and developers collaborating around a table with a large screen displaying the 5nm ASIC chip, calm and professional body language.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_36200/article_36200_slide_3.png",
+          "text": "Waymo's system can react fast and safely in cities with dense traffic and varying weather conditions, thanks to its custom chip",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, an extreme-wide shot of a city street with a Waymo Ojai robotaxi parked in the center, surrounded by a swarm of cameras and sensors, with a blurred background to emphasize the robotaxi's role in the ecosystem."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_36200/article_36200_slide_4.png",
+          "text": "Waymo partners with AMD, Micron, Nvidia, Samsung, Sandisk, Socionext, and TSMC to develop its custom chip's capabilities",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR, Macro close-up detail shot of a signed document, a wooden gavel, or another symbolic object related to the custom chip, using a macro lens with a shallow depth of field, and neutral color grading."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "37125",
+      "directory": "/carousels/article_37125",
+      "caption": "/carousels/article_37125/caption.txt",
+      "caption_text": "RISKY BUSINESS TECHNOLOGY: Slovakia finds Russian backdoor in traffic speed cameras\n\nRisky Bulletin Newsletter August 19, 2026\n\nSlovakia's national security service NBU has issued a security alert against the use of NERO R-ONE high-speed traffic cameras.\n\nThe agency says the cameras contain a backdoor mechanism that grants shell and network access to the devices via an SMS message received from a list of hardcoded Russian phone numbers. The cameras were bought as part of a €30 million EU-funded project to rebuild the country's national traffic monitoring system.\n\nAccording to the NBU, the cameras are a rebranded version of a Russian traffic camera model named CORDON PRO.M, produced by St. Petersburg-based Russian firm Semicon. The cameras were purchased by the Interior Ministry, which initially denied that the cameras were of Russian origin.\n\nThe NBU report also found several security flaws in the cameras, including a turned-off SecureBoot security feature, multiple vulnerabilities in the web management portal, and live streams that can be accessed by anyone without a password.\n\nInterior Ministry officials paused the camera deployment after the NBU report and said it would order an additional assessment from an independent auditor to confirm the findings.\n\nThe discovery highlights the potential risks of buying security cameras from Russia, which has been accused of developing malicious backdoors in its technology.\n\nAs the situation unfolds, it remains to be seen how Slovakia's government will address this issue and ensure the security of its citizens.\n\nThis incident is a reminder that even seemingly secure technology can contain hidden vulnerabilities.\n\nThe Slovakian government's decision to pause the camera deployment is a cautious response to this new information.\n\nOnly time will tell if this decision will be enough to prevent a larger incident.\n\nThe world of cybersecurity is constantly evolving, and incidents like this serve as a stark reminder of the importance of vigilance and due diligence.\n\nBy prioritizing security, we can protect ourselves and our communities from the threats that lurk in the shadows of the digital world.",
+      "topic": "AI",
+      "tags": [
+        "ai"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_37125/article_37125_title.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_37125/article_37125_slide_1.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_37125/article_37125_slide_2.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_37125/article_37125_slide_3.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_37125/article_37125_slide_4.png",
+          "text": "",
+          "prompt": ""
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "37484",
+      "directory": "/carousels/article_37484",
+      "caption": "/carousels/article_37484/caption.txt",
+      "caption_text": "David Cote's Career Resilience in the Face of Setbacks",
+      "topic": "BUSINESS",
+      "tags": [
+        "business"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_37484/article_37484_title.png",
+          "text": "Jack Welch fired him from GE. He became a Fortune 500 CEO 3 years later",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot, extreme wide shot of David Cote sitting alone at a table, looking directly at the camera with a slight smile, his hands clasped together, with a subtle hint of a confident gaze."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_37484/article_37484_slide_1.png",
+          "text": "Jack Welch abruptly fired David Cote, GE's 25-year-old appliance business leader, in 1999.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the scene, low-angle wide shot, GE headquarters building exterior, with the American flag waving in the wind, emphasizing the corporate presence and prestige."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_37484/article_37484_slide_2.png",
+          "text": "Three years later, Welch's decision proved a blessing in disguise as Cote became Honeywell's CEO, delivering 150% shareholder returns.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens, slight telephoto compression, neutral color grading, medium two-shot of David Cote and Jack Welch in a meeting room with Welch's back turned to Cote, conveying disinterest."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_37484/article_37484_slide_3.png",
+          "text": "Cote's next challenge came when he acquired struggling cooling company Vertiv in 2021, positioning it for digital data growth.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, extreme-wide shot of Vertiv's data center facility with rows of cooling equipment, emphasizing the company's focus on digital data growth."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_37484/article_37484_slide_4.png",
+          "text": "Despite initial setbacks, including a 55% stock fall, Cote's investment paid off as demand for Vertiv's equipment surged in AI data centers.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, no cinematic color, macro close-up of a Vertiv cooling unit, with a data center background, conveying the technology and innovation behind Vertiv's equipment."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "37572",
+      "directory": "/carousels/article_37572",
+      "caption": "/carousels/article_37572/caption.txt",
+      "caption_text": "TECH & MEDIA: Microsoft Stock Dropped 30% From Its All-Time High: 2 Reasons It Could Double by 2030\n\nThe market left Microsoft for dead earlier this year. In June, shares of the tech giant were trading down 30% from their all-time highs, and over the last three years, the stock's performance has lagged the S&P 500, which has grown 76.4% to Microsoft's 53%.\n\nAnalysts at J.P. Morgan think there's more growth in store, raising their 2027 price target for Microsoft's stock from $550 per share to $625 per share. That's a 30% premium to its current price of about $480.\n\nReason No. 1: Microsoft is competitive where it counts, and on the sidelines where it doesn't. Artificial intelligence (AI) hyperscalers like Microsoft, Amazon, and Google parent Alphabet have been criticized for excessive AI spending. Much of that spending has been on data center infrastructure to support AI computing, but the companies have also been developing AI tools that make use of that infrastructure.\n\nThese three platforms (Microsoft's Azure, Amazon's AWS, and Alphabet's Google Cloud) are in direct competition with one another, and Azure has long been in the No. 2 slot. However, all three platforms are seeing revenue and net income soar, which the companies attribute to the introduction of AI features.\n\nIn the most recent quarter, revenue from Azure and Microsoft's other cloud services increased 43% year over year.\n\nReason No. 2: Microsoft doesn't have to spend big on a chatbot with an uncertain ROI. The company owns a stake in Anthropic, but it doesn't need to invest in a chatbot with an uncertain future.\n\nMicrosoft's share could really double in value, reaching $960 per share by 2030.\n\nMicrosoft's stock could double in value by 2030 due to its competitive edge in AI and cloud computing.",
+      "topic": "AI",
+      "tags": [
+        "ai"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_37572/regen_ad568d4c.png",
+          "text": "Microsoft stock dropped 30% from its all-time high, but could double by 2030",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens, medium shot, neutral color grading, no text, calm facial expression, Microsoft executive walking past a crowded press conference, slight telephoto compression.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "video",
+          "file": "/carousels/article_37572/regen_ea0157f2.mp4",
+          "text": "Microsoft's stellar earnings report surged its 2027 price target to $625, a 30% premium over current shares.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, extreme-wide contextual establishing shot of a Microsoft office building or a cityscape with a large Microsoft skyscraper, or a crowd of people gathered outside a Microsoft conference center.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_37572/article_37572_slide_2.png",
+          "text": "Microsoft's AI edge gives it a competitive boost, particularly in cloud computing and AI development, outpacing rivals.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium two-shot of two people, one male and one female, shaking hands or exchanging business cards, with a neutral background and a subtle blur effect to emphasize the interaction.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_37572/article_37572_slide_3.png",
+          "text": "Azure's 43% year-over-year growth is driven by AI-powered developer tools and enhanced customer service, setting a strong stage.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, no cinematic color, a large graph showing the growth of Microsoft's Azure revenue over the past few years, with a red arrow pointing upwards to highlight the 43% year-over-year growth.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_37572/article_37572_slide_4.png",
+          "text": "The $3.2 billion gain from Microsoft's investment in Anthropic supports its strategic bets and growth prospects, significantly bolstering its value.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR A single, large, silver dollar coin rests atop a stack of smaller, identical coins, with a faint Microsoft logo embossed on its surface, signifying the potential for significant growth.",
+          "user_source": ""
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "37622",
+      "directory": "/carousels/article_37622",
+      "caption": "/carousels/article_37622/caption.txt",
+      "caption_text": "OpenAI is building AI agents for everything. Will everyone use them? | TechCrunch",
+      "topic": "AI",
+      "tags": [
+        "ai"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "video",
+          "file": "/carousels/article_37622/regen_3b446515.mp4",
+          "text": "OpenAI's AI agents are expanding beyond software engineers. Will they catch on?",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot, no extreme facial close-ups or strained odd expressions, Andrew Ambrosino speaking at a press conference or walking past press.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_37622/regen_60600d53.png",
+          "text": "Andrew Ambrosino's desktop app now controls his inbox, phone, and other digital life, testing OpenAI's control limits",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, a person sitting at a desk with a laptop, phone, and inbox visible, partially surrounded by papers and office supplies, neutral facial expression, extreme wide, 24-28mm lens.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_37622/article_37622_slide_2.png",
+          "text": "ChatGPT Work aims to hook LLMs with digital workflows, helping white-collar workers automate tasks",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, natural neutral facial expressions only, medium two-shot, bilateral meeting or signing ceremony, focus on the person's hands working together with a computer or tablet, demonstrating the digital workflow."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_37622/article_37622_slide_3.png",
+          "text": "Agents like ChatGPT Work can complete multistep projects autonomously, but expanding adoption to all industries will require more hand-holding",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35mm lens look with slight telephoto compression, neutral color grading, extreme-wide shot, a factory floor with rows of workstations and machines in the background, with a few employees working at their desks, conveying a sense of industry and productivity."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_37622/article_37622_slide_4.png",
+          "text": "Industry analysts see this as a major challenge for OpenAI and competitors, requiring more support for non-technical users",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, macro close-up detail shot of a broken or abandoned smart device, such as a smartphone or a tablet, with a subtle hint of digital clutter or disorganization, and a blurred background, to convey the sense of unease and skepticism about the impact of AI on non-technical users."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "39036",
+      "directory": "/carousels/article_39036",
+      "caption": "/carousels/article_39036/caption.txt",
+      "caption_text": "POLITICS: A third drone was discovered near Leipzig/Halle Airport, raising concerns about security threats. Investigators are now seeking to identify the suspected attackers behind the incident. Officials have not yet confirmed the source of the drone, but intelligence sources suggest Russian involvement, a claim Moscow has denied. The discovery adds to ongoing scrutiny of airport security in Germany.\n\nThe drone, found alongside suspected explosives, highlights growing fears about foreign interference. German officials are working to determine the motive behind the incident, though no definitive links to specific groups have been established. The incident has intensified calls for improved security measures at critical infrastructure sites.\n\nPublic and political reactions have been mixed. Some lawmakers have criticized the government for not taking stronger action against perceived threats, while others argue that the situation remains under control. The controversy has sparked broader discussions about national security and the role of intelligence agencies.\n\nThe incident underscores a larger trend of increased security concerns in Europe. With tensions rising between nations, the discovery serves as a reminder of the potential risks faced by critical infrastructure. As investigations continue, the focus remains on ensuring the safety of key locations and preventing future incidents.",
+      "topic": "POLITICS & TECHNOLOGY",
+      "tags": [
+        "politics",
+        "technology"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_39036/article_39036_title.png",
+          "text": "Germany grapples with drone threats, repatriation, and economic shifts",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot of German authorities speaking at a press conference or walking past press."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_39036/article_39036_slide_1.png",
+          "text": "Germany faces growing drone attack threats, with officials preparing to name suspects in the Leipzig/Halle incident.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, extreme-wide or low-angle wide shot of a Leipzig/Halle Airport's perimeter fence, or a secure facility, with a sense of isolation and security, and a hint of the drone threat looming in the background."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_39036/article_39036_slide_2.png",
+          "text": "Interior Minister Dobrindt expands repatriation policy to include non-criminals, citing security and political pressures.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, low-angle wide shot of Interior Minister Alexander Dobrindt and a delegation of Ukrainian officials or diplomats walking together, shaking hands, or exchanging documents, with a side angle, conveying a sense of cooperation and diplomacy."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_39036/article_39036_slide_3.png",
+          "text": "German carmakers face uncertainty due to Trump's fluctuating tariffs, impacting EU exports and trade relations.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, extreme-wide shot of a German car factory floor with raw materials and machinery, with a subtle overlay of trade data and tariffs on a screen behind the factory, to convey the impact of fluctuating tariffs on German car exports."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_39036/article_39036_slide_4.png",
+          "text": "Zelenskyy thanks Germany for military aid, as investigations into the drone attack continue.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, macro close-up of a German flag, with shallow depth of field, no face, no text."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "41182",
+      "directory": "/carousels/article_41182",
+      "caption": "/carousels/article_41182/caption.txt",
+      "caption_text": "A U.S. federal court has ruled that the Pentagon's decision to label Anthropic a 'supply chain risk' was illegal. Judge Rita Lin, based in California, found the government's actions were motivated by a desire to punish the AI firm for its public criticism of defense policies rather than any legitimate security concern.\n\nThe dispute began in February when Anthropic declined to let the Pentagon use its technology without restrictions. CEO Dario Amodei expressed concerns about the reliability of AI in autonomous weapons and mass surveillance. In March, the Pentagon imposed the 'supply chain risk' label, which is rare for a U.S. company. Anthropic argued this was an unfair retaliation, impacting its business beyond defense contracts.\n\nPresident Trump criticized Anthropic as a 'radical left, woke company' and ordered federal agencies to stop using its tech. Defense Secretary Hegseth pressured companies to sever ties with Anthropic for defense deals. Meanwhile, OpenAI, Anthropic's main competitor, reached an agreement with the Pentagon.\n\nJudge Lin emphasized that the government could not use national security as a pretext to silence criticism. She blocked the Pentagon's labeling and Trump's social media directive, calling the government's stance 'troubling' and conflicting with the First Amendment.\n\nThe ruling comes as Anthropic prepares for a potential IPO that could surpass SpaceX's record. The decision highlights tensions between corporate innovation and government oversight, raising questions about the balance of power in AI regulation.",
+      "topic": "AI & POLITICS",
+      "tags": [
+        "ai",
+        "politics"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_41182/article_41182_title.png",
+          "text": "US judge blocks Pentagon's blacklisting of Anthropic AI",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot of California district judge Rita Lin speaking at a podium, looking straight into the camera with a serious expression."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_41182/article_41182_slide_1.png",
+          "text": "A federal judge ruled the Pentagon's labeling of Anthropic a 'supply chain risk' was unlawful and retaliatory.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, low-angle wide shot of the White House or a government building, with a crowd of people protesting or holding signs, or a news conference with government officials and Anthropic representatives."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_41182/article_41182_slide_2.png",
+          "text": "The decision came after Anthropic refused military access to its AI and criticized the DoD's use of the technology.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, natural neutral facial expressions only, two people, a judge and a lawyer, shaking hands in a neutral background."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_41182/article_41182_slide_3.png",
+          "text": "Judge Lin called the government's actions a 'public example' of 'arrogance' rather than a national security threat.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the image, extreme-wide shot of the Pentagon building exterior, with the US flag waving in the wind, and a caption of 'Department of Defense' in the foreground, no people in focus."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_41182/article_41182_slide_4.png",
+          "text": "Anthropic plans to launch an IPO soon, potentially surpassing SpaceX's record raise — follow for more.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the image, macro close-up of a stock certificate with the company's logo, a wooden gavel with an official seal, or a currency note with a unique symbol."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "41437",
+      "directory": "/carousels/article_41437",
+      "caption": "/carousels/article_41437/caption.txt",
+      "caption_text": "TECH & MEDIA:\n\nBig Tech's aggressive AI spending is straining its once-healthy balance sheets, testing its financial resilience. Companies like Meta, Amazon, Alphabet, and Microsoft, which historically maintained strong cash reserves and low debt, are now facing increased borrowing needs as they invest heavily in data centers and AI infrastructure. This shift is raising concerns among investors about the long-term impact on credit ratings and borrowing costs.\n\nThe financial pressure is evident in recent earnings reports. Meta's free cash flow dropped 91% year over year, while Alphabet posted its first-ever cash outflow since going public in 2004. Amazon and Microsoft also saw significant declines in free cash flow, driven by rising capital expenditures. These companies argue that the surge in AI demand justifies the investments, as cloud platforms like AWS, Google Cloud, and Azure continue to see strong customer growth.\n\nAnalysts warn that the hyperscalers' financial profiles are deteriorating. S & P Global's Naveen Sarma noted that rising leverage is making it more expensive for these companies to fund debt. While their credit ratings remain high, the trend could eventually pressure their ratings, affecting future borrowing costs. Moody's also highlighted the risks, calling the AI buildouts a threat to credit quality due to unprecedented investment levels.\n\nDespite these challenges, the companies remain confident in their long-term strategies. Amazon CEO Andy Jassy believes the investments will drive future revenue and cash flow. While the path to positive free cash flow is uncertain, the scale of the AI infrastructure buildout underscores the industry's commitment to meeting growing demand.",
+      "topic": "FINANCE & BUSINESS",
+      "tags": [
+        "finance",
+        "business"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_41437/article_41437_title.png",
+          "text": "Big Tech's AI spending strains balance sheets as debt rises",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, medium shot of a well-dressed executive standing confidently in front of a large whiteboard with a graph illustrating AI spending growth, emphasizing balance sheet strain through subtle tension in their posture."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_41437/article_41437_slide_1.png",
+          "text": "Meta, Amazon, Alphabet, and Microsoft are investing billions in AI, straining their financial health.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or typography anywhere in the image, low-angle wide shot of a cityscape with a backdrop of skyscrapers and financial institutions, conveying the sense of unease and uncertainty surrounding the AI investments."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_41437/article_41437_slide_2.png",
+          "text": "These companies once had strong balance sheets, but rising capital spending now pushes them toward debt.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, a handshaking bilateral meeting between a finance professional and an executive, the handshake is firm but not aggressive, and the conversation is low-key, maintaining a neutral facial expression, the camera is positioned at a medium two-shot angle, about 1-2 meters away from the subjects."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_41437/article_41437_slide_3.png",
+          "text": "Amazon and Alphabet have tapped global debt markets, while Meta issues bonds and partners with asset managers.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, or numbers in the image, extreme-wide shot or low-angle wide framing of Amazon's data center or Alphabet's server farm, with rows of servers and data equipment visible in the background, to convey the scale of their AI investments."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_41437/article_41437_slide_4.png",
+          "text": "Analysts warn that sustained AI spending risks credit ratings, making borrowing more expensive for these firms.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, macro close-up detail shot, camera distance 20-30 centimeters, a stack of cash notes and a briefcase with a company logo."
+        }
+      ],
+      "title": "",
+      "source": "",
+      "category": "",
+      "url": "",
+      "published_at": ""
+    },
+    {
+      "id": "43273",
+      "directory": "/carousels/article_43273",
+      "caption": "/carousels/article_43273/caption.txt",
+      "caption_text": "ENERGY STORIES:\n\nA new Conservative report claims scrapping UK net-zero policies would save £320bn and cut emissions, but experts say the analysis is flawed. The report argues cheaper electricity would boost EV and heat pump adoption, reducing emissions. However, its alternative scenario predicts higher carbon emissions and slower electrification.\n\nThe Onward thinktank’s report, supported by Transira Energy, compares two 2050 pathways. One follows current net-zero policies, while the other abandons the target after 2029. The latter prioritizes cheaper electricity via gas and nuclear, reducing renewables and electrification mandates. Yet, the report’s assumptions about gas prices and nuclear costs are criticized as unrealistic.\n\nExperts warn the model’s conclusions depend on questionable assumptions. For instance, it assumes gas will remain cheap and stable, which is unlikely given current trends. Iain Staffell of Imperial College London calls the report’s modeling “more holes than a Swiss cheese.”\n\nThe alternative pathway also leads to slower EV and heat pump adoption due to fewer subsidies and mandates. Critics argue this ignores potential feedback loops, like lower electricity costs increasing electrification. RenewableUK’s Tara Singh highlights the report’s omission of fuel costs for non-electrified transport.\n\nThe report’s focus on data centers and AI infrastructure support contrasts with cuts to household electrification grants. Experts say the proposed pathway would increase emissions and delay climate action, contradicting the Conservatives’ claims of a cheaper, greener future.\n",
+      "topic": "ECONOMY & POLITICS",
+      "tags": [
+        "economy",
+        "politics"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_43273/article_43273_title.png",
+          "text": "UK's alternative net-zero plan faces criticism over gas reliance and costs",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use medium shot or low-angle wide shot, do not default to an eye-level medium portrait, key figure speaking at a podium or walking past press conference - calm, neutral expression."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_43273/article_43273_slide_1.png",
+          "text": "UK’s Conservative plan proposes more gas power plants and less EV support, sparking debate.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A wide-angle shot of a crowded public space, such as a city street or protest scene, with a focus on the crowd's reaction and atmosphere. The image is shot from a high angle, with a wide aperture, to convey a sense of power and energy. The overall tone is dynamic and emotive, with a muted color palette that captures the mood and spirit of the scene."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_43273/article_43273_slide_2.png",
+          "text": "Analysts warn the plan could cost £65-95bn in extra fuel expenses over two decades, due to reliance on gas.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A handshake between Claire Coutinho and another official, with a blurred background of press photographers and journalists."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_43273/article_43273_slide_3.png",
+          "text": "The strategy assumes gas prices will drop and remain stable, despite recent spikes and global supply chain disruptions.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A factory floor or industrial site with gas-powered equipment and machinery, with no signs of renewable energy sources. Use an extreme-wide shot with a low angle, neutral color palette, and a slight haze effect to convey a sense of distance."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_43273/article_43273_slide_4.png",
+          "text": "Experts argue the plan relies on unrealistic assumptions and may increase energy costs.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, macro close-up detail shot with shallow depth of field — a coin or a medal with a broken chain or a cracked mirror, symbolizing the broken promise of cheap power and the consequences of climate change."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_43273/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Factcheck: 10 Flaws in the Conservative Report on \"Cheap Power\" - CleanTechnica",
+      "source": "CleanTechnica",
+      "category": "energy",
+      "url": "https://cleantechnica.com/2026/08/27/factcheck-10-flaws-in-the-conservative-report-on-cheap-power/",
+      "published_at": "2026-08-28T03:50:08",
+      "post": {
+        "posted_at": "2026-09-03T19:34:04.408005+00:00",
+        "media_id": "18088308344270969",
+        "permalink": "https://www.instagram.com/p/Dc1koFVih7m/",
+        "username": "nigghters",
+        "story_media_id": "18133448014651192",
+        "story_permalink": "https://www.instagram.com/stories/nigghters/3978247074378041378",
+        "story_error": "",
+        "caption": "ENERGY STORIES:\n\nA new Conservative report claims scrapping UK net-zero policies would save £320bn and cut emissions, but experts say the analysis is flawed. The report argues cheaper electricity would boost EV and heat pump adoption, reducing emissions. However, its alternative scenario predicts higher carbon emissions and slower electrification.\n\nThe Onward thinktank’s report, supported by Transira Energy, compares two 2050 pathways. One follows current net-zero policies, while the other abandons the target after 2029. The latter prioritizes cheaper electricity via gas and nuclear, reducing renewables and electrification mandates. Yet, the report’s assumptions about gas prices and nuclear costs are criticized as unrealistic.\n\nExperts warn the model’s conclusions depend on questionable assumptions. For instance, it assumes gas will remain cheap and stable, which is unlikely given current trends. Iain Staffell of Imperial College London calls the report’s modeling “more holes than a Swiss cheese.”\n\nThe alternative pathway also leads to slower EV and heat pump adoption due to fewer subsidies and mandates. Critics argue this ignores potential feedback loops, like lower electricity costs increasing electrification. RenewableUK’s Tara Singh highlights the report’s omission of fuel costs for non-electrified transport.\n\nThe report’s focus on data centers and AI infrastructure support contrasts with cuts to household electrification grants. Experts say the proposed pathway would increase emissions and delay climate action, contradicting the Conservatives’ claims of a cheaper, greener future.",
+        "article": {
+          "title": "Factcheck: 10 Flaws in the Conservative Report on \"Cheap Power\" - CleanTechnica",
+          "source": "CleanTechnica",
+          "category": "energy",
+          "url": "https://cleantechnica.com/2026/08/27/factcheck-10-flaws-in-the-conservative-report-on-cheap-power/",
+          "published_at": "2026-08-28T03:50:08"
+        }
+      }
+    },
+    {
+      "id": "43886",
+      "directory": "/carousels/article_43886",
+      "caption": "/carousels/article_43886/caption.txt",
+      "caption_text": "ARMY & MILITARY INTERESTS: Nigel Farage faces scrutiny over his ties to Christopher Harborne, a billionaire whose business empire is deeply rooted in the military-industrial complex. Harborne, a major donor to Farage’s Reform UK party, has built a global network of arms-related ventures, including a company once linked to the UK military’s research arm and now developing autonomous weapons. His business dealings also involve U.S. military operations, with a jet fuel supplier that has contracts with the Pentagon.\n\nHarborne’s connections to the armed forces are extensive, including former military officers, pilots, and even a former MI6 agent. He co-founded Subsea Resources, a company involved in retrieving lost aircraft for governments, and later expanded into AML Global, a fuel supplier with a global footprint. AML Global’s clients include the U.S. military, which consumes vast amounts of fuel. The firm’s vice-president, Scott Elder, previously worked for the Pentagon as a host nation liaison in Thailand.\n\nPolitical analysts warn that Harborne’s influence could shape Farage’s policies, particularly on defense spending. While Farage’s party has not yet aligned with Harborne’s interests, the scale of his donations raises concerns about potential conflicts of interest. Harborne’s legal team insists his commercial ventures and political affiliations are unrelated, but the overlap remains significant.\n\nThe case highlights the growing influence of wealthy donors in shaping political agendas. As global tensions rise, the intersection of private enterprise and military power continues to draw attention, with implications for how nations allocate resources and defend their interests.\n",
+      "topic": "POLITICS & BUSINESS",
+      "tags": [
+        "politics",
+        "business"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_43886/article_43886_title.png",
+          "text": "What are Nigel Farage’s £5m donor links to global military contracts",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens, low-angle wide shot of Nigel Farage speaking at a podium or walking past press, neutral facial expression.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_43886/article_43886_slide_1.png",
+          "text": "Christopher Harborne’s business ties include supplying fuel to US military operations worldwide",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A wide shot of a desolate, rugged landscape with a large fuel truck driving in the distance, with a blurred background to emphasize the environmental focus.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_43886/article_43886_slide_2.png",
+          "text": "Harborne’s company employs former US military pilots and defense specialists for its jet fuel ventures",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, medium two-shot of a group of people in a room, surrounded by equipment and machinery, with a neutral background, conveying collaboration and expertise sharing, with a businessman (Harborne's collaborator) standing at the center, engaged in conversation with a former US military pilot, and a defense specialist to his right, with a neutral expression, and a subtle hint of a jet fuel vent in the background.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_43886/article_43886_slide_3.png",
+          "text": "AML Global, his major venture, now sources fuel for Pentagon contracts and operates globally",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image. Extreme-wide or low-angle wide shot of a large, industrial-scale fuel storage facility or a loading dock, with AML Global's equipment and branding prominently displayed. No centering on a single speaker or figure.",
+          "user_source": ""
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_43886/article_43886_slide_4.png",
+          "text": "Farage’s reliance on Harborne’s funding raises questions about potential policy alignment with military interests",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, macro close-up detail shot of a £5m note or a similar symbol of wealth, with a shallow depth of field and a focus on the texture and pattern of the note's surface.",
+          "user_source": ""
+        }
+      ],
+      "title": "Arms and the £5m man: Farage megadonor Christopher Harborne’s military empire",
+      "source": "The Guardian Politics",
+      "category": "world",
+      "url": "https://www.theguardian.com/business/2026/aug/30/arms-and-the-5m-man-farage-megadonor-christopher-harbornes-military-empire",
+      "published_at": "2026-08-30T05:00:47",
+      "post": {
+        "posted_at": "2026-09-03T14:00:37.319030+00:00",
+        "media_id": "17973257337069071",
+        "permalink": "https://www.instagram.com/p/Dc0-fdvEbjN/",
+        "username": "nigghters",
+        "story_media_id": "18447503428192254",
+        "story_error": "",
+        "caption": "ARMY & MILITARY INTERESTS: Nigel Farage faces scrutiny over his ties to Christopher Harborne, a billionaire whose business empire is deeply rooted in the military-industrial complex. Harborne, a major donor to Farage’s Reform UK party, has built a global network of arms-related ventures, including a company once linked to the UK military’s research arm and now developing autonomous weapons. His business dealings also involve U.S. military operations, with a jet fuel supplier that has contracts with the Pentagon.\n\nHarborne’s connections to the armed forces are extensive, including former military officers, pilots, and even a former MI6 agent. He co-founded Subsea Resources, a company involved in retrieving lost aircraft for governments, and later expanded into AML Global, a fuel supplier with a global footprint. AML Global’s clients include the U.S. military, which consumes vast amounts of fuel. The firm’s vice-president, Scott Elder, previously worked for the Pentagon as a host nation liaison in Thailand.\n\nPolitical analysts warn that Harborne’s influence could shape Farage’s policies, particularly on defense spending. While Farage’s party has not yet aligned with Harborne’s interests, the scale of his donations raises concerns about potential conflicts of interest. Harborne’s legal team insists his commercial ventures and political affiliations are unrelated, but the overlap remains significant.\n\nThe case highlights the growing influence of wealthy donors in shaping political agendas. As global tensions rise, the intersection of private enterprise and military power continues to draw attention, with implications for how nations allocate resources and defend their interests.",
+        "article": {
+          "title": "Arms and the £5m man: Farage megadonor Christopher Harborne’s military empire",
+          "source": "The Guardian Politics",
+          "category": "world",
+          "url": "https://www.theguardian.com/business/2026/aug/30/arms-and-the-5m-man-farage-megadonor-christopher-harbornes-military-empire",
+          "published_at": "2026-08-30T05:00:47"
+        }
+      }
+    },
+    {
+      "id": "52862",
+      "directory": "/carousels/article_52862",
+      "caption": "/carousels/article_52862/caption.txt",
+      "caption_text": "LIFESTYLE STORIES:\n\nVogue’s Business Beauty Trend Tracker highlights the latest shifts in the beauty and wellness markets, spotlighting products and trends driving growth. The report, produced with Spate, identifies top brands, ingredients, and hashtags shaping consumer demand.\n\nIn haircare, searches reflect growing interest in science-backed solutions combining plant-based ingredients with targeted benefits. Products like redensyl serums and rice water hairsprays are gaining traction for their ability to strengthen, shine, and reduce frizz. Brands such as Labo-H and Bvlgari Beauty are capitalizing on consumer demand for premium, performance-driven options.\n\nTikTok trends like #BabyShowerMakeup and #QuickCurls highlight the platform’s influence on shaping beauty routines. Hashtags such as #LakeHair and #AntioxidantSerum emphasize the role of social media in promoting niche, functional products.\n\nWellness is also seeing strong growth, with demand for targeted, convenient, and science-backed solutions. Dopamine patches, acupressure wristbands, and men’s fertility supplements are among the rising stars. Brands like Pure Genius Protein and Sparkle Wellness are meeting this demand with innovative, easy-to-use formats.\n\nThe bodycare category is evolving with a focus on targeted, skin-friendly solutions. AHA lotions, grape soap, and kojic acid treatments are gaining attention for their functional and sensory appeal. Brands like QV Skincare and Luna Daily are leading the charge in offering specialized, dermatologist-approved care.\n\nThe report underscores a broader shift toward personalized, science-backed beauty and wellness products that cater to specific concerns and lifestyles.\n",
+      "topic": "BUSINESS & CULTURE",
+      "tags": [
+        "business",
+        "culture"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_52862/article_52862_title.png",
+          "text": "Vogue tracks beauty trends shaping 2026 with science and sustainability",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image, extreme-wide shot of a factory floor or a warehouse with rows of haircare products on shelves, with a single haircare product prominently displayed on a workbench or in the foreground."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_52862/article_52862_slide_1.png",
+          "text": "Haircare brands now spotlight scalp health and plant-based formulas to enhance growth",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image. Low-angle wide shot of a natural landscape with a person walking in the distance, carrying a bottle of plant-based hair serum, with a subtle hint of their hair visible in the background."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_52862/article_52862_slide_2.png",
+          "text": "TikTok trends highlight demand for quick fixes like antioxidant serums and salon-quality at-home treatments",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, medium two-shot of two friends chatting and touching each other's shoulders while applying serums to their skin, with a relaxed and friendly atmosphere."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_52862/article_52862_slide_3.png",
+          "text": "Wellness products like dopamine patches and fertility supplements reflect growing interest in targeted health solutions",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) — Extreme-wide shot of a lab or research facility, with various equipment and beakers in the background, and a scientist in the foreground, holding a bottle of dopamine patch or fertility supplement, with a sense of discovery and innovation."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_52862/article_52862_slide_4.png",
+          "text": "Bodycare innovations blend exfoliation, natural ingredients, and microbiome-friendly formulas for sensitive skin",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, a close-up of a natural ingredient-based haircare product packaging (e.g. rice water hair serum) with a subtle, shimmering finish, surrounded by a soft, white background."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_52862/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "The Vogue Business Beauty Trend Tracker",
+      "source": "Vogue",
+      "category": "lifestyle",
+      "url": "https://www.vogue.com/article/the-vogue-business-beauty-tracker",
+      "published_at": "2026-09-04T09:30:00",
+      "post": {
+        "posted_at": "2026-09-04T17:42:04.183108+00:00",
+        "media_id": "18184084870412832",
+        "permalink": "https://www.instagram.com/p/Dc38o9Uim63/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "LIFESTYLE STORIES:\n\nVogue’s Business Beauty Trend Tracker highlights the latest shifts in the beauty and wellness markets, spotlighting products and trends driving growth. The report, produced with Spate, identifies top brands, ingredients, and hashtags shaping consumer demand.\n\nIn haircare, searches reflect growing interest in science-backed solutions combining plant-based ingredients with targeted benefits. Products like redensyl serums and rice water hairsprays are gaining traction for their ability to strengthen, shine, and reduce frizz. Brands such as Labo-H and Bvlgari Beauty are capitalizing on consumer demand for premium, performance-driven options.\n\nTikTok trends like #BabyShowerMakeup and #QuickCurls highlight the platform’s influence on shaping beauty routines. Hashtags such as #LakeHair and #AntioxidantSerum emphasize the role of social media in promoting niche, functional products.\n\nWellness is also seeing strong growth, with demand for targeted, convenient, and science-backed solutions. Dopamine patches, acupressure wristbands, and men’s fertility supplements are among the rising stars. Brands like Pure Genius Protein and Sparkle Wellness are meeting this demand with innovative, easy-to-use formats.\n\nThe bodycare category is evolving with a focus on targeted, skin-friendly solutions. AHA lotions, grape soap, and kojic acid treatments are gaining attention for their functional and sensory appeal. Brands like QV Skincare and Luna Daily are leading the charge in offering specialized, dermatologist-approved care.\n\nThe report underscores a broader shift toward personalized, science-backed beauty and wellness products that cater to specific concerns and lifestyles.",
+        "article": {
+          "title": "The Vogue Business Beauty Trend Tracker",
+          "source": "Vogue",
+          "category": "lifestyle",
+          "url": "https://www.vogue.com/article/the-vogue-business-beauty-tracker",
+          "published_at": "2026-09-04T09:30:00"
+        }
+      }
+    }
+  ]
+}

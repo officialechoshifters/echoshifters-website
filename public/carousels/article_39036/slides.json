@@ -1,0 +1,39 @@
+{
+  "renderer": "comfyui",
+  "category": "politics",
+  "published_at": "2026-08-26T01:03:44.858697",
+  "image_url": "https://static.dw.com/image/78258709_6.jpg",
+  "texts": {
+    "title_text": "Germany grapples with drone threats, repatriation, and economic shifts",
+    "slide_1_text": "Germany faces growing drone attack threats, with officials preparing to name suspects in the Leipzig/Halle incident.",
+    "slide_2_text": "Interior Minister Dobrindt expands repatriation policy to include non-criminals, citing security and political pressures.",
+    "slide_3_text": "German carmakers face uncertainty due to Trump's fluctuating tariffs, impacting EU exports and trade relations.",
+    "slide_4_text": "Zelenskyy thanks Germany for military aid, as investigations into the drone attack continue.",
+    "slide_5_text": ""
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, medium shot of German authorities speaking at a press conference or walking past press.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, extreme-wide or low-angle wide shot of a Leipzig/Halle Airport's perimeter fence, or a secure facility, with a sense of isolation and security, and a hint of the drone threat looming in the background.",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, low-angle wide shot of Interior Minister Alexander Dobrindt and a delegation of Ukrainian officials or diplomats walking together, shaking hands, or exchanging documents, with a side angle, conveying a sense of cooperation and diplomacy.",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, extreme-wide shot of a German car factory floor with raw materials and machinery, with a subtle overlay of trade data and tariffs on a screen behind the factory, to convey the impact of fluctuating tariffs on German car exports.",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image, macro close-up of a German flag, with shallow depth of field, no face, no text.",
+    "slide_5_prompt": ""
+  },
+  "topic": "POLITICS & TECHNOLOGY",
+  "topic_scores": {
+    "AI": 65,
+    "ARTS": 0,
+    "BUSINESS": 30,
+    "CULTURE": 59,
+    "ECONOMY": 70,
+    "FINANCE": 36,
+    "HEALTH": 0,
+    "LIFESTYLE": 45,
+    "MARKETS": 0,
+    "POLITICS": 99,
+    "SCIENCE": 0,
+    "SPORTS": 0,
+    "TECHNOLOGY": 98,
+    "NATURE": 0
+  }
+}

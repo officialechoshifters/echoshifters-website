@@ -1,0 +1,9 @@
+TECH & MEDIA:
+
+Big Tech's aggressive AI spending is straining its once-healthy balance sheets, testing its financial resilience. Companies like Meta, Amazon, Alphabet, and Microsoft, which historically maintained strong cash reserves and low debt, are now facing increased borrowing needs as they invest heavily in data centers and AI infrastructure. This shift is raising concerns among investors about the long-term impact on credit ratings and borrowing costs.
+
+The financial pressure is evident in recent earnings reports. Meta's free cash flow dropped 91% year over year, while Alphabet posted its first-ever cash outflow since going public in 2004. Amazon and Microsoft also saw significant declines in free cash flow, driven by rising capital expenditures. These companies argue that the surge in AI demand justifies the investments, as cloud platforms like AWS, Google Cloud, and Azure continue to see strong customer growth.
+
+Analysts warn that the hyperscalers' financial profiles are deteriorating. S & P Global's Naveen Sarma noted that rising leverage is making it more expensive for these companies to fund debt. While their credit ratings remain high, the trend could eventually pressure their ratings, affecting future borrowing costs. Moody's also highlighted the risks, calling the AI buildouts a threat to credit quality due to unprecedented investment levels.
+
+Despite these challenges, the companies remain confident in their long-term strategies. Amazon CEO Andy Jassy believes the investments will drive future revenue and cash flow. While the path to positive free cash flow is uncertain, the scale of the AI infrastructure buildout underscores the industry's commitment to meeting growing demand.
