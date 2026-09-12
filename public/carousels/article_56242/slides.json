@@ -1,0 +1,87 @@
+{
+  "renderer": "comfyui",
+  "category": "world",
+  "published_at": "2026-09-05T12:38:47",
+  "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/05/df70f4c1-c661-4f85-8486-4a601e6cfbc3/thumbnail/1200x630/498070b955fa280c50ede79fc0ecaeb7/ap26248307239035.jpg",
+  "texts": {
+    "title_text": "Nepal floods: Two workers rescued after 9 days of search",
+    "slide_1_text": "Two workers trapped in a hydropower tunnel were rescued after nearly a week of search efforts",
+    "slide_2_text": "Rescuers confirmed voices from inside the tunnel, leading to the discovery of two survivors in the Upper Trishuli 3A site",
+    "slide_3_text": "Experts and teams continue search efforts as over 900 workers remain missing across multiple hydropower projects",
+    "slide_4_text": "Floods caused over $2.56 billion in damage, with at least 1,259 deaths and more than 5,000 people still missing"
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, extreme-wide shot of a hydropower tunnel with debris and rubble, and a rescuer's ladder in the foreground.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no screens, boards, or walls showing data or lettering, extreme-wide contextual establishing shot, of the flooded town, with the rescuers' vehicles and equipment visible in the distance, the flooded town visible in the center of the frame, with the surrounding landscape visible on the other side of the town.",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), natural neutral facial expressions only, medium two-shot or action frame, subject engaged in interaction",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image. A massive, abandoned, or damaged hydropower project, such as a tunnel entrance, a dam, or a control room, with a low-angle wide shot capturing the scale and destruction, and a focus on the empty or damaged areas, with no rescuers or workers in sight.",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) — macro close-up of a pair of hands holding a small object, with a hint of hope and resilience in the hands, and a subtle sense of determination in the fingers, with a neutral color palette."
+  },
+  "topic": "ENVIRONMENT & POLITICS",
+  "topic_scores": {
+    "AI": 36,
+    "BUSINESS": 63,
+    "CULTURE": 45,
+    "FINANCE": 0,
+    "HEALTH": 94,
+    "LIFESTYLE": 68,
+    "POLITICS": 98,
+    "SCIENCE": 0,
+    "SPORTS": 75,
+    "TECHNOLOGY": 93,
+    "ENVIRONMENT": 100
+  },
+  "seeds": {
+    "title_text": 960470702,
+    "slide_1_text": 788109007,
+    "slide_2_text": 80510428,
+    "slide_3_text": 46270894,
+    "slide_4_text": 885728983
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_56242_title.png",
+      "text": "Nepal floods: Two workers rescued after 9 days of search",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, extreme-wide shot of a hydropower tunnel with debris and rubble, and a rescuer's ladder in the foreground."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_56242_slide_1.png",
+      "text": "Two workers trapped in a hydropower tunnel were rescued after nearly a week of search efforts",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no screens, boards, or walls showing data or lettering, extreme-wide contextual establishing shot, of the flooded town, with the rescuers' vehicles and equipment visible in the distance, the flooded town visible in the center of the frame, with the surrounding landscape visible on the other side of the town."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_56242_slide_2.png",
+      "text": "Rescuers confirmed voices from inside the tunnel, leading to the discovery of two survivors in the Upper Trishuli 3A site",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), natural neutral facial expressions only, medium two-shot or action frame, subject engaged in interaction"
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_56242_slide_3.png",
+      "text": "Experts and teams continue search efforts as over 900 workers remain missing across multiple hydropower projects",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image. A massive, abandoned, or damaged hydropower project, such as a tunnel entrance, a dam, or a control room, with a low-angle wide shot capturing the scale and destruction, and a focus on the empty or damaged areas, with no rescuers or workers in sight."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_56242_slide_4.png",
+      "text": "Floods caused over $2.56 billion in damage, with at least 1,259 deaths and more than 5,000 people still missing",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) — macro close-up of a pair of hands holding a small object, with a hint of hope and resilience in the hands, and a subtle sense of determination in the fingers, with a neutral color palette."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

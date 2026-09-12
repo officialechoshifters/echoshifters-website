@@ -52,7 +52,7 @@ async function loadClerk() {
 }
 
 document.querySelector('#app').innerHTML = `
-  <header class="topbar"><a class="logo" href="#home" aria-label="NIGGHTERS home">NIGG<span>H</span>TERS</a><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/contact" class="touch">Get in Touch</a><a href="#page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
+  <header class="topbar"><a class="logo" href="#home" data-search-trigger aria-label="NIGGHTERS home">NIGG<span>H</span>TERS<span class="logo-search" aria-hidden="true">⌕</span></a><button class="search-trigger" data-search-trigger aria-label="Search the journal">⌕</button><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/contact" class="touch">Get in Touch</a><a href="#page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
   <main>
     <section id="home" class="hero"><div><div class="eyebrow">Independent curated platform</div><h1>Neural accuracy,<br>pristine <em>facts.</em></h1><p>NIGGHTERS is a quiet place for sharp ideas, thoughtful stories, and the people who keep looking closer.</p><div class="actions"><a class="primary" href="#page/articles">Explore the journal ↗</a><a class="secondary" href="#page/about">About NIGGHTERS</a></div></div><div class="hero-art"><div class="orb"></div><div class="orbit"></div></div></section>
     <div class="ticker"><span><b>✦</b> NEW PERSPECTIVES, WEEKLY</span><span>DESIGNED FOR THE CURIOUS</span><span><b>✦</b> NIGGHTERS / EST. 2026</span></div>
@@ -65,6 +65,16 @@ document.querySelector('#app').innerHTML = `
   <footer class="footer"><div class="footer-top"><a class="logo" href="#home">NIGG<span>H</span>TERS</a><div class="footer-links"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/newsletter">Newsletter</a><a href="#page/contact">Get in Touch</a><a href="#home" data-toast="Terms are coming soon.">Terms</a><a href="#home" data-toast="Privacy information is coming soon.">Privacy</a></div></div><div class="copyright">© 2024 NIGGHTERS. Made for the curious.</div></footer>
   <div id="auth-modal" class="modal-back"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="auth-title"><div class="modal-head"><div><div class="eyebrow">Members area</div><h3 id="auth-title">Create your account</h3></div><button class="close" id="close-auth" aria-label="Close">×</button></div><div class="auth-tabs"><button type="button" class="auth-tab" data-mode="signUp">Sign up</button><button type="button" class="auth-tab" data-mode="signIn">Log in</button></div><div class="modal-body"><div id="clerk-auth"></div></div></div></div>
   <div id="toast" class="toast" hidden></div>
+  <div id="search-overlay" class="search-overlay" hidden>
+    <div class="search-modal" role="dialog" aria-modal="true" aria-label="Search the journal">
+      <div class="search-input-wrap">
+        <input id="search-input" class="search-input" type="search" placeholder="Search stories, topics, captions…" autocomplete="off" aria-label="Search">
+        <kbd>ESC</kbd>
+      </div>
+      <div id="search-results" class="search-results"></div>
+      <div id="search-count" class="search-count" hidden></div>
+    </div>
+  </div>
 `
 
 const authControls = document.querySelector('#auth-controls')
@@ -101,6 +111,7 @@ function renderHome() {
   document.querySelector('main').innerHTML = savedHomeHTML
   bindHomeButtons()
   loadCarouselFeed()
+  bindSearchShortcut()
 }
 
 function renderAboutPage() {
@@ -142,7 +153,8 @@ function renderTopicsPage() {
 }
 
 function renderNewsletterPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The weekly dispatch</div><h1>A little light<br>for your <em>inbox.</em></h1><p class="page-lead">One thoughtful note every week — the sharpest story, a visual worth pausing on, and nothing else. No noise, no rush.</p><form class="newsletter-form" id="newsletter-form"><input type="email" placeholder="you@example.com" aria-label="Email address" required><button class="primary" type="submit">Join the dispatch →</button></form></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The weekly dispatch</div><h1>A little light<br>for your <em>inbox.</em></h1><p class="page-lead">One thoughtful note every week — the sharpest story, a visual worth pausing on, and nothing else. No noise, no rush.</p><form class="newsletter-form" id="newsletter-form"><input type="email" placeholder="you@example.com" aria-label="Email address" required><button class="primary" type="submit">Join the dispatch →</button></form></section>
+    <section class="updates"><div class="updates-head"><span class="tag">What's new</span><h2>Two things landed.</h2></div><ul class="updates-list"><li><span class="updates-num">01</span><div><h3>Every story now shows its read time.</h3><p>Look for the “3 min read” chip on article cards and the same estimate under each story's headline. It's a rough count from the text on the slides and the caption.</p></div></li><li><span class="updates-num">02</span><div><h3>Search is live across the journal.</h3><p>Press <kbd>Ctrl K</kbd> (or <kbd>⌘ K</kbd>) to search every story by title, topic, or caption. Results rank matches in the headline first, then topics, then the caption.</p></div></li></ul></section>`
   document.querySelector('#newsletter-form').onsubmit = (event) => { event.preventDefault(); showToast('You are on the list — welcome to the dispatch.') }
 }
 
@@ -172,6 +184,19 @@ function handleRoute() {
   if (key === 'page/contact') return renderContactPage()
   if (key === 'page/articles') return renderArticlesPage()
   renderHome()
+}
+
+function readTime(carousel) {
+  const caption = (carousel?.caption ? (window.__nigghtersGetCaption ? window.__nigghtersGetCaption(carousel) : '') : '') || ''
+  const slides = Array.isArray(carousel?.slides) ? carousel.slides : []
+  const text = [
+    slides.map((s) => s?.text).filter(Boolean),
+    caption,
+  ].flat().join(' ')
+  const words = text.trim().split(/\s+/).filter(Boolean).length
+  const perMinute = 200
+  const minutes = Math.max(1, Math.round((words || 1) / perMinute))
+  return `${minutes} min read`
 }
 
 function safeText(value) {
@@ -218,10 +243,10 @@ function feedRowHTML(carousel, index) {
   const slides = Array.isArray(carousel.slides) ? carousel.slides : []
   const title = slides[0]?.text || articleTitle(carousel)
   const tags = Array.isArray(carousel.tags) ? carousel.tags : []
-  return `<a class="article-row" href="#article/${safeText(carousel.id)}" data-article-id="${safeText(carousel.id)}">
+  return `<a class="article-row" href="#article/${safeText(carousel.id)}" data-article-id="${safeText(carousel.id)}" data-read-time="${safeText(readTime(carousel))}">
     <span class="row-index">${String(index + 1).padStart(2, '0')}</span>
     <span class="row-main"><h3>${safeText(title)}</h3>${tags.length ? `<div class="carousel-tags">${tags.map((tag) => `<span class="carousel-tag">${safeText(displayTopic(tag))}</span>`).join('')}</div>` : ''}</span>
-    <span class="row-meta">${slides.length} frames</span>
+    <span class="row-meta">${slides.length} frames · ${readTime(carousel)}</span>
     <span class="row-arrow">↗</span>
   </a>`
 }
@@ -243,8 +268,8 @@ function feedCardHTML(carousel) {
   if (!topics.length) topics.push(...tags.map((tag) => displayTopic(tag)))
   const chips = topics.length ? `<div class="card-topics">${topics.slice(0, 2).map((topic) => `<span class="cover-topic">${safeText(topic)}</span>`).join('')}</div>` : ''
   const nav = slides.length > 1 ? `<button class="cover-nav left" type="button" aria-label="Previous image">←</button><button class="cover-nav right" type="button" aria-label="Next image">→</button>` : ''
-  return `<a class="article-card" href="#article/${safeText(carousel.id)}" data-article-id="${safeText(carousel.id)}">
-    ${chips}<div class="article-cover" data-slides="${encodeURIComponent(JSON.stringify(slides.map((s) => s.file).filter(Boolean)))}">${nav}<span class="cover-slide">${articleImage(slides[0] || {})}</span><span class="article-count">${slides.length} frames</span><span class="article-open">Open story ↗</span></div>
+  return `<a class="article-card" href="#article/${safeText(carousel.id)}" data-article-id="${safeText(carousel.id)}" data-read-time="${safeText(readTime(carousel))}">
+    ${chips}<div class="article-cover" data-slides="${encodeURIComponent(JSON.stringify(slides.map((s) => s.file).filter(Boolean)))}">${nav}<span class="cover-slide">${articleImage(slides[0] || {})}</span><span class="article-count">${slides.length} frames</span><span class="article-open">Open story ↗</span></div><span class="card-read-time">${readTime(carousel)}</span>
   </a>`
 }
 
@@ -334,6 +359,7 @@ async function loadCarouselFeed() {
     window.__nigghtersCarousels = carousels
     window.__nigghtersGetCaption = getCaption
     document.querySelectorAll('[data-feed]').forEach((el) => renderFeedInto(el, el.dataset.feed === 'home' ? carousels.slice(0, 6) : carousels, el.dataset.feed === 'view'))
+    refreshSearchIndex()
   } catch (error) {
     if (feed) feed.innerHTML = ''
     const empty = document.querySelector('#article-empty')
@@ -345,6 +371,160 @@ async function loadCarouselFeed() {
 // Poll the live index so new Instagram posts appear without a manual refresh.
 // Skips while a story is open so readers are never interrupted.
 let __nigghtersIgIds = new Set()
+let __nigghtersSearchIndex = []
+let __nigghtersSearchVisible = false
+const searchOverlay = document.querySelector('#search-overlay')
+const searchInput = document.querySelector('#search-input')
+const searchResults = document.querySelector('#search-results')
+const searchCount = document.querySelector('#search-count')
+let searchActiveIndex = -1
+
+function refreshSearchIndex() {
+  const carousels = window.__nigghtersCarousels || []
+  __nigghtersSearchIndex = carousels.map((carousel) => {
+    const slides = Array.isArray(carousel.slides) ? carousel.slides : []
+    const title = slides.find((s) => s.id === 'title_text')?.text || carousel.id
+    const topics = canonicalTopics(carousel)
+    const caption = (carousel.caption ? (window.__nigghtersGetCaption ? window.__nigghtersGetCaption(carousel) : '') : '')
+    return {
+      id: carousel.id,
+      title: String(title || '').trim(),
+      topics: topics.map(String).join(' '),
+      caption: String(caption || '').trim(),
+      captionLoading: !carousel.caption,
+    }
+  })
+}
+
+function openSearch() {
+  if (!searchOverlay) return
+  __nigghtersSearchVisible = true
+  searchOverlay.hidden = false
+  searchInput.value = ''
+  searchActiveIndex = -1
+  searchResults.innerHTML = ''
+  searchCount.hidden = true
+  refreshSearchIndex()
+  window.scrollTo({ top: 0, behavior: 'instant' })
+  setTimeout(() => searchInput?.focus(), 0)
+}
+
+function closeSearch() {
+  __nigghtersSearchVisible = false
+  searchOverlay.hidden = true
+  searchInput.blur()
+}
+
+function normalizeQuery(text) {
+  return String(text || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+}
+
+function searchIndex(text) {
+  const query = normalizeQuery(text)
+  if (!query) return []
+  const queryWords = query.split(/\s+/).filter(Boolean)
+  return __nigghtersSearchIndex
+    .map((item) => {
+      const haystack = `${item.title} ${item.topics} ${item.caption}`.toLowerCase()
+      let score = 0
+      for (const word of queryWords) {
+        if (!word) continue
+        if (item.title.toLowerCase().includes(word)) score += 3
+        if (item.topics.toLowerCase().includes(word)) score += 2
+        if (item.caption.toLowerCase().includes(word)) score += 1
+      }
+      const matchAtStart = item.title.toLowerCase().startsWith(query) ? 2 : 0
+      return { item, score: score + matchAtStart }
+    })
+    .filter((r) => r.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((r) => r.item)
+}
+
+function snippet(text, query, max = 90) {
+  if (!text) return ''
+  const lower = text.toLowerCase()
+  const idx = lower.indexOf(query.toLowerCase())
+  const start = idx >= 0 ? Math.max(0, idx - 25) : 0
+  const end = start + max + 40
+  let s = text.slice(start, end)
+  if (start > 0) s = '…' + s
+  if (end < text.length) s = s + '…'
+  return s
+}
+
+function renderSearchResults(query) {
+  if (!query || !normalizeQuery(query)) {
+    searchResults.innerHTML = ''
+    searchCount.hidden = true
+    searchActiveIndex = -1
+    return
+  }
+  const matches = searchIndex(query)
+  if (!matches.length) {
+    searchResults.innerHTML = '<div class="search-empty">No stories match “' + safeText(normalizeQuery(query)) + '”.</div>'
+    searchCount.hidden = true
+    searchActiveIndex = -1
+    return
+  }
+  searchCount.hidden = false
+  searchCount.textContent = `${matches.length} result${matches.length === 1 ? '' : 's'} for “${safeText(normalizeQuery(query))}”`
+  searchActiveIndex = -1
+  searchResults.innerHTML = matches
+    .map((item, i) => {
+      const slug = topicToSlug(item.topics.split(' ')[0]) || 'articles'
+      return `<a class="search-result" href="#article/${safeText(item.id)}" data-search-result="${i}">
+        <h3>${safeText(item.title)}</h3>
+        <div class="search-result-meta">${safeText(item.topics || 'Journal')}</div>
+        <div class="search-result-snippet">${safeText(snippet(item.caption || item.title, normalizeQuery(query)))}</div>
+      </a>`
+    })
+    .join('')
+}
+
+function navigateSearchResult(delta) {
+  const items = searchResults.querySelectorAll('[data-search-result]')
+  if (!items.length) return
+  searchActiveIndex = (searchActiveIndex + delta + items.length) % items.length
+  items.forEach((el, i) => el.classList.toggle('active', i === searchActiveIndex))
+  const target = items[searchActiveIndex]
+  if (target) {
+    target.scrollIntoView({ block: 'nearest' })
+    target.focus({ preventScroll: true })
+  }
+}
+
+function bindSearchShortcut() {
+  document.removeEventListener('keydown', searchKeyHandler)
+  document.addEventListener('keydown', searchKeyHandler)
+}
+
+function searchKeyHandler(event) {
+  const cmdOrCtrl = event.metaKey || event.ctrlKey
+  if (cmdOrCtrl && event.key === 'k') {
+    event.preventDefault()
+    if (!__nigghtersSearchVisible) openSearch()
+    return
+  }
+  if (!__nigghtersSearchVisible) return
+  if (event.key === 'Escape') { closeSearch(); return }
+  if (event.key === 'ArrowDown') { event.preventDefault(); navigateSearchResult(1); return }
+  if (event.key === 'ArrowUp') { event.preventDefault(); navigateSearchResult(-1); return }
+  if (event.key === 'Enter') {
+    const active = searchResults.querySelector('[data-search-result].active')
+    if (active) { active.click(); closeSearch() }
+    else if (searchActiveIndex >= 0) { const items = searchResults.querySelectorAll('[data-search-result]'); const target = items[searchActiveIndex]; if (target) { target.click(); closeSearch() } }
+    return
+  }
+}
+
+searchInput?.addEventListener('input', (e) => renderSearchResults(e.target.value))
+searchResults?.addEventListener('click', (e) => {
+  const link = e.target.closest('[data-search-result]')
+  if (!link) return
+  closeSearch()
+  trackEvent('search_result_open', { query: searchInput.value, article_id: link.getAttribute('href')?.slice(9) || '' })
+})
 async function pollInstagramFeed() {
   try {
     const hash = location.hash || '#home'
@@ -406,7 +586,7 @@ async function openArticle(id) {
   const title = articleTitle(carousel)
   const caption = await getCaption(carousel)
   const script = slides.filter((slide) => slide.text && slide.text.trim()).map((slide, index) => `<li><span class="script-index">${String(index + 1).padStart(2, '0')}</span><p>${safeText(slide.text)}</p></li>`).join('')
-  document.querySelector('main').innerHTML = `<section class="article-detail"><a class="back-link" href="#page/articles">← Back to journal</a><div class="detail-heading"><div><div class="eyebrow">Journal · ${safeText(carousel.id)}</div><h1>${safeText(title)}</h1></div><span class="detail-index">01 / ${String(slides.length).padStart(2, '0')}</span></div><div class="story-layout"><aside class="caption-panel"><div><div class="eyebrow">Instagram caption</div><h2>The story in full.</h2></div><p id="detail-caption">${safeText(caption)}</p></aside><div class="story-visual"><div class="story-carousel"><button class="carousel-control prev" aria-label="Previous slide">←</button><div class="story-stage"></div><button class="carousel-control next" aria-label="Next slide">→</button></div><div class="story-meta"><span id="story-progress">01 / ${String(slides.length).padStart(2, '0')}</span><span>Swipe or use the arrows to explore</span></div>${script ? `<div class="story-script"><div class="eyebrow">On the slides</div><ol>${script}</ol></div>` : ''}</div></div></section>`
+  document.querySelector('main').innerHTML = `<section class="article-detail"><a class="back-link" href="#page/articles">← Back to journal</a><div class="detail-heading"><div><div class="eyebrow">Journal · ${safeText(carousel.id)}</div><h1>${safeText(title)}</h1><span class="detail-read-time">${readTime(carousel)}</span></div><span class="detail-index">01 / ${String(slides.length).padStart(2, '0')}</span></div><div class="story-layout"><aside class="caption-panel"><div><div class="eyebrow">Instagram caption</div><h2>The story in full.</h2></div><p id="detail-caption">${safeText(caption)}</p></aside><div class="story-visual"><div class="story-carousel"><button class="carousel-control prev" aria-label="Previous slide">←</button><div class="story-stage"></div><button class="carousel-control next" aria-label="Next slide">→</button></div><div class="story-meta"><span id="story-progress">01 / ${String(slides.length).padStart(2, '0')}</span><span>Swipe or use the arrows to explore</span></div>${script ? `<div class="story-script"><div class="eyebrow">On the slides</div><ol>${script}</ol></div>` : ''}</div></div></section>`
   activeStory = { id: carousel.id, slides, index: 0 }
   const stage = document.querySelector('.story-stage')
   const progress = document.querySelector('#story-progress')
@@ -422,7 +602,7 @@ async function openArticle(id) {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-window.addEventListener('hashchange', handleRoute)
+window.addEventListener('hashchange', () => { if (__nigghtersSearchVisible) closeSearch(); handleRoute() })
 bindHomeButtons()
 loadCarouselFeed().then(() => handleRoute())
 
@@ -566,10 +746,11 @@ document.addEventListener('keydown', (event) => {
 })
 document.querySelector('#article-auth').onclick = () => openAuth()
 document.querySelector('#newsletter-action').onclick = () => clerk?.user ? showToast('Newsletter signups are coming soon. Thanks for being early.') : openAuth()
-document.querySelector('.menu').onclick = () => { const nav = document.querySelector('.nav'); const open = nav.classList.toggle('open'); document.querySelector('.menu').setAttribute('aria-expanded', String(open)) }
+document.querySelectorAll('[data-search-trigger]').forEach((el) => el.addEventListener('click', (e) => { e.preventDefault(); openSearch() })); document.querySelector('.menu').onclick = () => { const nav = document.querySelector('.nav'); const open = nav.classList.toggle('open'); document.querySelector('.menu').setAttribute('aria-expanded', String(open)) }
 document.addEventListener('click', (event) => {
   const link = event.target.closest('a[href^="#"]')
   if (link) document.querySelector('.nav').classList.remove('open')
   const toastLink = event.target.closest('[data-toast]')
   if (toastLink) { event.preventDefault(); showToast(toastLink.dataset.toast) }
+  if (searchOverlay && __nigghtersSearchVisible && !searchOverlay.contains(event.target) && !event.target.closest('[data-search-trigger]')) closeSearch()
 })

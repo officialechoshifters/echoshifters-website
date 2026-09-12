@@ -649,6 +649,163 @@
       }
     },
     {
+      "id": "50809",
+      "directory": "/carousels/article_50809",
+      "caption": "/carousels/article_50809/caption.txt",
+      "caption_text": "CRIME STORIES:\n\nA jury in Las Vegas has convicted Duane 'Keffe D' Davis, a former Compton gang leader, in the 1996 murder of rapper Tupac Shakur. Prosecutors argued that Davis orchestrated the killing as retaliation for a beating his nephew suffered at a Las Vegas hotel. The case, which has drawn decades of public interest, ended with a swift verdict after just a few hours of deliberation.\n\nDavis, 63, was accused of leading his gang in a premeditated attack on Shakur and Suge Knight, the founder of Death Row Records. Prosecutors built their case around Davis’ own statements, including a 2008 interview where he described the events of the night of the shooting. The trial revealed a long-standing gang rivalry between the Southside Crips and the Mob Piru, with Davis’ gang ultimately taking action after the incident at the MGM Grand.\n\nThe prosecution emphasized that Davis was not the triggerman but was still held responsible for his role in the conspiracy. Legal experts noted the case’s uniqueness, as it relied heavily on Davis’ own words rather than physical evidence. His defense argued that the prosecution lacked forensic proof and that Davis had fabricated parts of his story to avoid a drug-related sentence.\n\nThe verdict has sparked mixed reactions. Family members of Shakur embraced the prosecutors, while Davis vowed to appeal. Legal analysts called the case a significant milestone in solving a decades-old cold murder. The outcome highlights the power of recorded statements in criminal trials, especially when physical evidence is scarce.\n\nThis conviction marks a major step in resolving one of the most infamous murders in music history. It underscores the role of gang rivalries in shaping violent events and the challenges of prosecuting cold cases with limited evidence.\n",
+      "topic": "CULTURE",
+      "tags": [
+        "culture"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_50809/article_50809_title.png",
+          "text": "Duane Davis convicted of Tupac Shakur's murder after 27 years",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or captions anywhere in the image: Duane “Keffe D” Davis standing alone, hands behind back, neutral expression, in a courtroom or prison setting."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_50809/article_50809_slide_1.png",
+          "text": "A jury found Duane 'Keffe D' Davis guilty of orchestrating the 1996 murder of Tupac Shakur.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) — Extreme-wide contextual establishing shot of a Las Vegas street, a courthouse, or a crime scene, with a sense of the event's location and no specific characters in view, as part of the environmental context of the story."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_50809/article_50809_slide_2.png",
+          "text": "Prosecutors argued Davis orchestrated the drive-by shooting that killed Shakur in Las Vegas, Nevada.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, medium two-shot of Duane 'Keffe D' Davis and Marion 'Suge' Knight or Duane 'Keffe D' Davis and Orlando Anderson, with a hint of tension and a Las Vegas Strip backdrop."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_50809/article_50809_slide_3.png",
+          "text": "Davis claimed he was merely a witness, but evidence showed he directed the attack from a white Cadillac.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, extreme-wide shot of a white Cadillac parked in front of a Las Vegas Strip backdrop, with a police tape and crime scene markers, no people in the frame."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_50809/article_50809_slide_4.png",
+          "text": "Shakur's sister Sekyiwa 'Set' Shakur praised the verdict, calling it a long-awaited closure.",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A plain, unadorned, metal key lies on a dark, polished wooden desk or table, in a dimly lit room with a faintly visible, unobtrusive, plain wooden bookshelf in the background, possibly a courtroom or office. Shakur's sister Sekywa 'Set' Shakur is not present."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_50809/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Ex-Compton gang leader found guilty in murder of Tupac Shakur",
+      "source": "LA Times World",
+      "category": "crime",
+      "url": "https://www.latimes.com/california/story/2026-08-31/jury-in-tupac-murder-case-deliberates-charge-against-duane-davis",
+      "published_at": "2026-08-31T22:21:16",
+      "post": {
+        "posted_at": "2026-09-05T16:54:04.683303+00:00",
+        "media_id": "17955411972012447",
+        "permalink": "https://www.instagram.com/p/Dc6b8CaClin/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "CRIME STORIES:\n\nA jury in Las Vegas has convicted Duane 'Keffe D' Davis, a former Compton gang leader, in the 1996 murder of rapper Tupac Shakur. Prosecutors argued that Davis orchestrated the killing as retaliation for a beating his nephew suffered at a Las Vegas hotel. The case, which has drawn decades of public interest, ended with a swift verdict after just a few hours of deliberation.\n\nDavis, 63, was accused of leading his gang in a premeditated attack on Shakur and Suge Knight, the founder of Death Row Records. Prosecutors built their case around Davis’ own statements, including a 2008 interview where he described the events of the night of the shooting. The trial revealed a long-standing gang rivalry between the Southside Crips and the Mob Piru, with Davis’ gang ultimately taking action after the incident at the MGM Grand.\n\nThe prosecution emphasized that Davis was not the triggerman but was still held responsible for his role in the conspiracy. Legal experts noted the case’s uniqueness, as it relied heavily on Davis’ own words rather than physical evidence. His defense argued that the prosecution lacked forensic proof and that Davis had fabricated parts of his story to avoid a drug-related sentence.\n\nThe verdict has sparked mixed reactions. Family members of Shakur embraced the prosecutors, while Davis vowed to appeal. Legal analysts called the case a significant milestone in solving a decades-old cold murder. The outcome highlights the power of recorded statements in criminal trials, especially when physical evidence is scarce.\n\nThis conviction marks a major step in resolving one of the most infamous murders in music history. It underscores the role of gang rivalries in shaping violent events and the challenges of prosecuting cold cases with limited evidence.",
+        "article": {
+          "title": "Ex-Compton gang leader found guilty in murder of Tupac Shakur",
+          "source": "LA Times World",
+          "category": "crime",
+          "url": "https://www.latimes.com/california/story/2026-08-31/jury-in-tupac-murder-case-deliberates-charge-against-duane-davis",
+          "published_at": "2026-08-31T22:21:16"
+        }
+      }
+    },
+    {
+      "id": "51886",
+      "directory": "/carousels/article_51886",
+      "caption": "/carousels/article_51886/caption.txt",
+      "caption_text": "HEALTH STORIES:\n\nSearch teams have successfully rescued two construction workers from a hydropower tunnel in Nepal, nearly a week after catastrophic floods buried the site. The men, identified as Sanjay Shah and Kabir Maharjan, were pulled alive from the Trishuli 3A project tunnel in Rasuwa district, offering renewed hope for others still trapped in similar locations.\n\nThe floods, triggered by a glacier collapse, devastated Nepal and parts of China-controlled Tibet, killing over 1,250 people and displacing tens of thousands. Rescue efforts have been complicated by heavy rainfall and difficult terrain, with hundreds of workers still believed to be missing from hydropower sites. The two survivors were found 170 meters inside the tunnel, where they had been trapped for nine days.\n\nNepalese officials remain optimistic that more workers could be rescued, citing the presence of air supplies in some tunnels. However, the search has been hindered by challenging weather conditions and the scale of the disaster. Australia has sent a team of drone specialists to assist in the operation, marking the first international aid effort requested by Nepal.\n\nThe recovery of the two men highlights the ongoing struggle to locate and save those missing in the aftermath of the floods. With over 5,000 people still unaccounted for, the rescue efforts continue to face significant obstacles, underscoring the severity of the crisis and the need for sustained support.\n",
+      "topic": "ENVIRONMENT & HEALTH",
+      "tags": [
+        "environment",
+        "health"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_51886/article_51886_title.png",
+          "text": "Nepal floods trap dozens in hydropower tunnels as rescue efforts continue",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) - Low-angle wide shot of the Trishuli 3A hydropower plant's Rasuwa district location, with the surrounding Himalayan valley and mountains visible in the background."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_51886/article_51886_slide_1.png",
+          "text": "Rescuers pull two from Nepal hydropower tunnel after week-long search, bringing total rescued to over 270",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) Low-angle wide shot of the Trishuli 3A hydropower project, with the surrounding landscape and mountains visible, and the rescuers' equipment and vehicles visible in the distance, with the project's logo and branding visible on the equipment."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_51886/article_51886_slide_2.png",
+          "text": "Heavy rains and unstable terrain worsen conditions as teams work to locate missing workers",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, medium two-shot of two people shaking hands or having a conversation, with a neutral expression and relaxed body language, conveying a sense of agreement and cooperation."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_51886/article_51886_slide_3.png",
+          "text": "Officials believe 46 workers may still be alive in air-filled chambers deep within hydropower tunnels",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image, extreme-wide shot of the empty, dark, and dimly lit hydropower tunnel, with a few air pockets visible, and the sound of breathing audible in the distance."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_51886/article_51886_slide_4.png",
+          "text": "Families wait for news as search and rescue operations continue, with international help on the way",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image, macro close-up detail shot, focusing on a wooden gavel, coins, or another symbolic object, with shallow depth of field, conveying a sense of significance and meaning."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_51886/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Nepal search teams rescue two workers from hydropower tunnel",
+      "source": "Al Jazeera",
+      "category": "health",
+      "url": "https://www.aljazeera.com/news/2026/9/4/nepal-search-teams-rescue-two-workers-from-hydropower-tunnel?traffic_source=rss",
+      "published_at": "2026-09-04T09:09:11",
+      "post": {
+        "posted_at": "2026-09-05T16:00:44.338266+00:00",
+        "media_id": "17905350360514311",
+        "permalink": "https://www.instagram.com/p/Dc6V1Urioua/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "HEALTH STORIES:\n\nSearch teams have successfully rescued two construction workers from a hydropower tunnel in Nepal, nearly a week after catastrophic floods buried the site. The men, identified as Sanjay Shah and Kabir Maharjan, were pulled alive from the Trishuli 3A project tunnel in Rasuwa district, offering renewed hope for others still trapped in similar locations.\n\nThe floods, triggered by a glacier collapse, devastated Nepal and parts of China-controlled Tibet, killing over 1,250 people and displacing tens of thousands. Rescue efforts have been complicated by heavy rainfall and difficult terrain, with hundreds of workers still believed to be missing from hydropower sites. The two survivors were found 170 meters inside the tunnel, where they had been trapped for nine days.\n\nNepalese officials remain optimistic that more workers could be rescued, citing the presence of air supplies in some tunnels. However, the search has been hindered by challenging weather conditions and the scale of the disaster. Australia has sent a team of drone specialists to assist in the operation, marking the first international aid effort requested by Nepal.\n\nThe recovery of the two men highlights the ongoing struggle to locate and save those missing in the aftermath of the floods. With over 5,000 people still unaccounted for, the rescue efforts continue to face significant obstacles, underscoring the severity of the crisis and the need for sustained support.",
+        "article": {
+          "title": "Nepal search teams rescue two workers from hydropower tunnel",
+          "source": "Al Jazeera",
+          "category": "health",
+          "url": "https://www.aljazeera.com/news/2026/9/4/nepal-search-teams-rescue-two-workers-from-hydropower-tunnel?traffic_source=rss",
+          "published_at": "2026-09-04T09:09:11"
+        }
+      }
+    },
+    {
       "id": "52862",
       "directory": "/carousels/article_52862",
       "caption": "/carousels/article_52862/caption.txt",
@@ -724,6 +881,319 @@
           "category": "lifestyle",
           "url": "https://www.vogue.com/article/the-vogue-business-beauty-tracker",
           "published_at": "2026-09-04T09:30:00"
+        }
+      }
+    },
+    {
+      "id": "55037",
+      "directory": "/carousels/article_55037",
+      "caption": "/carousels/article_55037/caption.txt",
+      "caption_text": "CRIME STORIES: A Massachusetts judge declared a mistrial in the murder case of Lindsay Clancy, a former nurse who killed her three young children in 2023. Jurors failed to reach a unanimous decision on her criminal responsibility, leading to the deadlock that prompted the mistrial. The case has drawn national attention and sparked debate over postpartum psychosis and maternal mental health.\n\nClancy, 36, remains in a mental health facility and faces murder charges. Prosecutors may pursue a new trial or a plea deal. Clancy did not deny the killings but argued she was not criminally responsible due to postpartum psychosis. The trial included testimony from family members and mental health experts, with over 200 media members and supporters gathering outside the courtroom.\n\nThe jury deadlocked after weeks of deliberation, with one juror allegedly resisting the verdict. The judge denied a request to remove the holdout juror, leading to the mistrial. Clancy’s lawyer argued that 11 of the 12 jurors would have reached a guilty verdict if the holdout had not blocked the process. The case has also drawn comments from US President Donald Trump, who called it a 'horrible tragedy' and suggested another trial was likely.\n\nThe outcome leaves the legal process in limbo, with prosecutors considering their next steps. While a mistrial does not equate to innocence, it raises questions about the justice system’s ability to handle complex cases involving mental health. The case highlights the ongoing national conversation about maternal mental health and the legal boundaries of criminal responsibility.\n",
+      "topic": "HEALTH & POLITICS",
+      "tags": [
+        "health",
+        "politics"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_55037/article_55037_title.png",
+          "text": "Massachusetts jury deadlocked in Lindsay Clancy murder case",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, natural neutral facial expressions only, medium shot, Judge William Sullivan declaring a mistrial in the courtroom."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_55037/article_55037_slide_1.png",
+          "text": "Judge declares mistrial after jurors deadlocked on Clancy's guilt, ending a five-week trial",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. A courthouse exterior, with a large, imposing building in the background, and a crowd of reporters and camera crews outside, with a few people in the foreground, looking up at the building, conveying a sense of grandeur and importance."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_55037/article_55037_slide_2.png",
+          "text": "Defense claimed Clancy suffered from bipolar disorder and postpartum psychosis, arguing she wasn't criminally responsible",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), natural neutral facial expressions only, low-angle wide shot, a juror on the jury panel looking concerned, another juror looking confused, a third juror looking upset, two other jurors looking neutral, the judge's bench in the background."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_55037/article_55037_slide_3.png",
+          "text": "Prosecutors maintained she planned the killings and attempted suicide, citing premeditation",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, extreme-wide shot of the Massachusetts courthouse, with a crowd of people outside, with a sense of somberness and gravity in the atmosphere, capturing the solemnity of a crowd gathered outside the courthouse, with a sense of anticipation and uncertainty hanging in the air, as people wait for the outcome of the trial, with the courthouse's facade serving as a neutral backdrop, and the surrounding environment conveying a sense of unease and tension."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_55037/article_55037_slide_4.png",
+          "text": "Next hearing set for Sept. 29 as legal battle over mental health and criminal responsibility continues",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), macro close-up detail shot of a gavel, a pen, or another symbolic object, with a shallow depth of field and a sense of focus and importance, and the mistrial declaration written on a piece of paper or a whiteboard in the background."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_55037/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Judge declares mistrial in Lindsay Clancy murder case as jury deadlocks",
+      "source": "BBC World",
+      "category": "crime",
+      "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
+      "published_at": "2026-09-04T22:48:38",
+      "post": {
+        "posted_at": "2026-09-05T15:39:06.332755+00:00",
+        "media_id": "18148613146527368",
+        "permalink": "https://www.instagram.com/p/Dc6TXMWikA8/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "CRIME STORIES: A Massachusetts judge declared a mistrial in the murder case of Lindsay Clancy, a former nurse who killed her three young children in 2023. Jurors failed to reach a unanimous decision on her criminal responsibility, leading to the deadlock that prompted the mistrial. The case has drawn national attention and sparked debate over postpartum psychosis and maternal mental health.\n\nClancy, 36, remains in a mental health facility and faces murder charges. Prosecutors may pursue a new trial or a plea deal. Clancy did not deny the killings but argued she was not criminally responsible due to postpartum psychosis. The trial included testimony from family members and mental health experts, with over 200 media members and supporters gathering outside the courtroom.\n\nThe jury deadlocked after weeks of deliberation, with one juror allegedly resisting the verdict. The judge denied a request to remove the holdout juror, leading to the mistrial. Clancy’s lawyer argued that 11 of the 12 jurors would have reached a guilty verdict if the holdout had not blocked the process. The case has also drawn comments from US President Donald Trump, who called it a 'horrible tragedy' and suggested another trial was likely.\n\nThe outcome leaves the legal process in limbo, with prosecutors considering their next steps. While a mistrial does not equate to innocence, it raises questions about the justice system’s ability to handle complex cases involving mental health. The case highlights the ongoing national conversation about maternal mental health and the legal boundaries of criminal responsibility.",
+        "article": {
+          "title": "Judge declares mistrial in Lindsay Clancy murder case as jury deadlocks",
+          "source": "BBC World",
+          "category": "crime",
+          "url": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-09-04T22:48:38"
+        }
+      }
+    },
+    {
+      "id": "56242",
+      "directory": "/carousels/article_56242",
+      "caption": "/carousels/article_56242/caption.txt",
+      "caption_text": "WORLD STORIES:\n\nNepal’s rescue teams pulled two survivors from flood-ravaged areas, marking a rare success in the ongoing search for missing workers. A Chinese man was saved from a hydropower tunnel, while a woman was found alive in a collapsed home, both rescued 10 days after catastrophic floods hit the region. The man, who had been trapped for nearly a week, was spotted by rescuers after they detected voices in the tunnel, leading to a joint operation involving Nepalese troops and South Korean experts.\n\nThe Trishuli 3A hydropower project remains a focal point, with over 500 workers believed to be stuck in tunnels. Rescue teams from India, China, and the U.S. are working to locate survivors amid extensive damage. The woman, found in a mud-covered home, was given water before being evacuated by helicopter. Officials emphasize that hundreds of workers are still missing, with the search continuing across multiple hydropower sites.\n\nFamilies of the rescued expressed relief, describing the emotional toll of waiting for news. The man’s brother shared the family’s gratitude, while the woman’s relatives described a 10-day ordeal filled with fear. Rescue efforts are now prioritizing tunnels where workers may still be alive, though conditions remain extremely challenging.\n\nThe floods, likely triggered by a glacier collapse, have claimed over 1,200 lives and left more than 5,000 missing. As rescuers push deeper into damaged structures, the focus remains on finding survivors before time runs out. The situation highlights the scale of the disaster and the global collaboration required to navigate such complex rescue operations.\n",
+      "topic": "ENVIRONMENT & POLITICS",
+      "tags": [
+        "environment",
+        "politics"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_56242/article_56242_title.png",
+          "text": "Nepal floods: Two workers rescued after 9 days of search",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, extreme-wide shot of a hydropower tunnel with debris and rubble, and a rescuer's ladder in the foreground."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_56242/article_56242_slide_1.png",
+          "text": "Two workers trapped in a hydropower tunnel were rescued after nearly a week of search efforts",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no screens, boards, or walls showing data or lettering, extreme-wide contextual establishing shot, of the flooded town, with the rescuers' vehicles and equipment visible in the distance, the flooded town visible in the center of the frame, with the surrounding landscape visible on the other side of the town."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_56242/article_56242_slide_2.png",
+          "text": "Rescuers confirmed voices from inside the tunnel, leading to the discovery of two survivors in the Upper Trishuli 3A site",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), natural neutral facial expressions only, medium two-shot or action frame, subject engaged in interaction"
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_56242/article_56242_slide_3.png",
+          "text": "Experts and teams continue search efforts as over 900 workers remain missing across multiple hydropower projects",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, or typography anywhere in the image. A massive, abandoned, or damaged hydropower project, such as a tunnel entrance, a dam, or a control room, with a low-angle wide shot capturing the scale and destruction, and a focus on the empty or damaged areas, with no rescuers or workers in sight."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_56242/article_56242_slide_4.png",
+          "text": "Floods caused over $2.56 billion in damage, with at least 1,259 deaths and more than 5,000 people still missing",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine) — macro close-up of a pair of hands holding a small object, with a hint of hope and resilience in the hands, and a subtle sense of determination in the fingers, with a neutral color palette."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_56242/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Third worker rescued from Nepal tunnel, woman found alive in rubble 10 days after devastating floods",
+      "source": "CBS News",
+      "category": "world",
+      "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
+      "published_at": "2026-09-05T12:38:47",
+      "post": {
+        "posted_at": "2026-09-05T17:15:55.207299+00:00",
+        "media_id": "18092496122290402",
+        "permalink": "https://www.instagram.com/p/Dc6eb_RivZO/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "WORLD STORIES:\n\nNepal’s rescue teams pulled two survivors from flood-ravaged areas, marking a rare success in the ongoing search for missing workers. A Chinese man was saved from a hydropower tunnel, while a woman was found alive in a collapsed home, both rescued 10 days after catastrophic floods hit the region. The man, who had been trapped for nearly a week, was spotted by rescuers after they detected voices in the tunnel, leading to a joint operation involving Nepalese troops and South Korean experts.\n\nThe Trishuli 3A hydropower project remains a focal point, with over 500 workers believed to be stuck in tunnels. Rescue teams from India, China, and the U.S. are working to locate survivors amid extensive damage. The woman, found in a mud-covered home, was given water before being evacuated by helicopter. Officials emphasize that hundreds of workers are still missing, with the search continuing across multiple hydropower sites.\n\nFamilies of the rescued expressed relief, describing the emotional toll of waiting for news. The man’s brother shared the family’s gratitude, while the woman’s relatives described a 10-day ordeal filled with fear. Rescue efforts are now prioritizing tunnels where workers may still be alive, though conditions remain extremely challenging.\n\nThe floods, likely triggered by a glacier collapse, have claimed over 1,200 lives and left more than 5,000 missing. As rescuers push deeper into damaged structures, the focus remains on finding survivors before time runs out. The situation highlights the scale of the disaster and the global collaboration required to navigate such complex rescue operations.",
+        "article": {
+          "title": "Third worker rescued from Nepal tunnel, woman found alive in rubble 10 days after devastating floods",
+          "source": "CBS News",
+          "category": "world",
+          "url": "https://www.cbsnews.com/news/nepal-floods-rescue-tunnel-man-woman/",
+          "published_at": "2026-09-05T12:38:47"
+        }
+      }
+    },
+    {
+      "id": "56245",
+      "directory": "/carousels/article_56245",
+      "caption": "/carousels/article_56245/caption.txt",
+      "caption_text": "WORLD STORIES:\n\nU.S. President Donald Trump has dismissed the ongoing conflict with Iran as a 'small potatoes' issue, echoing remarks from his vice president, JD Vance, who claimed the situation shouldn't be called a war. Trump insisted that the U.S. could easily manage the crisis, comparing it to past military operations, while Vance argued that major combat had ceased after about six weeks.\n\nMeanwhile, the U.S. and its allies have escalated diplomatic pressure on Iran, drafting a resolution to refer the country to the U.N. Security Council for alleged noncompliance with nuclear nonproliferation agreements. The resolution, still under negotiation, would allow for potential sanctions or asset freezes, though Russia and China could block such measures due to their veto powers.\n\nIranian media reported explosions near its key oil hub, Kharg Island, while U.S. officials hinted at possible strikes on suspected nuclear sites, including the enigmatic Pickaxe Mountain, which some analysts believe could be linked to Iran's nuclear program.\n\nThe U.S. has also approved a $5 billion arms sale to Saudi Arabia, aimed at enhancing its defensive capabilities amid regional tensions. The sale, pending congressional approval, comes as Iran and its allies continue to target Saudi infrastructure with drone and missile attacks.\n\nAs tensions persist, the U.S. and Iran remain locked in a complex standoff, with diplomatic, military, and economic dimensions shaping the broader conflict. The outcome will likely hinge on how international actors navigate the delicate balance of power in the region.\n",
+      "topic": "POLITICS & BUSINESS",
+      "tags": [
+        "politics",
+        "business"
+      ],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_56245/article_56245_title.png",
+          "text": "U.S. and Iran tensions escalate with military actions and sanctions",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, extreme-wide shot of the U.S. military equipment and ships in the Persian Gulf, with a few tankers in the background, and no smoke or explosions visible."
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_56245/article_56245_slide_1.png",
+          "text": "Israeli strike in southern Lebanon kills two, raising regional security concerns amid stalled peace talks",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine), no graphs, charts, diagrams, posters, or printed signage, extreme-wide shot of the city of Nabatieh in southern Lebanon with the ruins of buildings and damaged infrastructure visible, and a sense of destruction and chaos in the air."
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_56245/article_56245_slide_2.png",
+          "text": "U.S. sanctions Turkish bank linked to Iran's Revolutionary Guard, calling it a 'critical financial lifeline' for the Iranian regime",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, natural neutral facial expressions only, medium two-shot, or macro close-up. A high-ranking Turkish bank official shaking hands with a government official or a representative of the Iranian regime, with a neutral expression, in a neutral-colored suit and tie, looking at the other person's hand."
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_56245/article_56245_slide_3.png",
+          "text": "Lebanon faces widespread destruction and uncertainty as peace deal implementation stalls due to Hezbollah's continued attacks",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image. Extreme-wide shot of a destroyed cityscape with rubble and debris scattered everywhere, and a few people in the background, with a few vehicles and buildings reduced to rubble."
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_56245/article_56245_slide_4.png",
+          "text": "U.S. urges Israel and Lebanon to continue building momentum for peace talks after prisoner releases under trilateral agreement",
+          "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, WIRE_PHOTO_ANCHOR Then, a macro close-up of a pen lying on a table, with ink smudges on the surface, symbolizing the commitment to peace and cooperation, in a neutral, dimly lit room with a blurred background, conveying a sense of diplomacy and negotiation."
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_56245/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Live Updates: Iran war is \"small potatoes\" for U.S., Trump says",
+      "source": "CBS News",
+      "category": "world",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/",
+      "published_at": "2026-09-05T07:28:04",
+      "post": {
+        "posted_at": "2026-09-05T16:28:31.022869+00:00",
+        "media_id": "18026400722752584",
+        "permalink": "https://www.instagram.com/p/Dc6ZAhTCrOv/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "WORLD STORIES:\n\nU.S. President Donald Trump has dismissed the ongoing conflict with Iran as a 'small potatoes' issue, echoing remarks from his vice president, JD Vance, who claimed the situation shouldn't be called a war. Trump insisted that the U.S. could easily manage the crisis, comparing it to past military operations, while Vance argued that major combat had ceased after about six weeks.\n\nMeanwhile, the U.S. and its allies have escalated diplomatic pressure on Iran, drafting a resolution to refer the country to the U.N. Security Council for alleged noncompliance with nuclear nonproliferation agreements. The resolution, still under negotiation, would allow for potential sanctions or asset freezes, though Russia and China could block such measures due to their veto powers.\n\nIranian media reported explosions near its key oil hub, Kharg Island, while U.S. officials hinted at possible strikes on suspected nuclear sites, including the enigmatic Pickaxe Mountain, which some analysts believe could be linked to Iran's nuclear program.\n\nThe U.S. has also approved a $5 billion arms sale to Saudi Arabia, aimed at enhancing its defensive capabilities amid regional tensions. The sale, pending congressional approval, comes as Iran and its allies continue to target Saudi infrastructure with drone and missile attacks.\n\nAs tensions persist, the U.S. and Iran remain locked in a complex standoff, with diplomatic, military, and economic dimensions shaping the broader conflict. The outcome will likely hinge on how international actors navigate the delicate balance of power in the region.",
+        "article": {
+          "title": "Live Updates: Iran war is \"small potatoes\" for U.S., Trump says",
+          "source": "CBS News",
+          "category": "world",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diesel-gas-prices-labor-day/",
+          "published_at": "2026-09-05T07:28:04"
+        }
+      }
+    },
+    {
+      "id": "59754",
+      "directory": "/carousels/article_59754",
+      "caption": "/carousels/article_59754/caption.txt",
+      "caption_text": "Andy Williams, 'The Butcher,' collapses during wrestling match, dies hours later\n\nAndy Williams collapsed during a tag team match at an Enjoy Wrestling event in Pennsylvania, prompting the event's immediate cancellation.\nEnjoy Wrestling confirmed Williams received immediate CPR and was rushed to the hospital, but he later passed away.\nWilliams was a founding member of the metalcore band Every Time I Die and a professional wrestler with All Elite Wrestling.\nAEW and fans mourn the loss of Williams, who left a legacy in both music and wrestling.\n\nSource: Perez Hilton\n",
+      "topic": "",
+      "tags": [],
+      "slides": [
+        {
+          "id": "title_text",
+          "kind": "image",
+          "file": "/carousels/article_59754/article_59754_title.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_1_text",
+          "kind": "image",
+          "file": "/carousels/article_59754/article_59754_slide_1.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_2_text",
+          "kind": "image",
+          "file": "/carousels/article_59754/article_59754_slide_2.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_3_text",
+          "kind": "image",
+          "file": "/carousels/article_59754/article_59754_slide_3.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "slide_4_text",
+          "kind": "image",
+          "file": "/carousels/article_59754/article_59754_slide_4.png",
+          "text": "",
+          "prompt": ""
+        },
+        {
+          "id": "fixed_last_image",
+          "kind": "image",
+          "file": "/carousels/article_59754/fixed_last.png",
+          "text": "",
+          "prompt": "",
+          "user_source": "",
+          "fixed": true
+        }
+      ],
+      "title": "Pro Wrestler Andy 'The Butcher' Williams Dead At 48 After Medical Incident During Match - Details - Perez Hilton",
+      "source": "Perez Hilton",
+      "category": "health",
+      "url": "https://perezhilton.com/pro-wrestler-andy-williams-dead-at-48-after-incident-during-match/",
+      "published_at": "2026-09-06T16:45:58",
+      "post": {
+        "posted_at": "2026-09-08T06:43:02.461379+00:00",
+        "media_id": "17988842661056941",
+        "permalink": "https://www.instagram.com/p/DdBEZYJikYQ/",
+        "username": "nigghters",
+        "story_media_id": "",
+        "story_permalink": "",
+        "story_error": "",
+        "caption": "Andy Williams, 'The Butcher,' collapses during wrestling match, dies hours later\n\nAndy Williams collapsed during a tag team match at an Enjoy Wrestling event in Pennsylvania, prompting the event's immediate cancellation.\nEnjoy Wrestling confirmed Williams received immediate CPR and was rushed to the hospital, but he later passed away.\nWilliams was a founding member of the metalcore band Every Time I Die and a professional wrestler with All Elite Wrestling.\nAEW and fans mourn the loss of Williams, who left a legacy in both music and wrestling.\n\nSource: Perez Hilton",
+        "article": {
+          "title": "Pro Wrestler Andy 'The Butcher' Williams Dead At 48 After Medical Incident During Match - Details - Perez Hilton",
+          "source": "Perez Hilton",
+          "category": "health",
+          "url": "https://perezhilton.com/pro-wrestler-andy-williams-dead-at-48-after-incident-during-match/",
+          "published_at": "2026-09-06T16:45:58"
         }
       }
     }
