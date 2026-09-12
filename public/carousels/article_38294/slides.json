@@ -1,0 +1,65 @@
+{
+  "renderer": "comfyui",
+  "category": "",
+  "published_at": "",
+  "image_url": "",
+  "texts": {},
+  "prompts": {},
+  "topic": "",
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_38294_title.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_38294_slide_1.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_38294_slide_2.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_38294_slide_3.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_38294_slide_4.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

@@ -100,6 +100,20 @@ function bindFeedToggle() {
   })
 }
 
+// All journal content (articles, topics, stories, search) is members-only.
+function hasAccount() { return Boolean(clerk?.user) }
+
+// Shared members-only screen shown anywhere signed-out visitors hit gated content.
+function membersOnlyHTML(reason = 'Journal') {
+  return `<section class="page-view"><div class="locked"><div class="empty-mark">✦</div><h1>For members<br><em>only.</em></h1><p class="page-lead">${safeText(reason)} is part of the NIGGHTERS members area. Create a free account to read the full journal, follow topics, and search every story.</p><div class="actions"><button class="primary" data-auth-trigger>Create a free account →</button><a class="secondary" href="#home">Back to home</a></div></div></section>`
+}
+
+function renderLockedPage(reason) {
+  document.querySelector('main').innerHTML = membersOnlyHTML(reason)
+  document.querySelector('[data-auth-trigger]')?.addEventListener('click', () => openAuth())
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
 function bindHomeButtons() {
   const newsletterBtn = document.querySelector('#newsletter-action')
   if (newsletterBtn) newsletterBtn.onclick = () => clerk?.user ? showToast('Newsletter signups are coming soon. Thanks for being early.') : openAuth()
@@ -148,6 +162,7 @@ function buildTopicsData() {
 }
 
 function renderTopicsPage() {
+  if (!hasAccount()) return renderLockedPage('The topic index')
   const topics = buildTopicsData()
   document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">Topics</div><h1>Follow your<br><em>curiosity.</em></h1><p class="page-lead">Every story is filed under a subject. Choose one to open its index of articles.</p><div class="topic-list">${topics.map(({ name, desc, count }, index) => `<a class="topic-row" href="#page/topic/${topicToSlug(name)}"><span class="num">${String(index + 1).padStart(2, '0')}</span><span><b>${name}</b><p class="topic-desc">${desc}${count ? ` · ${count} ${count === 1 ? 'story' : 'stories'}` : ''}</p></span><span class="arr">↗</span></a>`).join('')}</div></section>`
 }
@@ -163,6 +178,7 @@ function renderContactPage() {
 }
 
 function renderArticlesPage() {
+  if (!hasAccount()) return renderLockedPage('The journal')
   document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The journal</div><h1>Top<br><em>news.</em></h1><p class="page-lead">The latest stories from the journal — each one a carousel of frames with the full caption underneath.</p>${feedToggleHTML()}<div id="viewable-feed" class="carousel-feed" data-feed="view"><div class="empty"><div class="empty-mark">✦</div><h3>Loading the journal…</h3></div></div><div class="empty" id="article-empty" hidden><div class="empty-mark">✦</div><h3>No articles yet.</h3><p>Our first stories are on their way.</p><button class="primary" id="article-auth">Sign in to the journal →</button></div></section>`
   bindHomeButtons()
   bindFeedToggle()
@@ -172,6 +188,13 @@ function renderArticlesPage() {
 function handleRoute() {
   const hash = location.hash || '#home'
   if (hash === '#home' || hash === '#') { renderHome(); return }
+  // Everything below this line requires an account: articles, topics, stories.
+  if (!hasAccount()) {
+    if (hash.startsWith('#article/')) return renderLockedPage('That story')
+    if (hash === '#page/articles') return renderLockedPage('The journal')
+    if (hash === '#page/topics') return renderLockedPage('The topic index')
+    if (hash.startsWith('#page/topic/')) return renderLockedPage('That topic')
+  }
   if (hash.startsWith('#article/')) {
     if (window.__nigghtersCarousels) openArticle(hash.slice(9))
     return
@@ -187,7 +210,8 @@ function handleRoute() {
 }
 
 function readTime(carousel) {
-  const caption = (carousel?.caption ? (window.__nigghtersGetCaption ? window.__nigghtersGetCaption(carousel) : '') : '') || ''
+  // The merged index embeds caption_text inline, so this stays synchronous.
+  const caption = String(carousel?.caption_text || '')
   const slides = Array.isArray(carousel?.slides) ? carousel.slides : []
   const text = [
     slides.map((s) => s?.text).filter(Boolean),
@@ -228,15 +252,27 @@ function articleImage(slide) {
 const captionCache = new Map()
 async function getCaption(carousel) {
   if (captionCache.has(carousel.id)) return captionCache.get(carousel.id)
-  try {
-    const response = await fetch(mediaUrl(carousel.caption), { headers: { Accept: 'text/plain' } })
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    const caption = await response.text()
-    captionCache.set(carousel.id, caption)
-    return caption
-  } catch {
-    return 'Caption unavailable for this story.'
+  // Most index entries embed the caption inline (caption_text); only fall back
+  // to a fetch. Static captions come from the gated /content/ endpoint; IG
+  // captions live behind the gated /media/ function.
+  let caption = ''
+  if (carousel.caption_text) {
+    caption = carousel.caption_text
+  } else {
+    try {
+      const path = String(carousel.caption || '')
+      const url = path.startsWith('/media/') ? mediaUrl(path) : `/content/caption/${encodeURIComponent(carousel.id)}`
+      const response = await fetch(url, { headers: { Accept: 'text/plain' } })
+      // Accept only real text: dev servers answer unknown paths with the SPA's
+      // HTML at status 200, which must not be shown as a caption.
+      if (!response.ok || !(response.headers.get('content-type') || '').includes('text/plain')) throw new Error(`no caption for ${carousel.id}`)
+      caption = await response.text()
+    } catch {
+      return 'Caption unavailable for this story.'
+    }
   }
+  captionCache.set(carousel.id, caption)
+  return caption
 }
 
 function feedRowHTML(carousel, index) {
@@ -331,6 +367,7 @@ function bindFeed(feed) {
 }
 
 function renderTopicPage(rawSlug) {
+  if (!hasAccount()) return renderLockedPage('That topic')
   const slug = decodeURIComponent(rawSlug || '')
   // Legacy topic slugs (arts/economy/markets) redirect to the topic that absorbed them.
   const topicName = buildTopicsData().find(({ name }) => topicToSlug(name) === slug)?.name || TOPIC_LEGACY[slug]
@@ -341,23 +378,65 @@ function renderTopicPage(rawSlug) {
   bindFeedToggle()
 }
 
+// fetch JSON but never blow up on HTML/404/dev-server fallbacks; returns
+// 'unauthorized' for 401, null for anything unusable, parsed JSON otherwise.
+async function fetchJsonSafe(url) {
+  try {
+    const response = await fetch(url)
+    if (response.status === 401) return 'unauthorized'
+    if (!response.ok) return null
+    const type = response.headers.get('content-type') || ''
+    if (!type.includes('json')) return null
+    return await response.json()
+  } catch {
+    return null
+  }
+}
+
+function renderMembersFeedState() {
+  document.querySelectorAll('[data-feed]').forEach((el) => {
+    el.innerHTML = `<div class="empty locked-teaser"><div class="empty-mark">✦</div><h3>The journal is for members.</h3><p>Create a free account to read the latest stories.</p><button class="primary" data-auth-trigger>Create a free account →</button></div>`
+    el.querySelector('[data-auth-trigger]')?.addEventListener('click', () => openAuth())
+  })
+}
+
 async function loadCarouselFeed() {
   const feed = document.querySelector('#carousel-feed')
   try {
-    // Static carousels ship with the site; Instagram-synced carousels come from
-    // the /media/ function backed by Netlify Blobs. Merge them, IG first.
-    const [staticData, igData] = await Promise.all([
-      fetch('/carousels/index.json').then((r) => (r.ok ? r.json() : { carousels: [] })),
-      fetch('/media/index.json').then((r) => (r.ok ? r.json() : { carousels: [] })),
-    ])
-    const staticCarousels = Array.isArray(staticData.carousels) ? staticData.carousels : []
-    const igCarousels = Array.isArray(igData.carousels) ? igData.carousels : []
-    const seen = new Set()
-    const carousels = [...igCarousels, ...staticCarousels].filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)))
-    __nigghtersIgIds = new Set(igCarousels.map((c) => c.id))
+    // One gated endpoint returns the merged index (static + Instagram, IG
+    // first). The server only answers for verified Clerk sessions.
+    let data = await fetchJsonSafe('/content/carousels/index.json')
+    if (data === 'unauthorized') {
+      renderMembersFeedState()
+      return
+    }
+    if (!data) {
+      // Dev fallback: plain `vite` has no Netlify functions, so the gated
+      // endpoint doesn't exist. Read the static files directly (they still
+      // exist in public/ during dev; production strips them and has /content).
+      const [staticData, igData] = await Promise.all([
+        fetchJsonSafe('/carousels/index.json'),
+        fetchJsonSafe('/media/index.json'),
+      ])
+      const staticCarousels = staticData && Array.isArray(staticData.carousels) ? staticData.carousels : []
+      const igCarousels = igData && Array.isArray(igData.carousels) ? igData.carousels : []
+      const seen = new Set()
+      data = { carousels: [...igCarousels, ...staticCarousels].filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true))) }
+    }
+    const carousels = Array.isArray(data.carousels) ? data.carousels : []
+    // The dev fallback bypasses the server gate, so enforce the client gate
+    // here too — signed-out visitors see the teaser, never the feed.
+    if (!hasAccount()) {
+      renderMembersFeedState()
+      return
+    }
+    // IG-synced entries live under /media/...; the poller diffs just those.
+    __nigghtersIgIds = new Set(carousels.filter((c) => String(c.directory || '').startsWith('/media/')).map((c) => c.id))
     if (!carousels.length) throw new Error('No carousel data')
     window.__nigghtersCarousels = carousels
     window.__nigghtersGetCaption = getCaption
+    // A 401 never reaches here (early return), so anyone rendering the feed is
+    // signed in — the server already checked the Clerk session.
     document.querySelectorAll('[data-feed]').forEach((el) => renderFeedInto(el, el.dataset.feed === 'home' ? carousels.slice(0, 6) : carousels, el.dataset.feed === 'view'))
     refreshSearchIndex()
   } catch (error) {
@@ -385,7 +464,7 @@ function refreshSearchIndex() {
     const slides = Array.isArray(carousel.slides) ? carousel.slides : []
     const title = slides.find((s) => s.id === 'title_text')?.text || carousel.id
     const topics = canonicalTopics(carousel)
-    const caption = (carousel.caption ? (window.__nigghtersGetCaption ? window.__nigghtersGetCaption(carousel) : '') : '')
+    const caption = String(carousel.caption_text || '')
     return {
       id: carousel.id,
       title: String(title || '').trim(),
@@ -397,6 +476,7 @@ function refreshSearchIndex() {
 }
 
 function openSearch() {
+  if (!hasAccount()) { showToast('Sign in to search the journal.'); openAuth(); return }
   if (!searchOverlay) return
   __nigghtersSearchVisible = true
   searchOverlay.hidden = false
@@ -529,10 +609,9 @@ async function pollInstagramFeed() {
   try {
     const hash = location.hash || '#home'
     const isFeedView = hash === '#' || hash === '#home' || hash.startsWith('#page/articles')
-    const response = await fetch('/media/index.json')
-    if (!response.ok) return
-    const data = await response.json()
-    const carousels = Array.isArray(data.carousels) ? data.carousels : []
+    const data = await fetchJsonSafe('/content/media/index.json')
+    if (!data || !Array.isArray(data.carousels)) return
+    const carousels = data.carousels
     if (!carousels.length) return
     const ids = new Set(carousels.map((c) => c.id))
     const unchanged = ids.size === __nigghtersIgIds.size && [...ids].every((id) => __nigghtersIgIds.has(id))
@@ -579,6 +658,7 @@ function bindStorySwipe(el, onSwipe) {
 }
 
 async function openArticle(id) {
+  if (!hasAccount()) return renderLockedPage('That story')
   const carousel = window.__nigghtersCarousels?.find((item) => item.id === id)
   if (!carousel) return
   const slides = (carousel.slides || []).filter((slide) => slide?.file)
@@ -730,7 +810,7 @@ function showToast(message) {
 }
 
 renderAuth()
-loadClerk().then((loadedClerk) => { if (loadedClerk) { renderAuth(); loadedClerk.addListener(({ user }) => { if (user) closeAuth(); renderAuth() }) } })
+loadClerk().then((loadedClerk) => { if (loadedClerk) { renderAuth(); loadedClerk.addListener(({ user }) => { if (user) closeAuth(); renderAuth(); handleRoute() }) } })
 authTabs.forEach((tab) => tab.addEventListener('click', () => setAuthMode(tab.dataset.mode)))
 document.querySelector('#close-auth').onclick = closeAuth
 modal.onclick = (event) => { if (event.target === modal) closeAuth() }

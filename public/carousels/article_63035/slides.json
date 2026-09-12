@@ -1,0 +1,87 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-11T17:32:44",
+  "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c23c/live/9ec505e0-adc9-11f1-b1d1-571ed4d7ff2c.jpg",
+  "texts": {
+    "title_text": "Three Hong Kong activists face prison for 1989 Tiananmen vigils",
+    "slide_1_text": "Three Hong Kong activists received prison sentences ranging from five to seven years under the national security law.",
+    "slide_2_text": "They organized the annual Tiananmen Square vigil, which commemorated the 1989 crackdown and was previously allowed in Hong Kong.",
+    "slide_3_text": "The court ruled their demands for an end to one-party rule violated the Chinese constitution.",
+    "slide_4_text": "France and Germany condemned the sentences, calling peaceful human rights advocacy a fundamental right."
+  },
+  "prompts": {
+    "title_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a Hong Kong courtroom with a large screen displaying a countdown timer, in the foreground, a courtroom table with several judges and defendants, empty screens on the walls.",
+    "slide_1_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a large crowd of people gathered outside a Hong Kong courthouse, with protesters in the foreground, their faces filled with determination and concern, and a few police officers standing nearby, with a sense of tension and anticipation in the air",
+    "slide_2_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, Chow Hang-tung and Lee Cheuk-yan walking hand-in-hand past a Hong Kong police officer, with a courtroom or a press conference in the background.",
+    "slide_3_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a Hong Kong courthouse with a large screen displaying a countdown timer, in the foreground, a large Chinese constitution with the relevant section related to one-party rule highlighted.",
+    "slide_4_prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a close-up of a human rights symbol, such as a globe or a lightbulb, with the words 'fundamental right' written on it in a clean, simple font, surrounded by a halo of light, on a black background with subtle texture."
+  },
+  "topic": "POLITICS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 59,
+    "CULTURE": 86,
+    "FINANCE": 0,
+    "HEALTH": 36,
+    "LIFESTYLE": 0,
+    "POLITICS": 100,
+    "SCIENCE": 0,
+    "SPORTS": 70,
+    "TECHNOLOGY": 0,
+    "ENVIRONMENT": 70
+  },
+  "seeds": {
+    "title_text": 720882203,
+    "slide_1_text": 522845993,
+    "slide_2_text": 163304424,
+    "slide_3_text": 449245279,
+    "slide_4_text": 221275398
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_63035_title.png",
+      "text": "Three Hong Kong activists face prison for 1989 Tiananmen vigils",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a Hong Kong courtroom with a large screen displaying a countdown timer, in the foreground, a courtroom table with several judges and defendants, empty screens on the walls."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_63035_slide_1.png",
+      "text": "Three Hong Kong activists received prison sentences ranging from five to seven years under the national security law.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a large crowd of people gathered outside a Hong Kong courthouse, with protesters in the foreground, their faces filled with determination and concern, and a few police officers standing nearby, with a sense of tension and anticipation in the air"
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_63035_slide_2.png",
+      "text": "They organized the annual Tiananmen Square vigil, which commemorated the 1989 crackdown and was previously allowed in Hong Kong.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, Chow Hang-tung and Lee Cheuk-yan walking hand-in-hand past a Hong Kong police officer, with a courtroom or a press conference in the background."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_63035_slide_3.png",
+      "text": "The court ruled their demands for an end to one-party rule violated the Chinese constitution.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a Hong Kong courthouse with a large screen displaying a countdown timer, in the foreground, a large Chinese constitution with the relevant section related to one-party rule highlighted."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_63035_slide_4.png",
+      "text": "France and Germany condemned the sentences, calling peaceful human rights advocacy a fundamental right.",
+      "prompt": "AP/Reuters wire photo aesthetic, natural daylight or indoor press lighting, 35-50mm lens look with slight telephoto compression, neutral color grading, no cinematic color, absolutely no text, letters, numbers, captions, or typography anywhere in the image (well-known logos or brand marks that render cleanly are fine, never invented wording or lettering), no graphs, charts, diagrams, posters, or printed signage, no screens, boards, or walls showing data or lettering, natural neutral facial expressions only, no screaming, shouting, laughing, crying, grimacing, or exaggerated emotion, no extreme facial close-ups or strained odd expressions, use the assigned archetype's camera distance and angle (medium shot, extreme wide shot, low-angle wide, medium two-shot, or macro close-up), do not default to an eye-level medium portrait, natural daylight, 35-50mm lens look with slight telephoto compression, neutral color grading, no text, a close-up of a human rights symbol, such as a globe or a lightbulb, with the words 'fundamental right' written on it in a clean, simple font, surrounded by a halo of light, on a black background with subtle texture."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

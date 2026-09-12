@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node scripts/strip-dist-text.mjs",
     "preview": "vite preview",
     "deploy": "node deploy.mjs",
     "deploy:watch": "node watch-deploy.mjs"
