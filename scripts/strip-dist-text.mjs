@@ -7,6 +7,21 @@
 import { rmSync, existsSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
+// Windows can briefly lock freshly-copied files (search indexer / antivirus
+// scanning dist as it is written), making rmSync throw EPERM. A short retry
+// with backoff rides those out instead of failing the whole build.
+function rmWithRetry(path, attempts = 5) {
+  for (let i = 0; i < attempts; i++) {
+    try {
+      rmSync(path, { force: true, maxRetries: 3, retryDelay: 200 })
+      return
+    } catch (error) {
+      if (i === attempts - 1) throw error
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 250 * (i + 1))
+    }
+  }
+}
+
 const distCarousels = join(process.cwd(), 'dist', 'carousels')
 if (!existsSync(distCarousels)) {
   console.log('dist/carousels not found — nothing to strip.')
@@ -21,7 +36,7 @@ function stripTextFiles(dir) {
     if (entry.isDirectory()) {
       stripTextFiles(full)
     } else if (/\.(json|txt)$/i.test(entry.name)) {
-      rmSync(full)
+      rmWithRetry(full)
       removed++
     }
   }
