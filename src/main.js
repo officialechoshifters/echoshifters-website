@@ -1,5 +1,6 @@
 import { Clerk } from '@clerk/clerk-js'
 import './style.css'
+import heroArt from './assets/hero.png'
 
 const app = document.querySelector('#app')
 const publishableKey = import.meta.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -52,17 +53,17 @@ async function loadClerk() {
 }
 
 document.querySelector('#app').innerHTML = `
-  <header class="topbar"><a class="logo" href="#home" data-search-trigger aria-label="NIGGHTERS home">NIGG<span>H</span>TERS<span class="logo-search" aria-hidden="true">⌕</span></a><button class="search-trigger" data-search-trigger aria-label="Search the journal">⌕</button><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/contact" class="touch">Get in Touch</a><a href="#page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
+  <header class="topbar"><a class="logo" href="#home" aria-label="NIGGHTERS home">NIGG<span>H</span>TERS</a><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/contact" class="touch">Get in Touch</a><a href="#page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
   <main>
-    <section id="home" class="hero"><div><div class="eyebrow">Independent curated platform</div><h1>Neural accuracy,<br>pristine <em>facts.</em></h1><p>NIGGHTERS is a quiet place for sharp ideas, thoughtful stories, and the people who keep looking closer.</p><div class="actions"><a class="primary" href="#page/articles">Explore the journal ↗</a><a class="secondary" href="#page/about">About NIGGHTERS</a></div></div><div class="hero-art"><div class="orb"></div><div class="orbit"></div></div></section>
-    <div class="ticker"><span><b>✦</b> NEW PERSPECTIVES, WEEKLY</span><span>DESIGNED FOR THE CURIOUS</span><span><b>✦</b> NIGGHTERS / EST. 2026</span></div>
+    <section id="home" class="hero"><div><div class="eyebrow">Independent curated platform</div><h1>Neural accuracy,<br>pristine <em>facts.</em></h1><p>NIGGHTERS is a quiet place for sharp ideas, thoughtful stories, and the people who keep looking closer.</p><div class="actions"><a class="primary" href="#page/articles">Explore the journal ↗</a><a class="secondary" href="#page/about">About NIGGHTERS</a></div></div><div class="hero-art"><img class="hero-photo" src="${heroArt}" alt="Aerial night view of a glowing city intersection with crowds and a large public news screen"></div></section>
+    <div class="ticker"><span><b>✦</b> NEW PERSPECTIVES, BIWEEKLY</span><span>DESIGNED FOR THE CURIOUS</span><span><b>✦</b> NIGGHTERS / EST. 2026</span></div>
     <section id="about" class="section"><div class="about"><h2>A publication for<br><em>the in-between.</em></h2><div class="about-copy"><p>News moves fast, but accuracy shouldn't be compromised. We track breaking coverage across trusted global publishers, cross-verifying facts as stories unfold.</p></div></div></section>
     <section id="articles" class="section"><div class="section-head"><h2>Top<br><em>news.</em></h2><p class="section-intro">The latest stories from the journal.</p></div><div id="carousel-feed" class="carousel-feed" data-feed="home"><div class="empty"><div class="empty-mark">✦</div><h3>Loading the journal…</h3></div></div><div class="empty" id="article-empty" hidden><div class="empty-mark">✦</div><h3>No articles yet.</h3><p>Our first stories are on their way. Sign in to access the journal when it launches.</p><button class="primary" id="article-auth">Sign in to the journal →</button></div></section>
     <section id="topics" class="section"><div class="section-head"><h2>Follow your<br><em>curiosity.</em></h2><p class="section-intro">Explore the subjects that keep us looking closer.</p></div><div class="topics-grid">${['AI','Business','Culture','Finance','Health','Lifestyle','Politics','Science','Sports','Technology','Environment'].map((topic, index) => `<a class="topic-card" href="#page/topic/${topicToSlug(topic)}"><span class="topic-number">${String(index + 1).padStart(2, '0')}</span><span>${topic}</span><span class="topic-arrow">↗</span></a>`).join('')}</div></section>
-    <section id="newsletter" class="section"><div class="newsletter"><div><div class="eyebrow">The weekly dispatch</div><h2>A little light for your inbox.</h2><p>One thoughtful note every week. No noise, no rush — just the good stuff.</p></div><button id="newsletter-action">Join the newsletter →</button></div></section>
-    <section id="contact" class="section"><div class="subhero"><div class="eyebrow">Get in touch</div><h1>Let’s make<br><em>contact.</em></h1><p>The NIGGHTERS contact desk is being prepared. Final contact details and an enquiry form will be added here.</p><a class="primary" href="mailto:hello@nigghters.com">Email the desk →</a></div></section>
+    <section id="contact" class="section"><div class="subhero"><div class="eyebrow">Get in touch</div><h1>Let’s make<br><em>contact.</em></h1><p>The NIGGHTERS contact desk is being prepared. Final contact details and an enquiry form will be added here.</p><a class="primary" href="mailto:nigghterers@gmail.com">Email the desk →</a></div></section>
+    <section id="newsletter" class="section"><div class="newsletter"><div><div class="eyebrow">The biweekly dispatch — coming soon</div><h2>A little light for your inbox, soon.</h2><p>One thoughtful note every two weeks. No noise, no rush, just the good stuff. Signups open when the first issue lands.</p></div><a class="newsletter-cta" id="newsletter-action" href="#page/newsletter">See what's coming →</a></div></section>
   </main>
-  <footer class="footer"><div class="footer-top"><a class="logo" href="#home">NIGG<span>H</span>TERS</a><div class="footer-links"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/newsletter">Newsletter</a><a href="#page/contact">Get in Touch</a><a href="#home" data-toast="Terms are coming soon.">Terms</a><a href="#home" data-toast="Privacy information is coming soon.">Privacy</a></div></div><div class="copyright">© 2024 NIGGHTERS. Made for the curious.</div></footer>
+  <footer class="footer"><div class="footer-top"><a class="logo" href="#home">NIGG<span>H</span>TERS</a><div class="footer-links"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/newsletter">Newsletter</a><a href="#page/contact">Get in Touch</a><a href="#page/legal">Legal</a><a href="#home" id="cookie-settings">Cookie settings</a></div></div><div class="copyright">© 2026 NIGGHTERS. Made for the curious.</div></footer>
   <div id="auth-modal" class="modal-back"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="auth-title"><div class="modal-head"><div><div class="eyebrow">Members area</div><h3 id="auth-title">Create your account</h3></div><button class="close" id="close-auth" aria-label="Close">×</button></div><div class="auth-tabs"><button type="button" class="auth-tab" data-mode="signUp">Sign up</button><button type="button" class="auth-tab" data-mode="signIn">Log in</button></div><div class="modal-body"><div id="clerk-auth"></div></div></div></div>
   <div id="toast" class="toast" hidden></div>
   <div id="search-overlay" class="search-overlay" hidden>
@@ -115,8 +116,6 @@ function renderLockedPage(reason) {
 }
 
 function bindHomeButtons() {
-  const newsletterBtn = document.querySelector('#newsletter-action')
-  if (newsletterBtn) newsletterBtn.onclick = () => clerk?.user ? showToast('Newsletter signups are coming soon. Thanks for being early.') : openAuth()
   const articleAuth = document.querySelector('#article-auth')
   if (articleAuth) articleAuth.onclick = () => openAuth()
 }
@@ -129,10 +128,10 @@ function renderHome() {
 }
 
 function renderAboutPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">About · 001</div><h1>A publication for<br><em>the in-between.</em></h1><p class="page-lead">NIGGHTERS brings together writing, thinking, and visual culture for people who find energy in the hours others overlook. This is the deeper story of what we make and why.</p><div class="stat-row"><div class="stat"><b>2024</b><span>Established</span></div><div class="stat"><b>01</b><span>Weekly dispatch</span></div><div class="stat"><b>10+</b><span>Stories published</span></div></div><div class="value-list"><div class="value-item"><h3>Independent</h3><p>No paywalls, no noise — reporting chosen on merit and curiosity.</p></div><div class="value-item"><h3>Curious</h3><p>Every story starts with a question worth staying up for.</p></div><div class="value-item"><h3>Visual</h3><p>Ideas carried by images, design, and the spaces between words.</p></div></div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">About</div><h1>A publication for<br><em>the in-between.</em></h1><p class="page-lead">NIGGHTERS brings together writing, thinking, and visual culture for people who find energy in the hours others overlook.</p><div class="stat-row"><div class="stat"><b>2026</b><span>Established</span></div><div class="stat"><b>01</b><span>Biweekly dispatch</span></div><div class="stat"><b>10+</b><span>Stories published</span></div></div><div class="value-list"><div class="value-item"><h3>Independent</h3><p>Our own desk selects every story and verifies it against trusted global publishers, with no outside agenda shaping what you read.</p></div><div class="value-item"><h3>Curious</h3><p>We chase the questions behind the headlines, following breaking coverage until the facts hold up.</p></div><div class="value-item"><h3>Visual</h3><p>Every story is told as a visual carousel, pairing sharp imagery with verified context you can absorb in minutes.</p></div></div></section>`
 }
 
-const TOPIC_CATALOG = [['AI','Automation, models, and what intelligence means next.'],['Business','How companies and economies work — and how they break.'],['Culture','Visual culture, the work of making, and the ideas shaping how we live together.'],['Finance','Markets, capital flows, and the decisions that move them.'],['Health','Bodies, care, and the science of well-being.'],['Lifestyle','How we spend time, space, and attention.'],['Politics','Power, policy, and the people in between.'],['Science','Discovery, evidence, and the long view.'],['Sports','Competition, culture, and the human limit.'],['Technology','The tools rewriting our routines.'],['Environment','Climate, sustainability, and the planet we share.']]
+const TOPIC_CATALOG = [['AI','Automation, models, and what intelligence means next.'],['Business','How companies and economies work, and how they break.'],['Culture','Visual culture, the work of making, and the ideas shaping how we live together.'],['Finance','Markets, capital flows, and the decisions that move them.'],['Health','Bodies, care, and the science of well-being.'],['Lifestyle','How we spend time, space, and attention.'],['Politics','Power, policy, and the people in between.'],['Science','Discovery, evidence, and the long view.'],['Sports','Competition, culture, and the human limit.'],['Technology','The tools rewriting our routines.'],['Environment','Climate, sustainability, and the planet we share.']]
 
 function topicToSlug(name) {
   return encodeURIComponent(String(name).toLowerCase().replace(/\s+/g, '-'))
@@ -168,20 +167,190 @@ function renderTopicsPage() {
 }
 
 function renderNewsletterPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The weekly dispatch</div><h1>A little light<br>for your <em>inbox.</em></h1><p class="page-lead">One thoughtful note every week — the sharpest story, a visual worth pausing on, and nothing else. No noise, no rush.</p><form class="newsletter-form" id="newsletter-form"><input type="email" placeholder="you@example.com" aria-label="Email address" required><button class="primary" type="submit">Join the dispatch →</button></form></section>
-    <section class="updates"><div class="updates-head"><span class="tag">What's new</span><h2>Two things landed.</h2></div><ul class="updates-list"><li><span class="updates-num">01</span><div><h3>Every story now shows its read time.</h3><p>Look for the “3 min read” chip on article cards and the same estimate under each story's headline. It's a rough count from the text on the slides and the caption.</p></div></li><li><span class="updates-num">02</span><div><h3>Search is live across the journal.</h3><p>Press <kbd>Ctrl K</kbd> (or <kbd>⌘ K</kbd>) to search every story by title, topic, or caption. Results rank matches in the headline first, then topics, then the caption.</p></div></li></ul></section>`
-  document.querySelector('#newsletter-form').onsubmit = (event) => { event.preventDefault(); showToast('You are on the list — welcome to the dispatch.') }
+  // Newsletter is coming soon: purely informational page, no signup form, no
+  // data collection. The double opt-in endpoint stays ready for launch.
+  const soonBadge = '<p style="font:11px var(--mono);color:var(--accent-soft);text-transform:uppercase;letter-spacing:.1em;margin-top:26px">✦ Coming soon — not accepting signups yet</p>'
+  document.querySelector('main').innerHTML =
+    '<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The biweekly dispatch</div><h1>Something good<br>for your <em>inbox,</em><br>coming <em>soon.</em></h1><p class="page-lead">The biweekly NIGGHTERS dispatch is on its way: one thoughtful note every two weeks, no noise, no rush. Signups open when the first issue is ready.</p>' +
+    soonBadge +
+    '</section>'
+}
+function renderContactPage() {
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">Get in touch</div><h1>Let's make<br><em>contact.</em></h1><p class="page-lead">Questions, pitches, partnerships, the NIGGHTERS desk reads everything. Write to us and we will get back within two working days.</p><div class="actions"><a class="primary" href="mailto:nigghterers@gmail.com">Email the desk →</a></div></section>`
 }
 
-function renderContactPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">Get in touch</div><h1>Let's make<br><em>contact.</em></h1><p class="page-lead">Questions, pitches, partnerships — the NIGGHTERS desk reads everything. Write to us and we will get back within two working days.</p><div class="actions"><a class="primary" href="mailto:hello@nigghters.com">Email the desk →</a></div></section>`
+const LEGAL_PAGES = {
+  terms: {
+    title: 'Part A · <em>Terms of use</em>',
+    lead: 'The ground rules for using NIGGHTERS. Clear terms, no fine print tricks.',
+    updated: 'Last updated: September 20, 2026',
+    body: `
+      <h2>1. Acceptance of terms</h2>
+      <p>By accessing or using NIGGHTERS at <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a> (the "Service"), you agree to be bound by these Terms of Use and our <a href="#page/privacy">Privacy Policy</a>. If you do not agree, please do not access the site or use our services.</p>
+
+      <h2>2. The service</h2>
+      <p>NIGGHTERS is an independent, curated publication. We track breaking coverage across trusted global publishers, cross-verifying facts as stories unfold, and present verified journalism in visual carousel form.</p>
+
+      <h2>3. Accounts</h2>
+      <p>Reading the full journal requires a free account. You are responsible for keeping your credentials secure and for all activity under your account. You must provide accurate information when signing up. We may suspend or terminate accounts that violate these terms.</p>
+
+      <h2>4. Acceptable use</h2>
+      <p>You agree not to:</p>
+      <ul>
+        <li>Use the Service for any unlawful purpose</li>
+        <li>Attempt to gain unauthorized access to the Service, other accounts, or our systems</li>
+        <li>Scrape, harvest, or systematically extract content or data without written permission</li>
+        <li>Interfere with the operation of the Service, including introducing malware or overloading infrastructure</li>
+        <li>Impersonate any person or misrepresent your affiliation</li>
+      </ul>
+
+      <h2>5. Intellectual property</h2>
+      <p>All original content on NIGGHTERS, including text, design, imagery, and branding, is owned by NIGGHTERS or its licensors and is protected by copyright and other laws. You may not reproduce, distribute, or create derivative works from our content without permission. Stories reference reporting from third-party publishers; those remain the property of their respective owners.</p>
+
+      <h2>6. Disclaimers</h2>
+      <p>The Service is provided "as is" and "as available" without warranties of any kind, express or implied. We work hard to verify facts before publishing, but we do not warrant that content is complete, accurate, or uninterrupted. Nothing on NIGGHTERS constitutes professional advice.</p>
+
+      <h2>7. Limitation of liability</h2>
+      <p>To the fullest extent permitted by law, NIGGHTERS shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill, arising from your use of or inability to use the Service.</p>
+
+      <h2>8. Changes to the service or terms</h2>
+      <p>We may modify or discontinue the Service at any time. We may update these terms from time to time; the "Last updated" date above shows the current version. Continued use of the Service after changes are posted constitutes acceptance of the revised terms.</p>
+
+      <h2>9. Contact</h2>
+      <p>Questions about these terms? Email <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a>.</p>
+    `,
+  },
+  privacy: {
+    title: 'Part B · <em>Privacy policy</em>',
+    lead: 'How NIGGHTERS collects, uses, and safeguards your information.',
+    updated: 'Last updated: September 22, 2026',
+    body: `
+      <h2>1. Introduction</h2>
+      <p>NIGGHTERS ("we", "us", or "our") operates <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a> (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+      <p>Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.</p>
+
+      <h2>2. Controller</h2>
+      <p>The data controller for personal data processed through the Service is NIGGHTERS, an independent publication. For any privacy matter — including the rights described in section 7 — contact <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a>.</p>
+
+      <h2>3. Information we collect and why</h2>
+      <p>We only collect what the Service actually uses:</p>
+      <ul>
+        <li><strong>Account data (via Clerk):</strong> your email address, your name if you choose to provide one, and a Clerk-generated user identifier. <em>Why:</em> to create your account and let you sign in. <em>Legal basis:</em> performance of a contract (Art. 6(1)(b) GDPR) — the member journal is only available with an account.</li>
+        <li><strong>Newsletter subscriptions (coming soon):</strong> the newsletter is announced on the site but signups are not open yet, so no email addresses are collected for it at the moment. When signups open, we will collect your email address with your consent (Art. 6(1)(a) GDPR), confirmed via double opt-in, and update this policy before the first dispatch is sent.</li>
+        <li><strong>Analytics data (only with your consent):</strong> pseudonymized usage data such as pages viewed, approximate region, and device/browser type, collected by Google Analytics 4. No analytics cookies are set and no analytics data reaches Google unless you enable analytics in the cookie banner or cookie settings. <em>Legal basis:</em> your consent (Art. 6(1)(a) GDPR).</li>
+        <li><strong>Local preference and session storage:</strong> your cookie choice, interface preferences (e.g. feed view), and short-lived session identifiers stored in your browser via localStorage/sessionStorage. These are strictly necessary to deliver the service you requested and to remember your choices.</li>
+        <li><strong>Server and security logs:</strong> our hosting provider (Netlify) processes request logs, including IP addresses, to deliver the site, protect against abuse (e.g. rate-limiting form submissions), and ensure availability. <em>Legal basis:</em> legitimate interest (Art. 6(1)(f) GDPR) in operating a secure, reliable service.</li>
+      </ul>
+      <p>We do not collect phone numbers, postal addresses, or payment details, and we do not sell personal data. If we introduce payments via PayPal in the future, payment processing will be handled by PayPal as an independent controller under its own privacy policy, and we will update this policy before that happens.</p>
+
+      <h2>4. Third-party services and international transfers</h2>
+      <p>We rely on the following providers:</p>
+      <ul>
+        <li><strong>Clerk</strong> — account creation, authentication, and secure sign-in. Clerk is based in the United States and is certified under the EU–US Data Privacy Framework.</li>
+        <li><strong>Netlify</strong> — hosting, content delivery, serverless functions, and storage of service data such as newsletter subscriptions. Netlify is based in the United States and is certified under the EU–US Data Privacy Framework.</li>
+        <li><strong>Google</strong> — Google Analytics 4 for traffic analysis, loaded only after cookie consent. Google is based in the United States.</li>
+        <li><strong>Cloudflare</strong> — content delivery and security, where enabled. Cloudflare is based in the United States.</li>
+      </ul>
+      <p>Transfers of personal data to these providers rely on the EU–US Data Privacy Framework and/or the European Commission's Standard Contractual Clauses, as applicable to each provider. Each provider has its own privacy policy governing the processing it performs, and where required each is bound to us by data processing terms. We do not transfer your data to any other recipients or countries.</p>
+
+      <h2>5. Cookies and similar technologies</h2>
+      <p>The Service uses only two categories of cookies and browser storage:</p>
+      <ul>
+        <li><strong>Strictly necessary (no consent needed):</strong> your cookie preference (localStorage), your Clerk sign-in session cookie, and short-lived interface preferences. These cannot be switched off without breaking core features.</li>
+        <li><strong>Analytics (consent required):</strong> Google Analytics 4 cookies (e.g. _ga) are set only if you enable analytics. If you refuse, no analytics cookies are set, no data reaches Google, and any pre-existing analytics cookies are deleted.</li>
+      </ul>
+      <p><strong>Your choices.</strong> When the cookie banner appears you can choose between three equally prominent options:</p>
+      <ul>
+        <li><strong>Accept all</strong> — permits analytics cookies;</li>
+        <li><strong>Reject all</strong> — no analytics cookies are set and none of your data is used for analytics;</li>
+        <li><strong>Settings</strong> — opens the cookie settings modal, where you can enable or disable analytics individually and save your per-category selection.</li>
+      </ul>
+      <p><strong>No consent is implied by continued browsing.</strong> Using the Service, scrolling, or closing the settings modal without a selection does not grant consent. If you have not made a choice, the banner reappears on your next visit and no analytics cookies are set in the meantime. Consent is voluntary: every part of the Service that does not require analytics works identically whether you accept or reject.</p>
+      <p>We currently use no marketing or advertising cookies. You can change or withdraw your choice at any time with the same effect via the "Cookie settings" link in the footer, or clear cookies through your browser settings.</p>
+
+      <h2>6. Data retention</h2>
+      <ul>
+        <li><strong>Account data:</strong> kept while your account exists; deleted within 30 days of an erasure request (see section 7).</li>          <li><strong>Newsletter subscriptions (coming soon):</strong> no addresses are collected while signups are closed. Once the newsletter launches, addresses are kept until they unsubscribe or request erasure, and removed within 30 days of either.</li>
+        <li><strong>Analytics data:</strong> retained by Google Analytics for up to 14 months.</li>
+        <li><strong>Server logs:</strong> kept by our host for a limited period (typically up to 30 days) for security and availability.</li>
+        <li><strong>Cookie consent record:</strong> kept to evidence your choice, for as long as the Service operates.</li>
+      </ul>
+      <p>Where a longer retention period is required or permitted by law, we retain data only for that period.</p>
+
+      <h2>7. Your rights</h2>
+      <h3>Rights under GDPR (EU/EEA residents)</h3>
+      <p>If you are a resident of the European Union or European Economic Area, you have the following rights:</p>
+      <ul>
+        <li><strong>Right to Access:</strong> Request access to your personal data</li>
+        <li><strong>Right to Rectification:</strong> Request correction of inaccurate data</li>
+        <li><strong>Right to Erasure:</strong> Request deletion of your personal data ("right to be forgotten")</li>
+        <li><strong>Right to Data Portability:</strong> Receive your data in a portable format</li>
+        <li><strong>Right to Object:</strong> Object to processing of your data</li>
+        <li><strong>Right to Restrict Processing:</strong> Request restriction of processing</li>
+        <li><strong>Right to Withdraw Consent:</strong> Withdraw consent at any time</li>
+      </ul>
+      <p>You also have the right to lodge a complaint with a data protection supervisory authority, in particular in the EU member state of your habitual residence or place of work. We do not make decisions about you based solely on automated processing.</p>
+
+      <h3>Rights under CCPA (California residents)</h3>
+      <p>If you are a California resident, you have the following rights under the California Consumer Privacy Act:</p>
+      <ul>
+        <li><strong>Right to Know:</strong> Know what personal information is collected and how it is used</li>
+        <li><strong>Right to Delete:</strong> Request deletion of your personal information</li>
+        <li><strong>Right to Opt-Out:</strong> Opt-out of the sale of your personal information</li>
+        <li><strong>Right to Non-Discrimination:</strong> Not be discriminated against for exercising your rights</li>
+      </ul>
+
+      <h3>Rights under CPRA (California residents, enhanced rights)</h3>
+      <p>If you are a California resident, you have the following enhanced rights under the California Privacy Rights Act (effective January 2023):</p>
+      <ul>
+        <li><strong>Right to Know:</strong> Know what personal information is collected, used, shared or sold</li>
+        <li><strong>Right to Delete:</strong> Request deletion of your personal information</li>
+        <li><strong>Right to Correct:</strong> Request correction of inaccurate personal information</li>
+        <li><strong>Right to Opt-Out of Sale/Sharing:</strong> Opt-out of the sale or sharing of your personal information</li>
+        <li><strong>Right to Limit Use of Sensitive Personal Information:</strong> Limit the use and disclosure of sensitive personal information</li>
+        <li><strong>Right to Non-Discrimination:</strong> Not be discriminated against for exercising your privacy rights</li>
+        <li><strong>Right to Data Portability:</strong> Obtain a copy of your personal information in a portable format</li>
+      </ul>
+      <p><strong>Sensitive Personal Information:</strong> Under CPRA, sensitive personal information includes Social Security numbers, driver's license numbers, account credentials, precise geolocation, racial/ethnic origin, religious beliefs, genetic data, health information, sex life or sexual orientation, and contents of mail/email/text messages.</p>
+
+      <h3>Rights under LGPD (Brazil residents)</h3>
+      <p>If you are a resident of Brazil, you have the following rights under LGPD:</p>
+      <ul>
+        <li><strong>Right to Confirmation and Access:</strong> Confirm and access your personal data</li>
+        <li><strong>Right to Correction:</strong> Request correction of incomplete or inaccurate data</li>
+        <li><strong>Right to Anonymization/Deletion:</strong> Request anonymization or deletion of unnecessary data</li>
+        <li><strong>Right to Data Portability:</strong> Transfer your data to another service provider</li>
+        <li><strong>Right to Information:</strong> Be informed about data sharing with third parties</li>
+      </ul>
+
+      <h2>Contact us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us:</p>
+      <ul>
+        <li>Email: <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a></li>
+        <li>Website: <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a></li>
+      </ul>
+
+      <h2>Changes to this privacy policy</h2>
+      <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this policy.</p>
+      <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+    `,
+  },
+}
+
+function renderLegalPage(focusPart) {
+  const parts = Object.entries(LEGAL_PAGES).map(([key, page]) => `<div class="legal-part" id="part-${key}"><h2 class="legal-part-title">${page.title.replace('<br>', ' ')}</h2><p class="legal-updated">${page.updated}</p>${page.body}</div>`).join('')
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">NIGGHTERS / Legal</div><h1>Terms &<br><em>privacy.</em></h1><p class="page-lead">Everything legal, in one place. Part A is the terms of use, Part B is the privacy policy. Each part carries its own last-updated date.</p><div class="legal">${parts}</div></section>`
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+  const target = focusPart && document.getElementById(`part-${focusPart}`)
+  if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
 }
 
 function renderArticlesPage() {
   if (!hasAccount()) return renderLockedPage('The journal')
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The journal</div><h1>Top<br><em>news.</em></h1><p class="page-lead">The latest stories from the journal — each one a carousel of frames with the full caption underneath.</p>${feedToggleHTML()}<div id="viewable-feed" class="carousel-feed" data-feed="view"><div class="empty"><div class="empty-mark">✦</div><h3>Loading the journal…</h3></div></div><div class="empty" id="article-empty" hidden><div class="empty-mark">✦</div><h3>No articles yet.</h3><p>Our first stories are on their way.</p><button class="primary" id="article-auth">Sign in to the journal →</button></div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The journal</div><h1>Top<br><em>news.</em></h1><p class="page-lead">The latest stories from the journal, each one a carousel of frames with the full caption underneath.</p>${pageSearchHTML()}${feedToggleHTML()}<div id="viewable-feed" class="carousel-feed" data-feed="view"><div class="empty"><div class="empty-mark">✦</div><h3>Loading the journal…</h3></div></div><div class="empty" id="article-empty" hidden><div class="empty-mark">✦</div><h3>No articles yet.</h3><p>Our first stories are on their way.</p><button class="primary" id="article-auth">Sign in to the journal →</button></div></section>`
   bindHomeButtons()
   bindFeedToggle()
+  bindPageSearch()
   loadCarouselFeed()
 }
 
@@ -205,6 +374,9 @@ function handleRoute() {
   if (key.startsWith('page/topic/')) return renderTopicPage(key.slice('page/topic/'.length))
   if (key === 'page/newsletter') return renderNewsletterPage()
   if (key === 'page/contact') return renderContactPage()
+  if (key === 'page/legal') return renderLegalPage()
+  if (key === 'page/terms') return renderLegalPage('terms')
+  if (key === 'page/privacy') return renderLegalPage('privacy')
   if (key === 'page/articles') return renderArticlesPage()
   renderHome()
 }
@@ -238,7 +410,28 @@ function mediaUrl(file) {
 }
 
 function articleTitle(carousel) {
-  return carousel.slides?.find((slide) => slide.id === 'title_text')?.text || `The late story · ${carousel.id}`
+  return displayText(carousel.slides?.find((slide) => slide.id === 'title_text')?.text) || `The late story · ${carousel.id}`
+}
+
+// Category prefixes like "AUTOMOTIVE STORIES:", "TECH & MEDIA:" or "RISKY
+// BUSINESS TECHNOLOGY:" are posting-pipeline metadata, not reader-facing copy.
+// Stripped everywhere text is displayed; the raw data keeps them untouched.
+const CATEGORY_PREFIX_RE = /^\s*[A-Z][A-Z0-9 &+'\/\-]{2,40}\s*:\s*/
+function displayText(value) {
+  return String(value ?? '').replace(CATEGORY_PREFIX_RE, '')
+}
+
+// Best reader-facing title: first slide text that survives prefix-stripping,
+// else the first caption line that does, else empty (callers fall back).
+function bestTitle(carousel) {
+  const slides = Array.isArray(carousel.slides) ? carousel.slides : []
+  const fromSlides = slides.map((s) => displayText(s?.text).trim()).find(Boolean)
+  if (fromSlides) return fromSlides
+  const firstLine = String(carousel.caption_text || '')
+    .split('\n')
+    .map((line) => displayText(line).trim())
+    .find(Boolean)
+  return firstLine || ''
 }
 
 function articleImage(slide) {
@@ -246,7 +439,7 @@ function articleImage(slide) {
   if (!file) return ''
   return file.toLowerCase().endsWith('.mp4')
     ? `<video src="${safeText(file)}" muted autoplay loop playsinline></video>`
-    : `<img src="${safeText(file)}" alt="${safeText(slide?.text || 'Article slide')}">`
+    : `<img src="${safeText(file)}" alt="${safeText(displayText(slide?.text) || 'Article slide')}">`
 }
 
 const captionCache = new Map()
@@ -277,7 +470,7 @@ async function getCaption(carousel) {
 
 function feedRowHTML(carousel, index) {
   const slides = Array.isArray(carousel.slides) ? carousel.slides : []
-  const title = slides[0]?.text || articleTitle(carousel)
+  const title = bestTitle(carousel) || articleTitle(carousel)
   const tags = Array.isArray(carousel.tags) ? carousel.tags : []
   return `<a class="article-row" href="#article/${safeText(carousel.id)}" data-article-id="${safeText(carousel.id)}" data-read-time="${safeText(readTime(carousel))}">
     <span class="row-index">${String(index + 1).padStart(2, '0')}</span>
@@ -373,8 +566,9 @@ function renderTopicPage(rawSlug) {
   const topicName = buildTopicsData().find(({ name }) => topicToSlug(name) === slug)?.name || TOPIC_LEGACY[slug]
   const articles = (window.__nigghtersCarousels || []).filter((carousel) => canonicalTopics(carousel).includes(topicName))
   const count = articles.length
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#page/topics">← All topics</a><div class="eyebrow">Topic index</div><h1>${safeText(topicName || slug)}</h1><p class="page-lead">${count ? `${count} ${count === 1 ? 'story' : 'stories'} filed under ${safeText(topicName)}.` : 'No stories filed under this topic yet — check back soon.'}</p>${feedToggleHTML()}<div id="topic-feed" class="carousel-feed" data-feed="view"></div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#page/topics">← All topics</a><div class="eyebrow">Topic index</div><h1>${safeText(topicName || slug)}</h1><p class="page-lead">${count ? `${count} ${count === 1 ? 'story' : 'stories'} filed under ${safeText(topicName)}.` : 'No stories filed under this topic yet, check back soon.'}</p>${pageSearchHTML(count ? `Search ${count} ${count === 1 ? 'story' : 'stories'} in ${safeText(topicName)}…` : 'Search stories…')}${feedToggleHTML()}<div id="topic-feed" class="carousel-feed" data-feed="view"></div></section>`
   renderFeedInto(document.querySelector('#topic-feed'), articles, true)
+  bindPageSearch()
   bindFeedToggle()
 }
 
@@ -462,14 +656,13 @@ function refreshSearchIndex() {
   const carousels = window.__nigghtersCarousels || []
   __nigghtersSearchIndex = carousels.map((carousel) => {
     const slides = Array.isArray(carousel.slides) ? carousel.slides : []
-    const title = slides.find((s) => s.id === 'title_text')?.text || carousel.id
     const topics = canonicalTopics(carousel)
     const caption = String(carousel.caption_text || '')
     return {
       id: carousel.id,
-      title: String(title || '').trim(),
+      title: bestTitle(carousel) || String(carousel.id),
       topics: topics.map(String).join(' '),
-      caption: String(caption || '').trim(),
+      caption: displayText(caption).trim(),
       captionLoading: !carousel.caption,
     }
   })
@@ -533,24 +726,24 @@ function snippet(text, query, max = 90) {
   return s
 }
 
-function renderSearchResults(query) {
+function renderSearchResults(query, resultsEl = searchResults, countEl = searchCount) {
   if (!query || !normalizeQuery(query)) {
-    searchResults.innerHTML = ''
-    searchCount.hidden = true
+    resultsEl.innerHTML = ''
+    countEl.hidden = true
     searchActiveIndex = -1
     return
   }
   const matches = searchIndex(query)
   if (!matches.length) {
-    searchResults.innerHTML = '<div class="search-empty">No stories match “' + safeText(normalizeQuery(query)) + '”.</div>'
-    searchCount.hidden = true
+    resultsEl.innerHTML = '<div class="search-empty">No stories match “' + safeText(normalizeQuery(query)) + '”.</div>'
+    countEl.hidden = true
     searchActiveIndex = -1
     return
   }
-  searchCount.hidden = false
-  searchCount.textContent = `${matches.length} result${matches.length === 1 ? '' : 's'} for “${safeText(normalizeQuery(query))}”`
+  countEl.hidden = false
+  countEl.textContent = `${matches.length} result${matches.length === 1 ? '' : 's'} for “${safeText(normalizeQuery(query))}”`
   searchActiveIndex = -1
-  searchResults.innerHTML = matches
+  resultsEl.innerHTML = matches
     .map((item, i) => {
       const slug = topicToSlug(item.topics.split(' ')[0]) || 'articles'
       return `<a class="search-result" href="#article/${safeText(item.id)}" data-search-result="${i}">
@@ -572,6 +765,45 @@ function navigateSearchResult(delta) {
     target.scrollIntoView({ block: 'nearest' })
     target.focus({ preventScroll: true })
   }
+}
+
+// In-page search bar for the article-listing pages. Visible only where there
+// are articles to search, so it doubles as the visible search entry point.
+function pageSearchHTML(placeholder = 'Search stories, topics, captions…') {
+  return `<div class="page-search" role="search">
+    <div class="search-input-wrap">
+      <span class="page-search-icon" aria-hidden="true">⌕</span>
+      <input class="search-input page-search-input" type="search" placeholder="${safeText(placeholder)}" autocomplete="off" aria-label="Search the journal">
+    </div>
+    <div class="page-search-results search-results"></div>
+    <div class="search-count" hidden></div>
+  </div>`
+}
+
+function bindPageSearch(scope = document) {
+  scope.querySelectorAll('.page-search').forEach((box) => {
+    const input = box.querySelector('.page-search-input')
+    const results = box.querySelector('.page-search-results')
+    const count = box.querySelector('.search-count')
+    if (!input || !results || !count) return
+    input.addEventListener('input', () => {
+      // When the in-page bar is used, close the keyboard-overlay variant so the
+      // two never show results at once.
+      if (__nigghtersSearchVisible) closeSearch()
+      renderSearchResults(input.value, results, count)
+    })
+    input.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && input.value) {
+        input.value = ''
+        renderSearchResults('', results, count)
+      }
+    })
+    results.addEventListener('click', (e) => {
+      const link = e.target.closest('[data-search-result]')
+      if (!link) return
+      trackEvent('search_result_open', { query: input.value, article_id: link.getAttribute('href')?.slice(9) || '' })
+    })
+  })
 }
 
 function bindSearchShortcut() {
@@ -663,10 +895,9 @@ async function openArticle(id) {
   if (!carousel) return
   const slides = (carousel.slides || []).filter((slide) => slide?.file)
   if (!slides.length) return
-  const title = articleTitle(carousel)
-  const caption = await getCaption(carousel)
-  const script = slides.filter((slide) => slide.text && slide.text.trim()).map((slide, index) => `<li><span class="script-index">${String(index + 1).padStart(2, '0')}</span><p>${safeText(slide.text)}</p></li>`).join('')
-  document.querySelector('main').innerHTML = `<section class="article-detail"><a class="back-link" href="#page/articles">← Back to journal</a><div class="detail-heading"><div><div class="eyebrow">Journal · ${safeText(carousel.id)}</div><h1>${safeText(title)}</h1><span class="detail-read-time">${readTime(carousel)}</span></div><span class="detail-index">01 / ${String(slides.length).padStart(2, '0')}</span></div><div class="story-layout"><aside class="caption-panel"><div><div class="eyebrow">Instagram caption</div><h2>The story in full.</h2></div><p id="detail-caption">${safeText(caption)}</p></aside><div class="story-visual"><div class="story-carousel"><button class="carousel-control prev" aria-label="Previous slide">←</button><div class="story-stage"></div><button class="carousel-control next" aria-label="Next slide">→</button></div><div class="story-meta"><span id="story-progress">01 / ${String(slides.length).padStart(2, '0')}</span><span>Swipe or use the arrows to explore</span></div>${script ? `<div class="story-script"><div class="eyebrow">On the slides</div><ol>${script}</ol></div>` : ''}</div></div></section>`
+  const title = bestTitle(carousel) || articleTitle(carousel)
+  const caption = displayText(await getCaption(carousel))
+  document.querySelector('main').innerHTML = `<section class="article-detail"><a class="back-link" href="#page/articles">← Back to journal</a><div class="detail-heading"><div><div class="eyebrow">Journal · ${safeText(carousel.id)}</div><h1>${safeText(title)}</h1><span class="detail-read-time">${readTime(carousel)}</span></div><span class="detail-index">01 / ${String(slides.length).padStart(2, '0')}</span></div><div class="story-layout"><aside class="caption-panel"><div><div class="eyebrow">Instagram caption</div><h2>The story in full.</h2></div><p id="detail-caption">${safeText(caption)}</p></aside><div class="story-visual"><div class="story-carousel"><button class="carousel-control prev" aria-label="Previous slide">←</button><div class="story-stage"></div><button class="carousel-control next" aria-label="Next slide">→</button></div><div class="story-meta"><span id="story-progress">01 / ${String(slides.length).padStart(2, '0')}</span><span>Swipe or use the arrows to explore</span></div></div></div></section>`
   activeStory = { id: carousel.id, slides, index: 0 }
   const stage = document.querySelector('.story-stage')
   const progress = document.querySelector('#story-progress')
@@ -680,9 +911,20 @@ async function openArticle(id) {
   bindStorySwipe(stage, (dir) => goToStory(dir))
   activeStory.render()
   window.scrollTo({ top: 0, behavior: 'smooth' })
-}
-
-window.addEventListener('hashchange', () => { if (__nigghtersSearchVisible) closeSearch(); handleRoute() })
+}  window.addEventListener('hashchange', () => { if (__nigghtersSearchVisible) closeSearch(); handleRoute() })
+  document.querySelector('#cookie-settings')?.addEventListener('click', (event) => {
+    event.preventDefault()
+    // The granular settings modal lives in index.html and is owned by the
+    // inline consent script, which exposes this opener.
+    if (typeof window.__nigghtersOpenCookieSettings === 'function') {
+      window.__nigghtersOpenCookieSettings()
+      return
+    }
+    const banner = document.querySelector('#cookie-banner')
+    if (!banner) return
+    banner.hidden = false
+    banner.scrollIntoView({ behavior: 'smooth', block: 'end' })
+  })
 bindHomeButtons()
 loadCarouselFeed().then(() => handleRoute())
 
@@ -825,12 +1067,11 @@ document.addEventListener('keydown', (event) => {
   goToStory(event.key === 'ArrowRight' ? 1 : -1)
 })
 document.querySelector('#article-auth').onclick = () => openAuth()
-document.querySelector('#newsletter-action').onclick = () => clerk?.user ? showToast('Newsletter signups are coming soon. Thanks for being early.') : openAuth()
-document.querySelectorAll('[data-search-trigger]').forEach((el) => el.addEventListener('click', (e) => { e.preventDefault(); openSearch() })); document.querySelector('.menu').onclick = () => { const nav = document.querySelector('.nav'); const open = nav.classList.toggle('open'); document.querySelector('.menu').setAttribute('aria-expanded', String(open)) }
+document.querySelector('.menu').onclick = () => { const nav = document.querySelector('.nav'); const open = nav.classList.toggle('open'); document.querySelector('.menu').setAttribute('aria-expanded', String(open)) }
 document.addEventListener('click', (event) => {
   const link = event.target.closest('a[href^="#"]')
   if (link) document.querySelector('.nav').classList.remove('open')
   const toastLink = event.target.closest('[data-toast]')
   if (toastLink) { event.preventDefault(); showToast(toastLink.dataset.toast) }
-  if (searchOverlay && __nigghtersSearchVisible && !searchOverlay.contains(event.target) && !event.target.closest('[data-search-trigger]')) closeSearch()
+  if (searchOverlay && __nigghtersSearchVisible && !searchOverlay.contains(event.target)) closeSearch()
 })

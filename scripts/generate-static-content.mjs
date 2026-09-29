@@ -19,6 +19,16 @@ if (!existsSync(carouselsDir)) {
 
 const index = JSON.parse(readFileSync(join(carouselsDir, 'index.json'), 'utf8'))
 
+// Skip index entries whose article directory no longer exists — a card
+// without its images is just a broken render. Keeps deleted articles out
+// even if the posting pipeline's index.json still mentions them.
+if (Array.isArray(index.carousels)) {
+  index.carousels = index.carousels.filter((c) => {
+    const dir = typeof c.directory === 'string' ? c.directory.replace(/^\/carousels\//, '') : null
+    return dir && existsSync(join(carouselsDir, dir))
+  })
+}
+
 // Embed every article's caption and slides as a flat map keyed by article id.
 const articles = {}
 const dirs = readdirSync(carouselsDir, { withFileTypes: true })

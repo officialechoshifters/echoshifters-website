@@ -1,0 +1,229 @@
+{
+  "renderer": "comfyui",
+  "category": "lifestyle",
+  "published_at": "2026-09-20T19:31:13",
+  "image_url": "https://assets.vogue.com/photos/699d0e7673654fe0772e4a21/16:9/w_1280,c_limit/VWM_announcement_16x9_v2.jpg",
+  "texts": {
+    "title_text": "Vogue World: Milano celebrates Italian craftsmanship during Milan Fashion Week in 2026",
+    "slide_1_text": "Vogue World: Milano will debut at Galleria Vittorio Emanuele II near Milan's Duomo and La Scala",
+    "slide_2_text": "Anna Wintour described the location as ideal for honoring Milan's heritage-modernity fusion",
+    "slide_3_text": "Thematic acts will explore fashion's evolution from Renaissance brocade to contemporary textiles",
+    "slide_4_text": "The program showcases collaborations between Italian fashion houses and master artisans"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Vogue World: Milano celebrates Italian craftsmanship during Milan Fashion Week in 2026 (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: hand-stitched leather shoe.\nVisible state/action: resting on a wooden workbench.\nSetting: workshop with natural light.\nComposition: close-up of the shoe on a simple wooden surface, with soft focus on the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Vogue World: Milano will debut at Galleria Vittorio Emanuele II near Milan's Duomo and La Scala (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Galleria Vittorio Emanuele II interior.\nVisible state/action: architectural space with vaulted glass ceiling and marble floors.\nSetting: generic urban gallery space in a European city.\nComposition: wide-angle view showing the full span of the gallery's interior with soft natural light filtering through the glass roof; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Anna Wintour described the location as ideal for honoring Milan's heritage-modernity fusion (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single silk scarf.\nVisible state/action: draped over a simple wooden stool.\nSetting: a quiet, sunlit room with neutral walls.\nComposition: centered on the scarf, with soft focus on the stool and background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Thematic acts will explore fashion's evolution from Renaissance brocade to contemporary textiles (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single textile sample.\nVisible state/action: displayed on a simple wooden table.\nSetting: a neutral, uncluttered studio space.\nComposition: medium shot, centered composition with soft natural light illuminating the textile sample from the side; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The program showcases collaborations between Italian fashion houses and master artisans (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a seamstress's hands.\nVisible state/action: sewing a delicate fabric with precise, rhythmic motion.\nSetting: a modest, well-lit workshop.\nComposition: centered on the hands and fabric, with the background softly blurred to emphasize the craftsmanship; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "CULTURE & LIFESTYLE",
+  "topic_scores": {
+    "AI": 89,
+    "BUSINESS": 91,
+    "CULTURE": 100,
+    "FINANCE": 83,
+    "HEALTH": 45,
+    "LIFESTYLE": 100,
+    "POLITICS": 26,
+    "SCIENCE": 59,
+    "SPORTS": 98,
+    "TECHNOLOGY": 96,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 67208507,
+    "slide_1_text": 711086702,
+    "slide_2_text": 731774464,
+    "slide_3_text": 603462356,
+    "slide_4_text": 169682780,
+    "slide_5_text": 24814954
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Vogue World",
+        "Milano",
+        "celebrates",
+        "Italian craftsmanship",
+        "Milan Fashion Week",
+        "2026"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "hand-stitched leather shoe",
+      "visible_action_or_state": "resting on a wooden workbench",
+      "setting": "workshop with natural light",
+      "composition": "close-up of the shoe on a simple wooden surface, with soft focus on the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Vogue World event",
+        "Milan Fashion Week 2026",
+        "specific designer or brand",
+        "famous location",
+        "named person"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Vogue World: Milano will debut",
+        "at Galleria Vittorio Emanuele II",
+        "near Milan's Duomo and La Scala"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "Galleria Vittorio Emanuele II interior",
+      "visible_action_or_state": "architectural space with vaulted glass ceiling and marble floors",
+      "setting": "generic urban gallery space in a European city",
+      "composition": "wide-angle view showing the full span of the gallery's interior with soft natural light filtering through the glass roof",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Vogue World event taking place",
+        "specific date or time",
+        "celebrity presence",
+        "famous landmarks like Duomo or La Scala visible in frame"
+      ],
+      "distinct_from_prior_slides": "does not show craft workbench or leather shoe from Slide 1; focuses on institutional architecture rather than product or process",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Anna Wintour described",
+        "the location",
+        "ideal for honoring",
+        "Milan's heritage-modernity fusion"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single silk scarf",
+      "visible_action_or_state": "draped over a simple wooden stool",
+      "setting": "a quiet, sunlit room with neutral walls",
+      "composition": "centered on the scarf, with soft focus on the stool and background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Anna Wintour's face",
+        "Milan's specific landmarks",
+        "actual event or ceremony",
+        "fabrication of her quote"
+      ],
+      "distinct_from_prior_slides": "avoids the workshop setting of Slide 1 and the gallery space of Slide 2",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Thematic acts will explore fashion's evolution",
+        "from Renaissance brocade to contemporary textiles"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single textile sample",
+      "visible_action_or_state": "displayed on a simple wooden table",
+      "setting": "a neutral, uncluttered studio space",
+      "composition": "medium shot, centered composition with soft natural light illuminating the textile sample from the side",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Renaissance era",
+        "specific historical period",
+        "famous fashion designers",
+        "contemporary brand logos",
+        "textile manufacturing process"
+      ],
+      "distinct_from_prior_slides": "avoids using leather shoes, gallery architecture, or silk scarves as subjects",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "program",
+        "showcases",
+        "collaborations",
+        "Italian fashion houses",
+        "master artisans"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a seamstress's hands",
+      "visible_action_or_state": "sewing a delicate fabric with precise, rhythmic motion",
+      "setting": "a modest, well-lit workshop",
+      "composition": "centered on the hands and fabric, with the background softly blurred to emphasize the craftsmanship",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific Italian fashion house name",
+        "identifiable master artisan",
+        "famous location",
+        "fabric pattern or logo",
+        "visible brand name"
+      ],
+      "distinct_from_prior_slides": "avoids studio space (Slide 3/4), focuses on hands in motion (not stationary objects like shoes or scarves), and uses a different setting than Slide 1's workshop (no wooden workbench, no leather)",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "This edition uniquely ties charitable initiatives to local cultural infrastructure support"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a restored community theater facade",
+      "visible_action_or_state": "intact, recently painted with fresh colors",
+      "setting": "a generic neighborhood street corner in a mid-sized city",
+      "composition": "medium shot focusing on the restored facade with subtle background activity of daily life",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "charitable organization name",
+        "specific cultural event",
+        "named public figure",
+        "famous location",
+        "archival photo"
+      ],
+      "distinct_from_prior_slides": "avoids all prior slide subjects (shoe, gallery, scarf, textile sample, hands) and actions (resting, architectural space, draped, displayed, sewing)",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_92933_title.png",
+      "text": "Vogue World: Milano celebrates Italian craftsmanship during Milan Fashion Week in 2026",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Vogue World: Milano celebrates Italian craftsmanship during Milan Fashion Week in 2026 (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: hand-stitched leather shoe.\nVisible state/action: resting on a wooden workbench.\nSetting: workshop with natural light.\nComposition: close-up of the shoe on a simple wooden surface, with soft focus on the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_92933_slide_1.png",
+      "text": "Vogue World: Milano will debut at Galleria Vittorio Emanuele II near Milan's Duomo and La Scala",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Vogue World: Milano will debut at Galleria Vittorio Emanuele II near Milan's Duomo and La Scala (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Galleria Vittorio Emanuele II interior.\nVisible state/action: architectural space with vaulted glass ceiling and marble floors.\nSetting: generic urban gallery space in a European city.\nComposition: wide-angle view showing the full span of the gallery's interior with soft natural light filtering through the glass roof; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_92933_slide_2.png",
+      "text": "Anna Wintour described the location as ideal for honoring Milan's heritage-modernity fusion",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Anna Wintour described the location as ideal for honoring Milan's heritage-modernity fusion (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single silk scarf.\nVisible state/action: draped over a simple wooden stool.\nSetting: a quiet, sunlit room with neutral walls.\nComposition: centered on the scarf, with soft focus on the stool and background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_92933_slide_3.png",
+      "text": "Thematic acts will explore fashion's evolution from Renaissance brocade to contemporary textiles",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Thematic acts will explore fashion's evolution from Renaissance brocade to contemporary textiles (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single textile sample.\nVisible state/action: displayed on a simple wooden table.\nSetting: a neutral, uncluttered studio space.\nComposition: medium shot, centered composition with soft natural light illuminating the textile sample from the side; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_92933_slide_4.png",
+      "text": "The program showcases collaborations between Italian fashion houses and master artisans",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The program showcases collaborations between Italian fashion houses and master artisans (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a seamstress's hands.\nVisible state/action: sewing a delicate fabric with precise, rhythmic motion.\nSetting: a modest, well-lit workshop.\nComposition: centered on the hands and fabric, with the background softly blurred to emphasize the craftsmanship; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "renderer": "comfyui",
+  "category": "politics",
+  "published_at": "2026-09-20T17:52:35",
+  "image_url": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/20/c9473a57-eaea-4523-9462-fa9dd90e6432/thumbnail/1200x630/3e6a69b1fcd37cb3ca6999148a4da155/1789926674836.png",
+  "texts": {
+    "title_text": "President Trump bars CNN, NYT, and Washington Post from White House access",
+    "slide_1_text": "as midterm elections near. The White House claims security concerns amid rising tensions over a 200-day Iran conflict.",
+    "slide_2_text": "Trump insists the Iran war causes higher fuel costs but pledges immediate resolution to the crisis.",
+    "slide_3_text": "This policy shift follows a week of escalating disputes between the White House and major news organizations.",
+    "slide_4_text": "The move intensifies GOP internal divisions as voters face economic pressures from gas prices and the conflict."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: President Trump bars CNN, NYT, and Washington Post from White House access (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a physical barrier.\nVisible state/action: a secured door with an empty door frame.\nSetting: generic government building hallway.\nComposition: medium shot, centered composition, low angle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: as midterm elections near. The White House claims security concerns amid rising tensions over a 200-day Iran conflict. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a security-locked cabinet.\nVisible state/action: a cabinet with a locked handle and a security tag.\nSetting: a generic government office interior.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump insists the Iran war causes higher fuel costs but pledges immediate resolution to the crisis. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of trump and insists and iran, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This policy shift follows a week of escalating disputes between the White House and major news organizations. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of follows and disputes and white, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The move intensifies GOP internal divisions as voters face economic pressures from gas prices and the conflict. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of intensifies and gop and internal, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "AI & BUSINESS",
+  "topic_scores": {
+    "AI": 100,
+    "BUSINESS": 100,
+    "CULTURE": 65,
+    "FINANCE": 0,
+    "HEALTH": 45,
+    "LIFESTYLE": 48,
+    "POLITICS": 100,
+    "SCIENCE": 36,
+    "SPORTS": 59,
+    "TECHNOLOGY": 98,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 287997779,
+    "slide_1_text": 215068004,
+    "slide_2_text": 709232616,
+    "slide_3_text": 502717488,
+    "slide_4_text": 830308413,
+    "slide_5_text": 102629967
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "President Trump",
+        "bars",
+        "CNN",
+        "NYT",
+        "Washington Post",
+        "White House access"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a physical barrier",
+      "visible_action_or_state": "a secured door with an empty door frame",
+      "setting": "generic government building hallway",
+      "composition": "medium shot, centered composition, low angle",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "President Trump's face",
+        "actual White House exterior",
+        "CNN/NYT/Post logos",
+        "specific journalists",
+        "documented policy announcement"
+      ],
+      "distinct_from_prior_slides": "no prior slides to distinguish from",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "midterm elections near",
+        "White House claims security concerns",
+        "rising tensions over a 200-day Iran conflict"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a security-locked cabinet",
+      "visible_action_or_state": "a cabinet with a locked handle and a security tag",
+      "setting": "a generic government office interior",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific person",
+        "the White House building exterior",
+        "a 200-day timeline",
+        "a conflict map",
+        "screens or UI",
+        "documents or papers"
+      ],
+      "distinct_from_prior_slides": "avoids barrier/door frame from Slide 1; focuses on cabinet security rather than hallway entrance",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Trump insists the Iran war causes higher fuel costs but pledges immediate resolution to the crisis"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of trump and insists and iran, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "medium process view or two-shot of anonymous actors at work",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "mechanism",
+      "fallback": true
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "This policy shift follows a week of escalating disputes between the White House and major news organizations"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of follows and disputes and white, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "The move intensifies GOP internal divisions as voters face economic pressures from gas prices and the conflict"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of intensifies and gop and internal, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "conclusion",
+      "fallback": true
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Trump's actions",
+        "risk alienating",
+        "key Republican supporters",
+        "ahead of critical midterm elections"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a weathered wooden fence post",
+      "visible_action_or_state": "a single torn piece of paper rests against it, showing only a fragment of a faded 'GOP' logo obscured by dirt",
+      "setting": "a generic suburban front yard at golden hour",
+      "composition": "medium shot focusing on the fence post and the torn piece of paper, with the house background slightly blurred",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Donald Trump",
+        "any specific political figure",
+        "midterm election results",
+        "Republican Party logo",
+        "political campaign materials"
+      ],
+      "distinct_from_prior_slides": "avoids government building settings from slides 1-2; uses residential setting instead of still life objects from slides 3-5",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_92588_title.png",
+      "text": "President Trump bars CNN, NYT, and Washington Post from White House access",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: President Trump bars CNN, NYT, and Washington Post from White House access (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a physical barrier.\nVisible state/action: a secured door with an empty door frame.\nSetting: generic government building hallway.\nComposition: medium shot, centered composition, low angle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_92588_slide_1.png",
+      "text": "as midterm elections near. The White House claims security concerns amid rising tensions over a 200-day Iran conflict.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: as midterm elections near. The White House claims security concerns amid rising tensions over a 200-day Iran conflict. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a security-locked cabinet.\nVisible state/action: a cabinet with a locked handle and a security tag.\nSetting: a generic government office interior.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_92588_slide_2.png",
+      "text": "Trump insists the Iran war causes higher fuel costs but pledges immediate resolution to the crisis.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump insists the Iran war causes higher fuel costs but pledges immediate resolution to the crisis. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of trump and insists and iran, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_92588_slide_3.png",
+      "text": "This policy shift follows a week of escalating disputes between the White House and major news organizations.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This policy shift follows a week of escalating disputes between the White House and major news organizations. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of follows and disputes and white, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_92588_slide_4.png",
+      "text": "The move intensifies GOP internal divisions as voters face economic pressures from gas prices and the conflict.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The move intensifies GOP internal divisions as voters face economic pressures from gas prices and the conflict. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of intensifies and gop and internal, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

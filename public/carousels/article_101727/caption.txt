@@ -1,0 +1,11 @@
+FINANCE & SPORTS:
+
+A U.S. appeals court has ruled that states may regulate sports prediction markets like Kalshi, marking a significant legal setback for the industry as it faces increasing state-level restrictions.
+
+The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply their gambling laws to Kalshi’s sports event contracts, rejecting the platform’s argument that such contracts are federally regulated swaps. The court found no evidence that Kalshi’s offerings meet the legal definition of swaps, which would fall under Commodity Futures Trading Commission oversight.
+
+This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit ruling that allowed Nevada to regulate similar markets. New Jersey, meanwhile, has petitioned the Supreme Court to address conflicting rulings about whether states or federal agencies should control these markets.
+
+Tennessee Attorney General Jonathan Skrmetti praised the outcome, stating Kalshi had tried to bypass state gambling laws. Kalshi’s spokesperson criticized the ruling as evidence of a flawed state-by-state regulatory approach, arguing for a single federal framework.
+
+The legal battle reflects a growing tension between state gambling regulations and federal financial oversight, with no clear resolution in sight as the Supreme Court may soon weigh in on the broader industry question.

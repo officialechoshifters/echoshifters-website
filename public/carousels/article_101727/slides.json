@@ -1,0 +1,221 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-25T23:28:42",
+  "image_url": "https://image.cnbcfm.com/api/v1/image/108282762-1774441435351-gettyimages-2266901963-KALSHI_ADS.jpeg?v=1774441459&w=1920&h=1080",
+  "texts": {
+    "title_text": "A U.S. appeals court has ruled states may regulate sports prediction markets like Kalshi",
+    "slide_1_text": "The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply gambling laws to Kalshi's contracts",
+    "slide_2_text": "Kalshi had argued its sports event contracts are federally regulated swaps but the court rejected this",
+    "slide_3_text": "This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit outcome",
+    "slide_4_text": "Tennessee Attorney General Jonathan Skrmetti: \"Kalshi had tried to bypass state gambling laws\""
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A U.S. appeals court has ruled states may regulate sports prediction markets like Kalshi (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a generic appeals court room.\nVisible state/action: empty bench with a single judicial robe draped over it.\nSetting: a U.S. federal appellate court room.\nComposition: centered, head-and-shoulders view of the empty bench with robe; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply gambling laws to Kalshi's contracts (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of circuit and court and appeals, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide establishing shot of the relevant environment, with one clear graphic anchor element and the anonymous people who naturally occupy that environment; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kalshi had argued its sports event contracts are federally regulated swaps but the court rejected this (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of kalshi and sports and event, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit outcome (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of reverses and lower and court, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Tennessee Attorney General Jonathan Skrmetti: \"Kalshi had tried to bypass state gambling laws\" (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a physical gambling token with a state seal.\nVisible state/action: the token rests on a plain surface, slightly worn from use.\nSetting: a generic public park bench, midday light.\nComposition: centered, medium shot, natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "FINANCE & SPORTS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 96,
+    "CULTURE": 26,
+    "FINANCE": 100,
+    "HEALTH": 0,
+    "LIFESTYLE": 0,
+    "POLITICS": 97,
+    "SCIENCE": 14,
+    "SPORTS": 99,
+    "TECHNOLOGY": 98,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 811683414,
+    "slide_1_text": 43902657,
+    "slide_2_text": 286505249,
+    "slide_3_text": 38927134,
+    "slide_4_text": 841056318,
+    "slide_5_text": 254456371
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "U.S. appeals court",
+        "ruled",
+        "states may regulate",
+        "sports prediction markets",
+        "Kalshi"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a generic appeals court room",
+      "visible_action_or_state": "empty bench with a single judicial robe draped over it",
+      "setting": "a U.S. federal appellate court room",
+      "composition": "centered, head-and-shoulders view of the empty bench with robe",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific judge",
+        "the actual ruling date",
+        "the Kalshi company logo",
+        "a specific courtroom location"
+      ],
+      "distinct_from_prior_slides": "first slide, no prior slides to repeat",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply gambling laws to Kalshi's contracts"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of circuit and court and appeals, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide establishing shot of the relevant environment, with one clear graphic anchor element and the anonymous people who naturally occupy that environment",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "context",
+      "fallback": true
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Kalshi had argued its sports event contracts are federally regulated swaps but the court rejected this"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of kalshi and sports and event, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "medium process view or two-shot of anonymous actors at work",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "mechanism",
+      "fallback": true
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit outcome"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of reverses and lower and court, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Tennessee Attorney General Jonathan Skrmetti",
+        "Kalshi had tried to bypass state gambling laws"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a physical gambling token with a state seal",
+      "visible_action_or_state": "the token rests on a plain surface, slightly worn from use",
+      "setting": "a generic public park bench, midday light",
+      "composition": "centered, medium shot, natural light",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Jonathan Skrmetti's face",
+        "Kalshi's logo or website",
+        "a specific court ruling",
+        "a gambling event or game"
+      ],
+      "distinct_from_prior_slides": "avoids all still-life tabletop compositions used in slides 2-4, uses a different setting (public park bench vs. neutral tabletop), and avoids any visible text or branding",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Kalshi's spokesperson said the ruling shows a flawed state-by-state regulatory approach"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a state map showing state borders with a highlighted border",
+      "visible_action_or_state": "the map is placed on a clean surface with a subtle arrow pointing to one highlighted border",
+      "setting": "a generic office desk under neutral daylight",
+      "composition": "centered composition with the map taking up 70% of the frame, arrow pointing to the highlighted border",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific state",
+        "a specific court ruling",
+        "Kalshi's identity",
+        "spokesperson's face"
+      ],
+      "distinct_from_prior_slides": "avoids all still-life compositions used in slides 2-4 and the gambling token in slide 5",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_101727_title.png",
+      "text": "A U.S. appeals court has ruled states may regulate sports prediction markets like Kalshi",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A U.S. appeals court has ruled states may regulate sports prediction markets like Kalshi (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a generic appeals court room.\nVisible state/action: empty bench with a single judicial robe draped over it.\nSetting: a U.S. federal appellate court room.\nComposition: centered, head-and-shoulders view of the empty bench with robe; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_101727_slide_1.png",
+      "text": "The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply gambling laws to Kalshi's contracts",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The 6th Circuit Court of Appeals determined Ohio and Tennessee can apply gambling laws to Kalshi's contracts (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of circuit and court and appeals, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide establishing shot of the relevant environment, with one clear graphic anchor element and the anonymous people who naturally occupy that environment; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_101727_slide_2.png",
+      "text": "Kalshi had argued its sports event contracts are federally regulated swaps but the court rejected this",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kalshi had argued its sports event contracts are federally regulated swaps but the court rejected this (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of kalshi and sports and event, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_101727_slide_3.png",
+      "text": "This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit outcome",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This decision reverses a lower court ruling that favored Kalshi and aligns with a recent 9th Circuit outcome (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of reverses and lower and court, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_101727_slide_4.png",
+      "text": "Tennessee Attorney General Jonathan Skrmetti: \"Kalshi had tried to bypass state gambling laws\"",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Tennessee Attorney General Jonathan Skrmetti: \"Kalshi had tried to bypass state gambling laws\" (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a physical gambling token with a state seal.\nVisible state/action: the token rests on a plain surface, slightly worn from use.\nSetting: a generic public park bench, midday light.\nComposition: centered, medium shot, natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

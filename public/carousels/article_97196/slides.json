@@ -1,0 +1,235 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-22T12:29:25",
+  "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/0f2c/live/60f697b0-1203-11ef-82e8-cd354766a224.png",
+  "texts": {
+    "title_text": "Sri Lanka's High Court convicts 15 men for 2019 Easter bombings targeting churches and hotels",
+    "slide_1_text": "The mastermind was identified as a defendant from the Muslim minority community facing over 23,000 charges.",
+    "slide_2_text": "Attacks struck during Easter Sunday celebrations at three churches and three luxury hotels, killing 279.",
+    "slide_3_text": "Nine defendants were acquitted, and one died in custody before the trial concluded in 2023.",
+    "slide_4_text": "Investigators linked the attacks to two militant groups inspired by Islamic State that killed 45 foreigners."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sri Lanka's High Court convicts 15 men for 2019 Easter bombings targeting churches and hotels (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: High Court courtroom.\nVisible state/action: empty courtroom chairs with a judge's bench in the foreground.\nSetting: generic high court interior.\nComposition: medium shot, centered, with the judge's bench and empty chairs filling the frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The mastermind was identified as a defendant from the Muslim minority community facing over 23,000 charges. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single legal file folder.\nVisible state/action: a legal file folder resting on a plain wooden desk.\nSetting: generic office interior with soft natural light.\nComposition: centered, medium shot, eye-level perspective; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Attacks struck during Easter Sunday celebrations at three churches and three luxury hotels, killing 279. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single broken church bell.\nVisible state/action: resting on a stone step, partially covered in debris.\nSetting: a generic church courtyard at dusk.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nine defendants were acquitted, and one died in custody before the trial concluded in 2023. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single empty cell door.\nVisible state/action: open and slightly ajar.\nSetting: generic prison corridor with muted concrete walls.\nComposition: medium shot, centered frame, symmetrical composition with clean lines; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Investigators linked the attacks to two militant groups inspired by Islamic State that killed 45 foreigners. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single empty seat in a public venue.\nVisible state/action: the empty seat rests on a plain wooden floor, surrounded by subtle dust particles in natural light.\nSetting: generic public venue interior (e.g., theater, auditorium, or community hall).\nComposition: medium shot, centered framing of the empty seat, soft natural light from a window to the side, shallow depth of field focusing on the seat; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+  },
+  "topic": "POLITICS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 0,
+    "CULTURE": 0,
+    "FINANCE": 0,
+    "HEALTH": 59,
+    "LIFESTYLE": 73,
+    "POLITICS": 93,
+    "SCIENCE": 26,
+    "SPORTS": 53,
+    "TECHNOLOGY": 65,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 155180435,
+    "slide_1_text": 242372928,
+    "slide_2_text": 622413983,
+    "slide_3_text": 787455874,
+    "slide_4_text": 101352519,
+    "slide_5_text": 556036689
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Sri Lanka's High Court",
+        "convicts 15 men",
+        "2019 Easter bombings",
+        "targeting churches and hotels"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "High Court courtroom",
+      "visible_action_or_state": "empty courtroom chairs with a judge's bench in the foreground",
+      "setting": "generic high court interior",
+      "composition": "medium shot, centered, with the judge's bench and empty chairs filling the frame",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the identity of any person",
+        "the exact date or time",
+        "the location of the bombings",
+        "the names of the convicted men",
+        "the specific churches and hotels bombed"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "mastermind was identified",
+        "defendant from the Muslim minority community",
+        "facing over 23,000 charges"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single legal file folder",
+      "visible_action_or_state": "a legal file folder resting on a plain wooden desk",
+      "setting": "generic office interior with soft natural light",
+      "composition": "centered, medium shot, eye-level perspective",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific person",
+        "identifiable location",
+        "actual charges count",
+        "religious symbols",
+        "documented evidence"
+      ],
+      "distinct_from_prior_slides": "Slide 1 showed empty courtroom chairs; this shows a single file folder on a desk",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Attacks struck during Easter Sunday celebrations",
+        "at three churches and three luxury hotels",
+        "killing 279"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single broken church bell",
+      "visible_action_or_state": "resting on a stone step, partially covered in debris",
+      "setting": "a generic church courtyard at dusk",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific church location",
+        "the exact time of day",
+        "the identity of the victims",
+        "the cause of the attacks",
+        "any perpetrator or weapon"
+      ],
+      "distinct_from_prior_slides": "avoids the generic office interior setting of earlier slides; avoids the legal file folder subject",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Nine defendants were acquitted",
+        "One died in custody",
+        "Trial concluded in 2023"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single empty cell door",
+      "visible_action_or_state": "open and slightly ajar",
+      "setting": "generic prison corridor with muted concrete walls",
+      "composition": "medium shot, centered frame, symmetrical composition with clean lines",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific trial details",
+        "identifiable defendant or victim",
+        "courtroom proceedings",
+        "cause of death"
+      ],
+      "distinct_from_prior_slides": "avoids courtroom setting (Slide 1), file folder (Slide 2), broken bell (Slide 3)",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Investigators linked the attacks",
+        "to two militant groups",
+        "inspired by Islamic State",
+        "that killed 45 foreigners"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single empty seat in a public venue",
+      "visible_action_or_state": "the empty seat rests on a plain wooden floor, surrounded by subtle dust particles in natural light",
+      "setting": "generic public venue interior (e.g., theater, auditorium, or community hall)",
+      "composition": "medium shot, centered framing of the empty seat, soft natural light from a window to the side, shallow depth of field focusing on the seat",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the attacks occurred at this venue",
+        "the identity of the victims",
+        "the specific militant groups",
+        "any religious symbols or text",
+        "a specific date or location"
+      ],
+      "distinct_from_prior_slides": "avoids the courtroom, legal files, church bells, and prison doors from prior slides; focuses on a public venue instead of institutional settings",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Victims' families",
+        "called the verdict",
+        "long overdue justice",
+        "Sri Lanka's deadliest terrorist incident"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single white rose",
+      "visible_action_or_state": "placed on a simple wooden bench",
+      "setting": "generic park bench at dusk",
+      "composition": "medium shot, centered on the rose with the bench in soft focus in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the exact date or location of the incident",
+        "specific identities of victims",
+        "the verdict document or courtroom proceedings",
+        "the perpetrator or any specific individuals"
+      ],
+      "distinct_from_prior_slides": "avoids office, courtroom, prison, church, and public venue settings used in earlier slides; does not use files, doors, bells, or empty seats",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_97196_title.png",
+      "text": "Sri Lanka's High Court convicts 15 men for 2019 Easter bombings targeting churches and hotels",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sri Lanka's High Court convicts 15 men for 2019 Easter bombings targeting churches and hotels (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: High Court courtroom.\nVisible state/action: empty courtroom chairs with a judge's bench in the foreground.\nSetting: generic high court interior.\nComposition: medium shot, centered, with the judge's bench and empty chairs filling the frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_97196_slide_1.png",
+      "text": "The mastermind was identified as a defendant from the Muslim minority community facing over 23,000 charges.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The mastermind was identified as a defendant from the Muslim minority community facing over 23,000 charges. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single legal file folder.\nVisible state/action: a legal file folder resting on a plain wooden desk.\nSetting: generic office interior with soft natural light.\nComposition: centered, medium shot, eye-level perspective; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_97196_slide_2.png",
+      "text": "Attacks struck during Easter Sunday celebrations at three churches and three luxury hotels, killing 279.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Attacks struck during Easter Sunday celebrations at three churches and three luxury hotels, killing 279. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single broken church bell.\nVisible state/action: resting on a stone step, partially covered in debris.\nSetting: a generic church courtyard at dusk.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_97196_slide_3.png",
+      "text": "Nine defendants were acquitted, and one died in custody before the trial concluded in 2023.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nine defendants were acquitted, and one died in custody before the trial concluded in 2023. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single empty cell door.\nVisible state/action: open and slightly ajar.\nSetting: generic prison corridor with muted concrete walls.\nComposition: medium shot, centered frame, symmetrical composition with clean lines; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_97196_slide_4.png",
+      "text": "Investigators linked the attacks to two militant groups inspired by Islamic State that killed 45 foreigners.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Investigators linked the attacks to two militant groups inspired by Islamic State that killed 45 foreigners. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single empty seat in a public venue.\nVisible state/action: the empty seat rests on a plain wooden floor, surrounded by subtle dust particles in natural light.\nSetting: generic public venue interior (e.g., theater, auditorium, or community hall).\nComposition: medium shot, centered framing of the empty seat, soft natural light from a window to the side, shallow depth of field focusing on the seat; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

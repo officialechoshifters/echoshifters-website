@@ -1,0 +1,236 @@
+{
+  "renderer": "comfyui",
+  "category": "business",
+  "published_at": "2026-09-28T21:08:10",
+  "image_url": "https://theintercept.com/wp-content/uploads/2026/09/signal-2026-09-23-12-10-51-688_002-e1790203073266.jpg?fit=1536%2C768&w=1200&h=800",
+  "texts": {
+    "title_text": "Cybersecurity researcher uncovered Flock Security's hidden surveillance network with 170,000+ devices",
+    "slide_1_text": "The Flock Surveillance Map shows nearly 300,000 devices including 27,000 acoustic sensors nationwide",
+    "slide_2_text": "Michael accessed Flock's unsecured ArcGIS platform using an exposed token from their database",
+    "slide_3_text": "He alerted Flock in November 2025 about the vulnerability but received no specific response",
+    "slide_4_text": "Flock later claimed no data breach despite Michael's discovery of the leaked database"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Cybersecurity researcher uncovered Flock Security's hidden surveillance network with 170,000+ devices (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a technician examining network hardware.\nVisible state/action: examining network hardware with a multimeter.\nSetting: generic server room.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The Flock Surveillance Map shows nearly 300,000 devices including 27,000 acoustic sensors nationwide (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single acoustic sensor device.\nVisible state/action: placed on a neutral surface.\nSetting: generic office desk.\nComposition: medium shot, centered, soft natural lighting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Michael accessed Flock's unsecured ArcGIS platform using an exposed token from their database (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: database token file.\nVisible state/action: a hand placing a token file on a neutral surface.\nSetting: generic office workspace.\nComposition: medium shot focusing on a hand placing a token file on a neutral surface, with blurred background of standard office furniture; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He alerted Flock in November 2025 about the vulnerability but received no specific response (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of flock and november and vulnerability, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Flock later claimed no data breach despite Michael's discovery of the leaked database (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of flock and later and data, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "POLITICS & TECHNOLOGY",
+  "topic_scores": {
+    "AI": 89,
+    "BUSINESS": 95,
+    "CULTURE": 78,
+    "FINANCE": 59,
+    "HEALTH": 59,
+    "LIFESTYLE": 45,
+    "POLITICS": 100,
+    "SCIENCE": 85,
+    "SPORTS": 0,
+    "TECHNOLOGY": 100,
+    "ENVIRONMENT": 59
+  },
+  "seeds": {
+    "title_text": 413974921,
+    "slide_1_text": 694463923,
+    "slide_2_text": 384873845,
+    "slide_3_text": 594563542,
+    "slide_4_text": 857709415,
+    "slide_5_text": 709378844
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Cybersecurity researcher",
+        "Flock Security",
+        "hidden surveillance network",
+        "170,000+ devices"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a technician examining network hardware",
+      "visible_action_or_state": "examining network hardware with a multimeter",
+      "setting": "generic server room",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific person",
+        "Flock Security's actual logo",
+        "a real device model",
+        "the exact network layout",
+        "a documented event"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Flock Surveillance Map",
+        "nearly 300,000 devices",
+        "27,000 acoustic sensors",
+        "nationwide"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single acoustic sensor device",
+      "visible_action_or_state": "placed on a neutral surface",
+      "setting": "generic office desk",
+      "composition": "medium shot, centered, soft natural lighting",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific location",
+        "real person",
+        "documented event",
+        "network map visualization"
+      ],
+      "distinct_from_prior_slides": "avoids server room hardware, focuses on acoustic sensor as material consequence",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Michael",
+        "accessed",
+        "Flock",
+        "unsecured",
+        "ArcGIS",
+        "platform",
+        "exposed",
+        "token",
+        "from",
+        "database"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "database token file",
+      "visible_action_or_state": "a hand placing a token file on a neutral surface",
+      "setting": "generic office workspace",
+      "composition": "medium shot focusing on a hand placing a token file on a neutral surface, with blurred background of standard office furniture",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Michael's identity",
+        "Flock's specific appearance",
+        "a specific database structure",
+        "the token's value",
+        "any security breach timeline"
+      ],
+      "distinct_from_prior_slides": "slide 1 showed hardware examination; slide 2 showed a sensor device; this shows a physical token file",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "He alerted Flock in November 2025 about the vulnerability but received no specific response"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of flock and november and vulnerability, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Flock later claimed no data breach despite Michael's discovery of the leaked database"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of flock and later and data, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "conclusion",
+      "fallback": true
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "transparency failure",
+        "critical national security risks",
+        "surveillance infrastructure"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a surveillance camera lens with a physical cover",
+      "visible_action_or_state": "a physical cover obscuring the camera lens",
+      "setting": "generic public space",
+      "composition": "centered frame with the camera lens and cover as the focal point, natural lighting, shallow depth of field to emphasize the cover",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific location",
+        "a named person",
+        "a documented event",
+        "a political figure",
+        "a specific security breach"
+      ],
+      "distinct_from_prior_slides": "avoids any human presence, digital interfaces, or document-like objects; differs from Slide 4 and 5 by using a physical object in a public setting rather than a still life on a table",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_108579_title.png",
+      "text": "Cybersecurity researcher uncovered Flock Security's hidden surveillance network with 170,000+ devices",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Cybersecurity researcher uncovered Flock Security's hidden surveillance network with 170,000+ devices (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a technician examining network hardware.\nVisible state/action: examining network hardware with a multimeter.\nSetting: generic server room.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_108579_slide_1.png",
+      "text": "The Flock Surveillance Map shows nearly 300,000 devices including 27,000 acoustic sensors nationwide",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The Flock Surveillance Map shows nearly 300,000 devices including 27,000 acoustic sensors nationwide (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single acoustic sensor device.\nVisible state/action: placed on a neutral surface.\nSetting: generic office desk.\nComposition: medium shot, centered, soft natural lighting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_108579_slide_2.png",
+      "text": "Michael accessed Flock's unsecured ArcGIS platform using an exposed token from their database",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Michael accessed Flock's unsecured ArcGIS platform using an exposed token from their database (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: database token file.\nVisible state/action: a hand placing a token file on a neutral surface.\nSetting: generic office workspace.\nComposition: medium shot focusing on a hand placing a token file on a neutral surface, with blurred background of standard office furniture; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_108579_slide_3.png",
+      "text": "He alerted Flock in November 2025 about the vulnerability but received no specific response",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He alerted Flock in November 2025 about the vulnerability but received no specific response (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of flock and november and vulnerability, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_108579_slide_4.png",
+      "text": "Flock later claimed no data breach despite Michael's discovery of the leaked database",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Flock later claimed no data breach despite Michael's discovery of the leaked database (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of flock and later and data, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

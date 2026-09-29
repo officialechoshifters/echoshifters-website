@@ -1,0 +1,234 @@
+{
+  "renderer": "comfyui",
+  "category": "entertainment",
+  "published_at": "2026-09-26T15:32:58",
+  "image_url": "https://www.billboard.com/wp-content/uploads/2022/09/snl-season-opener-musical-guest-illustration-2022-billboard-1548.jpg?w=1024",
+  "texts": {
+    "title_text": "SNL season 52 opens with Jalen Brunson hosting and KATSEYE as musical guest",
+    "slide_1_text": "KATSEYE makes history as the first all-female group to headline a season premiere musical slot.",
+    "slide_2_text": "Brunson joins Charles Barkley and LeBron James as NBA players hosting the show's opening night.",
+    "slide_3_text": "This strategic booking aims to draw audiences with current pop culture powerhouses from the start.",
+    "slide_4_text": "SNL's 1975 debut featured George Carlin with Billy Preston and Janis Ian as musical acts."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SNL season 52 opens with Jalen Brunson hosting and KATSEYE as musical guest (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: SNL Season 52 logo.\nVisible state/action: displayed on a simple backdrop.\nSetting: studio backdrop with neutral tones.\nComposition: medium close-up of SNL Season 52 logo centered on a plain backdrop, with subtle shadow lines suggesting a stage setting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Jalen Brunson clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: KATSEYE makes history as the first all-female group to headline a season premiere musical slot. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: empty stage.\nVisible state/action: empty stage ready for performance.\nSetting: television studio stage.\nComposition: medium shot, centered composition, shallow depth of field focusing on the empty stage; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Brunson joins Charles Barkley and LeBron James as NBA players hosting the show's opening night. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: NBA players.\nVisible state/action: standing in a group.\nSetting: television studio green room.\nComposition: medium shot, centered, face level; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This strategic booking aims to draw audiences with current pop culture powerhouses from the start. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of strategic and aims and audiences, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SNL's 1975 debut featured George Carlin with Billy Preston and Janis Ian as musical acts. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: vintage vinyl record.\nVisible state/action: resting on a neutral surface.\nSetting: a plain, well-lit studio table.\nComposition: centered, with the record's label visible but not readable, surrounded by soft natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "CULTURE & SPORTS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 63,
+    "CULTURE": 100,
+    "FINANCE": 36,
+    "HEALTH": 65,
+    "LIFESTYLE": 53,
+    "POLITICS": 53,
+    "SCIENCE": 45,
+    "SPORTS": 100,
+    "TECHNOLOGY": 26,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 533908901,
+    "slide_1_text": 350504258,
+    "slide_2_text": 793215926,
+    "slide_3_text": 118858783,
+    "slide_4_text": 419499387,
+    "slide_5_text": 735078319
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "SNL season 52",
+        "opens with",
+        "Jalen Brunson hosting",
+        "KATSEYE as musical guest"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "SNL Season 52 logo",
+      "visible_action_or_state": "displayed on a simple backdrop",
+      "setting": "studio backdrop with neutral tones",
+      "composition": "medium close-up of SNL Season 52 logo centered on a plain backdrop, with subtle shadow lines suggesting a stage setting",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Jalen Brunson's face",
+        "KATSEYE's actual performance",
+        "any specific SNL studio location",
+        "a fabricated event"
+      ],
+      "distinct_from_prior_slides": "No prior slides",
+      "recognizable_subject": "Jalen Brunson",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "KATSEYE",
+        "makes history",
+        "first all-female group",
+        "headline a season premiere musical slot"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "empty stage",
+      "visible_action_or_state": "empty stage ready for performance",
+      "setting": "television studio stage",
+      "composition": "medium shot, centered composition, shallow depth of field focusing on the empty stage",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific performance by KATSEYE",
+        "the exact date of the season premiere",
+        "the presence of any people on stage"
+      ],
+      "distinct_from_prior_slides": "Slide 1 used the SNL logo, this slide uses an empty stage in a television studio to show the venue context without referencing the logo or implying a specific performance",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Brunson joins Charles Barkley and LeBron James",
+        "NBA players",
+        "hosting the show's opening night"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "NBA players",
+      "visible_action_or_state": "standing in a group",
+      "setting": "television studio green room",
+      "composition": "medium shot, centered, face level",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific NBA player face",
+        "real event",
+        "SNL logo"
+      ],
+      "distinct_from_prior_slides": "Slide 2 was empty stage, this shows people in a green room",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "This strategic booking aims to draw audiences with current pop culture powerhouses from the start"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of strategic and aims and audiences, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "SNL's 1975 debut",
+        "featured George Carlin",
+        "Billy Preston",
+        "Janis Ian",
+        "as musical acts"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "vintage vinyl record",
+      "visible_action_or_state": "resting on a neutral surface",
+      "setting": "a plain, well-lit studio table",
+      "composition": "centered, with the record's label visible but not readable, surrounded by soft natural light",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific performance moment",
+        "George Carlin's face",
+        "Billy Preston's face",
+        "Janis Ian's face",
+        "1975 as a year",
+        "SNL's logo",
+        "1975 debut as a specific event"
+      ],
+      "distinct_from_prior_slides": "avoids empty stage (Slide 2), NBA players (Slide 3), editorial still life (Slide 4), and SNL logo (Slide 1)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "historic lineup",
+        "SNL's balance",
+        "legacy and fresh talent",
+        "entertainment"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single vintage SNL cast photo",
+      "visible_action_or_state": "displayed on a simple wooden frame",
+      "setting": "neutral studio wall with soft natural light",
+      "composition": "centered, with the photo taking up most of the frame, soft focus on the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific SNL cast members",
+        "current or past host",
+        "specific episode",
+        "SNL logo",
+        "identifiable faces",
+        "fabricated event"
+      ],
+      "distinct_from_prior_slides": "avoids the SNL logo (slide 1), empty stage (slide 2), NBA players (slide 3), editorial still life (slide 4), and vintage vinyl (slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_102658_title.png",
+      "text": "SNL season 52 opens with Jalen Brunson hosting and KATSEYE as musical guest",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SNL season 52 opens with Jalen Brunson hosting and KATSEYE as musical guest (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: SNL Season 52 logo.\nVisible state/action: displayed on a simple backdrop.\nSetting: studio backdrop with neutral tones.\nComposition: medium close-up of SNL Season 52 logo centered on a plain backdrop, with subtle shadow lines suggesting a stage setting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Jalen Brunson clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_102658_slide_1.png",
+      "text": "KATSEYE makes history as the first all-female group to headline a season premiere musical slot.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: KATSEYE makes history as the first all-female group to headline a season premiere musical slot. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: empty stage.\nVisible state/action: empty stage ready for performance.\nSetting: television studio stage.\nComposition: medium shot, centered composition, shallow depth of field focusing on the empty stage; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_102658_slide_2.png",
+      "text": "Brunson joins Charles Barkley and LeBron James as NBA players hosting the show's opening night.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Brunson joins Charles Barkley and LeBron James as NBA players hosting the show's opening night. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: NBA players.\nVisible state/action: standing in a group.\nSetting: television studio green room.\nComposition: medium shot, centered, face level; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_102658_slide_3.png",
+      "text": "This strategic booking aims to draw audiences with current pop culture powerhouses from the start.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This strategic booking aims to draw audiences with current pop culture powerhouses from the start. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of strategic and aims and audiences, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_102658_slide_4.png",
+      "text": "SNL's 1975 debut featured George Carlin with Billy Preston and Janis Ian as musical acts.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SNL's 1975 debut featured George Carlin with Billy Preston and Janis Ian as musical acts. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: vintage vinyl record.\nVisible state/action: resting on a neutral surface.\nSetting: a plain, well-lit studio table.\nComposition: centered, with the record's label visible but not readable, surrounded by soft natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

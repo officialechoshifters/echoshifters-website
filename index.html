@@ -2,37 +2,172 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400&family=Manrope:wght@400;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet" />
-    <meta name="description" content="NIGGHTERS — ideas worth staying up for." />
+    <!-- Fonts are self-hosted: no third-party requests or IP sharing before consent. -->
+    <link rel="preload" href="/fonts/fonts-app.css" as="style" />
+    <link rel="stylesheet" href="/fonts/fonts-app.css" />
+    <meta name="description" content="NIGGHTERS, ideas worth staying up for." />
     <meta name="theme-color" content="#0b0d0d" />
-    <meta property="og:title" content="NIGGHTERS — Ideas after dark" />
+    <meta property="og:title" content="NIGGHTERS, Ideas after dark" />
     <meta property="og:description" content="Sharp ideas, thoughtful stories, and visual culture for the curious." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://localhost:5173/" />
     <meta name="twitter:card" content="summary" />
-    <title>NIGGHTERS — Ideas after dark</title>
+    <title>NIGGHTERS, Ideas after dark</title>
+    <style>
+      .cookie-banner{position:fixed;left:18px;bottom:18px;z-index:80;max-width:360px;background:#0f1514;border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;box-shadow:0 18px 48px #0009}
+      .cookie-banner[hidden]{display:none}
+      .cookie-banner p{margin:0 0 14px;color:var(--muted);font-size:13px;line-height:1.5}
+      .cookie-actions{display:flex;gap:8px}
+      .cookie-actions button{font:inherit;font-size:13px;font-weight:700;padding:9px 14px;border-radius:8px;cursor:pointer}
+      /* DSK guidance: Accept and Reject must have equal visual prominence —
+         neither may be styled to nudge the visitor toward granting consent. */
+      .cookie-accept{background:transparent;color:var(--text);border:1px solid var(--line)}
+      .cookie-accept:hover{color:var(--accent-soft);border-color:var(--accent-soft)}
+      .cookie-decline{background:transparent;color:var(--text);border:1px solid var(--line)}
+      .cookie-decline:hover{color:var(--accent-soft);border-color:var(--accent-soft)}
+      @media(max-width:440px){.cookie-banner{left:12px;right:12px;bottom:12px;max-width:none}}
+      .cookie-modal{display:none;position:fixed;inset:0;background:#050707c9;backdrop-filter:blur(9px);z-index:85;align-items:center;justify-content:center;padding:20px}
+      .cookie-modal.show{display:flex}
+      .cookie-modal-card{width:100%;max-width:430px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 20px 90px #000;position:relative}
+      .cookie-modal-card h2{font-size:30px;letter-spacing:-.04em;margin:12px 0 6px}
+      .cookie-modal-card>p{color:var(--muted);font-size:13px;margin:0 0 10px}
+      .ck-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+      .ck-row b{display:block;font-size:13px;color:var(--text)}
+      .ck-row small{color:var(--muted);font-size:11px;line-height:1.45;display:block;margin-top:3px}
+      .switch{position:relative;width:40px;height:22px;flex:0 0 auto;display:inline-block}
+      .switch input{opacity:0;width:0;height:0;position:absolute}
+      .switch em{position:absolute;inset:0;background:var(--line);border-radius:99px;transition:background .2s;cursor:pointer;font-style:normal}
+      .switch em:before{content:'';position:absolute;width:16px;height:16px;border-radius:50%;background:var(--muted);top:3px;left:3px;transition:transform .2s,background .2s}
+      .switch input:checked+em{background:var(--accent)}
+      .switch input:checked+em:before{transform:translateX(18px);background:var(--on-accent)}
+      .switch input:disabled+em{opacity:.5;cursor:not-allowed}
+      .cookie-modal-actions{display:flex;gap:8px;margin-top:20px;flex-wrap:wrap}
+      @media(max-width:440px){.cookie-modal-card{padding:22px}}
+    </style>
+    <!-- Google Analytics: the gtag.js script is NOT loaded at all until the
+         visitor accepts analytics in the cookie banner. Nothing — no script,
+         no consent pings, no cookies — reaches Google before that. -->
     <script>
       window.dataLayer = window.dataLayer || []
-      function gtag(){dataLayer.push(arguments)}
-      gtag('js', new Date())
-      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-        const id = 'VITE_GA_MEASUREMENT_ID'
-        if (id && !id.includes('%VITE_')) {
-          const script = document.createElement('script')
-          script.async = true
-          script.src = `https://www.googletagmanager.com/gtag/js?id=${id}`
-          document.head.appendChild(script)
-          gtag('config', id)
-        }
-      }
+      window.gtag = window.gtag || function(){dataLayer.push(arguments)}
     </script>
   </head>
   <body>
     <div id="app"></div>
+    <div id="cookie-banner" class="cookie-banner" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
+      <p>We use cookies to understand how the journal is read, so we can make it better. Analytics cookies load only if you accept; declining keeps them off. See <a href="#page/privacy" style="color:var(--accent-soft);text-decoration:underline">the privacy policy</a> for details.</p>
+      <div class="cookie-actions">
+        <button class="cookie-accept" id="cookie-accept" type="button">Accept all</button>
+        <button class="cookie-decline" id="cookie-decline" type="button">Reject all</button>
+        <button class="cookie-decline" id="cookie-open-settings" type="button">Settings</button>
+      </div>
+    </div>
+    <div id="cookieModal" class="cookie-modal" role="dialog" aria-modal="true" aria-label="Cookie settings">
+      <div class="cookie-modal-card">
+        <button class="close" data-cookie-close aria-label="Close cookie settings">×</button>
+        <div class="eyebrow">Privacy choices</div>
+        <h2>Cookie settings.</h2>
+        <p>Choose which cookies NIGGHTERS may use. You can come back and change this anytime via the footer link.</p>
+        <div class="ck-row">
+          <span><b>Strictly necessary</b><small>Sign-in, security, and remembering this choice. Always on.</small></span>
+          <label class="switch"><input type="checkbox" checked disabled aria-label="Strictly necessary cookies, always on"><em></em></label>
+        </div>
+        <div class="ck-row">
+          <span><b>Analytics</b><small>Google Analytics 4 helps us understand how the journal is read. Loads only if you enable it.</small></span>
+          <label class="switch"><input type="checkbox" id="ck-analytics" aria-label="Analytics cookies"><em></em></label>
+        </div>
+        <div class="cookie-modal-actions">
+          <button class="primary" id="cookie-save" type="button">Save settings</button>
+          <button class="secondary" id="cookie-accept-modal" type="button">Accept all</button>
+          <button class="secondary" id="cookie-reject-modal" type="button">Reject all</button>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      ;(function () {
+        var KEY = 'nigghters-cookie-consent'
+        var banner = document.getElementById('cookie-banner')
+        var modal = document.getElementById('cookieModal')
+        var gaLoaded = false
+        function readSaved() {
+          try {
+            var c = JSON.parse(localStorage.getItem(KEY))
+            if (c && (c.analytics === 'granted' || c.analytics === 'denied')) return c
+          } catch (e) {}
+          // Consent v0 stored a plain string — keep honoring it.
+          try {
+            var raw = localStorage.getItem(KEY)
+            if (raw === 'accepted' || raw === 'declined') return { v: 0, analytics: raw === 'accepted' ? 'granted' : 'denied', legacy: true }
+          } catch (e2) {}
+          return null
+        }
+        function save(analytics) {
+          try { localStorage.setItem(KEY, JSON.stringify({ v: 2, categories: { necessary: true, analytics: analytics === 'granted' }, analytics: analytics, at: new Date().toISOString(), policy: '2026-09-22' })) } catch (e) { /* private mode: ask again next visit */ }
+        }
+        function clearGaCookies() {
+          document.cookie.split(';').forEach(function (c) {
+            var name = c.split('=')[0].trim()
+            if (/^(_ga|_gid|_ga_)/.test(name)) {
+              document.cookie = name + '=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/'
+            }
+          })
+        }
+        function loadGa() {
+          if (gaLoaded) return
+          if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return
+          gaLoaded = true
+          // Consent Mode v2 defaults, set immediately before the script loads:
+          // nothing is measured until consent is granted below.
+          gtag('consent', 'default', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' })
+          var s = document.createElement('script')
+          s.async = true
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N7KN11R4JG'
+          document.head.appendChild(s)
+        }
+        function apply(state) {
+          if (state === 'granted') {
+            loadGa()
+            gtag('consent', 'update', { analytics_storage: 'granted' })
+            gtag('config', 'G-N7KN11R4JG')
+          } else {
+            clearGaCookies()
+          }
+        }
+        function openModal() {
+          document.getElementById('ck-analytics').checked = readSaved() ? readSaved().analytics === 'granted' : false
+          modal.classList.add('show')
+        }
+        window.__nigghtersOpenCookieSettings = openModal
+        var saved = readSaved()
+        if (saved) { apply(saved.analytics) } else { banner.hidden = false }
+        document.getElementById('cookie-accept').onclick = function () {
+          save('granted'); banner.hidden = true; apply('granted')
+        }
+        document.getElementById('cookie-decline').onclick = function () {
+          save('denied'); banner.hidden = true; apply('denied')
+        }
+        document.getElementById('cookie-open-settings').onclick = openModal
+        document.getElementById('cookie-save').onclick = function () {
+          var on = document.getElementById('ck-analytics').checked
+          save(on ? 'granted' : 'denied'); apply(on ? 'granted' : 'denied')
+          modal.classList.remove('show'); banner.hidden = true
+        }
+        document.getElementById('cookie-accept-modal').onclick = function () {
+          document.getElementById('ck-analytics').checked = true
+          save('granted'); apply('granted')
+          modal.classList.remove('show'); banner.hidden = true
+        }
+        document.getElementById('cookie-reject-modal').onclick = function () {
+          document.getElementById('ck-analytics').checked = false
+          save('denied'); apply('denied')
+          modal.classList.remove('show'); banner.hidden = true
+        }
+        modal.addEventListener('click', function (e) { if (e.target === modal) modal.classList.remove('show') })
+        document.querySelector('[data-cookie-close]').onclick = function () { modal.classList.remove('show') }
+      })()
+    </script>
   </body>
 </html>

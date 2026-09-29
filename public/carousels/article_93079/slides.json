@@ -1,0 +1,240 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-21T05:00:19",
+  "image_url": "https://i.guim.co.uk/img/media/fba8e7a11fea398e6b62df4efedfaec5e1490daf/844_2_5091_4075/master/5091.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=921f4fe58c45c0ef8b1860596ded6427",
+  "texts": {
+    "title_text": "An ICE officer shot a DoorDash driver during a traffic stop in Austin amid protests",
+    "slide_1_text": "The victim, identified as Wilber Rafael Garcés Pérez, was wounded in the torso during the stop",
+    "slide_2_text": "Bystander footage showed federal officers in tactical gear standing by while Austin police provided first aid",
+    "slide_3_text": "ICE removed Garcés Pérez from a hospital without informing his family after the incident",
+    "slide_4_text": "Austin Mayor Kirk Watson called for a third-party investigation, criticizing ICE’s lack of transparency"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: An ICE officer shot a DoorDash driver during a traffic stop in Austin amid protests (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a police vehicle with a visible badge and license plate.\nVisible state/action: parked at an angle on a city street.\nSetting: a generic urban street in a city.\nComposition: centered, full frame, low angle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The victim, identified as Wilber Rafael Garcés Pérez, was wounded in the torso during the stop (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a medical gauze pad.\nVisible state/action: placed on a white medical tray.\nSetting: a generic hospital emergency room.\nComposition: medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Bystander footage showed federal officers in tactical gear standing by while Austin police provided first aid (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: federal officers in tactical gear.\nVisible state/action: standing in a neutral, non-interactive posture.\nSetting: generic public park area with trees and benches.\nComposition: medium shot focusing on the officers' shoulders and upper bodies, with the Austin police visible in the background performing first aid; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: ICE removed Garcés Pérez from a hospital without informing his family after the incident (never as visible words).\nVisual evidence mode: material_consequence.\nShow: hospital bed rail.\nVisible state/action: a single, unsecured hospital bed rail with a small, faded medical sticker still attached.\nSetting: generic hospital hallway.\nComposition: centered, 1/3 rule, medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Austin Mayor Kirk Watson called for a third-party investigation, criticizing ICE’s lack of transparency (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a city council meeting room.\nVisible state/action: a single, unoccupied chair with a nameplate reading 'Mayor Watson' placed at the head of a long table.\nSetting: a generic city government building interior.\nComposition: centered shot of a conference table with the unoccupied chair at the head, empty chairs on either side, soft natural light from a window behind the table; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "POLITICS & HEALTH",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 26,
+    "CULTURE": 63,
+    "FINANCE": 0,
+    "HEALTH": 94,
+    "LIFESTYLE": 57,
+    "POLITICS": 100,
+    "SCIENCE": 0,
+    "SPORTS": 53,
+    "TECHNOLOGY": 53,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 130291470,
+    "slide_1_text": 927089396,
+    "slide_2_text": 683907781,
+    "slide_3_text": 727714274,
+    "slide_4_text": 399274563,
+    "slide_5_text": 551603399
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "An ICE officer",
+        "shot",
+        "a DoorDash driver",
+        "during a traffic stop",
+        "in Austin",
+        "amid protests"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "a police vehicle with a visible badge and license plate",
+      "visible_action_or_state": "parked at an angle on a city street",
+      "setting": "a generic urban street in a city",
+      "composition": "centered, full frame, low angle",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the specific person who was shot",
+        "the identity of the officer",
+        "the exact location of the traffic stop",
+        "the nature of the protests",
+        "the moment of the shooting"
+      ],
+      "distinct_from_prior_slides": "No prior slides",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "victim",
+        "identified as Wilber Rafael Garcés Pérez",
+        "wounded in the torso",
+        "during the stop"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a medical gauze pad",
+      "visible_action_or_state": "placed on a white medical tray",
+      "setting": "a generic hospital emergency room",
+      "composition": "medium close-up",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the specific identity of Wilber Rafael Garcés Pérez",
+        "the location of the stop",
+        "the identity of the officer or officers involved",
+        "the cause of the stop beyond being a stop",
+        "the exact time or date of the incident"
+      ],
+      "distinct_from_prior_slides": "avoids using a police vehicle as seen in Slide 1",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "bystander footage",
+        "federal officers",
+        "tactical gear",
+        "standing by",
+        "Austin police",
+        "first aid"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "federal officers in tactical gear",
+      "visible_action_or_state": "standing in a neutral, non-interactive posture",
+      "setting": "generic public park area with trees and benches",
+      "composition": "medium shot focusing on the officers' shoulders and upper bodies, with the Austin police visible in the background performing first aid",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific incident",
+        "the identity of any person",
+        "the location as Austin",
+        "the police officers as the primary subject"
+      ],
+      "distinct_from_prior_slides": "avoids the street setting of slide 1 and the hospital setting of slide 2",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "ICE removed Garcés Pérez from a hospital",
+        "without informing his family",
+        "after the incident"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "hospital bed rail",
+      "visible_action_or_state": "a single, unsecured hospital bed rail with a small, faded medical sticker still attached",
+      "setting": "generic hospital hallway",
+      "composition": "centered, 1/3 rule, medium close-up",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Garcés Pérez's face",
+        "ICE officers' faces or uniforms",
+        "the incident details",
+        "hospital staff presence",
+        "family interaction"
+      ],
+      "distinct_from_prior_slides": "avoids hospital room setting (Slide 2), tactical officers (Slide 3), and police vehicle (Slide 1)",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Austin Mayor Kirk Watson",
+        "called for a third-party investigation",
+        "criticizing ICE’s lack of transparency"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a city council meeting room",
+      "visible_action_or_state": "a single, unoccupied chair with a nameplate reading 'Mayor Watson' placed at the head of a long table",
+      "setting": "a generic city government building interior",
+      "composition": "centered shot of a conference table with the unoccupied chair at the head, empty chairs on either side, soft natural light from a window behind the table",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "ICE officers",
+        "a specific meeting date or time",
+        "the mayor's physical presence",
+        "any action beyond the chair placement"
+      ],
+      "distinct_from_prior_slides": "avoids hospital settings and medical objects used in slides 2 and 4; avoids police vehicle (slide 1) and tactical officers (slide 3); uses a government building setting instead of hospital or public park",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "incident",
+        "surge in ICE enforcement",
+        "this summer",
+        "two other fatal incidents"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a yellow traffic cone",
+      "visible_action_or_state": "placed on a sidewalk near a curb",
+      "setting": "generic city sidewalk",
+      "composition": "medium close-up, centered, soft natural light",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific incident location",
+        "identifiable people",
+        "ICE enforcement actions",
+        "fatalities",
+        "summer timeline"
+      ],
+      "distinct_from_prior_slides": "avoids medical objects (slide 2, 4), police vehicle (slide 1), tactical officers (slide 3), empty chair (slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_93079_title.png",
+      "text": "An ICE officer shot a DoorDash driver during a traffic stop in Austin amid protests",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: An ICE officer shot a DoorDash driver during a traffic stop in Austin amid protests (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a police vehicle with a visible badge and license plate.\nVisible state/action: parked at an angle on a city street.\nSetting: a generic urban street in a city.\nComposition: centered, full frame, low angle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_93079_slide_1.png",
+      "text": "The victim, identified as Wilber Rafael Garcés Pérez, was wounded in the torso during the stop",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The victim, identified as Wilber Rafael Garcés Pérez, was wounded in the torso during the stop (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a medical gauze pad.\nVisible state/action: placed on a white medical tray.\nSetting: a generic hospital emergency room.\nComposition: medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_93079_slide_2.png",
+      "text": "Bystander footage showed federal officers in tactical gear standing by while Austin police provided first aid",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Bystander footage showed federal officers in tactical gear standing by while Austin police provided first aid (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: federal officers in tactical gear.\nVisible state/action: standing in a neutral, non-interactive posture.\nSetting: generic public park area with trees and benches.\nComposition: medium shot focusing on the officers' shoulders and upper bodies, with the Austin police visible in the background performing first aid; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_93079_slide_3.png",
+      "text": "ICE removed Garcés Pérez from a hospital without informing his family after the incident",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: ICE removed Garcés Pérez from a hospital without informing his family after the incident (never as visible words).\nVisual evidence mode: material_consequence.\nShow: hospital bed rail.\nVisible state/action: a single, unsecured hospital bed rail with a small, faded medical sticker still attached.\nSetting: generic hospital hallway.\nComposition: centered, 1/3 rule, medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_93079_slide_4.png",
+      "text": "Austin Mayor Kirk Watson called for a third-party investigation, criticizing ICE’s lack of transparency",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Austin Mayor Kirk Watson called for a third-party investigation, criticizing ICE’s lack of transparency (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a city council meeting room.\nVisible state/action: a single, unoccupied chair with a nameplate reading 'Mayor Watson' placed at the head of a long table.\nSetting: a generic city government building interior.\nComposition: centered shot of a conference table with the unoccupied chair at the head, empty chairs on either side, soft natural light from a window behind the table; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

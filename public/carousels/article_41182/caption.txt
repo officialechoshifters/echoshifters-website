@@ -1,9 +1,0 @@
-A U.S. federal court has ruled that the Pentagon's decision to label Anthropic a 'supply chain risk' was illegal. Judge Rita Lin, based in California, found the government's actions were motivated by a desire to punish the AI firm for its public criticism of defense policies rather than any legitimate security concern.
-
-The dispute began in February when Anthropic declined to let the Pentagon use its technology without restrictions. CEO Dario Amodei expressed concerns about the reliability of AI in autonomous weapons and mass surveillance. In March, the Pentagon imposed the 'supply chain risk' label, which is rare for a U.S. company. Anthropic argued this was an unfair retaliation, impacting its business beyond defense contracts.
-
-President Trump criticized Anthropic as a 'radical left, woke company' and ordered federal agencies to stop using its tech. Defense Secretary Hegseth pressured companies to sever ties with Anthropic for defense deals. Meanwhile, OpenAI, Anthropic's main competitor, reached an agreement with the Pentagon.
-
-Judge Lin emphasized that the government could not use national security as a pretext to silence criticism. She blocked the Pentagon's labeling and Trump's social media directive, calling the government's stance 'troubling' and conflicting with the First Amendment.
-
-The ruling comes as Anthropic prepares for a potential IPO that could surpass SpaceX's record. The decision highlights tensions between corporate innovation and government oversight, raising questions about the balance of power in AI regulation.

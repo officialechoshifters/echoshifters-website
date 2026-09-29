@@ -19,7 +19,7 @@ if (build.status !== 0) {
 console.log('\n=== 2/2 Deploying to nigghters.netlify.app ===\n');
 const deploy = spawnSync(
   'npx',
-  ['netlify', 'deploy', '--prod', '--dir', 'dist', '--no-build', '--auth', token, '--site', '46833376-ce2c-4cc1-9a7a-ee652f72a2e3'],
+  ['netlify', 'deploy', '--prod', '--dir', 'dist', '--no-build', '--auth', token, '--site', '1a06a770-7710-4808-ad2a-1d3e6a3612a7'],
   { stdio: 'inherit', shell: true }
 );
 process.exit(deploy.status ?? 1);

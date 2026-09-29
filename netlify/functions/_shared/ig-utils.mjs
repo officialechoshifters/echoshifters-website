@@ -37,6 +37,25 @@ export async function writeIndex(carousels) {
   await store().setJSON('index.json', { generated_from: 'instagram-graph-api', carousels })
 }
 
+// Tombstones: media ids that were once synced and later deleted on Instagram.
+// The /content/* function uses them to hide static copies of deleted posts
+// (static entries carry `post.media_id` but cannot be edited by the sync).
+const TOMBSTONES_KEY = 'config/deleted-media-ids'
+const TOMBSTONES_CAP = 1000
+
+export async function readDeletedMediaIds() {
+  const raw = await store().get(TOMBSTONES_KEY, { type: 'json' }).catch(() => null)
+  return raw && Array.isArray(raw.ids) ? raw.ids : []
+}
+
+export async function addDeletedMediaIds(ids) {
+  if (!ids.length) return
+  const s = store()
+  const merged = [...new Set([...(await readDeletedMediaIds()), ...ids.map(String)])]
+  // Newest deletions matter most; cap the list so it cannot grow forever.
+  await s.setJSON(TOMBSTONES_KEY, { ids: merged.slice(-TOMBSTONES_CAP) })
+}
+
 const TOPIC_CATALOG = ['AI', 'Business', 'Culture', 'Finance', 'Health', 'Lifestyle', 'Politics', 'Science', 'Sports', 'Technology', 'Environment']
 
 // Pre-merge labels still seen on older captions resolve to the topic that
@@ -64,6 +83,37 @@ export function mediaKey(mediaId, slideIndex, mediaType) {
 
 export function mediaUrlFor(key) {
   return `${BLOB_PREFIX}${key}`
+}
+
+// Deletes every blob belonging to one synced carousel (slides + caption).
+// Keys are derived from the index entry itself; the entry's directory prefix
+// is also swept so no stray file can keep the post half-alive. Individual
+// delete failures are swallowed — a leftover orphan is harmless (nothing in
+// the index references it), while a thrown error would abort a whole sync.
+export async function deleteCarouselBlobs(entry) {
+  const s = store()
+  const keys = new Set()
+  for (const slide of entry.slides || []) {
+    if (slide.file && slide.file.startsWith(BLOB_PREFIX)) keys.add(slide.file.slice(BLOB_PREFIX.length))
+  }
+  if (entry.caption && entry.caption.startsWith(BLOB_PREFIX)) keys.add(entry.caption.slice(BLOB_PREFIX.length))
+  if (entry.directory && entry.directory.startsWith(BLOB_PREFIX)) {
+    const prefix = entry.directory.slice(BLOB_PREFIX.length) + '/'
+    try {
+      let cursor
+      do {
+        const page = await s.list({ prefix, cursor })
+        for (const blob of page.blobs || []) keys.add(blob.key)
+        cursor = page.cursor
+      } while (cursor)
+    } catch {
+      /* listing is best-effort cleanup; explicit keys above already cover the entry */
+    }
+  }
+  for (const key of keys) {
+    await s.delete(key).catch(() => {})
+  }
+  return keys.size
 }
 
 // Downloads a URL into a blob. Returns the public-facing /media/ path.

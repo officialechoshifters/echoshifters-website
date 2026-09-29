@@ -5,5 +5,13 @@
 [functions]
   directory = "netlify/functions"
 
+# Local `netlify dev` runs Vite directly instead of auto-detecting the
+# framework — the autodetect path forces a `pnpm install` that fails on
+# pnpm's ignored-build-scripts check. The [dev] block only affects local dev.
+[dev]
+  framework = "#custom"
+  command = "npx vite --port 8888 --strictPort"
+  targetPort = 8888
+
 [build.environment]
   NODE_VERSION = "20"

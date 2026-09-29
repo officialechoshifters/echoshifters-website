@@ -1,0 +1,233 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-22T05:41:08",
+  "image_url": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/07/13/d3b9bd2f-e3c5-4256-ac4f-f05ebbe24955/thumbnail/1200x630/37c42df252746bd13b050c4ab3b05023/ap26191650213893.jpg",
+  "texts": {
+    "title_text": "Mississippi grand jury finds no criminal wrongdoing in Nolan Wells' drowning death",
+    "slide_1_text": "The panel dismissed public claims of racial motivation or criminal conduct among boat passengers",
+    "slide_2_text": "Investigators reviewed testimony from 43 witnesses and physical evidence including waterlogged clothing",
+    "slide_3_text": "Wells' friends reported he stayed on Horn Island to speak with a girl while parents said he never left the group",
+    "slide_4_text": "A private autopsy listed his cause of death as undetermined pending further investigation"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Mississippi grand jury finds no criminal wrongdoing in Nolan Wells' drowning death (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Mississippi grand jury room.\nVisible state/action: empty courtroom with a single chair facing a table.\nSetting: generic courthouse interior.\nComposition: medium shot, centered composition with the empty chair and table in the middle of the frame, soft natural light from a window on the side; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The panel dismissed public claims of racial motivation or criminal conduct among boat passengers (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: empty public hearing room.\nVisible state/action: empty chairs arranged facing a podium.\nSetting: generic public hearing room.\nComposition: {centered, medium shot, clean background, soft natural light}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Investigators reviewed testimony from 43 witnesses and physical evidence including waterlogged clothing (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: waterlogged clothing.\nVisible state/action: laid out on a table with a magnifying glass held nearby.\nSetting: generic forensic lab.\nComposition: medium close-up, table-centered, water droplets visible on fabric; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Wells' friends reported he stayed on Horn Island to speak with a girl while parents said he never left the group (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a group of children at play.\nVisible state/action: children sitting in a circle on a grassy field, one child (face not visible) gesturing toward a girl standing at the edge of the group.\nSetting: generic park or field near a body of water.\nComposition: symmetrical framing with the group centered, the girl at the edge of the circle partially visible, and the field extending into the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A private autopsy listed his cause of death as undetermined pending further investigation (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single medical report page.\nVisible state/action: a medical report page lying flat on a table, partially covered by a white sheet.\nSetting: generic medical office or examination room.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+  },
+  "topic": "SPORTS & SCIENCE",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 0,
+    "CULTURE": 26,
+    "FINANCE": 0,
+    "HEALTH": 75,
+    "LIFESTYLE": 80,
+    "POLITICS": 74,
+    "SCIENCE": 88,
+    "SPORTS": 95,
+    "TECHNOLOGY": 88,
+    "ENVIRONMENT": 65
+  },
+  "seeds": {
+    "title_text": 653419206,
+    "slide_1_text": 833974567,
+    "slide_2_text": 596182018,
+    "slide_3_text": 240620493,
+    "slide_4_text": 239202262,
+    "slide_5_text": 233483553
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Mississippi grand jury",
+        "finds no criminal wrongdoing",
+        "Nolan Wells' drowning death"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "Mississippi grand jury room",
+      "visible_action_or_state": "empty courtroom with a single chair facing a table",
+      "setting": "generic courthouse interior",
+      "composition": "medium shot, centered composition with the empty chair and table in the middle of the frame, soft natural light from a window on the side",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Nolan Wells as a person",
+        "the drowning event",
+        "the grand jury's deliberation process",
+        "the outcome being discussed"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "panel",
+        "dismissed",
+        "public claims",
+        "racial motivation",
+        "criminal conduct",
+        "boat passengers"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "empty public hearing room",
+      "visible_action_or_state": "empty chairs arranged facing a podium",
+      "setting": "generic public hearing room",
+      "composition": "{centered, medium shot, clean background, soft natural light}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific racial identity",
+        "criminal activity",
+        "boat passengers present",
+        "panel members visible"
+      ],
+      "distinct_from_prior_slides": "avoids courthouse interior (slide 1 used 'courthouse interior', this uses 'public hearing room' with chairs facing podium, not empty courtroom with single chair)",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Investigators reviewed testimony",
+        "43 witnesses",
+        "physical evidence",
+        "waterlogged clothing"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "waterlogged clothing",
+      "visible_action_or_state": "laid out on a table with a magnifying glass held nearby",
+      "setting": "generic forensic lab",
+      "composition": "medium close-up, table-centered, water droplets visible on fabric",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific investigators",
+        "Mississippi grand jury",
+        "courtroom",
+        "identifiable witness"
+      ],
+      "distinct_from_prior_slides": "avoids empty rooms and focuses on physical evidence in a lab setting",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Wells' friends reported",
+        "he stayed on Horn Island",
+        "to speak with a girl",
+        "parents said he never left the group"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a group of children at play",
+      "visible_action_or_state": "children sitting in a circle on a grassy field, one child (face not visible) gesturing toward a girl standing at the edge of the group",
+      "setting": "generic park or field near a body of water",
+      "composition": "symmetrical framing with the group centered, the girl at the edge of the circle partially visible, and the field extending into the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Wells' identity",
+        "Horn Island's specific location",
+        "any specific interaction between Wells and the girl",
+        "the parents' statement as a direct quote",
+        "the girl's identity or appearance"
+      ],
+      "distinct_from_prior_slides": "Slide 1: empty courtroom; Slide 2: empty hearing room; Slide 3: forensic clothing",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "private autopsy",
+        "cause of death listed as undetermined",
+        "pending further investigation"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single medical report page",
+      "visible_action_or_state": "a medical report page lying flat on a table, partially covered by a white sheet",
+      "setting": "generic medical office or examination room",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the identity of the deceased",
+        "the specific medical findings",
+        "the location of the autopsy",
+        "any conclusion about cause of death"
+      ],
+      "distinct_from_prior_slides": "avoids forensic lab setting used in Slide 3 (mechanism) and the park setting used in Slide 4 (impact)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "The family's attorney called findings confusing",
+        "urging continued investigation",
+        "authorities cited legal proof standards"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single page of legal paper with a highlighted section",
+      "visible_action_or_state": "a single page of legal paper with a highlighted section lies open on a table",
+      "setting": "generic office or legal workspace",
+      "composition": "centered, with the page fully visible and the highlighted section clearly visible but not overly dramatic",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific attorney or family member",
+        "a specific legal case or jurisdiction",
+        "a specific timeline or date"
+      ],
+      "distinct_from_prior_slides": "avoids forensic labs (slide 3), public hearing rooms (slide 2), medical reports (slide 5), and courtroom scenes (slide 1)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_95761_title.png",
+      "text": "Mississippi grand jury finds no criminal wrongdoing in Nolan Wells' drowning death",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Mississippi grand jury finds no criminal wrongdoing in Nolan Wells' drowning death (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Mississippi grand jury room.\nVisible state/action: empty courtroom with a single chair facing a table.\nSetting: generic courthouse interior.\nComposition: medium shot, centered composition with the empty chair and table in the middle of the frame, soft natural light from a window on the side; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_95761_slide_1.png",
+      "text": "The panel dismissed public claims of racial motivation or criminal conduct among boat passengers",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The panel dismissed public claims of racial motivation or criminal conduct among boat passengers (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: empty public hearing room.\nVisible state/action: empty chairs arranged facing a podium.\nSetting: generic public hearing room.\nComposition: {centered, medium shot, clean background, soft natural light}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_95761_slide_2.png",
+      "text": "Investigators reviewed testimony from 43 witnesses and physical evidence including waterlogged clothing",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Investigators reviewed testimony from 43 witnesses and physical evidence including waterlogged clothing (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: waterlogged clothing.\nVisible state/action: laid out on a table with a magnifying glass held nearby.\nSetting: generic forensic lab.\nComposition: medium close-up, table-centered, water droplets visible on fabric; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_95761_slide_3.png",
+      "text": "Wells' friends reported he stayed on Horn Island to speak with a girl while parents said he never left the group",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Wells' friends reported he stayed on Horn Island to speak with a girl while parents said he never left the group (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a group of children at play.\nVisible state/action: children sitting in a circle on a grassy field, one child (face not visible) gesturing toward a girl standing at the edge of the group.\nSetting: generic park or field near a body of water.\nComposition: symmetrical framing with the group centered, the girl at the edge of the circle partially visible, and the field extending into the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_95761_slide_4.png",
+      "text": "A private autopsy listed his cause of death as undetermined pending further investigation",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A private autopsy listed his cause of death as undetermined pending further investigation (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single medical report page.\nVisible state/action: a medical report page lying flat on a table, partially covered by a white sheet.\nSetting: generic medical office or examination room.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

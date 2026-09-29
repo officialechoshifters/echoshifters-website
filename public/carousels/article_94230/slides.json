@@ -1,0 +1,234 @@
+{
+  "renderer": "comfyui",
+  "category": "lifestyle",
+  "published_at": "2026-09-21T06:19:10",
+  "image_url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/21/54c7d9bc-2427-4671-8e2e-fa1e09ff8326/thumbnail/1200x630/670e602332a7e73b3b319cc8e3a9e2b1/gettyimages-2257331858.jpg",
+  "texts": {
+    "title_text": "Presley Gerber, 27, died at a Los Angeles rehab center, medical records confirm.",
+    "slide_1_text": "Medical examiners confirmed his death but withheld the cause despite his public discussions of mental health challenges.",
+    "slide_2_text": "Gerber started modeling professionally at 16 with Moschino, later collaborating with Burberry and Dolce & Gabbana.",
+    "slide_3_text": "His father co-founded Casamigos tequila with George Clooney, though the family requested privacy after the death.",
+    "slide_4_text": "Gerber openly shared his recovery journey in a 2023 podcast, emphasizing support for others facing similar struggles."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Presley Gerber, 27, died at a Los Angeles rehab center, medical records confirm. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: medical records.\nVisible state/action: a single page of medical records resting on a clean white surface, with the date and patient name partially visible.\nSetting: generic medical office setting.\nComposition: centered, flat lay; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Presley Gerber clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Medical examiners confirmed his death but withheld the cause despite his public discussions of mental health challenges. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: medical examiner's office exterior.\nVisible state/action: a closed door with a small peephole window showing the interior light on.\nSetting: generic office building hallway.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Gerber started modeling professionally at 16 with Moschino, later collaborating with Burberry and Dolce & Gabbana. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: modeling agency staff member handling a portfolio.\nVisible state/action: an anonymous staff member at a desk flipping through a modeling portfolio.\nSetting: generic modeling agency office.\nComposition: centered, close-up on hands flipping a portfolio with blurred background of office furniture; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His father co-founded Casamigos tequila with George Clooney, though the family requested privacy after the death. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: Casamigos tequila bottle.\nVisible state/action: a Casamigos tequila bottle resting on a simple wooden table.\nSetting: generic kitchen counter.\nComposition: centered, slightly low angle view focusing on the bottle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Gerber openly shared his recovery journey in a 2023 podcast, emphasizing support for others facing similar struggles. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: podcast microphone.\nVisible state/action: a single podcast microphone placed on a neutral surface with a soft, warm light illuminating it.\nSetting: generic home office or recording studio corner.\nComposition: centered, with the microphone slightly off-center to the right of the frame, soft natural light coming from the left side of the frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "HEALTH & CULTURE",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 45,
+    "CULTURE": 99,
+    "FINANCE": 0,
+    "HEALTH": 100,
+    "LIFESTYLE": 98,
+    "POLITICS": 86,
+    "SCIENCE": 48,
+    "SPORTS": 45,
+    "TECHNOLOGY": 95,
+    "ENVIRONMENT": 36
+  },
+  "seeds": {
+    "title_text": 545431757,
+    "slide_1_text": 303457901,
+    "slide_2_text": 571036130,
+    "slide_3_text": 612384391,
+    "slide_4_text": 603242701,
+    "slide_5_text": 559971554
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Presley Gerber",
+        "27",
+        "died",
+        "Los Angeles",
+        "rehab center",
+        "medical records confirm"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "medical records",
+      "visible_action_or_state": "a single page of medical records resting on a clean white surface, with the date and patient name partially visible",
+      "setting": "generic medical office setting",
+      "composition": "centered, flat lay",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Presley Gerber's face",
+        "specific Los Angeles location",
+        "rehab center exterior",
+        "cause of death",
+        "any specific medical condition"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "recognizable_subject": "Presley Gerber",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Medical examiners confirmed his death",
+        "withheld the cause",
+        "despite his public discussions of mental health challenges"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "medical examiner's office exterior",
+      "visible_action_or_state": "a closed door with a small peephole window showing the interior light on",
+      "setting": "generic office building hallway",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "identity of the deceased",
+        "specific mental health condition",
+        "reason for withholding cause",
+        "any document or written evidence"
+      ],
+      "distinct_from_prior_slides": "avoids medical office interior setting from slide 1 by using hallway exterior view; avoids medical records object by using door interior lighting",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Gerber started modeling professionally at 16",
+        "Gerber collaborated with Burberry",
+        "Gerber collaborated with Dolce & Gabbana",
+        "Gerber worked with Moschino"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "modeling agency staff member handling a portfolio",
+      "visible_action_or_state": "an anonymous staff member at a desk flipping through a modeling portfolio",
+      "setting": "generic modeling agency office",
+      "composition": "centered, close-up on hands flipping a portfolio with blurred background of office furniture",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Gerber's face or identity",
+        "specific location of Moschino/Burberry/Dolce & Gabbana",
+        "actual collaboration scenes",
+        "date or age of Gerber"
+      ],
+      "distinct_from_prior_slides": "differs from Slide 1 (medical records) by showing a modeling portfolio instead of medical documents, and from Slide 2 (office exterior) by focusing on a portfolio being handled inside an office",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "His father co-founded Casamigos tequila with George Clooney",
+        "the family requested privacy after the death"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "Casamigos tequila bottle",
+      "visible_action_or_state": "a Casamigos tequila bottle resting on a simple wooden table",
+      "setting": "generic kitchen counter",
+      "composition": "centered, slightly low angle view focusing on the bottle",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the identity of the person who wrote the note",
+        "the death mentioned",
+        "George Clooney's involvement in Casamigos",
+        "the father's name"
+      ],
+      "distinct_from_prior_slides": "does not show medical records, agency staff, or medical examiner office",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Gerber openly shared his recovery journey",
+        "in a 2023 podcast",
+        "emphasizing support for others facing similar struggles"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "podcast microphone",
+      "visible_action_or_state": "a single podcast microphone placed on a neutral surface with a soft, warm light illuminating it",
+      "setting": "generic home office or recording studio corner",
+      "composition": "centered, with the microphone slightly off-center to the right of the frame, soft natural light coming from the left side of the frame",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Gerber's face or identity",
+        "the exact podcast name or platform",
+        "any specific content of the podcast",
+        "a fabricated moment of Gerber speaking"
+      ],
+      "distinct_from_prior_slides": "does not repeat medical records, office exterior, portfolio handling, or tequila bottle",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "His passing",
+        "highlights persistent gaps",
+        "mental health care access",
+        "for those in high-profile public roles"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single, unmarked mental health clinic appointment card",
+      "visible_action_or_state": "resting on a plain wooden surface, partially open to reveal a blank appointment slot",
+      "setting": "generic quiet room with soft natural light",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific person",
+        "a specific mental health provider",
+        "a specific public figure",
+        "a specific appointment date",
+        "a specific clinic name"
+      ],
+      "distinct_from_prior_slides": "avoids medical records, modeling agency, tequila bottle, and podcast microphone",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_94230_title.png",
+      "text": "Presley Gerber, 27, died at a Los Angeles rehab center, medical records confirm.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Presley Gerber, 27, died at a Los Angeles rehab center, medical records confirm. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: medical records.\nVisible state/action: a single page of medical records resting on a clean white surface, with the date and patient name partially visible.\nSetting: generic medical office setting.\nComposition: centered, flat lay; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Presley Gerber clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_94230_slide_1.png",
+      "text": "Medical examiners confirmed his death but withheld the cause despite his public discussions of mental health challenges.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Medical examiners confirmed his death but withheld the cause despite his public discussions of mental health challenges. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: medical examiner's office exterior.\nVisible state/action: a closed door with a small peephole window showing the interior light on.\nSetting: generic office building hallway.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_94230_slide_2.png",
+      "text": "Gerber started modeling professionally at 16 with Moschino, later collaborating with Burberry and Dolce & Gabbana.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Gerber started modeling professionally at 16 with Moschino, later collaborating with Burberry and Dolce & Gabbana. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: modeling agency staff member handling a portfolio.\nVisible state/action: an anonymous staff member at a desk flipping through a modeling portfolio.\nSetting: generic modeling agency office.\nComposition: centered, close-up on hands flipping a portfolio with blurred background of office furniture; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_94230_slide_3.png",
+      "text": "His father co-founded Casamigos tequila with George Clooney, though the family requested privacy after the death.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His father co-founded Casamigos tequila with George Clooney, though the family requested privacy after the death. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: Casamigos tequila bottle.\nVisible state/action: a Casamigos tequila bottle resting on a simple wooden table.\nSetting: generic kitchen counter.\nComposition: centered, slightly low angle view focusing on the bottle; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_94230_slide_4.png",
+      "text": "Gerber openly shared his recovery journey in a 2023 podcast, emphasizing support for others facing similar struggles.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Gerber openly shared his recovery journey in a 2023 podcast, emphasizing support for others facing similar struggles. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: podcast microphone.\nVisible state/action: a single podcast microphone placed on a neutral surface with a soft, warm light illuminating it.\nSetting: generic home office or recording studio corner.\nComposition: centered, with the microphone slightly off-center to the right of the frame, soft natural light coming from the left side of the frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

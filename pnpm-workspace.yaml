@@ -2,4 +2,20 @@ allowBuilds:
   browser-tabs-lock: set this to true or false
   bufferutil: set this to true or false
   core-js: set this to true or false
+  esbuild: set this to true or false
+  netlify-cli: set this to true or false
+  sharp: set this to true or false
+  unix-dgram: set this to true or false
   utf-8-validate: set this to true or false
+# Build scripts are not needed for these deps on Windows dev machines:
+# modern esbuild/sharp ship platform binaries as optionalDependencies, and the
+# rest are optional perf helpers or noisy funding prompts.
+ignoredBuiltDependencies:
+  - browser-tabs-lock
+  - bufferutil
+  - core-js
+  - esbuild
+  - netlify-cli
+  - sharp
+  - unix-dgram
+  - utf-8-validate

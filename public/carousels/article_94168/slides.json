@@ -1,0 +1,236 @@
+{
+  "renderer": "comfyui",
+  "category": "health",
+  "published_at": "2026-09-21T02:36:17",
+  "image_url": "https://dam.mediacorp.sg/image/upload/s--DZteqMru--/c_crop,h_452,w_805,x_1,y_18/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/09/21/chad_gilbert_new_found_glory.jpg?itok=WBM1mJ--",
+  "texts": {
+    "title_text": "Chad Gilbert, lead guitarist for New Found Glory, died peacefully in his sleep at 45 on September 20.",
+    "slide_1_text": "His wife Lisa Cimorelli confirmed he was surrounded by loved ones during his final moments.",
+    "slide_2_text": "The musician battled cancer for over three years, remaining active with his band until recently.",
+    "slide_3_text": "He underwent multiple surgeries including removal of half a liver and an adrenal gland.",
+    "slide_4_text": "His condition progressed from adrenal cancer to Stage 4 adrenocortical carcinoma that spread to his brain."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Chad Gilbert, lead guitarist for New Found Glory, died peacefully in his sleep at 45 on September 20. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single acoustic guitar.\nVisible state/action: resting on a soft fabric surface.\nSetting: a quiet, neutral-toned room with soft natural light.\nComposition: centered, shallow depth of field, focused on the guitar with soft bokeh background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Chad Gilbert clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His wife Lisa Cimorelli confirmed he was surrounded by loved ones during his final moments. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a group of three people sitting together on a couch.\nVisible state/action: sitting quietly together, hands touching gently.\nSetting: a modest living room with neutral tones and soft lighting.\nComposition: medium shot focusing on the group's hands and upper bodies, faces out of frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The musician battled cancer for over three years, remaining active with his band until recently. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's hands playing guitar.\nVisible state/action: hands playing guitar strings with steady, focused motion.\nSetting: a modest, well-lit rehearsal space with simple wooden furniture.\nComposition: medium close-up focusing on hands and guitar neck, soft natural light from side window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He underwent multiple surgeries including removal of half a liver and an adrenal gland. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a surgical scar pattern on a patient's abdomen.\nVisible state/action: a clean, linear surgical scar pattern on a patient's abdomen.\nSetting: a standard hospital examination room with neutral walls and soft lighting.\nComposition: centered on the scar pattern, with no additional elements visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His condition progressed from adrenal cancer to Stage 4 adrenocortical carcinoma that spread to his brain. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of adrenal and cancer and adrenocortical, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "CULTURE & HEALTH",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 36,
+    "CULTURE": 100,
+    "FINANCE": 36,
+    "HEALTH": 100,
+    "LIFESTYLE": 57,
+    "POLITICS": 0,
+    "SCIENCE": 57,
+    "SPORTS": 48,
+    "TECHNOLOGY": 88,
+    "ENVIRONMENT": 45
+  },
+  "seeds": {
+    "title_text": 711331888,
+    "slide_1_text": 282935229,
+    "slide_2_text": 623983776,
+    "slide_3_text": 845427993,
+    "slide_4_text": 80904708,
+    "slide_5_text": 459717370
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Chad Gilbert",
+        "lead guitarist for New Found Glory",
+        "died peacefully in his sleep",
+        "at 45",
+        "on September 20"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single acoustic guitar",
+      "visible_action_or_state": "resting on a soft fabric surface",
+      "setting": "a quiet, neutral-toned room with soft natural light",
+      "composition": "centered, shallow depth of field, focused on the guitar with soft bokeh background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the exact time or location of death",
+        "a specific moment of death",
+        "Chad Gilbert's face or body",
+        "a memorial or funeral scene"
+      ],
+      "distinct_from_prior_slides": "None — this is the first slide",
+      "recognizable_subject": "Chad Gilbert",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "His wife Lisa Cimorelli",
+        "confirmed",
+        "he was surrounded by loved ones",
+        "during his final moments"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a group of three people sitting together on a couch",
+      "visible_action_or_state": "sitting quietly together, hands touching gently",
+      "setting": "a modest living room with neutral tones and soft lighting",
+      "composition": "medium shot focusing on the group's hands and upper bodies, faces out of frame",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Lisa Cimorelli's identity",
+        "the identity of the deceased",
+        "the specific relationship between people",
+        "the exact time or place of death",
+        "any religious or cultural symbols"
+      ],
+      "distinct_from_prior_slides": "avoids the single acoustic guitar from Slide 1, uses group interaction instead of solitary object",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "The musician battled cancer for over three years",
+        "remaining active with his band until recently"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a musician's hands playing guitar",
+      "visible_action_or_state": "hands playing guitar strings with steady, focused motion",
+      "setting": "a modest, well-lit rehearsal space with simple wooden furniture",
+      "composition": "medium close-up focusing on hands and guitar neck, soft natural light from side window",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the musician's identity",
+        "the band's name",
+        "the type of cancer",
+        "a specific timeline",
+        "a hospital or medical setting"
+      ],
+      "distinct_from_prior_slides": "avoids guitar-only focus (slide 1), avoids group interaction (slide 2)",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "multiple surgeries",
+        "removal of half a liver",
+        "removal of an adrenal gland"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a surgical scar pattern on a patient's abdomen",
+      "visible_action_or_state": "a clean, linear surgical scar pattern on a patient's abdomen",
+      "setting": "a standard hospital examination room with neutral walls and soft lighting",
+      "composition": "centered on the scar pattern, with no additional elements visible",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific patient identity",
+        "exact date of surgery",
+        "exact hospital",
+        "specific surgeon",
+        "medical condition causing surgery"
+      ],
+      "distinct_from_prior_slides": "avoids musical elements from earlier slides, focuses on medical consequence not process or context",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "His condition progressed from adrenal cancer to Stage 4 adrenocortical carcinoma that spread to his brain"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of adrenal and cancer and adrenocortical, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "conclusion",
+      "fallback": true
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Bandmates",
+        "described",
+        "Gilbert",
+        "a creative force",
+        "shaped",
+        "their musical evolution",
+        "over nearly three decades"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a vintage microphone stand with a worn leatherette grip",
+      "visible_action_or_state": "the microphone stand sits steady on a wooden floor, the leather grip showing visible wear from decades of use",
+      "setting": "a modest, uncluttered rehearsal space with soft natural light coming through a window",
+      "composition": "centered, with the microphone stand occupying the central focus, the worn leather grip clearly visible at the bottom of the frame",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Gilbert's face",
+        "any specific band name",
+        "a concert venue",
+        "a musical performance in progress",
+        "a specific decade"
+      ],
+      "distinct_from_prior_slides": "avoids repetition of guitar focus (Slide 1), group interaction (Slide 2), hands playing (Slide 3), surgical scar (Slide 4), and medical objects (Slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_94168_title.png",
+      "text": "Chad Gilbert, lead guitarist for New Found Glory, died peacefully in his sleep at 45 on September 20.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Chad Gilbert, lead guitarist for New Found Glory, died peacefully in his sleep at 45 on September 20. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single acoustic guitar.\nVisible state/action: resting on a soft fabric surface.\nSetting: a quiet, neutral-toned room with soft natural light.\nComposition: centered, shallow depth of field, focused on the guitar with soft bokeh background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Chad Gilbert clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_94168_slide_1.png",
+      "text": "His wife Lisa Cimorelli confirmed he was surrounded by loved ones during his final moments.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His wife Lisa Cimorelli confirmed he was surrounded by loved ones during his final moments. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a group of three people sitting together on a couch.\nVisible state/action: sitting quietly together, hands touching gently.\nSetting: a modest living room with neutral tones and soft lighting.\nComposition: medium shot focusing on the group's hands and upper bodies, faces out of frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_94168_slide_2.png",
+      "text": "The musician battled cancer for over three years, remaining active with his band until recently.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The musician battled cancer for over three years, remaining active with his band until recently. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's hands playing guitar.\nVisible state/action: hands playing guitar strings with steady, focused motion.\nSetting: a modest, well-lit rehearsal space with simple wooden furniture.\nComposition: medium close-up focusing on hands and guitar neck, soft natural light from side window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_94168_slide_3.png",
+      "text": "He underwent multiple surgeries including removal of half a liver and an adrenal gland.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He underwent multiple surgeries including removal of half a liver and an adrenal gland. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a surgical scar pattern on a patient's abdomen.\nVisible state/action: a clean, linear surgical scar pattern on a patient's abdomen.\nSetting: a standard hospital examination room with neutral walls and soft lighting.\nComposition: centered on the scar pattern, with no additional elements visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_94168_slide_4.png",
+      "text": "His condition progressed from adrenal cancer to Stage 4 adrenocortical carcinoma that spread to his brain.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: His condition progressed from adrenal cancer to Stage 4 adrenocortical carcinoma that spread to his brain. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of adrenal and cancer and adrenocortical, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

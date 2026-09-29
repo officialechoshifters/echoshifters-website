@@ -1,0 +1,227 @@
+{
+  "renderer": "comfyui",
+  "category": "entertainment",
+  "published_at": "2026-09-20T17:17:30.568635",
+  "image_url": "https://static.dw.com/image/79341150_6.jpg",
+  "texts": {
+    "title_text": "Sheeran called October 7 Hamas attack 'horrific' and Israel's Gaza response 'catastrophic and unjustifiable'",
+    "slide_1_text": "He addressed the Israel-Palestine conflict during his first Philadelphia concert since Macklemore's removal as supporting act.",
+    "slide_2_text": "Macklemore was dropped from the tour after shouting 'Free Palestine' during an opening act in New Jersey.",
+    "slide_3_text": "Multiple supporting artists withdrew in solidarity with Macklemore as venues threatened to cancel shows.",
+    "slide_4_text": "Pro-Palestinian protesters gathered outside Philadelphia's venue, demanding accountability for the removal."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sheeran called October 7 Hamas attack 'horrific' and Israel's Gaza response 'catastrophic and unjustifiable' (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's guitar case.\nVisible state/action: open on a wooden floor, containing a folded concert program.\nSetting: a quiet backstage area with dim lighting.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He addressed the Israel-Palestine conflict during his first Philadelphia concert since Macklemore's removal as supporting act. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's microphone stand.\nVisible state/action: a microphone stand positioned near a stage edge with a faint reflection of a crowd in the background.\nSetting: a generic concert venue stage with neutral lighting.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Macklemore was dropped from the tour after shouting 'Free Palestine' during an opening act in New Jersey. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a hand holding a microphone.\nVisible state/action: a hand gripping a microphone with a slight tremor, microphone stand slightly tilted.\nSetting: a dimly lit backstage area with a generic venue wall visible in the background.\nComposition: medium close-up focusing on the hand and microphone, with the venue wall faintly visible in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Multiple supporting artists withdrew in solidarity with Macklemore as venues threatened to cancel shows. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of multiple and artists and withdrew, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Pro-Palestinian protesters gathered outside Philadelphia's venue, demanding accountability for the removal. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a crowd of people.\nVisible state/action: standing in a line outside a building entrance.\nSetting: a generic urban street with a nondescript building facade.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+  },
+  "topic": "CULTURE & POLITICS",
+  "topic_scores": {
+    "AI": 36,
+    "BUSINESS": 26,
+    "CULTURE": 100,
+    "FINANCE": 65,
+    "HEALTH": 53,
+    "LIFESTYLE": 36,
+    "POLITICS": 100,
+    "SCIENCE": 45,
+    "SPORTS": 81,
+    "TECHNOLOGY": 92,
+    "ENVIRONMENT": 36
+  },
+  "seeds": {
+    "title_text": 375663951,
+    "slide_1_text": 880968863,
+    "slide_2_text": 198491605,
+    "slide_3_text": 944990376,
+    "slide_4_text": 408354871,
+    "slide_5_text": 578989508
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Sheeran called October 7 Hamas attack 'horrific'",
+        "Sheeran called Israel's Gaza response 'catastrophic and unjustifiable'"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a musician's guitar case",
+      "visible_action_or_state": "open on a wooden floor, containing a folded concert program",
+      "setting": "a quiet backstage area with dim lighting",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Sheeran's face",
+        "Hamas or Israel flags",
+        "October 7 or Gaza imagery",
+        "Text on the note",
+        "A specific location"
+      ],
+      "distinct_from_prior_slides": "No prior slides to avoid repetition",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "He addressed the Israel-Palestine conflict",
+        "during his first Philadelphia concert",
+        "since Macklemore's removal as supporting act"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a musician's microphone stand",
+      "visible_action_or_state": "a microphone stand positioned near a stage edge with a faint reflection of a crowd in the background",
+      "setting": "a generic concert venue stage with neutral lighting",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the musician's identity",
+        "the exact date of the concert",
+        "the location of Philadelphia beyond generic venue",
+        "the content of the address",
+        "Macklemore's presence or absence"
+      ],
+      "distinct_from_prior_slides": "avoids the guitar case and backstage setting of Slide 1",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Macklemore",
+        "dropped from the tour",
+        "shouting 'Free Palestine' during an opening act",
+        "in New Jersey"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a hand holding a microphone",
+      "visible_action_or_state": "a hand gripping a microphone with a slight tremor, microphone stand slightly tilted",
+      "setting": "a dimly lit backstage area with a generic venue wall visible in the background",
+      "composition": "medium close-up focusing on the hand and microphone, with the venue wall faintly visible in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Macklemore's face",
+        "the exact venue name",
+        "the crowd's reaction",
+        "a specific date or time"
+      ],
+      "distinct_from_prior_slides": "avoids repeating Slide 1's guitar case or Slide 2's stage edge with crowd reflection; does not use a concert venue stage setting as Slide 2 did",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Multiple supporting artists withdrew in solidarity with Macklemore as venues threatened to cancel shows"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of multiple and artists and withdrew, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Pro-Palestinian protesters",
+        "gathered outside",
+        "Philadelphia's venue",
+        "demanding accountability",
+        "for the removal"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "a crowd of people",
+      "visible_action_or_state": "standing in a line outside a building entrance",
+      "setting": "a generic urban street with a nondescript building facade",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific protest group",
+        "identifiable location",
+        "famous person",
+        "archival footage",
+        "fabricated event",
+        "signage"
+      ],
+      "distinct_from_prior_slides": "avoids musical instruments, backstage areas, venue stages, and editorial still lifes",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Ticket prices dropped",
+        "for remaining shows",
+        "amid calls for cancellation",
+        "by fans divided over the political stance"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a ticket stub",
+      "visible_action_or_state": "a ticket stub lying flat on a neutral surface with a visible price reduction mark",
+      "setting": "a generic ticket counter surface",
+      "composition": "medium close-up, centered composition, shallow depth of field focusing on the ticket stub's price mark",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific artist or venue",
+        "a political figure or event",
+        "a crowd or fan protest",
+        "a ticketing platform interface or screen"
+      ],
+      "distinct_from_prior_slides": "avoids all previously used subjects (guitar case, microphone stand, hand holding microphone, editorial still life of objects, crowd line) and does not depict people or crowd scenes",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_89963_title.png",
+      "text": "Sheeran called October 7 Hamas attack 'horrific' and Israel's Gaza response 'catastrophic and unjustifiable'",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sheeran called October 7 Hamas attack 'horrific' and Israel's Gaza response 'catastrophic and unjustifiable' (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's guitar case.\nVisible state/action: open on a wooden floor, containing a folded concert program.\nSetting: a quiet backstage area with dim lighting.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_89963_slide_1.png",
+      "text": "He addressed the Israel-Palestine conflict during his first Philadelphia concert since Macklemore's removal as supporting act.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: He addressed the Israel-Palestine conflict during his first Philadelphia concert since Macklemore's removal as supporting act. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a musician's microphone stand.\nVisible state/action: a microphone stand positioned near a stage edge with a faint reflection of a crowd in the background.\nSetting: a generic concert venue stage with neutral lighting.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_89963_slide_2.png",
+      "text": "Macklemore was dropped from the tour after shouting 'Free Palestine' during an opening act in New Jersey.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Macklemore was dropped from the tour after shouting 'Free Palestine' during an opening act in New Jersey. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a hand holding a microphone.\nVisible state/action: a hand gripping a microphone with a slight tremor, microphone stand slightly tilted.\nSetting: a dimly lit backstage area with a generic venue wall visible in the background.\nComposition: medium close-up focusing on the hand and microphone, with the venue wall faintly visible in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_89963_slide_3.png",
+      "text": "Multiple supporting artists withdrew in solidarity with Macklemore as venues threatened to cancel shows.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Multiple supporting artists withdrew in solidarity with Macklemore as venues threatened to cancel shows. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of multiple and artists and withdrew, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_89963_slide_4.png",
+      "text": "Pro-Palestinian protesters gathered outside Philadelphia's venue, demanding accountability for the removal.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Pro-Palestinian protesters gathered outside Philadelphia's venue, demanding accountability for the removal. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a crowd of people.\nVisible state/action: standing in a line outside a building entrance.\nSetting: a generic urban street with a nondescript building facade.\nComposition: {composition}; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

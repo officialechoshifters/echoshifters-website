@@ -1,0 +1,17 @@
+{
+  "posted_at": "2026-09-28T23:41:35.129912+00:00",
+  "media_id": "17895213264609866",
+  "permalink": "https://www.instagram.com/p/Dd2Y2J7jePv/",
+  "username": "nigghters",
+  "story_media_id": "",
+  "story_permalink": "",
+  "story_error": "",
+  "caption": "POLITICS & TECHNOLOGY:\n\nA cybersecurity researcher has uncovered a far more extensive surveillance network operated by Flock Security than previously acknowledged, revealing over 170,000 cameras and related devices nationwide.\n\nThe Flock Surveillance Map, created by Joshua Michael, uses location data extracted from Flock’s own database—archived in December 2025—to show nearly 300,000 devices, including 27,000 acoustic sensors and integrated third-party equipment. Unlike crowd-sourced alternatives, this map relies on direct access to Flock’s unsecured ArcGIS platform, which Michael accessed via an exposed token.\n\nMichael alerted Flock in November 2025 about the vulnerability but received only a vague response. Despite his findings, Flock later claimed in a blog post that it had never suffered a data breach, contradicting his discovery of the leaked database.\n\nThe ACLU has criticized Flock for misleading claims about privacy practices, while the map highlights alarming concentrations near sensitive sites like the FBI headquarters and detention centers. A recent trademark complaint from Doppel, alleging unauthorized use of the term “FLOCK SAFETY,” adds to the controversy.\n\nFlock’s denial of a data breach after Michael’s access underscores a critical transparency failure, raising national security concerns about unchecked surveillance infrastructure.",
+  "article": {
+    "title": "Flock Wants the Most Detailed Map of Its Surveillance Cameras Taken Offline",
+    "source": "Hacker News",
+    "category": "business",
+    "url": "https://theintercept.com/2026/09/24/how-many-flock-devices-in-united-states-300000/",
+    "published_at": "2026-09-28T21:08:10"
+  }
+}

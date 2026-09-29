@@ -9,7 +9,7 @@
 // resumes exactly where the previous one stopped. Nothing is ever lost to a
 // timeout.
 
-import { env, store, readIndex, writeIndex, getIgToken, fetchIgMedia, ingestFile, mediaKey, topicsFromCaption } from './ig-utils.mjs'
+import { env, store, readIndex, writeIndex, getIgToken, fetchIgMedia, ingestFile, deleteCarouselBlobs, readDeletedMediaIds, addDeletedMediaIds, mediaKey, topicsFromCaption } from './ig-utils.mjs'
 
 export async function runSync(options = {}) {
   const maxMs = typeof options.maxMs === 'number' && options.maxMs >= 0 ? options.maxMs : 25000
@@ -20,28 +20,103 @@ export async function runSync(options = {}) {
   const userId = env('IG_USER_ID')
   if (!userId) return { ok: false, status: 500, body: { error: 'IG_USER_ID is not configured.' } }
 
-  const params = new URLSearchParams({
-    fields: 'id,caption,media_type,media_url,timestamp,permalink',
-    limit: '25',
-    access_token: token,
-  })
-  const response = await fetch(`https://graph.instagram.com/${userId}/media?${params}`)
-  const data = await response.json()
-  if (!response.ok || data.error) {
-    return { ok: false, status: 502, body: { error: `Instagram API error: ${JSON.stringify(data.error || data)}` } }
+  // Fetch the full current media list (paginated). This does double duty:
+  // it feeds the "add new posts" loop below AND lets us prune posts that
+  // were deleted on Instagram. Hard-capped so a pathological account can
+  // never make the sync run forever.
+  const PAGE_SIZE = 50
+  const MAX_MEDIA_SCANNED = 2000
+  const allItems = []
+  let after = ''
+  for (;;) {
+    const params = new URLSearchParams({
+      fields: 'id,caption,media_type,media_url,timestamp,permalink',
+      limit: String(PAGE_SIZE),
+      access_token: token,
+    })
+    if (after) params.set('after', after)
+    const response = await fetch(`https://graph.instagram.com/${userId}/media?${params}`)
+    const data = await response.json()
+    if (!response.ok || data.error) {
+      return { ok: false, status: 502, body: { error: `Instagram API error: ${JSON.stringify(data.error || data)}` } }
+    }
+    if (Array.isArray(data.data)) allItems.push(...data.data)
+    if (allItems.length >= MAX_MEDIA_SCANNED) break
+    after = data.paging?.cursors?.after || ''
+    // A page smaller than the limit (or without a next cursor) means we have
+    // the complete list — only then is deletion-pruning safe below.
+    if (!after || (Array.isArray(data.data) && data.data.length < PAGE_SIZE)) break
   }
+  // A full page fetched just under the cap means the list is provably
+  // incomplete and pruning would be unsafe. An empty list is equally
+  // untrustworthy (an API glitch must never wipe the whole mirror), so it
+  // also disables pruning until at least one post is visible.
+  const listIsComplete = allItems.length > 0 && allItems.length < MAX_MEDIA_SCANNED
 
   // Instagram returns newest first. `existing` holds what we already synced
   // (also newest first), so we only need to ingest the items at the head.
-  const items = Array.isArray(data.data) ? data.data : []
+  const items = allItems
   let existing = await readIndex()
-  const existingIds = new Set(existing.map((c) => c.id))
+
+  // Tombstones are authoritative deletions: a media id recorded here (because
+  // it was deleted on Instagram, or wiped from the site on purpose) must never
+  // be re-imported by the sync. This is checked outside the listIsComplete
+  // guard — tombstones are explicit, not inferred from the media list.
+  const tombstoned = new Set((await readDeletedMediaIds()).map(String))
+  if (tombstoned.size) {
+    const kept = []
+    for (const entry of existing) {
+      if (tombstoned.has(String(entry.id))) {
+        try {
+          await deleteCarouselBlobs(entry)
+        } catch {
+          /* index removal still happens; an orphaned blob is harmless */
+        }
+        continue
+      }
+      kept.push(entry)
+    }
+    if (kept.length !== existing.length) {
+      existing = kept
+      await writeIndex(existing)
+    }
+  }
+  let existingIds = new Set(existing.map((c) => c.id))
+
+  // Prune posts deleted on Instagram. Only entries that came from the IG
+  // sync (ids are the Graph API media ids) are eligible — static carousels
+  // never enter this index. Guarded by `listIsComplete`: if the fetch above
+  // was cut short, deleting would be guessing, so we skip instead.
+  const pruned = []
+  if (listIsComplete) {
+    const currentIds = new Set(items.map((item) => String(item.id)))
+    for (let i = 0; i < existing.length; i++) {
+      if (Date.now() - startedAt > maxMs) break
+      if (currentIds.has(String(existing[i].id))) continue
+      const entry = existing[i]
+      try {
+        await deleteCarouselBlobs(entry)
+      } catch {
+        /* index removal still happens; an orphaned blob is harmless */
+      }
+      existing.splice(i, 1)
+      i--
+      pruned.push(entry.id)
+      // Checkpoint after each prune: a timeout mid-cleanup keeps everything
+      // already pruned, and the next run continues from there.
+      await writeIndex(existing)
+      await addDeletedMediaIds([entry.id])
+    }
+    existingIds = new Set(existing.map((c) => c.id))
+  }
 
   const added = []
   const failed = []
 
   for (const item of items) {
     if (existingIds.has(item.id)) continue
+    // A tombstoned post stays deleted even if it is still live on Instagram.
+    if (tombstoned.has(String(item.id))) continue
     // Time budget is only checked between items: an ingest already in flight
     // either finishes (and is checkpointed) or the function is killed by
     // Netlify — either way, previously ingested posts are already saved.
@@ -62,7 +137,7 @@ export async function runSync(options = {}) {
     }
   }
 
-  return { ok: true, status: 200, body: { synced: added.length, total: existing.length, added, failed } }
+  return { ok: true, status: 200, body: { synced: added.length, total: existing.length, added, pruned, failed } }
 }
 
 // Newest first. Entries without a usable timestamp sink to the end so they

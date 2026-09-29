@@ -1,0 +1,233 @@
+{
+  "renderer": "comfyui",
+  "category": "energy",
+  "published_at": "2026-09-04T13:00:00",
+  "image_url": "https://fortune.com/img-assets/wp-content/uploads/2026/09/Price-of-Oil-Sep-4.jpg?resize=1200,600",
+  "texts": {
+    "title_text": "Oil prices dipped to $96.90 per barrel Tuesday morning, a $2.48 drop from yesterday",
+    "slide_1_text": "Brent crude benchmarked the decline amid global uncertainty driving supply-demand shifts.",
+    "slide_2_text": "This marks a $30 increase from last year’s price, reflecting prolonged market volatility.",
+    "slide_3_text": "Refining costs, taxes, and station markups create a lag in pump prices after crude drops.",
+    "slide_4_text": "U.S. Arctic drilling expansions reversed Biden restrictions to moderate supply spikes."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Oil prices dipped to $96.90 per barrel Tuesday morning, a $2.48 drop from yesterday (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single oil barrel.\nVisible state/action: resting on a scale showing $96.90.\nSetting: generic industrial storage area.\nComposition: centered on the barrel, scale clearly visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Brent crude benchmarked the decline amid global uncertainty driving supply-demand shifts. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: oil tankers.\nVisible state/action: moored at a port with empty cargo holds.\nSetting: generic port facility.\nComposition: centered, wide shot of oil tankers in a port at low tide, showing empty cargo holds; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This marks a $30 increase from last year’s price, reflecting prolonged market volatility. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a price tag.\nVisible state/action: stuck to a generic retail shelf with a $30 markup visible.\nSetting: generic supermarket aisle.\nComposition: medium shot, slightly elevated angle, centering the price tag on a shelf; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Refining costs, taxes, and station markups create a lag in pump prices after crude drops. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of costs and taxes and station, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: U.S. Arctic drilling expansions reversed Biden restrictions to moderate supply spikes. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single oil well control panel.\nVisible state/action: displaying a stable pressure gauge reading.\nSetting: generic offshore drilling platform.\nComposition: medium shot focusing on the control panel's gauge, with the Arctic ocean visible in the background through a window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+  },
+  "topic": "BUSINESS & POLITICS",
+  "topic_scores": {
+    "AI": 74,
+    "BUSINESS": 100,
+    "CULTURE": 45,
+    "FINANCE": 97,
+    "HEALTH": 77,
+    "LIFESTYLE": 0,
+    "POLITICS": 100,
+    "SCIENCE": 78,
+    "SPORTS": 14,
+    "TECHNOLOGY": 78,
+    "ENVIRONMENT": 99
+  },
+  "seeds": {
+    "title_text": 491525176,
+    "slide_1_text": 453317203,
+    "slide_2_text": 959432863,
+    "slide_3_text": 782152604,
+    "slide_4_text": 372286606,
+    "slide_5_text": 367512197
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Oil prices dipped",
+        "$96.90 per barrel",
+        "Tuesday morning",
+        "$2.48 drop from yesterday"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single oil barrel",
+      "visible_action_or_state": "resting on a scale showing $96.90",
+      "setting": "generic industrial storage area",
+      "composition": "centered on the barrel, scale clearly visible",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific oil company",
+        "identifiable location",
+        "exact time of day",
+        "stock market interface",
+        "human intervention"
+      ],
+      "distinct_from_prior_slides": "None — this is the first slide",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Brent crude",
+        "benchmark",
+        "decline",
+        "global uncertainty",
+        "supply-demand shifts"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "oil tankers",
+      "visible_action_or_state": "moored at a port with empty cargo holds",
+      "setting": "generic port facility",
+      "composition": "centered, wide shot of oil tankers in a port at low tide, showing empty cargo holds",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific financial institution",
+        "identifiable traders",
+        "exact price figures",
+        "global event names",
+        "screens or UI"
+      ],
+      "distinct_from_prior_slides": "slide 1 showed a single oil barrel on a scale; this slide shows oil tankers with empty cargo holds at a port",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "$30 increase",
+        "last year's price",
+        "prolonged market volatility"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a price tag",
+      "visible_action_or_state": "stuck to a generic retail shelf with a $30 markup visible",
+      "setting": "generic supermarket aisle",
+      "composition": "medium shot, slightly elevated angle, centering the price tag on a shelf",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "oil prices",
+        "specific retail chain",
+        "any specific product",
+        "actual market data"
+      ],
+      "distinct_from_prior_slides": "avoids oil barrel and tankers from earlier slides",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Refining costs, taxes, and station markups create a lag in pump prices after crude drops"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of costs and taxes and station, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "U.S. Arctic drilling expansions",
+        "reversed Biden restrictions",
+        "to moderate supply spikes"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single oil well control panel",
+      "visible_action_or_state": "displaying a stable pressure gauge reading",
+      "setting": "generic offshore drilling platform",
+      "composition": "medium shot focusing on the control panel's gauge, with the Arctic ocean visible in the background through a window",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Biden signing documents",
+        "Arctic ice melting",
+        "political protests",
+        "specific oil company logos",
+        "price charts or graphs"
+      ],
+      "distinct_from_prior_slides": "avoids oil barrels (slide 1), tankers (slide 2), retail price tags (slide 3), and staged cost objects (slide 4)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "OPEC decisions",
+        "shale production growth",
+        "oil's dramatic price fluctuations"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a weathered oil rig pipe",
+      "visible_action_or_state": "resting on a pile of loose gravel",
+      "setting": "generic oil field edge",
+      "composition": "centered, full-frame, high detail, natural lighting",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "OPEC meeting",
+        "shale drilling site",
+        "specific price numbers",
+        "OPEC member names",
+        "shale company names"
+      ],
+      "distinct_from_prior_slides": "avoids oil well control panel (Slide 5), physical price tag (Slide 3), and oil tankers (Slide 2)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_53393_title.png",
+      "text": "Oil prices dipped to $96.90 per barrel Tuesday morning, a $2.48 drop from yesterday",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Oil prices dipped to $96.90 per barrel Tuesday morning, a $2.48 drop from yesterday (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single oil barrel.\nVisible state/action: resting on a scale showing $96.90.\nSetting: generic industrial storage area.\nComposition: centered on the barrel, scale clearly visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_53393_slide_1.png",
+      "text": "Brent crude benchmarked the decline amid global uncertainty driving supply-demand shifts.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Brent crude benchmarked the decline amid global uncertainty driving supply-demand shifts. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: oil tankers.\nVisible state/action: moored at a port with empty cargo holds.\nSetting: generic port facility.\nComposition: centered, wide shot of oil tankers in a port at low tide, showing empty cargo holds; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_53393_slide_2.png",
+      "text": "This marks a $30 increase from last year’s price, reflecting prolonged market volatility.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This marks a $30 increase from last year’s price, reflecting prolonged market volatility. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a price tag.\nVisible state/action: stuck to a generic retail shelf with a $30 markup visible.\nSetting: generic supermarket aisle.\nComposition: medium shot, slightly elevated angle, centering the price tag on a shelf; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_53393_slide_3.png",
+      "text": "Refining costs, taxes, and station markups create a lag in pump prices after crude drops.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Refining costs, taxes, and station markups create a lag in pump prices after crude drops. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of costs and taxes and station, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_53393_slide_4.png",
+      "text": "U.S. Arctic drilling expansions reversed Biden restrictions to moderate supply spikes.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: U.S. Arctic drilling expansions reversed Biden restrictions to moderate supply spikes. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single oil well control panel.\nVisible state/action: displaying a stable pressure gauge reading.\nSetting: generic offshore drilling platform.\nComposition: medium shot focusing on the control panel's gauge, with the Arctic ocean visible in the background through a window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

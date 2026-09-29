@@ -1,0 +1,233 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-23T06:28:02.174126",
+  "image_url": "https://static.dw.com/image/79382198_6.jpg",
+  "texts": {
+    "title_text": "Sri Lankan courts impose life sentences on 15 men for 2019 Easter bombings",
+    "slide_1_text": "High Court in Colombo sentenced defendants to 200-260 years each with property confiscation under anti-terrorism laws",
+    "slide_2_text": "Attacks targeted three churches and three hotels during Easter, killing 279 and injuring 574 people",
+    "slide_3_text": "Prosecutors linked the group to radicalization by cleric Mohamed Ibrahim Mohamed Naufer",
+    "slide_4_text": "Nine defendants were acquitted for lack of evidence after five-year trial spanning 23,270 charges"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sri Lankan courts impose life sentences on 15 men for 2019 Easter bombings (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: courtroom.\nVisible state/action: empty courtroom seats.\nSetting: generic courtroom.\nComposition: wide shot with empty wooden benches and judge's bench, no people visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: High Court in Colombo sentenced defendants to 200-260 years each with property confiscation under anti-terrorism laws (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: courtroom furniture.\nVisible state/action: empty wooden bench with a single judge's gavel resting on it.\nSetting: generic courtroom interior.\nComposition: medium shot focusing on the empty bench and gavel, with the judge's chair in the background slightly out of focus; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Attacks targeted three churches and three hotels during Easter, killing 279 and injuring 574 people (never as visible words).\nVisual evidence mode: material_consequence.\nShow: crumbled stone wall fragments.\nVisible state/action: crumbled stone wall fragments scattered on a sidewalk.\nSetting: a generic urban street corner.\nComposition: medium shot, low angle, focusing on the fragments as they lie on the pavement with a blurred background of nondescript city buildings; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Prosecutors linked the group to radicalization by cleric Mohamed Ibrahim Mohamed Naufer (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single worn leather-bound book.\nVisible state/action: resting on a plain wooden table.\nSetting: a generic office environment.\nComposition: centered, medium shot with shallow depth of field focusing on the book; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nine defendants were acquitted for lack of evidence after five-year trial spanning 23,270 charges (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of nine and defendants and lack, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+  },
+  "topic": "POLITICS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 59,
+    "CULTURE": 45,
+    "FINANCE": 0,
+    "HEALTH": 65,
+    "LIFESTYLE": 85,
+    "POLITICS": 100,
+    "SCIENCE": 26,
+    "SPORTS": 53,
+    "TECHNOLOGY": 36,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 148145733,
+    "slide_1_text": 228410856,
+    "slide_2_text": 148697010,
+    "slide_3_text": 411128968,
+    "slide_4_text": 28890988,
+    "slide_5_text": 92626851
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Sri Lankan courts",
+        "impose life sentences",
+        "15 men",
+        "2019 Easter bombings"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "courtroom",
+      "visible_action_or_state": "empty courtroom seats",
+      "setting": "generic courtroom",
+      "composition": "wide shot with empty wooden benches and judge's bench, no people visible",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific judge",
+        "defendants' faces",
+        "any identifiable location",
+        "the actual sentencing moment"
+      ],
+      "distinct_from_prior_slides": "first slide of carousel",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "High Court in Colombo",
+        "sentenced defendants to 200-260 years each",
+        "property confiscation",
+        "anti-terrorism laws"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "courtroom furniture",
+      "visible_action_or_state": "empty wooden bench with a single judge's gavel resting on it",
+      "setting": "generic courtroom interior",
+      "composition": "medium shot focusing on the empty bench and gavel, with the judge's chair in the background slightly out of focus",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific defendants",
+        "the exact moment of sentencing",
+        "the defendants' faces",
+        "the exact amount of property confiscated",
+        "the actual judge's identity"
+      ],
+      "distinct_from_prior_slides": "Slide 1 showed empty courtroom seats; this shows a specific object (bench and gavel) within the courtroom",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Attacks targeted three churches",
+        "Attacks targeted three hotels",
+        "Easter",
+        "Killing 279",
+        "Injuring 574 people"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "crumbled stone wall fragments",
+      "visible_action_or_state": "crumbled stone wall fragments scattered on a sidewalk",
+      "setting": "a generic urban street corner",
+      "composition": "medium shot, low angle, focusing on the fragments as they lie on the pavement with a blurred background of nondescript city buildings",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific location",
+        "identifiable religious building",
+        "name of perpetrator",
+        "date beyond Easter",
+        "exact number of casualties"
+      ],
+      "distinct_from_prior_slides": "avoids courtroom elements from prior slides; uses material consequence rather than institutional or human elements",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Prosecutors linked the group",
+        "to radicalization",
+        "by cleric Mohamed Ibrahim Mohamed Naufer"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single worn leather-bound book",
+      "visible_action_or_state": "resting on a plain wooden table",
+      "setting": "a generic office environment",
+      "composition": "centered, medium shot with shallow depth of field focusing on the book",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the cleric's face",
+        "the group's identity",
+        "the courtroom setting",
+        "any specific religious text",
+        "a fabricated event"
+      ],
+      "distinct_from_prior_slides": "avoids courtroom, stone walls, and empty furniture; uses a book as material consequence instead of visual repetition",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Nine defendants were acquitted for lack of evidence after five-year trial spanning 23,270 charges"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of nine and defendants and lack, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "conclusion",
+      "fallback": true
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Two former security officials",
+        "received death sentences",
+        "for ignoring intelligence warnings"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single rusted metal mailbox",
+      "visible_action_or_state": "sitting empty and slightly ajar on a weathered wooden bench",
+      "setting": "a generic city park bench",
+      "composition": "centered, low-angle shot with the mailbox filling the lower third of the frame and the bench extending into the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "any specific person's identity",
+        "a courtroom or legal process",
+        "the exact nature of the intelligence warnings",
+        "the death sentences being carried out"
+      ],
+      "distinct_from_prior_slides": "avoids the empty office table (slide 4) and the courtroom furniture (slide 2, 5), uses a park bench instead of an office or courtroom setting",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_101052_title.png",
+      "text": "Sri Lankan courts impose life sentences on 15 men for 2019 Easter bombings",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sri Lankan courts impose life sentences on 15 men for 2019 Easter bombings (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: courtroom.\nVisible state/action: empty courtroom seats.\nSetting: generic courtroom.\nComposition: wide shot with empty wooden benches and judge's bench, no people visible; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_101052_slide_1.png",
+      "text": "High Court in Colombo sentenced defendants to 200-260 years each with property confiscation under anti-terrorism laws",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: High Court in Colombo sentenced defendants to 200-260 years each with property confiscation under anti-terrorism laws (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: courtroom furniture.\nVisible state/action: empty wooden bench with a single judge's gavel resting on it.\nSetting: generic courtroom interior.\nComposition: medium shot focusing on the empty bench and gavel, with the judge's chair in the background slightly out of focus; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_101052_slide_2.png",
+      "text": "Attacks targeted three churches and three hotels during Easter, killing 279 and injuring 574 people",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Attacks targeted three churches and three hotels during Easter, killing 279 and injuring 574 people (never as visible words).\nVisual evidence mode: material_consequence.\nShow: crumbled stone wall fragments.\nVisible state/action: crumbled stone wall fragments scattered on a sidewalk.\nSetting: a generic urban street corner.\nComposition: medium shot, low angle, focusing on the fragments as they lie on the pavement with a blurred background of nondescript city buildings; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_101052_slide_3.png",
+      "text": "Prosecutors linked the group to radicalization by cleric Mohamed Ibrahim Mohamed Naufer",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Prosecutors linked the group to radicalization by cleric Mohamed Ibrahim Mohamed Naufer (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single worn leather-bound book.\nVisible state/action: resting on a plain wooden table.\nSetting: a generic office environment.\nComposition: centered, medium shot with shallow depth of field focusing on the book; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_101052_slide_4.png",
+      "text": "Nine defendants were acquitted for lack of evidence after five-year trial spanning 23,270 charges",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nine defendants were acquitted for lack of evidence after five-year trial spanning 23,270 charges (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of nine and defendants and lack, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

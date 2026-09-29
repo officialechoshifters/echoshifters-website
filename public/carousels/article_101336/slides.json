@@ -1,0 +1,255 @@
+{
+  "renderer": "comfyui",
+  "category": "energy",
+  "published_at": "2026-09-26T18:17:12",
+  "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/adf9/live/6f8e27d0-b9c1-11f1-9190-07b6ee147cf1.png",
+  "texts": {
+    "title_text": "Trump dismissed Iran's proposal to immediately reopen the Strait of Hormuz within seven days",
+    "slide_1_text": "Iran's foreign minister stated a reopening could occur if U.S. demands were met, referencing a June MOU on ceasefire and partial access.",
+    "slide_2_text": "The waterway, critical for global oil and gas flows, has been largely blocked since February's conflict began, disrupting energy markets.",
+    "slide_3_text": "Trump claimed U.S. control over the strait though data shows only 18 daily transits on average.",
+    "slide_4_text": "Iranian officials maintained the MOU remains valid, with President Pezeshkian referencing prior agreements signed in Pakistan."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump dismissed Iran's proposal to immediately reopen the Strait of Hormuz within seven days (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a conference room table.\nVisible state/action: empty except for a single coffee cup.\nSetting: a generic government conference room.\nComposition: medium shot, centered composition with the coffee cup as focal point; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Trump clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Iran's foreign minister stated a reopening could occur if U.S. demands were met, referencing a June MOU on ceasefire and partial access. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a government office desk.\nVisible state/action: an empty chair with a calendar showing June and a map of the region.\nSetting: a generic government office.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The waterway, critical for global oil and gas flows, has been largely blocked since February's conflict began, disrupting energy markets. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a partially obstructed shipping channel.\nVisible state/action: a large vessel is halted mid-waterway with its engines running but not moving.\nSetting: a generic coastal waterway with calm waters and distant horizon.\nComposition: centered, wide-angle view showing the vessel and the obstruction; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump claimed U.S. control over the strait though data shows only 18 daily transits on average. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a shipping logbook.\nVisible state/action: open to a page with a handwritten daily log showing 18 entries.\nSetting: a generic maritime operations office.\nComposition: centered, close-up on the logbook page showing 18 handwritten entries at the top; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Iranian officials maintained the MOU remains valid, with President Pezeshkian referencing prior agreements signed in Pakistan. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a weathered stone plaque with a simple engraved seal.\nVisible state/action: resting on a sunlit stone ledge.\nSetting: a generic government building courtyard.\nComposition: centered, flat lay with soft natural light from a window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "POLITICS & BUSINESS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 99,
+    "CULTURE": 73,
+    "FINANCE": 84,
+    "HEALTH": 53,
+    "LIFESTYLE": 0,
+    "POLITICS": 100,
+    "SCIENCE": 0,
+    "SPORTS": 26,
+    "TECHNOLOGY": 94,
+    "ENVIRONMENT": 26
+  },
+  "seeds": {
+    "title_text": 241939803,
+    "slide_1_text": 292465242,
+    "slide_2_text": 22432050,
+    "slide_3_text": 822503253,
+    "slide_4_text": 116165139,
+    "slide_5_text": 856483200
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Trump",
+        "dismissed",
+        "Iran's proposal",
+        "immediately reopen",
+        "Strait of Hormuz",
+        "within seven days"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a conference room table",
+      "visible_action_or_state": "empty except for a single coffee cup",
+      "setting": "a generic government conference room",
+      "composition": "medium shot, centered composition with the coffee cup as focal point",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Trump's face",
+        "Iranian officials",
+        "a specific meeting",
+        "the Strait of Hormuz",
+        "a seven-day timeline",
+        "any real document"
+      ],
+      "distinct_from_prior_slides": "This is the first slide, no prior slides to avoid",
+      "recognizable_subject": "Trump",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Iran's foreign minister",
+        "reopening could occur",
+        "U.S. demands were met",
+        "June MOU on ceasefire",
+        "partial access"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a government office desk",
+      "visible_action_or_state": "an empty chair with a calendar showing June and a map of the region",
+      "setting": "a generic government office",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific person or event",
+        "a U.S. official",
+        "a meeting in progress",
+        "a document or paper"
+      ],
+      "distinct_from_prior_slides": "avoids repeating the coffee cup on a table from slide 1",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "waterway",
+        "critical for global oil and gas flows",
+        "largely blocked since February's conflict began",
+        "disrupting energy markets"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a partially obstructed shipping channel",
+      "visible_action_or_state": "a large vessel is halted mid-waterway with its engines running but not moving",
+      "setting": "a generic coastal waterway with calm waters and distant horizon",
+      "composition": "centered, wide-angle view showing the vessel and the obstruction",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific conflict location",
+        "named nation or leader",
+        "oil rig or refinery",
+        "energy market data"
+      ],
+      "distinct_from_prior_slides": "avoids empty rooms and government offices; focuses on a waterway obstruction rather than a map or calendar",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Trump claimed U.S. control over the strait",
+        "data shows only 18 daily transits on average"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a shipping logbook",
+      "visible_action_or_state": "open to a page with a handwritten daily log showing 18 entries",
+      "setting": "a generic maritime operations office",
+      "composition": "centered, close-up on the logbook page showing 18 handwritten entries at the top",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Trump's face or presence",
+        "actual U.S. naval control",
+        "specific named ships or vessels",
+        "a map showing U.S. control",
+        "a timeline of events"
+      ],
+      "distinct_from_prior_slides": "avoids slide 3's waterway setting; no water or vessels shown; focuses on the logbook's physical data without charts",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Iranian officials",
+        "maintained the MOU remains valid",
+        "President Pezeshkian",
+        "referencing prior agreements",
+        "signed in Pakistan"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a weathered stone plaque with a simple engraved seal",
+      "visible_action_or_state": "resting on a sunlit stone ledge",
+      "setting": "a generic government building courtyard",
+      "composition": "centered, flat lay with soft natural light from a window",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific event",
+        "a specific person",
+        "a specific location",
+        "a calendar or map",
+        "a government office with a desk",
+        "documents with writing",
+        "an empty chair",
+        "a shipping channel",
+        "a shipping logbook",
+        "a coffee cup"
+      ],
+      "distinct_from_prior_slides": "avoids all elements from prior slides including: empty chair (slide 2), shipping channel (slide 3), shipping logbook (slide 4), coffee cup (slide 1), and government office elements (slide 2)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "stalemate",
+        "strategic miscalculations",
+        "preventing resolution",
+        "global energy markets remain volatile"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a weathered oil barrel",
+      "visible_action_or_state": "partially buried in sand at the edge of a dry coastal area",
+      "setting": "a generic coastal area with dry sand and distant horizon",
+      "composition": "medium shot, low angle, sand texture visible under barrel",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific country",
+        "a named leader",
+        "a recent event",
+        "a specific type of oil"
+      ],
+      "distinct_from_prior_slides": "avoids shipping channel, office settings, and stone plaques from previous slides",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_101336_title.png",
+      "text": "Trump dismissed Iran's proposal to immediately reopen the Strait of Hormuz within seven days",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump dismissed Iran's proposal to immediately reopen the Strait of Hormuz within seven days (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a conference room table.\nVisible state/action: empty except for a single coffee cup.\nSetting: a generic government conference room.\nComposition: medium shot, centered composition with the coffee cup as focal point; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Trump clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_101336_slide_1.png",
+      "text": "Iran's foreign minister stated a reopening could occur if U.S. demands were met, referencing a June MOU on ceasefire and partial access.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Iran's foreign minister stated a reopening could occur if U.S. demands were met, referencing a June MOU on ceasefire and partial access. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a government office desk.\nVisible state/action: an empty chair with a calendar showing June and a map of the region.\nSetting: a generic government office.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_101336_slide_2.png",
+      "text": "The waterway, critical for global oil and gas flows, has been largely blocked since February's conflict began, disrupting energy markets.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The waterway, critical for global oil and gas flows, has been largely blocked since February's conflict began, disrupting energy markets. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a partially obstructed shipping channel.\nVisible state/action: a large vessel is halted mid-waterway with its engines running but not moving.\nSetting: a generic coastal waterway with calm waters and distant horizon.\nComposition: centered, wide-angle view showing the vessel and the obstruction; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_101336_slide_3.png",
+      "text": "Trump claimed U.S. control over the strait though data shows only 18 daily transits on average.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Trump claimed U.S. control over the strait though data shows only 18 daily transits on average. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a shipping logbook.\nVisible state/action: open to a page with a handwritten daily log showing 18 entries.\nSetting: a generic maritime operations office.\nComposition: centered, close-up on the logbook page showing 18 handwritten entries at the top; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_101336_slide_4.png",
+      "text": "Iranian officials maintained the MOU remains valid, with President Pezeshkian referencing prior agreements signed in Pakistan.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Iranian officials maintained the MOU remains valid, with President Pezeshkian referencing prior agreements signed in Pakistan. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a weathered stone plaque with a simple engraved seal.\nVisible state/action: resting on a sunlit stone ledge.\nSetting: a generic government building courtyard.\nComposition: centered, flat lay with soft natural light from a window; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

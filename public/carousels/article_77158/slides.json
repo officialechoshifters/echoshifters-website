@@ -1,0 +1,236 @@
+{
+  "renderer": "comfyui",
+  "category": "lifestyle",
+  "published_at": "2026-09-16T21:53:35",
+  "image_url": "https://i.abcnewsfe.com/a/27d0c211-0322-4543-84be-51b2fdca6ffa/260916_abcnl_searched_spiral_hpMain_16x9.jpg?w=992",
+  "texts": {
+    "title_text": "London Fashion Week's conclusion ignited a push to diversify the industry beyond London's dominance.",
+    "slide_1_text": "The British Fashion Council announced plans to integrate regional talent across the UK into the fashion calendar.",
+    "slide_2_text": "Organizers will host pop-up events in England, Wales, and Scotland this season, with Northern Ireland joining next year.",
+    "slide_3_text": "A House of Commons report confirmed over half of the creative industries' economic impact comes from outside London.",
+    "slide_4_text": "Industry experts argue this strategy could unlock opportunities for designers in smaller communities."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: London Fashion Week's conclusion ignited a push to diversify the industry beyond London's dominance. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single runway model's foot on a runway.\nVisible state/action: a single foot stepping off a runway.\nSetting: a generic fashion show runway.\nComposition: centered, wide angle, low angle looking up at the foot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The British Fashion Council announced plans to integrate regional talent across the UK into the fashion calendar. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a generic fashion industry meeting room.\nVisible state/action: a group of anonymous industry professionals seated around a table discussing.\nSetting: a neutral, professional meeting room with a large window overlooking a generic city skyline.\nComposition: centered, full-frame, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Organizers will host pop-up events in England, Wales, and Scotland this season, with Northern Ireland joining next year. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a temporary event space setup.\nVisible state/action: a team of anonymous workers setting up a portable event structure in a public space.\nSetting: a generic urban public square with no identifiable landmarks.\nComposition: medium shot of workers setting up portable structure, faces not visible, background city street generic; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A House of Commons report confirmed over half of the creative industries' economic impact comes from outside London. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a large, detailed map of the UK showing economic activity.\nVisible state/action: a clear, visible demarcation on the map showing London as a smaller section compared to the rest of the UK.\nSetting: a generic office environment with a clean, minimalist desk.\nComposition: centered; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Industry experts argue this strategy could unlock opportunities for designers in smaller communities. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a set of small-scale design prototypes.\nVisible state/action: arranged neatly on a simple wooden table.\nSetting: a generic community arts studio.\nComposition: centered on the prototypes with soft natural light from a window, shallow depth of field focusing on the objects; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+  },
+  "topic": "LIFESTYLE & BUSINESS",
+  "topic_scores": {
+    "AI": 91,
+    "BUSINESS": 97,
+    "CULTURE": 96,
+    "FINANCE": 53,
+    "HEALTH": 89,
+    "LIFESTYLE": 100,
+    "POLITICS": 96,
+    "SCIENCE": 59,
+    "SPORTS": 86,
+    "TECHNOLOGY": 97,
+    "ENVIRONMENT": 36
+  },
+  "seeds": {
+    "title_text": 930881550,
+    "slide_1_text": 620177501,
+    "slide_2_text": 866452989,
+    "slide_3_text": 86460082,
+    "slide_4_text": 287437796,
+    "slide_5_text": 563277546
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "London Fashion Week",
+        "conclusion",
+        "push to diversify",
+        "industry beyond London's dominance"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single runway model's foot on a runway",
+      "visible_action_or_state": "a single foot stepping off a runway",
+      "setting": "a generic fashion show runway",
+      "composition": "centered, wide angle, low angle looking up at the foot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific designer",
+        "a specific model",
+        "London skyline",
+        "the exact date",
+        "a specific clothing item"
+      ],
+      "distinct_from_prior_slides": "no prior slides",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "British Fashion Council",
+        "integrate regional talent",
+        "across the UK",
+        "fashion calendar"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a generic fashion industry meeting room",
+      "visible_action_or_state": "a group of anonymous industry professionals seated around a table discussing",
+      "setting": "a neutral, professional meeting room with a large window overlooking a generic city skyline",
+      "composition": "centered, full-frame, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific location",
+        "identifiable people",
+        "a specific event",
+        "a named person"
+      ],
+      "distinct_from_prior_slides": "avoids showing a runway or model's foot as in Slide 1",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Organizers will host pop-up events in England, Wales, and Scotland this season",
+        "Northern Ireland joining next year"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a temporary event space setup",
+      "visible_action_or_state": "a team of anonymous workers setting up a portable event structure in a public space",
+      "setting": "a generic urban public square with no identifiable landmarks",
+      "composition": "medium shot of workers setting up portable structure, faces not visible, background city street generic",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific locations like London or Edinburgh",
+        "named organizers",
+        "the exact date or year",
+        "a particular type of event (e.g., fashion show, festival)",
+        "Northern Ireland being physically separate from other regions"
+      ],
+      "distinct_from_prior_slides": "Slide 1 shows a single foot on a runway, Slide 2 shows a meeting room discussion; this slide shows a pop-up event setup in a public space",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "House of Commons report",
+        "over half of creative industries' economic impact",
+        "comes from outside London"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a large, detailed map of the UK showing economic activity",
+      "visible_action_or_state": "a clear, visible demarcation on the map showing London as a smaller section compared to the rest of the UK",
+      "setting": "a generic office environment with a clean, minimalist desk",
+      "composition": "centered",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "House of Commons building",
+        "specific creative industries",
+        "London's economic dominance",
+        "London as a city center",
+        "the House of Commons report's authors"
+      ],
+      "distinct_from_prior_slides": "does not repeat the runway, meeting room, or event space setups from previous slides",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Industry experts argue",
+        "this strategy could unlock opportunities",
+        "for designers in smaller communities"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a set of small-scale design prototypes",
+      "visible_action_or_state": "arranged neatly on a simple wooden table",
+      "setting": "a generic community arts studio",
+      "composition": "centered on the prototypes with soft natural light from a window, shallow depth of field focusing on the objects",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific location",
+        "named city or region",
+        "individual designers",
+        "specific industry event",
+        "famous person",
+        "financial metrics",
+        "digital interface"
+      ],
+      "distinct_from_prior_slides": "avoids office setting and map-based visual from slide 4; differs from slide 3's event space setup by focusing on static design objects rather than active setup",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "The move reflects economic realities",
+        "growing calls for sustainable industry practices"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single textile swatch",
+      "visible_action_or_state": "a textile swatch laid flat on a neutral surface, showing subtle texture differences between conventional and recycled fibers",
+      "setting": "a generic textile research lab with clean white surfaces and natural light",
+      "composition": "medium close-up focusing on the textile swatch with a soft shallow depth of field",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific company",
+        "named organization",
+        "economic data points",
+        "visible sustainability certification",
+        "personnel",
+        "specific location"
+      ],
+      "distinct_from_prior_slides": "avoids fashion industry elements from Slide 1, meeting room from Slide 2, event setup from Slide 3, map from Slide 4, and design prototypes from Slide 5",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_77158_title.png",
+      "text": "London Fashion Week's conclusion ignited a push to diversify the industry beyond London's dominance.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: London Fashion Week's conclusion ignited a push to diversify the industry beyond London's dominance. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single runway model's foot on a runway.\nVisible state/action: a single foot stepping off a runway.\nSetting: a generic fashion show runway.\nComposition: centered, wide angle, low angle looking up at the foot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_77158_slide_1.png",
+      "text": "The British Fashion Council announced plans to integrate regional talent across the UK into the fashion calendar.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The British Fashion Council announced plans to integrate regional talent across the UK into the fashion calendar. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a generic fashion industry meeting room.\nVisible state/action: a group of anonymous industry professionals seated around a table discussing.\nSetting: a neutral, professional meeting room with a large window overlooking a generic city skyline.\nComposition: centered, full-frame, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_77158_slide_2.png",
+      "text": "Organizers will host pop-up events in England, Wales, and Scotland this season, with Northern Ireland joining next year.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Organizers will host pop-up events in England, Wales, and Scotland this season, with Northern Ireland joining next year. (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a temporary event space setup.\nVisible state/action: a team of anonymous workers setting up a portable event structure in a public space.\nSetting: a generic urban public square with no identifiable landmarks.\nComposition: medium shot of workers setting up portable structure, faces not visible, background city street generic; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_77158_slide_3.png",
+      "text": "A House of Commons report confirmed over half of the creative industries' economic impact comes from outside London.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A House of Commons report confirmed over half of the creative industries' economic impact comes from outside London. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a large, detailed map of the UK showing economic activity.\nVisible state/action: a clear, visible demarcation on the map showing London as a smaller section compared to the rest of the UK.\nSetting: a generic office environment with a clean, minimalist desk.\nComposition: centered; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_77158_slide_4.png",
+      "text": "Industry experts argue this strategy could unlock opportunities for designers in smaller communities.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Industry experts argue this strategy could unlock opportunities for designers in smaller communities. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a set of small-scale design prototypes.\nVisible state/action: arranged neatly on a simple wooden table.\nSetting: a generic community arts studio.\nComposition: centered on the prototypes with soft natural light from a window, shallow depth of field focusing on the objects; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

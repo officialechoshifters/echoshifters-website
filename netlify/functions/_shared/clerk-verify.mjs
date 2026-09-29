@@ -2,8 +2,9 @@
 //
 // Clerk puts the session token in the `__session` cookie. It is a JWKS-signed
 // JWT whose `iss` is the Clerk domain (e.g. https://foo.clerk.accounts.dev)
-// and whose `azp` must match an allowed origin. We verify signature (ES256),
-// issuer, expiry, and azp — that is a complete Clerk session check.
+// and whose `azp` must match an allowed origin. We verify the signature
+// (ES256 or RS256 — Clerk instances use either), issuer, expiry, and azp —
+// that is a complete Clerk session check.
 //
 // Crypto support: Node 20 has WebCrypto globally, so both Netlify Functions
 // (v2 runtime, Node 20+) and local `netlify dev` can run this unchanged.
@@ -60,6 +61,19 @@ async function verifyEs256(token, jwk) {
   return crypto.subtle.verify({ name: 'ECDSA', hash: 'SHA-256' }, key, sig, new TextEncoder().encode(`${parts[0]}.${parts[1]}`))
 }
 
+async function verifyRs256(token, jwk) {
+  const key = await crypto.subtle.importKey(
+    'jwk',
+    jwk,
+    { name: 'RSASSA-PKCS1-v1_5', hash: 'SHA-256' },
+    false,
+    ['verify']
+  )
+  const parts = token.split('.')
+  const sig = b64urlToBytes(parts[2])
+  return crypto.subtle.verify({ name: 'RSASSA-PKCS1-v1_5' }, key, sig, new TextEncoder().encode(`${parts[0]}.${parts[1]}`))
+}
+
 export async function verifyClerkSession(request) {
   // 1. Extract __session cookie (Cookie header) — Authorization Bearer works
   //    too so curl-based testing is possible.
@@ -97,18 +111,23 @@ export async function verifyClerkSession(request) {
     return { ok: false, status: 401, reason: 'bad-azp' }
   }
 
-  // 5. Signature via Clerk's JWKS.
+  // 5. Signature via Clerk's JWKS. Clerk signs session JWTs with ES256
+  //    (EC P-256) or RS256 (RSA) depending on the instance, so both are
+  //    supported and the token's `alg` must agree with the JWK key type —
+  //    that pairing is enforced below to rule out algorithm confusion.
   const keys = await getJwks()
   // If the token declares a kid it must match exactly — falling back to "any
   // key of the right type" would let tokens signed by foreign/rotated-out keys
   // verify. Type-based fallback only applies when kid is absent.
   const jwk = header.kid
     ? keys.find((k) => k.kid === header.kid)
-    : keys.find((k) => k.kty === 'EC' && k.crv === 'P-256')
+    : keys.find((k) => k.kty === 'EC' && k.crv === 'P-256') || keys.find((k) => k.kty === 'RSA' && k.alg === 'RS256')
   if (!jwk) return { ok: false, status: 401, reason: 'unknown-key' }
-  if (jwk.kty !== 'EC' || jwk.crv !== 'P-256') return { ok: false, status: 401, reason: 'unsupported-key-type' }
+  const isEs256 = header.alg === 'ES256' && jwk.kty === 'EC' && jwk.crv === 'P-256'
+  const isRs256 = header.alg === 'RS256' && jwk.kty === 'RSA'
+  if (!isEs256 && !isRs256) return { ok: false, status: 401, reason: 'unsupported-key-type' }
 
-  const valid = await verifyEs256(token, jwk)
+  const valid = isEs256 ? await verifyEs256(token, jwk) : await verifyRs256(token, jwk)
   if (!valid) return { ok: false, status: 401, reason: 'bad-signature' }
 
   return { ok: true, userId: payload.sub, sessionId: payload.sid || '', orgId: payload.o?.id || '' }
