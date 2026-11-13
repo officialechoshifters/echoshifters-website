@@ -16,7 +16,7 @@ if (build.status !== 0) {
   process.exit(build.status ?? 1);
 }
 
-console.log('\n=== 2/2 Deploying to nigghters.netlify.app ===\n');
+console.log('\n=== 2/2 Deploying to echoshifters.netlify.app ===\n');
 const deploy = spawnSync(
   'npx',
   ['netlify', 'deploy', '--prod', '--dir', 'dist', '--no-build', '--auth', token, '--site', '1a06a770-7710-4808-ad2a-1d3e6a3612a7'],

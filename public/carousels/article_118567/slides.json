@@ -1,0 +1,227 @@
+{
+  "renderer": "comfyui",
+  "category": "politics",
+  "published_at": "2026-10-28T15:41:54",
+  "image_url": "https://image.cnbcfm.com/api/v1/image/108475253-1793201789794-gettyimages-2301878676-AA_28102026_3013803.jpeg?v=1793201850&w=1920&h=1080",
+  "texts": {
+    "title_text": "High-speed train collision in Toledo, Spain, kills at least 68 people",
+    "slide_1_text": "Marking Spain's second major rail disaster this year, the crash involved two trains on the Madrid-Seville line.",
+    "slide_2_text": "One train struck a stopped service at high speed, derailing two carriages and causing structural damage.",
+    "slide_3_text": "Transport Minister Óscar Puente stated the control system in Urda failed, halting trains before the collision.",
+    "slide_4_text": "Regional leader Emiliano García-Page reported 24 fatalities on a Renfe train and the rest on an Iryo service."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: High-speed train collision in Toledo, Spain, kills at least 68 people (never as visible words).\nVisual evidence mode: documentary_context.\nShow: railway track debris.\nVisible state/action: scattered metal fragments and shattered glass at the scene.\nSetting: railway embankment near Toledo, Spain.\nComposition: wide shot with a clear horizon line, showing the railway tracks and surrounding landscape; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Marking Spain's second major rail disaster this year, the crash involved two trains on the Madrid-Seville line. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: railway track.\nVisible state/action: intact, clean, and operational.\nSetting: railway line between Madrid and Seville.\nComposition: medium shot focusing on the railway tracks with a distant train silhouette in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: One train struck a stopped service at high speed, derailing two carriages and causing structural damage. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: derailed train carriages.\nVisible state/action: two carriages partially off-track with visible structural damage.\nSetting: railway embankment.\nComposition: medium shot focusing on the two derailed carriages at the edge of the track, with the intact train visible in the distance; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Transport Minister Óscar Puente stated the control system in Urda failed, halting trains before the collision. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of transport and minister and scar, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Regional leader Emiliano García-Page reported 24 fatalities on a Renfe train and the rest on an Iryo service. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single folded paper.\nVisible state/action: folded and placed on a clean desk.\nSetting: a generic modern government office.\nComposition: centered, symmetrical, natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "POLITICS & SPORTS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 61,
+    "CULTURE": 70,
+    "FINANCE": 0,
+    "HEALTH": 78,
+    "LIFESTYLE": 65,
+    "POLITICS": 100,
+    "SCIENCE": 0,
+    "SPORTS": 95,
+    "TECHNOLOGY": 59,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 42572316,
+    "slide_1_text": 438867653,
+    "slide_2_text": 678719930,
+    "slide_3_text": 486781512,
+    "slide_4_text": 143246752,
+    "slide_5_text": 619687776
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "High-speed train collision",
+        "Toledo, Spain",
+        "kills at least 68 people"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "railway track debris",
+      "visible_action_or_state": "scattered metal fragments and shattered glass at the scene",
+      "setting": "railway embankment near Toledo, Spain",
+      "composition": "wide shot with a clear horizon line, showing the railway tracks and surrounding landscape",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific individuals",
+        "archival footage",
+        "reconstructed event",
+        "identifiable location markers"
+      ],
+      "distinct_from_prior_slides": "first slide",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Spain",
+        "second major rail disaster this year",
+        "crash involved two trains",
+        "Madrid-Seville line"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "railway track",
+      "visible_action_or_state": "intact, clean, and operational",
+      "setting": "railway line between Madrid and Seville",
+      "composition": "medium shot focusing on the railway tracks with a distant train silhouette in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the disaster actually occurred",
+        "any specific time or date",
+        "any identifiable people",
+        "any specific train model or company"
+      ],
+      "distinct_from_prior_slides": "does not use debris or shattered glass (Slide 1 used those)",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "One train struck a stopped service at high speed",
+        "derailing two carriages",
+        "causing structural damage"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "derailed train carriages",
+      "visible_action_or_state": "two carriages partially off-track with visible structural damage",
+      "setting": "railway embankment",
+      "composition": "medium shot focusing on the two derailed carriages at the edge of the track, with the intact train visible in the distance",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific accident date or location",
+        "identifiable personnel",
+        "emergency response teams",
+        "passenger injuries"
+      ],
+      "distinct_from_prior_slides": "Slide 1 showed debris at Toledo, Slide 2 showed intact track; this shows derailed carriages with structural damage without debris or intact track",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Transport Minister Óscar Puente stated the control system in Urda failed, halting trains before the collision"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of transport and minister and scar, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Regional leader Emiliano García-Page reported",
+        "24 fatalities on a Renfe train",
+        "the rest on an Iryo service"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single folded paper",
+      "visible_action_or_state": "folded and placed on a clean desk",
+      "setting": "a generic modern government office",
+      "composition": "centered, symmetrical, natural light",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific event or moment",
+        "a named public figure's face",
+        "a fabricated document",
+        "the exact location of the accident"
+      ],
+      "distinct_from_prior_slides": "avoids railway debris, operational tracks, derailing, and editorial still life",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Rescue teams continue searching wreckage",
+        "officials noting more victims likely",
+        "carriages remain inaccessible"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "rescue team members",
+      "visible_action_or_state": "searching through debris",
+      "setting": "railway embankment after a derailment",
+      "composition": "medium shot focusing on the team's hands and tools moving through debris, with the damaged train carriages visible in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific identifiable victims",
+        "a named official speaking",
+        "a completed rescue operation",
+        "a specific location beyond the general railway context"
+      ],
+      "distinct_from_prior_slides": "avoids showing intact tracks (Slide 2), derailing mechanism (Slide 3), or editorial still life (Slide 4); focuses on active search phase rather than aftermath (Slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_118567_title.png",
+      "text": "High-speed train collision in Toledo, Spain, kills at least 68 people",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: High-speed train collision in Toledo, Spain, kills at least 68 people (never as visible words).\nVisual evidence mode: documentary_context.\nShow: railway track debris.\nVisible state/action: scattered metal fragments and shattered glass at the scene.\nSetting: railway embankment near Toledo, Spain.\nComposition: wide shot with a clear horizon line, showing the railway tracks and surrounding landscape; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_118567_slide_1.png",
+      "text": "Marking Spain's second major rail disaster this year, the crash involved two trains on the Madrid-Seville line.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Marking Spain's second major rail disaster this year, the crash involved two trains on the Madrid-Seville line. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: railway track.\nVisible state/action: intact, clean, and operational.\nSetting: railway line between Madrid and Seville.\nComposition: medium shot focusing on the railway tracks with a distant train silhouette in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_118567_slide_2.png",
+      "text": "One train struck a stopped service at high speed, derailing two carriages and causing structural damage.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: One train struck a stopped service at high speed, derailing two carriages and causing structural damage. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: derailed train carriages.\nVisible state/action: two carriages partially off-track with visible structural damage.\nSetting: railway embankment.\nComposition: medium shot focusing on the two derailed carriages at the edge of the track, with the intact train visible in the distance; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_118567_slide_3.png",
+      "text": "Transport Minister Óscar Puente stated the control system in Urda failed, halting trains before the collision.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Transport Minister Óscar Puente stated the control system in Urda failed, halting trains before the collision. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of transport and minister and scar, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_118567_slide_4.png",
+      "text": "Regional leader Emiliano García-Page reported 24 fatalities on a Renfe train and the rest on an Iryo service.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Regional leader Emiliano García-Page reported 24 fatalities on a Renfe train and the rest on an Iryo service. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single folded paper.\nVisible state/action: folded and placed on a clean desk.\nSetting: a generic modern government office.\nComposition: centered, symmetrical, natural light; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day civic and political life; current institutions, public spaces, and procedures Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

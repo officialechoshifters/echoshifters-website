@@ -2,7 +2,7 @@
 // Generates a P-256 keypair, mocks the JWKS endpoint, and runs the verifier
 // through happy path + each failure mode. Run: node scripts/test-clerk-verify.mjs
 process.env.CLERK_ISSUER = 'https://tender-turtle-3675.clerk.accounts.dev'
-process.env.CLERK_ALLOWED_ORIGINS = 'https://nigghters.netlify.app'
+process.env.CLERK_ALLOWED_ORIGINS = 'https://echoshifters.netlify.app'
 
 const { verifyClerkSession } = await import('../netlify/functions/_shared/clerk-verify.mjs')
 
@@ -46,9 +46,9 @@ async function signRsaToken(payload) {
 }
 
 const now = Math.floor(Date.now() / 1000)
-const validPayload = { sub: 'user_123', sid: 'sess_abc', iss: 'https://tender-turtle-3675.clerk.accounts.dev', azp: 'https://nigghters.netlify.app', exp: now + 60, iat: now }
+const validPayload = { sub: 'user_123', sid: 'sess_abc', iss: 'https://tender-turtle-3675.clerk.accounts.dev', azp: 'https://echoshifters.netlify.app', exp: now + 60, iat: now }
 const token = await signToken(validPayload)
-const req = (cookie) => new Request('https://nigghters.netlify.app/content/carousels/index.json', { headers: cookie ? { cookie: `__session=${cookie}` } : {} })
+const req = (cookie) => new Request('https://echoshifters.netlify.app/content/carousels/index.json', { headers: cookie ? { cookie: `__session=${cookie}` } : {} })
 
 const results = []
 const check = (name, ok) => results.push(`${ok ? 'PASS' : 'FAIL'}  ${name}`)

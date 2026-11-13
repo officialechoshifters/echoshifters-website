@@ -1,4 +1,4 @@
-# NIGGHTERS — automatic Instagram publishing
+# ECHOSHIFTERS — automatic Instagram publishing
 
 Every new Instagram post is pulled into the website automatically. You post on
 Instagram, and within ~5 minutes the post (images, video, caption) is live on
@@ -23,7 +23,7 @@ media (Netlify Function) serves them at /media/…
   └─ the site's feed merges them with the existing carousels
         │
         ▼
-live in seconds on nigghters.com
+live in seconds on echoshifters.com
 ```
 
 - **`netlify/functions/ig-sync.mjs`** — runs every 5 minutes, fetches your

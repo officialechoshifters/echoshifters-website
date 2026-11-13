@@ -1,6 +1,7 @@
 import { Clerk } from '@clerk/clerk-js'
 import './style.css'
 import heroArt from './assets/hero.png'
+import logoArt from './assets/logo.png'
 
 const app = document.querySelector('#app')
 const publishableKey = import.meta.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY || import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -43,7 +44,7 @@ async function loadClerk() {
     if (!window.__internal_ClerkUICtor) throw new Error('Clerk UI bundle did not register')
     clerk = new Clerk(publishableKey)
     await clerk.load({ ui: { ClerkUI: window.__internal_ClerkUICtor }, standardBrowser: true, touchSession: true })
-    window.__nigghtersClerk = clerk
+    window.__echoshiftersClerk = clerk
     return clerk
   } catch (error) {
     console.warn('Clerk unavailable; authentication is disabled.', error)
@@ -53,17 +54,17 @@ async function loadClerk() {
 }
 
 document.querySelector('#app').innerHTML = `
-  <header class="topbar"><a class="logo" href="#home" aria-label="NIGGHTERS home">NIGG<span>H</span>TERS</a><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/contact" class="touch">Get in Touch</a><a href="#page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
+  <header class="topbar"><a class="logo" href="#home" aria-label="ECHOSHIFTERS home"><img src="${logoArt}" alt="" width="990" height="160" decoding="async"></a><button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="nav"><a href="#page/about" data-page="page/about">About Us</a><a href="#page/articles" data-page="page/articles">Articles</a><a href="#page/topics" data-page="page/topics">Topics</a><a href="#page/contact" class="touch" data-page="page/contact">Get in Touch</a><a href="#page/newsletter" data-page="page/newsletter">Newsletter</a><span id="auth-controls"></span></nav></header>
   <main>
-    <section id="home" class="hero"><div><div class="eyebrow">Independent curated platform</div><h1>Neural accuracy,<br>pristine <em>facts.</em></h1><p>NIGGHTERS is a quiet place for sharp ideas, thoughtful stories, and the people who keep looking closer.</p><div class="actions"><a class="primary" href="#page/articles">Explore the journal ↗</a><a class="secondary" href="#page/about">About NIGGHTERS</a></div></div><div class="hero-art"><img class="hero-photo" src="${heroArt}" alt="Aerial night view of a glowing city intersection with crowds and a large public news screen"></div></section>
-    <div class="ticker"><span><b>✦</b> NEW PERSPECTIVES, BIWEEKLY</span><span>DESIGNED FOR THE CURIOUS</span><span><b>✦</b> NIGGHTERS / EST. 2026</span></div>
+    <section id="home" class="hero"><div><div class="eyebrow">Independent curated platform</div><h1>Neural accuracy,<br>pristine <em>facts.</em></h1><p>ECHOSHIFTERS is a quiet place for sharp ideas, thoughtful stories, and the people who keep looking closer.</p><div class="actions"><a class="primary" href="#page/articles">Explore the journal ↗</a><a class="secondary" href="#page/about">About ECHOSHIFTERS</a></div></div><div class="hero-art"><img class="hero-photo" src="${heroArt}" alt="Aerial night view of a glowing city intersection with crowds and a large public news screen"></div></section>
+    <div class="ticker"><span><b>✦</b> NEW PERSPECTIVES, BIWEEKLY</span><span>DESIGNED FOR THE CURIOUS</span><span><b>✦</b> ECHOSHIFTERS / EST. 2026</span></div>
     <section id="about" class="section"><div class="about"><h2>A publication for<br><em>the in-between.</em></h2><div class="about-copy"><p>News moves fast, but accuracy shouldn't be compromised. We track breaking coverage across trusted global publishers, cross-verifying facts as stories unfold.</p></div></div></section>
     <section id="articles" class="section"><div class="section-head"><h2>Top<br><em>news.</em></h2><p class="section-intro">The latest stories from the journal.</p></div><div id="carousel-feed" class="carousel-feed" data-feed="home"><div class="empty"><div class="empty-mark">✦</div><h3>Loading the journal…</h3></div></div><div class="empty" id="article-empty" hidden><div class="empty-mark">✦</div><h3>No articles yet.</h3><p>Our first stories are on their way. Sign in to access the journal when it launches.</p><button class="primary" id="article-auth">Sign in to the journal →</button></div></section>
     <section id="topics" class="section"><div class="section-head"><h2>Follow your<br><em>curiosity.</em></h2><p class="section-intro">Explore the subjects that keep us looking closer.</p></div><div class="topics-grid">${['AI','Business','Culture','Finance','Health','Lifestyle','Politics','Science','Sports','Technology','Environment'].map((topic, index) => `<a class="topic-card" href="#page/topic/${topicToSlug(topic)}"><span class="topic-number">${String(index + 1).padStart(2, '0')}</span><span>${topic}</span><span class="topic-arrow">↗</span></a>`).join('')}</div></section>
-    <section id="contact" class="section"><div class="subhero"><div class="eyebrow">Get in touch</div><h1>Let’s make<br><em>contact.</em></h1><p>The NIGGHTERS contact desk is being prepared. Final contact details and an enquiry form will be added here.</p><a class="primary" href="mailto:nigghterers@gmail.com">Email the desk →</a></div></section>
+    <section id="contact" class="section"><div class="subhero"><div class="eyebrow">Get in touch</div><h1>Let’s make<br><em>contact.</em></h1><p>The ECHOSHIFTERS contact desk is being prepared. Final contact details and an enquiry form will be added here.</p><a class="primary" href="mailto:contact@echoshifters.com">Contact us →</a></div></section>
     <section id="newsletter" class="section"><div class="newsletter"><div><div class="eyebrow">The biweekly dispatch — coming soon</div><h2>A little light for your inbox, soon.</h2><p>One thoughtful note every two weeks. No noise, no rush, just the good stuff. Signups open when the first issue lands.</p></div><a class="newsletter-cta" id="newsletter-action" href="#page/newsletter">See what's coming →</a></div></section>
   </main>
-  <footer class="footer"><div class="footer-top"><a class="logo" href="#home">NIGG<span>H</span>TERS</a><div class="footer-links"><a href="#page/about">About Us</a><a href="#page/articles">Articles</a><a href="#page/topics">Topics</a><a href="#page/newsletter">Newsletter</a><a href="#page/contact">Get in Touch</a><a href="#page/legal">Legal</a><a href="#home" id="cookie-settings">Cookie settings</a></div></div><div class="copyright">© 2026 NIGGHTERS. Made for the curious.</div></footer>
+  <footer class="footer"><div class="footer-top"><a class="logo" href="#home">ECHO<span>S</span>HIFTERS</a><div class="footer-links"><a href="#page/about" data-page="page/about">About Us</a><a href="#page/articles" data-page="page/articles">Articles</a><a href="#page/topics" data-page="page/topics">Topics</a><a href="#page/newsletter" data-page="page/newsletter">Newsletter</a><a href="#page/contact" data-page="page/contact">Get in Touch</a><a href="#page/legal" data-page="page/legal">Legal</a><a href="#home" id="cookie-settings">Cookie settings</a></div></div><div class="copyright">© 2026 ECHOSHIFTERS. Made for the curious.</div></footer>
   <div id="auth-modal" class="modal-back"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="auth-title"><div class="modal-head"><div><div class="eyebrow">Members area</div><h3 id="auth-title">Create your account</h3></div><button class="close" id="close-auth" aria-label="Close">×</button></div><div class="auth-tabs"><button type="button" class="auth-tab" data-mode="signUp">Sign up</button><button type="button" class="auth-tab" data-mode="signIn">Log in</button></div><div class="modal-body"><div id="clerk-auth"></div></div></div></div>
   <div id="toast" class="toast" hidden></div>
   <div id="search-overlay" class="search-overlay" hidden>
@@ -85,7 +86,7 @@ const authTitle = document.querySelector('#auth-title')
 const authTabs = document.querySelectorAll('.auth-tab')
 const toast = document.querySelector('#toast')
 let savedHomeHTML = document.querySelector('main').innerHTML
-let feedView = localStorage.getItem('nigghters-feed-view') === 'list' ? 'list' : 'grid'
+let feedView = localStorage.getItem('echoshifters-feed-view') === 'list' ? 'list' : 'grid'
 
 function feedToggleHTML() {
   return `<div class="feed-toggle" role="group" aria-label="Article view"><button type="button" data-view="grid" class="${feedView === 'grid' ? 'active' : ''}">Grid</button><button type="button" data-view="list" class="${feedView === 'list' ? 'active' : ''}">List</button></div>`
@@ -95,7 +96,7 @@ function bindFeedToggle() {
   document.querySelectorAll('.feed-toggle button').forEach((btn) => {
     btn.onclick = () => {
       feedView = btn.dataset.view === 'list' ? 'list' : 'grid'
-      localStorage.setItem('nigghters-feed-view', feedView)
+      localStorage.setItem('echoshifters-feed-view', feedView)
       handleRoute()
     }
   })
@@ -106,7 +107,7 @@ function hasAccount() { return Boolean(clerk?.user) }
 
 // Shared members-only screen shown anywhere signed-out visitors hit gated content.
 function membersOnlyHTML(reason = 'Journal') {
-  return `<section class="page-view"><div class="locked"><div class="empty-mark">✦</div><h1>For members<br><em>only.</em></h1><p class="page-lead">${safeText(reason)} is part of the NIGGHTERS members area. Create a free account to read the full journal, follow topics, and search every story.</p><div class="actions"><button class="primary" data-auth-trigger>Create a free account →</button><a class="secondary" href="#home">Back to home</a></div></div></section>`
+  return `<section class="page-view"><div class="locked"><div class="empty-mark">✦</div><h1>For members<br><em>only.</em></h1><p class="page-lead">${safeText(reason)} is part of the ECHOSHIFTERS members area. Create a free account to read the full journal, follow topics, and search every story.</p><div class="actions"><button class="primary" data-auth-trigger>Create a free account →</button><a class="secondary" href="#home">Back to home</a></div></div></section>`
 }
 
 function renderLockedPage(reason) {
@@ -128,7 +129,7 @@ function renderHome() {
 }
 
 function renderAboutPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">About</div><h1>A publication for<br><em>the in-between.</em></h1><p class="page-lead">NIGGHTERS brings together writing, thinking, and visual culture for people who find energy in the hours others overlook.</p><div class="stat-row"><div class="stat"><b>2026</b><span>Established</span></div><div class="stat"><b>01</b><span>Biweekly dispatch</span></div><div class="stat"><b>10+</b><span>Stories published</span></div></div><div class="value-list"><div class="value-item"><h3>Independent</h3><p>Our own desk selects every story and verifies it against trusted global publishers, with no outside agenda shaping what you read.</p></div><div class="value-item"><h3>Curious</h3><p>We chase the questions behind the headlines, following breaking coverage until the facts hold up.</p></div><div class="value-item"><h3>Visual</h3><p>Every story is told as a visual carousel, pairing sharp imagery with verified context you can absorb in minutes.</p></div></div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">About</div><h1>A publication for<br><em>the in-between.</em></h1><p class="page-lead">ECHOSHIFTERS brings together writing, thinking, and visual culture for people who find energy in the hours others overlook.</p><div class="stat-row"><div class="stat"><b>2026</b><span>Established</span></div><div class="stat"><b>01</b><span>Biweekly dispatch</span></div><div class="stat"><b>10+</b><span>Stories published</span></div></div><div class="value-list"><div class="value-item"><h3>Independent</h3><p>Our own desk selects every story and verifies it against trusted global publishers, with no outside agenda shaping what you read.</p></div><div class="value-item"><h3>Curious</h3><p>We chase the questions behind the headlines, following breaking coverage until the facts hold up.</p></div><div class="value-item"><h3>Visual</h3><p>Every story is told as a visual carousel, pairing sharp imagery with verified context you can absorb in seconds.</p></div></div></section>`
 }
 
 const TOPIC_CATALOG = [['AI','Automation, models, and what intelligence means next.'],['Business','How companies and economies work, and how they break.'],['Culture','Visual culture, the work of making, and the ideas shaping how we live together.'],['Finance','Markets, capital flows, and the decisions that move them.'],['Health','Bodies, care, and the science of well-being.'],['Lifestyle','How we spend time, space, and attention.'],['Politics','Power, policy, and the people in between.'],['Science','Discovery, evidence, and the long view.'],['Sports','Competition, culture, and the human limit.'],['Technology','The tools rewriting our routines.'],['Environment','Climate, sustainability, and the planet we share.']]
@@ -148,13 +149,17 @@ function displayTopic(topic) {
 }
 
 function canonicalTopics(carousel) {
-  if (!carousel?.topic) return []
-  return String(carousel.topic).toLowerCase().split(/[&,/]+/).map((s) => s.trim()).filter(Boolean).map(displayTopic)
+  const topicText = String(carousel?.topic || '')
+  // Older Instagram entries only stored the caption; their topic labels are
+  // the leading category heading (for example, "AI & BUSINESS:").
+  const heading = String(carousel?.caption_text || '').split(/\r?\n/, 1)[0]
+    .match(/^\s*([A-Z][A-Z0-9 &+'\/-]{2,40})\s*:\s*$/)?.[1] || ''
+  return [...new Set(`${topicText},${heading}`.toLowerCase().replaceAll('/', ',').split(/[,&\s]+/).map((s) => s.trim()).filter(Boolean).map(displayTopic))]
 }
 
 function buildTopicsData() {
   const counts = new Map()
-  ;(window.__nigghtersCarousels || []).forEach((carousel) => canonicalTopics(carousel).forEach((t) => counts.set(t, (counts.get(t) || 0) + 1)))
+  ;(window.__echoshiftersCarousels || []).forEach((carousel) => canonicalTopics(carousel).forEach((t) => counts.set(t, (counts.get(t) || 0) + 1)))
   // The topic list is fixed: only catalog topics are surfaced, so stray categories
   // (e.g. crypto, geopolitics, nature) never appear on the topics page.
   return TOPIC_CATALOG.map(([name, desc]) => ({ name, desc, count: counts.get(name) || 0 }))
@@ -171,25 +176,25 @@ function renderNewsletterPage() {
   // data collection. The double opt-in endpoint stays ready for launch.
   const soonBadge = '<p style="font:11px var(--mono);color:var(--accent-soft);text-transform:uppercase;letter-spacing:.1em;margin-top:26px">✦ Coming soon — not accepting signups yet</p>'
   document.querySelector('main').innerHTML =
-    '<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The biweekly dispatch</div><h1>Something good<br>for your <em>inbox,</em><br>coming <em>soon.</em></h1><p class="page-lead">The biweekly NIGGHTERS dispatch is on its way: one thoughtful note every two weeks, no noise, no rush. Signups open when the first issue is ready.</p>' +
+    '<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">The biweekly dispatch</div><h1>Something good<br>for your <em>inbox,</em><br>coming <em>soon.</em></h1><p class="page-lead">The biweekly ECHOSHIFTERS dispatch is on its way: one thoughtful note every two weeks, no noise, no rush. Signups open when the first issue is ready.</p>' +
     soonBadge +
     '</section>'
 }
 function renderContactPage() {
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">Get in touch</div><h1>Let's make<br><em>contact.</em></h1><p class="page-lead">Questions, pitches, partnerships, the NIGGHTERS desk reads everything. Write to us and we will get back within two working days.</p><div class="actions"><a class="primary" href="mailto:nigghterers@gmail.com">Email the desk →</a></div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">Get in touch</div><h1>Let's make<br><em>contact.</em></h1><p class="page-lead">Questions, pitches, partnerships,  sponsorships the ECHOSHIFTERS desk reads everything. Write to us and we will get back within two working days.</p><div class="actions"><a class="primary" href="mailto:contact@echoshifters.com">Contact us →</a></div></section>`
 }
 
 const LEGAL_PAGES = {
   terms: {
     title: 'Part A · <em>Terms of use</em>',
-    lead: 'The ground rules for using NIGGHTERS. Clear terms, no fine print tricks.',
+    lead: 'The ground rules for using ECHOSHIFTERS. Clear terms, no fine print tricks.',
     updated: 'Last updated: September 20, 2026',
     body: `
       <h2>1. Acceptance of terms</h2>
-      <p>By accessing or using NIGGHTERS at <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a> (the "Service"), you agree to be bound by these Terms of Use and our <a href="#page/privacy">Privacy Policy</a>. If you do not agree, please do not access the site or use our services.</p>
+      <p>By accessing or using ECHOSHIFTERS at <a href="https://echoshifters.com" target="_blank" rel="noopener noreferrer">https://echoshifters.com</a> (the "Service"), you agree to be bound by these Terms of Use and our <a href="#page/privacy">Privacy Policy</a>. If you do not agree, please do not access the site or use our services.</p>
 
       <h2>2. The service</h2>
-      <p>NIGGHTERS is an independent, curated publication. We track breaking coverage across trusted global publishers, cross-verifying facts as stories unfold, and present verified journalism in visual carousel form.</p>
+      <p>ECHOSHIFTERS is an independent, curated publication. We track breaking coverage across trusted global publishers, cross-verifying facts as stories unfold, and present verified journalism in visual carousel form.</p>
 
       <h2>3. Accounts</h2>
       <p>Reading the full journal requires a free account. You are responsible for keeping your credentials secure and for all activity under your account. You must provide accurate information when signing up. We may suspend or terminate accounts that violate these terms.</p>
@@ -205,32 +210,32 @@ const LEGAL_PAGES = {
       </ul>
 
       <h2>5. Intellectual property</h2>
-      <p>All original content on NIGGHTERS, including text, design, imagery, and branding, is owned by NIGGHTERS or its licensors and is protected by copyright and other laws. You may not reproduce, distribute, or create derivative works from our content without permission. Stories reference reporting from third-party publishers; those remain the property of their respective owners.</p>
+      <p>All original content on ECHOSHIFTERS, including text, design, imagery, and branding, is owned by ECHOSHIFTERS or its licensors and is protected by copyright and other laws. You may not reproduce, distribute, or create derivative works from our content without permission. Stories reference reporting from third-party publishers; those remain the property of their respective owners.</p>
 
       <h2>6. Disclaimers</h2>
-      <p>The Service is provided "as is" and "as available" without warranties of any kind, express or implied. We work hard to verify facts before publishing, but we do not warrant that content is complete, accurate, or uninterrupted. Nothing on NIGGHTERS constitutes professional advice.</p>
+      <p>The Service is provided "as is" and "as available" without warranties of any kind, express or implied. We work hard to verify facts before publishing, but we do not warrant that content is complete, accurate, or uninterrupted. Nothing on ECHOSHIFTERS constitutes professional advice.</p>
 
       <h2>7. Limitation of liability</h2>
-      <p>To the fullest extent permitted by law, NIGGHTERS shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill, arising from your use of or inability to use the Service.</p>
+      <p>To the fullest extent permitted by law, ECHOSHIFTERS shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of data, profits, or goodwill, arising from your use of or inability to use the Service.</p>
 
       <h2>8. Changes to the service or terms</h2>
       <p>We may modify or discontinue the Service at any time. We may update these terms from time to time; the "Last updated" date above shows the current version. Continued use of the Service after changes are posted constitutes acceptance of the revised terms.</p>
 
       <h2>9. Contact</h2>
-      <p>Questions about these terms? Email <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a>.</p>
+      <p>Questions about these terms? Email <a href="mailto:contact@echoshifters.com">contact@echoshifters.com</a>.</p>
     `,
   },
   privacy: {
     title: 'Part B · <em>Privacy policy</em>',
-    lead: 'How NIGGHTERS collects, uses, and safeguards your information.',
+    lead: 'How ECHOSHIFTERS collects, uses, and safeguards your information.',
     updated: 'Last updated: September 22, 2026',
     body: `
       <h2>1. Introduction</h2>
-      <p>NIGGHTERS ("we", "us", or "our") operates <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a> (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
+      <p>ECHOSHIFTERS ("we", "us", or "our") operates <a href="https://echoshifters.com" target="_blank" rel="noopener noreferrer">https://echoshifters.com</a> (the "Service"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.</p>
       <p>Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site or use our services.</p>
 
       <h2>2. Controller</h2>
-      <p>The data controller for personal data processed through the Service is NIGGHTERS, an independent publication. For any privacy matter — including the rights described in section 7 — contact <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a>.</p>
+      <p>The data controller for personal data processed through the Service is ECHOSHIFTERS, an independent publication. For any privacy matter — including the rights described in section 7 — contact <a href="mailto:contact@echoshifters.com">contact@echoshifters.com</a>.</p>
 
       <h2>3. Information we collect and why</h2>
       <p>We only collect what the Service actually uses:</p>
@@ -326,8 +331,8 @@ const LEGAL_PAGES = {
       <h2>Contact us</h2>
       <p>If you have any questions about this Privacy Policy, please contact us:</p>
       <ul>
-        <li>Email: <a href="mailto:nigghterers@gmail.com">nigghterers@gmail.com</a></li>
-        <li>Website: <a href="https://nigghters.netlify.app" target="_blank" rel="noopener noreferrer">https://nigghters.netlify.app</a></li>
+        <li>Email: <a href="mailto:contact@echoshifters.com">contact@echoshifters.com</a></li>
+        <li>Website: <a href="https://echoshifters.com" target="_blank" rel="noopener noreferrer">https://echoshifters.com</a></li>
       </ul>
 
       <h2>Changes to this privacy policy</h2>
@@ -339,7 +344,7 @@ const LEGAL_PAGES = {
 
 function renderLegalPage(focusPart) {
   const parts = Object.entries(LEGAL_PAGES).map(([key, page]) => `<div class="legal-part" id="part-${key}"><h2 class="legal-part-title">${page.title.replace('<br>', ' ')}</h2><p class="legal-updated">${page.updated}</p>${page.body}</div>`).join('')
-  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">NIGGHTERS / Legal</div><h1>Terms &<br><em>privacy.</em></h1><p class="page-lead">Everything legal, in one place. Part A is the terms of use, Part B is the privacy policy. Each part carries its own last-updated date.</p><div class="legal">${parts}</div></section>`
+  document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#home">← Back to home</a><div class="eyebrow">ECHOSHIFTERS / Legal</div><h1>Terms &<br><em>privacy.</em></h1><p class="page-lead">Everything legal, in one place. Part A is the terms of use, Part B is the privacy policy. Each part carries its own last-updated date.</p><div class="legal">${parts}</div></section>`
   window.scrollTo({ top: 0, behavior: 'smooth' })
   const target = focusPart && document.getElementById(`part-${focusPart}`)
   if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
@@ -354,8 +359,23 @@ function renderArticlesPage() {
   loadCarouselFeed()
 }
 
+function markActiveNav(hash) {
+  const key = hash.replace(/^#/, '')
+  document.querySelectorAll('.nav a[data-page], .footer-links a[data-page]').forEach((link) => {
+    const page = link.dataset.page
+    // Topic pages belong to the Topics index.
+    const matches = key === page || (page === 'page/topics' && key.startsWith('page/topic/'))
+    link.classList.toggle('active', matches)
+    if (matches) link.setAttribute('aria-current', 'page')
+    else link.removeAttribute('aria-current')
+  })
+}
+
+const LEGACY_PAGE_ROUTES = { contact: 'contact', about: 'about', articles: 'articles', topics: 'topics', newsletter: 'newsletter', legal: 'legal' }
+
 function handleRoute() {
   const hash = location.hash || '#home'
+  markActiveNav(hash)
   if (hash === '#home' || hash === '#') { renderHome(); return }
   // Everything below this line requires an account: articles, topics, stories.
   if (!hasAccount()) {
@@ -365,7 +385,7 @@ function handleRoute() {
     if (hash.startsWith('#page/topic/')) return renderLockedPage('That topic')
   }
   if (hash.startsWith('#article/')) {
-    if (window.__nigghtersCarousels) openArticle(hash.slice(9))
+    if (window.__echoshiftersCarousels) openArticle(hash.slice(9))
     return
   }
   const key = hash.slice(1)
@@ -378,6 +398,13 @@ function handleRoute() {
   if (key === 'page/terms') return renderLegalPage('terms')
   if (key === 'page/privacy') return renderLegalPage('privacy')
   if (key === 'page/articles') return renderArticlesPage()
+  // A bare fragment (#contact, #about) — legacy links, shared URLs, or a
+  // hand-typed hash. Send it to the real page instead of dumping the visitor
+  // on the homepage with no explanation.
+  if (LEGACY_PAGE_ROUTES[key]) {
+    location.replace(`#page/${LEGACY_PAGE_ROUTES[key]}`)
+    return
+  }
   renderHome()
 }
 
@@ -564,7 +591,7 @@ function renderTopicPage(rawSlug) {
   const slug = decodeURIComponent(rawSlug || '')
   // Legacy topic slugs (arts/economy/markets) redirect to the topic that absorbed them.
   const topicName = buildTopicsData().find(({ name }) => topicToSlug(name) === slug)?.name || TOPIC_LEGACY[slug]
-  const articles = (window.__nigghtersCarousels || []).filter((carousel) => canonicalTopics(carousel).includes(topicName))
+  const articles = (window.__echoshiftersCarousels || []).filter((carousel) => canonicalTopics(carousel).includes(topicName))
   const count = articles.length
   document.querySelector('main').innerHTML = `<section class="page-view"><a class="back-link" href="#page/topics">← All topics</a><div class="eyebrow">Topic index</div><h1>${safeText(topicName || slug)}</h1><p class="page-lead">${count ? `${count} ${count === 1 ? 'story' : 'stories'} filed under ${safeText(topicName)}.` : 'No stories filed under this topic yet, check back soon.'}</p>${pageSearchHTML(count ? `Search ${count} ${count === 1 ? 'story' : 'stories'} in ${safeText(topicName)}…` : 'Search stories…')}${feedToggleHTML()}<div id="topic-feed" class="carousel-feed" data-feed="view"></div></section>`
   renderFeedInto(document.querySelector('#topic-feed'), articles, true)
@@ -625,10 +652,10 @@ async function loadCarouselFeed() {
       return
     }
     // IG-synced entries live under /media/...; the poller diffs just those.
-    __nigghtersIgIds = new Set(carousels.filter((c) => String(c.directory || '').startsWith('/media/')).map((c) => c.id))
+    __echoshiftersIgIds = new Set(carousels.filter((c) => String(c.directory || '').startsWith('/media/')).map((c) => c.id))
     if (!carousels.length) throw new Error('No carousel data')
-    window.__nigghtersCarousels = carousels
-    window.__nigghtersGetCaption = getCaption
+    window.__echoshiftersCarousels = carousels
+    window.__echoshiftersGetCaption = getCaption
     // A 401 never reaches here (early return), so anyone rendering the feed is
     // signed in — the server already checked the Clerk session.
     document.querySelectorAll('[data-feed]').forEach((el) => renderFeedInto(el, el.dataset.feed === 'home' ? carousels.slice(0, 6) : carousels, el.dataset.feed === 'view'))
@@ -643,9 +670,9 @@ async function loadCarouselFeed() {
 
 // Poll the live index so new Instagram posts appear without a manual refresh.
 // Skips while a story is open so readers are never interrupted.
-let __nigghtersIgIds = new Set()
-let __nigghtersSearchIndex = []
-let __nigghtersSearchVisible = false
+let __echoshiftersIgIds = new Set()
+let __echoshiftersSearchIndex = []
+let __echoshiftersSearchVisible = false
 const searchOverlay = document.querySelector('#search-overlay')
 const searchInput = document.querySelector('#search-input')
 const searchResults = document.querySelector('#search-results')
@@ -653,8 +680,8 @@ const searchCount = document.querySelector('#search-count')
 let searchActiveIndex = -1
 
 function refreshSearchIndex() {
-  const carousels = window.__nigghtersCarousels || []
-  __nigghtersSearchIndex = carousels.map((carousel) => {
+  const carousels = window.__echoshiftersCarousels || []
+  __echoshiftersSearchIndex = carousels.map((carousel) => {
     const slides = Array.isArray(carousel.slides) ? carousel.slides : []
     const topics = canonicalTopics(carousel)
     const caption = String(carousel.caption_text || '')
@@ -671,7 +698,7 @@ function refreshSearchIndex() {
 function openSearch() {
   if (!hasAccount()) { showToast('Sign in to search the journal.'); openAuth(); return }
   if (!searchOverlay) return
-  __nigghtersSearchVisible = true
+  __echoshiftersSearchVisible = true
   searchOverlay.hidden = false
   searchInput.value = ''
   searchActiveIndex = -1
@@ -683,7 +710,7 @@ function openSearch() {
 }
 
 function closeSearch() {
-  __nigghtersSearchVisible = false
+  __echoshiftersSearchVisible = false
   searchOverlay.hidden = true
   searchInput.blur()
 }
@@ -696,7 +723,7 @@ function searchIndex(text) {
   const query = normalizeQuery(text)
   if (!query) return []
   const queryWords = query.split(/\s+/).filter(Boolean)
-  return __nigghtersSearchIndex
+  return __echoshiftersSearchIndex
     .map((item) => {
       const haystack = `${item.title} ${item.topics} ${item.caption}`.toLowerCase()
       let score = 0
@@ -789,7 +816,7 @@ function bindPageSearch(scope = document) {
     input.addEventListener('input', () => {
       // When the in-page bar is used, close the keyboard-overlay variant so the
       // two never show results at once.
-      if (__nigghtersSearchVisible) closeSearch()
+      if (__echoshiftersSearchVisible) closeSearch()
       renderSearchResults(input.value, results, count)
     })
     input.addEventListener('keydown', (event) => {
@@ -815,10 +842,10 @@ function searchKeyHandler(event) {
   const cmdOrCtrl = event.metaKey || event.ctrlKey
   if (cmdOrCtrl && event.key === 'k') {
     event.preventDefault()
-    if (!__nigghtersSearchVisible) openSearch()
+    if (!__echoshiftersSearchVisible) openSearch()
     return
   }
-  if (!__nigghtersSearchVisible) return
+  if (!__echoshiftersSearchVisible) return
   if (event.key === 'Escape') { closeSearch(); return }
   if (event.key === 'ArrowDown') { event.preventDefault(); navigateSearchResult(1); return }
   if (event.key === 'ArrowUp') { event.preventDefault(); navigateSearchResult(-1); return }
@@ -846,8 +873,8 @@ async function pollInstagramFeed() {
     const carousels = data.carousels
     if (!carousels.length) return
     const ids = new Set(carousels.map((c) => c.id))
-    const unchanged = ids.size === __nigghtersIgIds.size && [...ids].every((id) => __nigghtersIgIds.has(id))
-    __nigghtersIgIds = ids
+    const unchanged = ids.size === __echoshiftersIgIds.size && [...ids].every((id) => __echoshiftersIgIds.has(id))
+    __echoshiftersIgIds = ids
     if (unchanged) return
     if (!isFeedView) return
     await loadCarouselFeed()
@@ -891,7 +918,7 @@ function bindStorySwipe(el, onSwipe) {
 
 async function openArticle(id) {
   if (!hasAccount()) return renderLockedPage('That story')
-  const carousel = window.__nigghtersCarousels?.find((item) => item.id === id)
+  const carousel = window.__echoshiftersCarousels?.find((item) => item.id === id)
   if (!carousel) return
   const slides = (carousel.slides || []).filter((slide) => slide?.file)
   if (!slides.length) return
@@ -911,13 +938,13 @@ async function openArticle(id) {
   bindStorySwipe(stage, (dir) => goToStory(dir))
   activeStory.render()
   window.scrollTo({ top: 0, behavior: 'smooth' })
-}  window.addEventListener('hashchange', () => { if (__nigghtersSearchVisible) closeSearch(); handleRoute() })
+}  window.addEventListener('hashchange', () => { if (__echoshiftersSearchVisible) closeSearch(); handleRoute() })
   document.querySelector('#cookie-settings')?.addEventListener('click', (event) => {
     event.preventDefault()
     // The granular settings modal lives in index.html and is owned by the
     // inline consent script, which exposes this opener.
-    if (typeof window.__nigghtersOpenCookieSettings === 'function') {
-      window.__nigghtersOpenCookieSettings()
+    if (typeof window.__echoshiftersOpenCookieSettings === 'function') {
+      window.__echoshiftersOpenCookieSettings()
       return
     }
     const banner = document.querySelector('#cookie-banner')
@@ -928,7 +955,7 @@ async function openArticle(id) {
 bindHomeButtons()
 loadCarouselFeed().then(() => handleRoute())
 
-let authMode = localStorage.getItem('nigghters-auth-mode') || 'signUp'
+let authMode = localStorage.getItem('echoshifters-auth-mode') || 'signUp'
 const AUTH_LABELS = {
   signUp: { title: 'Create your account', note: 'New here? It only takes a minute.' },
   signIn: { title: 'Welcome back', note: 'Log in to keep reading.' },
@@ -983,7 +1010,7 @@ function unmountAuth() {
 function setAuthMode(mode, persist = true) {
   authMode = mode
   if (!clerk) { showToast('Member sign-in will be available soon.'); return }
-  if (persist) localStorage.setItem('nigghters-auth-mode', mode)
+  if (persist) localStorage.setItem('echoshifters-auth-mode', mode)
   authTabs.forEach((tab) => tab.classList.toggle('active', tab.dataset.mode === mode))
   authTitle.textContent = AUTH_LABELS[mode].title
   unmountAuth()
@@ -1073,5 +1100,5 @@ document.addEventListener('click', (event) => {
   if (link) document.querySelector('.nav').classList.remove('open')
   const toastLink = event.target.closest('[data-toast]')
   if (toastLink) { event.preventDefault(); showToast(toastLink.dataset.toast) }
-  if (searchOverlay && __nigghtersSearchVisible && !searchOverlay.contains(event.target)) closeSearch()
+  if (searchOverlay && __echoshiftersSearchVisible && !searchOverlay.contains(event.target)) closeSearch()
 })

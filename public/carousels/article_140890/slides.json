@@ -1,0 +1,269 @@
+{
+  "renderer": "comfyui",
+  "category": "business",
+  "published_at": "2026-11-08T21:00:58",
+  "image_url": "https://i.guim.co.uk/img/media/3fc6a5d68684a58fece0294bce9094ed76072ecd/2374_660_5539_4431/master/5539.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=83a3813a022645362e60d8450d112144",
+  "texts": {
+    "title_text": "Nvidia launched an independent probe into whether CEO Jensen Huang was targeted by Chinese intelligence",
+    "slide_1_text": "The probe follows a New York Times report linking Huang to a suspected Chinese intelligence asset",
+    "slide_2_text": "Alice Huang, a Singapore-based Megaspeed executive, was previously suspected of smuggling Nvidia chips to China",
+    "slide_3_text": "U.S. officials believe she passed commercial data to Beijing as a Chinese intelligence asset",
+    "slide_4_text": "Nvidia confirmed no security or national security breaches were detected during the investigation"
+  },
+  "prompts": {
+    "title_prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nvidia launched an independent probe into whether CEO Jensen Huang was targeted by Chinese intelligence (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: Nvidia logo on a clean office desk.\nVisible state/action: Nvidia logo is placed neatly on a modern desk.\nSetting: contemporary business office.\nComposition: centered, minimal, clean background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Jensen Huang clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+    "slide_1_prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The probe follows a New York Times report linking Huang to a suspected Chinese intelligence asset (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single red stamp.\nVisible state/action: impressed on a plain white document.\nSetting: contemporary business office.\nComposition: medium close-up, focused on the red stamp with a clean desk background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+    "slide_2_prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Alice Huang, a Singapore-based Megaspeed executive, was previously suspected of smuggling Nvidia chips to China (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a stack of unmarked shipping containers.\nVisible state/action: being loaded onto a cargo ship at a modern port.\nSetting: contemporary port logistics facility.\nComposition: centered, wide-angle shot showing the containers stacked with the ship's hull visible in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+    "slide_3_prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: U.S. officials believe she passed commercial data to Beijing as a Chinese intelligence asset (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a data storage device.\nVisible state/action: a USB drive labeled with a Chinese flag icon, placed on a desk next to a laptop showing a Chinese flag in its system settings.\nSetting: contemporary business office.\nComposition: centered framing with a clean, minimalist desk setup in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+    "slide_4_prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nvidia confirmed no security or national security breaches were detected during the investigation (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a clean, unmarked security report document.\nVisible state/action: resting on a modern desk with a single checkmark stamp applied.\nSetting: contemporary business office.\nComposition: medium close-up, centered on the document with a slight angle showing the desk surface and subtle lighting highlighting the checkmark stamp; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure."
+  },
+  "topic": "AI & BUSINESS",
+  "topic_scores": {
+    "AI": 100,
+    "BUSINESS": 100,
+    "CULTURE": 89,
+    "FINANCE": 99,
+    "HEALTH": 0,
+    "LIFESTYLE": 45,
+    "POLITICS": 100,
+    "SCIENCE": 59,
+    "SPORTS": 53,
+    "TECHNOLOGY": 100,
+    "ENVIRONMENT": 36
+  },
+  "seeds": {
+    "title_text": 735130831,
+    "slide_1_text": 157782170,
+    "slide_2_text": 344786513,
+    "slide_3_text": 966154024,
+    "slide_4_text": 466464546,
+    "slide_5_text": 72513994
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Nvidia",
+        "independent probe",
+        "CEO Jensen Huang",
+        "Chinese intelligence"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "Nvidia logo on a clean office desk",
+      "visible_action_or_state": "Nvidia logo is placed neatly on a modern desk",
+      "setting": "contemporary business office",
+      "composition": "centered, minimal, clean background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Jensen Huang's face",
+        "Chinese intelligence operations",
+        "Nvidia CEO's actions",
+        "Specific Chinese government",
+        "Investigation details"
+      ],
+      "distinct_from_prior_slides": "first slide, no prior slides to repeat",
+      "recognizable_subject": "Jensen Huang",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "The probe follows a New York Times report",
+        "linking Huang to a suspected Chinese intelligence asset"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single red stamp",
+      "visible_action_or_state": "impressed on a plain white document",
+      "setting": "contemporary business office",
+      "composition": "medium close-up, focused on the red stamp with a clean desk background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Huang is a person",
+        "Huang is Chinese",
+        "Huang is an intelligence asset",
+        "the probe is conducted by a specific agency",
+        "the New York Times report is about Huang"
+      ],
+      "distinct_from_prior_slides": "Slide 1 used a Nvidia logo on a desk; this slide uses a red stamp on a document, avoiding the same object and focusing on the 'probe' aspect without referencing the report or person",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Alice Huang",
+        "Singapore-based",
+        "Megaspeed executive",
+        "previously suspected of smuggling",
+        "Nvidia chips",
+        "to China"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "a stack of unmarked shipping containers",
+      "visible_action_or_state": "being loaded onto a cargo ship at a modern port",
+      "setting": "contemporary port logistics facility",
+      "composition": "centered, wide-angle shot showing the containers stacked with the ship's hull visible in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Alice Huang's face",
+        "Nvidia logo or branding",
+        "specific document evidence",
+        "any visible Chinese or Singaporean national symbols",
+        "smuggling activity",
+        "legal proceedings"
+      ],
+      "distinct_from_prior_slides": "Slide 1 showed a single Nvidia logo on a desk; Slide 2 showed a red stamp on paper. This slide shows shipping containers being loaded at a port to represent the smuggling process without naming people or showing branded items.",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "U.S. officials",
+        "believe",
+        "she passed commercial data",
+        "to Beijing",
+        "as a Chinese intelligence asset"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a data storage device",
+      "visible_action_or_state": "a USB drive labeled with a Chinese flag icon, placed on a desk next to a laptop showing a Chinese flag in its system settings",
+      "setting": "contemporary business office",
+      "composition": "centered framing with a clean, minimalist desk setup in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific person",
+        "identifiable location",
+        "fabricated event",
+        "documented moment",
+        "text or signage",
+        "Chinese government logo",
+        "intelligence agency symbol",
+        "commercial data content"
+      ],
+      "distinct_from_prior_slides": "Slide 1 used a logo; Slide 2 used a stamp; Slide 3 used shipping containers; this slide uses a data storage device as material consequence",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Nvidia confirmed",
+        "no security or national security breaches were detected",
+        "during the investigation"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a clean, unmarked security report document",
+      "visible_action_or_state": "resting on a modern desk with a single checkmark stamp applied",
+      "setting": "contemporary business office",
+      "composition": "medium close-up, centered on the document with a slight angle showing the desk surface and subtle lighting highlighting the checkmark stamp",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Nvidia's internal systems were compromised",
+        "specific security details",
+        "any named individuals or officials",
+        "a national security incident",
+        "the document was signed by a person"
+      ],
+      "distinct_from_prior_slides": "avoids repeating the Nvidia logo (slide 1), red stamp on document (slide 2), shipping containers (slide 3), and USB drive with Chinese flag (slide 4)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "probe",
+        "deepening tension",
+        "corporate leadership",
+        "national security",
+        "AI sector"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single unmarked security badge",
+      "visible_action_or_state": "resting on a modern desk beside a laptop displaying a generic corporate AI interface",
+      "setting": "contemporary business office",
+      "composition": "centered, head-on view, clean background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific company names",
+        "national flags",
+        "government agencies",
+        "identifiable people",
+        "documentary evidence of the probe"
+      ],
+      "distinct_from_prior_slides": "avoids the Nvidia logo (slide 1), red stamp (slide 2), shipping containers (slide 3), USB drive with Chinese flag (slide 4), and security report document (slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_140890_title.png",
+      "text": "Nvidia launched an independent probe into whether CEO Jensen Huang was targeted by Chinese intelligence",
+      "prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nvidia launched an independent probe into whether CEO Jensen Huang was targeted by Chinese intelligence (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: Nvidia logo on a clean office desk.\nVisible state/action: Nvidia logo is placed neatly on a modern desk.\nSetting: contemporary business office.\nComposition: centered, minimal, clean background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature Jensen Huang clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_140890_slide_1.png",
+      "text": "The probe follows a New York Times report linking Huang to a suspected Chinese intelligence asset",
+      "prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The probe follows a New York Times report linking Huang to a suspected Chinese intelligence asset (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single red stamp.\nVisible state/action: impressed on a plain white document.\nSetting: contemporary business office.\nComposition: medium close-up, focused on the red stamp with a clean desk background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_140890_slide_2.png",
+      "text": "Alice Huang, a Singapore-based Megaspeed executive, was previously suspected of smuggling Nvidia chips to China",
+      "prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Alice Huang, a Singapore-based Megaspeed executive, was previously suspected of smuggling Nvidia chips to China (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: a stack of unmarked shipping containers.\nVisible state/action: being loaded onto a cargo ship at a modern port.\nSetting: contemporary port logistics facility.\nComposition: centered, wide-angle shot showing the containers stacked with the ship's hull visible in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_140890_slide_3.png",
+      "text": "U.S. officials believe she passed commercial data to Beijing as a Chinese intelligence asset",
+      "prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: U.S. officials believe she passed commercial data to Beijing as a Chinese intelligence asset (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a data storage device.\nVisible state/action: a USB drive labeled with a Chinese flag icon, placed on a desk next to a laptop showing a Chinese flag in its system settings.\nSetting: contemporary business office.\nComposition: centered framing with a clean, minimalist desk setup in the background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_140890_slide_4.png",
+      "text": "Nvidia confirmed no security or national security breaches were detected during the investigation",
+      "prompt": "Rendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.\n\nVertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Nvidia confirmed no security or national security breaches were detected during the investigation (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a clean, unmarked security report document.\nVisible state/action: resting on a modern desk with a single checkmark stamp applied.\nSetting: contemporary business office.\nComposition: medium close-up, centered on the document with a slight angle showing the desk surface and subtle lighting highlighting the checkmark stamp; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.\n\nRendered-text rule (hard): the scene is clean — NO letters, words, numbers, logos, captions, signage, charts, or any legible writing anywhere in the frame. Any object that would normally carry writing (a screen, document, newspaper, sign, badge, label) appears blank, closed, turned away, out of focus, or replaced by a clean equivalent. Text that is unreadable but visibly present still counts as a failure.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_5_text",
+      "kind": "image",
+      "file": "article_140890_slide_5.png",
+      "text": "",
+      "prompt": ""
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true,
+      "slot": false
+    }
+  ],
+  "recovered_comfyui_slide_5": true
+}

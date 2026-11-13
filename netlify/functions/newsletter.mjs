@@ -43,7 +43,7 @@ function validEmail(value) {
 }
 
 function store() {
-  return getStore('nigghters-carousels')
+  return getStore('echoshifters-carousels')
 }
 
 async function readList() {
@@ -78,7 +78,7 @@ function safeEqual(a, b) {
 }
 
 function page(title, lines) {
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title} — NIGGHTERS dispatch</title><style>body{background:#0b0d0d;color:#f2f3ed;font-family:system-ui;display:grid;place-items:center;min-height:100vh;margin:0}main{text-align:center;max-width:520px;padding:30px}h1{font-size:26px}p{color:#9da7a2}</style></head><body><main><h1>${title}</h1>${lines.map((l) => `<p>${l}</p>`).join('')}</main></body></html>`
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title} — ECHOSHIFTERS dispatch</title><style>body{background:#0b0d0d;color:#f2f3ed;font-family:system-ui;display:grid;place-items:center;min-height:100vh;margin:0}main{text-align:center;max-width:520px;padding:30px}h1{font-size:26px}p{color:#9da7a2}</style></head><body><main><h1>${title}</h1>${lines.map((l) => `<p>${l}</p>`).join('')}</main></body></html>`
 }
 
 export default async (req) => {
@@ -104,7 +104,7 @@ export default async (req) => {
       delete entry.confirmToken
       await writeList(subscribers)
       return new Response(
-        page('Subscription confirmed', [`<strong>${email}</strong> is now on the list for the NIGGHTERS biweekly dispatch.`, 'You can unsubscribe any time via the link in every email or the one below.']),
+        page('Subscription confirmed', [`<strong>${email}</strong> is now on the list for the ECHOSHIFTERS biweekly dispatch.`, 'You can unsubscribe any time via the link in every email or the one below.']),
         { status: 200, headers: HTML_HEADERS }
       )
     }
@@ -116,7 +116,7 @@ export default async (req) => {
       const remaining = subscribers.filter((s) => s.email !== email)
       await writeList(remaining)
       return new Response(
-        page("You're unsubscribed", [`${email} will no longer receive the NIGGHTERS biweekly dispatch.`, 'Your address has been deleted from our list.']),
+        page("You're unsubscribed", [`${email} will no longer receive the ECHOSHIFTERS biweekly dispatch.`, 'Your address has been deleted from our list.']),
         { status: 200, headers: HTML_HEADERS }
       )
     }

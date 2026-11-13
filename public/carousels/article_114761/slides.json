@@ -1,0 +1,228 @@
+{
+  "renderer": "comfyui",
+  "category": "crime",
+  "published_at": "2026-09-30T23:55:17",
+  "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6311/live/31a802d0-bd25-11f1-bc2e-018d645d8d21.jpg",
+  "texts": {
+    "title_text": "The U.S. Supreme Court overruled a federal stay, clearing the path for Tennessee to execute Christa Pike",
+    "slide_1_text": "Pike’s execution was paused hours before by the Sixth Circuit, which sought to assess her claims of childhood sexual abuse.",
+    "slide_2_text": "Tennessee’s attorney general appealed directly to the Supreme Court, arguing the stay rewarded procedural delays.",
+    "slide_3_text": "Justice Brett Kavanaugh approved the appeal without comment, allowing the execution to proceed.",
+    "slide_4_text": "Three liberal justices dissented, with Justice Sotomayor stressing the constitutional importance of Pike’s right to life."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The U.S. Supreme Court overruled a federal stay, clearing the path for Tennessee to execute Christa Pike (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Supreme Court courtroom.\nVisible state/action: empty bench with a single judicial robe draped over it.\nSetting: generic U.S. Supreme Court courtroom.\nComposition: medium shot of courtroom interior with empty bench center frame, judicial robe draped over backrest, soft natural light from high windows; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Pike’s execution was paused hours before by the Sixth Circuit, which sought to assess her claims of childhood sexual abuse. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a federal courthouse clerk's office desk.\nVisible state/action: an anonymous legal clerk's hands placing a file on the desk.\nSetting: a generic federal courthouse clerk's office.\nComposition: centered; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Tennessee’s attorney general appealed directly to the Supreme Court, arguing the stay rewarded procedural delays. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of tennessee and attorney and general, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Justice Brett Kavanaugh approved the appeal without comment, allowing the execution to proceed. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a rubber-stamp impression on a wooden desk.\nVisible state/action: a faint rubber stamp impression visible on a plain wooden desk surface.\nSetting: a generic legal office workspace.\nComposition: centered, soft natural light from a side window illuminating the desk surface; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Three liberal justices dissented, with Justice Sotomayor stressing the constitutional importance of Pike’s right to life. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of three and liberal and justices, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "POLITICS & HEALTH",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 26,
+    "CULTURE": 65,
+    "FINANCE": 0,
+    "HEALTH": 98,
+    "LIFESTYLE": 45,
+    "POLITICS": 100,
+    "SCIENCE": 0,
+    "SPORTS": 83,
+    "TECHNOLOGY": 26,
+    "ENVIRONMENT": 0
+  },
+  "seeds": {
+    "title_text": 306922999,
+    "slide_1_text": 147815294,
+    "slide_2_text": 502780980,
+    "slide_3_text": 309826257,
+    "slide_4_text": 146822770,
+    "slide_5_text": 468107442
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "U.S. Supreme Court",
+        "overruled a federal stay",
+        "clearing the path for Tennessee to execute Christa Pike"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "Supreme Court courtroom",
+      "visible_action_or_state": "empty bench with a single judicial robe draped over it",
+      "setting": "generic U.S. Supreme Court courtroom",
+      "composition": "medium shot of courtroom interior with empty bench center frame, judicial robe draped over backrest, soft natural light from high windows",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Christa Pike's face or identity",
+        "specific date or time",
+        "Tennessee execution chamber",
+        "any specific person or event",
+        "any documentation or text"
+      ],
+      "distinct_from_prior_slides": "first slide, no prior slides to repeat",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Pike’s execution was paused hours before",
+        "by the Sixth Circuit",
+        "which sought to assess her claims of childhood sexual abuse"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a federal courthouse clerk's office desk",
+      "visible_action_or_state": "an anonymous legal clerk's hands placing a file on the desk",
+      "setting": "a generic federal courthouse clerk's office",
+      "composition": "centered",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Pike's face or identity",
+        "the Sixth Circuit's specific location",
+        "a visual representation of sexual abuse",
+        "a court hearing or trial"
+      ],
+      "distinct_from_prior_slides": "Slide 1 showed a Supreme Court courtroom; this slide must show a different institutional environment (clerk's office) with a different activity (file placement, not document review)",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Tennessee’s attorney general appealed directly to the Supreme Court, arguing the stay rewarded procedural delays"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of tennessee and attorney and general, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "medium process view or two-shot of anonymous actors at work",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "mechanism",
+      "fallback": true
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Justice Brett Kavanaugh",
+        "approved the appeal",
+        "without comment",
+        "allowing the execution to proceed"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a rubber-stamp impression on a wooden desk",
+      "visible_action_or_state": "a faint rubber stamp impression visible on a plain wooden desk surface",
+      "setting": "a generic legal office workspace",
+      "composition": "centered, soft natural light from a side window illuminating the desk surface",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Justice Brett Kavanaugh's face",
+        "specific execution details",
+        "any other judge's involvement",
+        "the content of the appeal"
+      ],
+      "distinct_from_prior_slides": "avoids courtroom setting (Slide 1), clerk's desk (Slide 2), and editorial still life (Slide 3)",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Three liberal justices dissented, with Justice Sotomayor stressing the constitutional importance of Pike’s right to life"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of three and liberal and justices, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "conclusion",
+      "fallback": true
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Pike’s legal team",
+        "Tennessee’s contradiction",
+        "denying her abuse claims during sentencing",
+        "accepting them during execution"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single judicial robe draped over a courtroom bench",
+      "visible_action_or_state": "the robe rests undisturbed on the bench, no visible annotations",
+      "setting": "a generic courtroom with empty benches",
+      "composition": "centered, medium shot, shallow depth of field focusing on the robe on the bench",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "the specific legal case details",
+        "the identity of Pike",
+        "the exact timing of sentencing or execution",
+        "any specific person's face or name",
+        "the document's actual content"
+      ],
+      "distinct_from_prior_slides": "avoids slide 4's rubber-stamp impression by using a robe on a bench, and avoids slide 3 and 5's still-life object arrangements",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_114761_title.png",
+      "text": "The U.S. Supreme Court overruled a federal stay, clearing the path for Tennessee to execute Christa Pike",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The U.S. Supreme Court overruled a federal stay, clearing the path for Tennessee to execute Christa Pike (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: Supreme Court courtroom.\nVisible state/action: empty bench with a single judicial robe draped over it.\nSetting: generic U.S. Supreme Court courtroom.\nComposition: medium shot of courtroom interior with empty bench center frame, judicial robe draped over backrest, soft natural light from high windows; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_114761_slide_1.png",
+      "text": "Pike’s execution was paused hours before by the Sixth Circuit, which sought to assess her claims of childhood sexual abuse.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Pike’s execution was paused hours before by the Sixth Circuit, which sought to assess her claims of childhood sexual abuse. (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a federal courthouse clerk's office desk.\nVisible state/action: an anonymous legal clerk's hands placing a file on the desk.\nSetting: a generic federal courthouse clerk's office.\nComposition: centered; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_114761_slide_2.png",
+      "text": "Tennessee’s attorney general appealed directly to the Supreme Court, arguing the stay rewarded procedural delays.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Tennessee’s attorney general appealed directly to the Supreme Court, arguing the stay rewarded procedural delays. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of tennessee and attorney and general, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: medium process view or two-shot of anonymous actors at work; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_114761_slide_3.png",
+      "text": "Justice Brett Kavanaugh approved the appeal without comment, allowing the execution to proceed.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Justice Brett Kavanaugh approved the appeal without comment, allowing the execution to proceed. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a rubber-stamp impression on a wooden desk.\nVisible state/action: a faint rubber stamp impression visible on a plain wooden desk surface.\nSetting: a generic legal office workspace.\nComposition: centered, soft natural light from a side window illuminating the desk surface; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_114761_slide_4.png",
+      "text": "Three liberal justices dissented, with Justice Sotomayor stressing the constitutional importance of Pike’s right to life.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Three liberal justices dissented, with Justice Sotomayor stressing the constitutional importance of Pike’s right to life. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of three and liberal and justices, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: quiet wide shot or a restrained macro detail of the resulting state, composed as the deck's most iconic frame; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: present-day investigative and justice settings; current police, court, and forensic environments Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

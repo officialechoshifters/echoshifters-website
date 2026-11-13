@@ -58,6 +58,30 @@ export async function runSync(options = {}) {
   const items = allItems
   let existing = await readIndex()
 
+  // Record which account each entry came from. Posts synced before this field
+  // existed have no `account`; they are assumed to be the current account so a
+  // first run on a switched account does not read as "all posts deleted".
+  const account = String(userId)
+  for (const entry of existing) if (!entry.account) entry.account = account
+
+  // Account switch guard: the mirror is a snapshot of ONE account's grid. When
+  // IG_USER_ID is pointed at a different account, keeping the previous
+  // account's entries would mix two accounts' stories forever (their posts are
+  // not in this account's media list, so pruning would keep re-adding and
+  // removing them). Drop entries from other accounts up front instead.
+  const foreign = existing.filter((entry) => String(entry.account) !== account)
+  if (foreign.length) {
+    for (const entry of foreign) {
+      try {
+        await deleteCarouselBlobs(entry)
+      } catch {
+        /* index removal still happens; an orphaned blob is harmless */
+      }
+    }
+    existing = existing.filter((entry) => String(entry.account) === account)
+    await writeIndex(existing)
+  }
+
   // Tombstones are authoritative deletions: a media id recorded here (because
   // it was deleted on Instagram, or wiped from the site on purpose) must never
   // be re-imported by the sync. This is checked outside the listIsComplete
@@ -124,7 +148,7 @@ export async function runSync(options = {}) {
       break
     }
     try {
-      const carousel = await ingestMedia(item, token)
+      const carousel = await ingestMedia(item, token, account)
       existing.push(carousel)
       existingIds.add(item.id)
       added.push(item.id)
@@ -149,7 +173,7 @@ function sortNewestFirst(carousels) {
     .map(({ c }) => c)
 }
 
-async function ingestMedia(item, token) {
+async function ingestMedia(item, token, account) {
   const details = await fetchIgMedia(item.id, token)
   const { topics, tags } = topicsFromCaption(details.caption || '')
   const media = details.media_type === 'CAROUSEL_ALBUM' && Array.isArray(details.children) ? details.children : [{ media_type: details.media_type, media_url: details.media_url }]
@@ -179,6 +203,10 @@ async function ingestMedia(item, token) {
     const reasons = downloads.map((r) => (r.status === 'rejected' ? String(r.reason && r.reason.message || r.reason) : '')).filter(Boolean).join('; ')
     throw new Error(`No downloadable media for ${details.id}${reasons ? ` (${reasons})` : ''}`)
   }
+  // A partially downloaded carousel would publish a story with missing frames
+  // and no way to notice. Keep the slides that landed, but report the gap in
+  // the run result so it is visible instead of silent.
+  const missing = downloads.length - slides.length
 
   // Title = first line of the caption, as with the existing static carousels.
   const firstLine = String(details.caption || '').split('\n')[0].trim() || `Instagram post · ${details.id}`
@@ -190,6 +218,7 @@ async function ingestMedia(item, token) {
 
   return {
     id: details.id,
+    account: String(account),
     directory: `/media/${base}`,
     caption: `/media/${base}/caption.txt`,
     caption_text: captionText,
@@ -198,5 +227,7 @@ async function ingestMedia(item, token) {
     timestamp: details.timestamp,
     permalink: details.permalink || '',
     slides,
+    // Non-zero means some frames of this carousel failed to download.
+    ...(missing ? { missing_slides: missing } : {}),
   }
 }

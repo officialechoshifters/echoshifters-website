@@ -55,8 +55,18 @@ function mergedCarousels(igCarousels, deletedMediaIds) {
     if (!mediaId) return true
     return !tombstones.has(mediaId) && !(liveIds && liveIds.has(mediaId))
   })
+  // The sync's mirror copy carries only what Instagram returns (slides + raw
+  // caption), while the static copy additionally has the authored title and the
+  // full slide script. When a mirror entry is the Instagram post of a static
+  // article, show the static copy — otherwise the new article reads as a bare
+  // "POLITICS & SPORTS:" caption line.
+  const staticByMediaId = new Map()
+  for (const c of staticCarousels) {
+    if (c.post?.media_id) staticByMediaId.set(String(c.post.media_id), c)
+  }
+  const igEntries = igCarousels.map((c) => staticByMediaId.get(String(c.id)) || c)
   const seen = new Set()
-  return [...igCarousels, ...visibleStatic].filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)))
+  return [...igEntries, ...visibleStatic].filter((c) => (seen.has(c.id) ? false : (seen.add(c.id), true)))
 }
 
 async function readIgIndex() {

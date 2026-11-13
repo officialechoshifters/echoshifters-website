@@ -1,0 +1,239 @@
+{
+  "renderer": "comfyui",
+  "category": "science",
+  "published_at": "2026-09-27T21:00:45",
+  "image_url": "",
+  "texts": {
+    "title_text": "SpaceX achieved a historic milestone by launching its Starship rocket into low-Earth orbit for the first time",
+    "slide_1_text": "The 407-foot Starship-Super Heavy rocket lifted off from Boca Chica, Texas at 8:48 a.m. EDT",
+    "slide_2_text": "Construction crews are preparing facilities at Cape Canaveral Space Force Station and Kennedy Space Center",
+    "slide_3_text": "This follows SpaceX's shift from Falcon 9 to Starship as its primary launch vehicle in Brevard County",
+    "slide_4_text": "NASA Administrator Jared Isaacman praised the launch as 'gorgeous' and 'inspirational'"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SpaceX achieved a historic milestone by launching its Starship rocket into low-Earth orbit for the first time (never as visible words).\nVisual evidence mode: documentary_context.\nShow: Starship rocket.\nVisible state/action: ascending into the sky.\nSetting: launchpad at a modern spaceport.\nComposition: Wide shot of the rocket lifting off, with the launchpad and surrounding landscape in the frame, the rocket center-left with clear sky background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature SpaceX clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The 407-foot Starship-Super Heavy rocket lifted off from Boca Chica, Texas at 8:48 a.m. EDT (never as visible words).\nVisual evidence mode: material_consequence.\nShow: rocket debris.\nVisible state/action: scattered on the ground.\nSetting: Boca Chica, Texas beach area.\nComposition: medium shot of debris field with visible blast marks; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Construction crews are preparing facilities at Cape Canaveral Space Force Station and Kennedy Space Center (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: construction crews.\nVisible state/action: working on facility infrastructure.\nSetting: modern spaceport construction site.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This follows SpaceX's shift from Falcon 9 to Starship as its primary launch vehicle in Brevard County (never as visible words).\nVisual evidence mode: material_consequence.\nShow: abandoned Falcon 9 pad infrastructure.\nVisible state/action: partially dismantled with temporary tarps covering remnants.\nSetting: Brevard County spaceport facility.\nComposition: medium shot showing pad concrete structure with Falcon 9 support remnants under tarps, angled to show Starship construction zone adjacent; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: NASA Administrator Jared Isaacman praised the launch as 'gorgeous' and 'inspirational' (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single, high-resolution photo of a NASA mission patch.\nVisible state/action: displayed prominently on a clean, modern desk in a laboratory.\nSetting: a contemporary NASA research laboratory.\nComposition: centered, medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "SCIENCE & TECHNOLOGY",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 0,
+    "CULTURE": 26,
+    "FINANCE": 0,
+    "HEALTH": 65,
+    "LIFESTYLE": 0,
+    "POLITICS": 0,
+    "SCIENCE": 100,
+    "SPORTS": 77,
+    "TECHNOLOGY": 100,
+    "ENVIRONMENT": 65
+  },
+  "seeds": {
+    "title_text": 526468227,
+    "slide_1_text": 498418490,
+    "slide_2_text": 569315977,
+    "slide_3_text": 857140952,
+    "slide_4_text": 951499849,
+    "slide_5_text": 815622262
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "SpaceX",
+        "historic milestone",
+        "launching",
+        "Starship rocket",
+        "low-Earth orbit",
+        "first time"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "Starship rocket",
+      "visible_action_or_state": "ascending into the sky",
+      "setting": "launchpad at a modern spaceport",
+      "composition": "Wide shot of the rocket lifting off, with the launchpad and surrounding landscape in the frame, the rocket center-left with clear sky background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific person or face",
+        "fabricated event",
+        "archival footage",
+        "text or signage"
+      ],
+      "distinct_from_prior_slides": "No prior slides",
+      "recognizable_subject": "SpaceX",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "407-foot Starship-Super Heavy rocket",
+        "lifted off",
+        "Boca Chica, Texas",
+        "8:48 a.m. EDT"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "rocket debris",
+      "visible_action_or_state": "scattered on the ground",
+      "setting": "Boca Chica, Texas beach area",
+      "composition": "medium shot of debris field with visible blast marks",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "repeated launch event",
+        "rocket in flight",
+        "Boca Chica launchpad",
+        "Starship rocket being launched"
+      ],
+      "distinct_from_prior_slides": "avoids launchpad setting and flying rocket of slide 1",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "construction crews",
+        "preparing facilities",
+        "Cape Canaveral Space Force Station",
+        "Kennedy Space Center"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "construction crews",
+      "visible_action_or_state": "working on facility infrastructure",
+      "setting": "modern spaceport construction site",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific event or date",
+        "named individuals",
+        "archival footage",
+        "fabricated moment"
+      ],
+      "distinct_from_prior_slides": "Slide 1 shows ascending rocket; Slide 2 shows debris on beach",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "SpaceX's shift from Falcon 9 to Starship",
+        "primary launch vehicle",
+        "Brevard County"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "abandoned Falcon 9 pad infrastructure",
+      "visible_action_or_state": "partially dismantled with temporary tarps covering remnants",
+      "setting": "Brevard County spaceport facility",
+      "composition": "medium shot showing pad concrete structure with Falcon 9 support remnants under tarps, angled to show Starship construction zone adjacent",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Falcon 9 is discontinued",
+        "Starship is operational",
+        "specific date of transition",
+        "SpaceX headquarters",
+        "Brevard County government officials",
+        "Falcon 9 rocket",
+        "Starship rocket",
+        "SpaceX employees",
+        "construction workers",
+        "Falcon 9 debris"
+      ],
+      "distinct_from_prior_slides": "avoids active launch (Slide 1), debris (Slide 2), and construction crews (Slide 3)",
+      "recognizable_subject": "",
+      "role": "impact",
+      "fallback": false
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "NASA Administrator Jared Isaacman praised the launch",
+        "'gorgeous' and 'inspirational'"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a single, high-resolution photo of a NASA mission patch",
+      "visible_action_or_state": "displayed prominently on a clean, modern desk in a laboratory",
+      "setting": "a contemporary NASA research laboratory",
+      "composition": "centered, medium close-up",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Jared Isaacman's face",
+        "a specific launch event",
+        "a public statement",
+        "a written document"
+      ],
+      "distinct_from_prior_slides": "avoids rocket imagery (Slide 1), debris (Slide 2), construction (Slide 3), and abandoned infrastructure (Slide 4)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "SpaceX",
+        "reach orbit",
+        "manage all phases safely"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "SpaceX rocket booster",
+      "visible_action_or_state": "landed upright on a landing pad",
+      "setting": "modern spaceport landing facility",
+      "composition": "medium shot from a low angle, focusing on the rocket's base and landing legs with the pad's safety barriers in the background",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific mission name",
+        "identifiable SpaceX personnel",
+        "historical launch events",
+        "archival footage",
+        "fabricated mission details"
+      ],
+      "distinct_from_prior_slides": "avoids rocket debris (slide 2), construction crews (slide 3), abandoned infrastructure (slide 4), and mission patch (slide 5)",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_107297_title.png",
+      "text": "SpaceX achieved a historic milestone by launching its Starship rocket into low-Earth orbit for the first time",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: SpaceX achieved a historic milestone by launching its Starship rocket into low-Earth orbit for the first time (never as visible words).\nVisual evidence mode: documentary_context.\nShow: Starship rocket.\nVisible state/action: ascending into the sky.\nSetting: launchpad at a modern spaceport.\nComposition: Wide shot of the rocket lifting off, with the launchpad and surrounding landscape in the frame, the rocket center-left with clear sky background; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nFeature SpaceX clearly and recognizably as the hero of the frame: front-facing, head and upper body fully visible and well lit, sharp and centered, unmistakably identifiable — an editorial portrait-style depiction rather than a candid or obscured angle. Their complete face must sit fully inside the frame with margin around the head; NEVER crop or cut the face in half at the frame edge. If their specific facial features cannot be rendered accurately and recognizably, omit the face entirely instead of guessing — frame them neck-down, from a rear angle, or as a lower-body shot. Show them as themselves only; do not stage them in any specific action or moment the overlay does not state. This exception applies to the carousel's FIRST slide only.\nDo not depict famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. Never crop or cut the featured face in half at the frame edge; if the face cannot be rendered accurately, frame neck-down, rear-angle, or lower-body instead.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_107297_slide_1.png",
+      "text": "The 407-foot Starship-Super Heavy rocket lifted off from Boca Chica, Texas at 8:48 a.m. EDT",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: The 407-foot Starship-Super Heavy rocket lifted off from Boca Chica, Texas at 8:48 a.m. EDT (never as visible words).\nVisual evidence mode: material_consequence.\nShow: rocket debris.\nVisible state/action: scattered on the ground.\nSetting: Boca Chica, Texas beach area.\nComposition: medium shot of debris field with visible blast marks; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_107297_slide_2.png",
+      "text": "Construction crews are preparing facilities at Cape Canaveral Space Force Station and Kennedy Space Center",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Construction crews are preparing facilities at Cape Canaveral Space Force Station and Kennedy Space Center (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: construction crews.\nVisible state/action: working on facility infrastructure.\nSetting: modern spaceport construction site.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_107297_slide_3.png",
+      "text": "This follows SpaceX's shift from Falcon 9 to Starship as its primary launch vehicle in Brevard County",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: This follows SpaceX's shift from Falcon 9 to Starship as its primary launch vehicle in Brevard County (never as visible words).\nVisual evidence mode: material_consequence.\nShow: abandoned Falcon 9 pad infrastructure.\nVisible state/action: partially dismantled with temporary tarps covering remnants.\nSetting: Brevard County spaceport facility.\nComposition: medium shot showing pad concrete structure with Falcon 9 support remnants under tarps, angled to show Starship construction zone adjacent; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_107297_slide_4.png",
+      "text": "NASA Administrator Jared Isaacman praised the launch as 'gorgeous' and 'inspirational'",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: NASA Administrator Jared Isaacman praised the launch as 'gorgeous' and 'inspirational' (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a single, high-resolution photo of a NASA mission patch.\nVisible state/action: displayed prominently on a clean, modern desk in a laboratory.\nSetting: a contemporary NASA research laboratory.\nComposition: centered, medium close-up; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: modern scientific research; current laboratories, instruments, space hardware, and field equipment as they exist today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

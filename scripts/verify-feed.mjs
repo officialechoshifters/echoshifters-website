@@ -16,7 +16,7 @@ const session = await (await fetch('https://api.clerk.com/v1/sessions', {
 const tok = (await (await fetch(`https://api.clerk.com/v1/sessions/${session.id}/tokens`, { method: 'POST', headers: { ...hdr, 'Content-Type': 'application/json' } })).json()).jwt
 
 // 2. Fetch the production feed
-const feedRes = await fetch('https://nigghters.netlify.app/content/carousels/index.json', { headers: { Authorization: 'Bearer ' + tok } })
+const feedRes = await fetch('https://echoshifters.netlify.app/content/carousels/index.json', { headers: { Authorization: 'Bearer ' + tok } })
 const feed = await feedRes.json()
 console.log('feed status:', feedRes.status, '| articles visible:', feed.carousels.length)
 const feedIds = new Set(feed.carousels.map((c) => String(c.id)))

@@ -1,0 +1,230 @@
+{
+  "renderer": "comfyui",
+  "category": "business",
+  "published_at": "2026-09-12T02:43:14",
+  "image_url": "https://s.yimg.com/lo/mysterio/api/32714b975ce0190e733da8872e97217f2f7b2cdd39d3b91b0a64cb5d824a204a/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotleyfool.com%2Fe48e86dda35543079ee2080fd9208b73.png",
+  "texts": {
+    "title_text": "Kroger's second-quarter earnings show resilience despite crisis",
+    "slide_1_text": "Kroger's CEO highlighted e-commerce growth as the company navigated a cyclospora outbreak",
+    "slide_2_text": "Sales growth slowed by 35 points due to the outbreak, with pharmacy revenue down 140 points",
+    "slide_3_text": "Adjusted earnings per share reached $1.09 despite lower drug prices and high fuel costs",
+    "slide_4_text": "Shelf availability hit all-time highs while pickup order accuracy improved significantly"
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kroger's second-quarter earnings show resilience despite crisis (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: warehouse worker stacking shelves.\nVisible state/action: stacking shelves with grocery items.\nSetting: modern grocery distribution center.\nComposition: medium shot, center-framed, natural lighting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kroger's CEO highlighted e-commerce growth as the company navigated a cyclospora outbreak (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: e-commerce fulfillment team.\nVisible state/action: packing grocery orders with attention to delivery timelines.\nSetting: modern retail e-commerce warehouse.\nComposition: medium shot, centered composition with team members working at a station with boxes and delivery labels; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sales growth slowed by 35 points due to the outbreak, with pharmacy revenue down 140 points (never as visible words).\nVisual evidence mode: material_consequence.\nShow: pharmacy sales dashboard.\nVisible state/action: displaying downward trendline with specific point markers.\nSetting: modern pharmacy retail environment.\nComposition: medium shot of pharmacy sales dashboard showing downward trendline with labeled point markers at 35 and 140; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Adjusted earnings per share reached $1.09 despite lower drug prices and high fuel costs (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of earnings and share and lower, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Shelf availability hit all-time highs while pickup order accuracy improved significantly (never as visible words).\nVisual evidence mode: material_consequence.\nShow: grocery shelves.\nVisible state/action: fully stocked with a variety of products at consistent intervals.\nSetting: modern retail grocery store aisle.\nComposition: medium shot, slightly elevated angle showing shelves from the side with products arranged neatly; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "BUSINESS & FINANCE",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 100,
+    "CULTURE": 68,
+    "FINANCE": 99,
+    "HEALTH": 83,
+    "LIFESTYLE": 91,
+    "POLITICS": 89,
+    "SCIENCE": 36,
+    "SPORTS": 83,
+    "TECHNOLOGY": 67,
+    "ENVIRONMENT": 88
+  },
+  "seeds": {
+    "title_text": 579466033,
+    "slide_1_text": 148818537,
+    "slide_2_text": 374820114,
+    "slide_3_text": 779306662,
+    "slide_4_text": 146354854,
+    "slide_5_text": 734862685
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "Kroger's second-quarter earnings",
+        "resilience",
+        "despite crisis"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "warehouse worker stacking shelves",
+      "visible_action_or_state": "stacking shelves with grocery items",
+      "setting": "modern grocery distribution center",
+      "composition": "medium shot, center-framed, natural lighting",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "Kroger's specific logo",
+        "named executives",
+        "crisis event",
+        "financial data"
+      ],
+      "distinct_from_prior_slides": "First slide, no prior slides to avoid",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Kroger's CEO",
+        "highlighted",
+        "e-commerce growth",
+        "navigated",
+        "cyclospora outbreak"
+      ],
+      "evidence_mode": "anonymous_human_process",
+      "central_visual_subject": "e-commerce fulfillment team",
+      "visible_action_or_state": "packing grocery orders with attention to delivery timelines",
+      "setting": "modern retail e-commerce warehouse",
+      "composition": "medium shot, centered composition with team members working at a station with boxes and delivery labels",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "CEO face or name",
+        "outbreak-related symptoms or medical details",
+        "physical location of outbreak",
+        "Kroger logo or branding",
+        "specific grocery items or brands"
+      ],
+      "distinct_from_prior_slides": "avoids distribution center setting from slide 1; uses e-commerce warehouse instead of warehouse worker stacking shelves",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Sales growth slowed by 35 points",
+        "outbreak",
+        "pharmacy revenue down 140 points"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "pharmacy sales dashboard",
+      "visible_action_or_state": "displaying downward trendline with specific point markers",
+      "setting": "modern pharmacy retail environment",
+      "composition": "medium shot of pharmacy sales dashboard showing downward trendline with labeled point markers at 35 and 140",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific pharmacy chain",
+        "real person",
+        "identifiable location",
+        "outbreak source",
+        "actual pandemic timeline"
+      ],
+      "distinct_from_prior_slides": "avoids warehouse settings (Slide 1 and 2) and focuses on pharmacy retail environment instead of e-commerce fulfillment",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Adjusted earnings per share reached $1.09 despite lower drug prices and high fuel costs"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of earnings and share and lower, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "Shelf availability hit all-time highs",
+        "pickup order accuracy improved significantly"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "grocery shelves",
+      "visible_action_or_state": "fully stocked with a variety of products at consistent intervals",
+      "setting": "modern retail grocery store aisle",
+      "composition": "medium shot, slightly elevated angle showing shelves from the side with products arranged neatly",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific brand names",
+        "identifiable people",
+        "documented sales data",
+        "current date or time",
+        "specific store location"
+      ],
+      "distinct_from_prior_slides": "avoids warehouse setting (Slide 1, Slide 2), dashboard (Slide 3), and still life of financial objects (Slide 4)",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "Kroger will simplify promotions",
+        "strengthen workplace culture",
+        "through new leadership"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "modern corporate workspace",
+      "visible_action_or_state": "team meeting with diverse, anonymous employees sitting at a table discussing in a collaborative manner",
+      "setting": "modern corporate office environment with open-plan layout",
+      "composition": "{composition}",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific Kroger executives",
+        "documented leadership changes",
+        "fabricated workplace events",
+        "identifiable faces"
+      ],
+      "distinct_from_prior_slides": "avoids warehouse, retail shelves, e-commerce fulfillment, pharmacy, and financial objects already shown in earlier slides",
+      "recognizable_subject": "",
+      "role": "outro",
+      "fallback": false
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_72716_title.png",
+      "text": "Kroger's second-quarter earnings show resilience despite crisis",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kroger's second-quarter earnings show resilience despite crisis (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: warehouse worker stacking shelves.\nVisible state/action: stacking shelves with grocery items.\nSetting: modern grocery distribution center.\nComposition: medium shot, center-framed, natural lighting; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_72716_slide_1.png",
+      "text": "Kroger's CEO highlighted e-commerce growth as the company navigated a cyclospora outbreak",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Kroger's CEO highlighted e-commerce growth as the company navigated a cyclospora outbreak (never as visible words).\nVisual evidence mode: anonymous_human_process.\nShow: e-commerce fulfillment team.\nVisible state/action: packing grocery orders with attention to delivery timelines.\nSetting: modern retail e-commerce warehouse.\nComposition: medium shot, centered composition with team members working at a station with boxes and delivery labels; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_72716_slide_2.png",
+      "text": "Sales growth slowed by 35 points due to the outbreak, with pharmacy revenue down 140 points",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Sales growth slowed by 35 points due to the outbreak, with pharmacy revenue down 140 points (never as visible words).\nVisual evidence mode: material_consequence.\nShow: pharmacy sales dashboard.\nVisible state/action: displaying downward trendline with specific point markers.\nSetting: modern pharmacy retail environment.\nComposition: medium shot of pharmacy sales dashboard showing downward trendline with labeled point markers at 35 and 140; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_72716_slide_3.png",
+      "text": "Adjusted earnings per share reached $1.09 despite lower drug prices and high fuel costs",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Adjusted earnings per share reached $1.09 despite lower drug prices and high fuel costs (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of earnings and share and lower, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_72716_slide_4.png",
+      "text": "Shelf availability hit all-time highs while pickup order accuracy improved significantly",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Shelf availability hit all-time highs while pickup order accuracy improved significantly (never as visible words).\nVisual evidence mode: material_consequence.\nShow: grocery shelves.\nVisible state/action: fully stocked with a variety of products at consistent intervals.\nSetting: modern retail grocery store aisle.\nComposition: medium shot, slightly elevated angle showing shelves from the side with products arranged neatly; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary business and commerce; current offices, markets, logistics, and workplaces as they look today Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true
+    }
+  ]
+}

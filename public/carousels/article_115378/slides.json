@@ -1,0 +1,248 @@
+{
+  "renderer": "comfyui",
+  "category": "education",
+  "published_at": "2026-10-04T14:16:32",
+  "image_url": "https://i.guim.co.uk/img/media/492d44ad34e677cfa238bab5d6f1df6e245b6a75/0_0_5200_4160/master/5200.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=0fbc5d8974d15f8b80c34c52e3a9ad57",
+  "texts": {
+    "title_text": "French education minister Edouard Geffray confirmed 400-500 high schools closed Monday amid protests",
+    "slide_1_text": "Overcrowded classrooms, teacher shortages, and unsafe facilities sparked nationwide demonstrations.",
+    "slide_2_text": "Burned schools, 5,000 arrests, and 78 staff injuries mark a record level of violence against educators.",
+    "slide_3_text": "Masked demonstrators set fires and clashed with police during Friday protests, turning peaceful demands violent.",
+    "slide_4_text": "A teacher was doused in gasoline during a Friday protest, cited by the minister as evidence of targeted attacks."
+  },
+  "prompts": {
+    "title_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: French education minister Edouard Geffray confirmed 400-500 high schools closed Monday amid protests (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a quiet high school hallway.\nVisible state/action: empty classrooms with closed doors.\nSetting: a contemporary public high school hallway.\nComposition: centered, head-and-shoulders shot, face fully visible, well-lit; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_1_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Overcrowded classrooms, teacher shortages, and unsafe facilities sparked nationwide demonstrations. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a classroom.\nVisible state/action: students seated at desks with limited space between them, a teacher standing at the front with a few empty chairs.\nSetting: a public school classroom.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_2_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Burned schools, 5,000 arrests, and 78 staff injuries mark a record level of violence against educators. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: charred school wall fragment.\nVisible state/action: smoke residue and scorched marks on a section of wall.\nSetting: generic public school building exterior.\nComposition: medium shot, low angle focusing on wall fragment with visible scorch marks; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_3_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Masked demonstrators set fires and clashed with police during Friday protests, turning peaceful demands violent. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of demonstrators and set and fires, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+    "slide_4_prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A teacher was doused in gasoline during a Friday protest, cited by the minister as evidence of targeted attacks. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single piece of fabric.\nVisible state/action: a faint, even stain of gasoline residue on the fabric.\nSetting: a generic school staff room.\nComposition: a tight close-up of the fabric stain against a neutral, unadorned background, with the stain centered and visible at the same scale as a person's hand; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph."
+  },
+  "topic": "POLITICS & BUSINESS",
+  "topic_scores": {
+    "AI": 0,
+    "BUSINESS": 99,
+    "CULTURE": 99,
+    "FINANCE": 45,
+    "HEALTH": 0,
+    "LIFESTYLE": 14,
+    "POLITICS": 100,
+    "SCIENCE": 70,
+    "SPORTS": 55,
+    "TECHNOLOGY": 98,
+    "ENVIRONMENT": 70
+  },
+  "seeds": {
+    "title_text": 602809663,
+    "slide_1_text": 512063933,
+    "slide_2_text": 188116484,
+    "slide_3_text": 387799593,
+    "slide_4_text": 291794399,
+    "slide_5_text": 868685589
+  },
+  "visual_plans": {
+    "title_text": {
+      "overlay_facts": [
+        "French education minister",
+        "Edouard Geffray",
+        "confirmed",
+        "400-500 high schools closed",
+        "Monday",
+        "amid protests"
+      ],
+      "evidence_mode": "institutional_environment",
+      "central_visual_subject": "a quiet high school hallway",
+      "visible_action_or_state": "empty classrooms with closed doors",
+      "setting": "a contemporary public high school hallway",
+      "composition": "centered, head-and-shoulders shot, face fully visible, well-lit",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific protest location",
+        "identifiable protest participants",
+        "real-time protest footage",
+        "closed school buildings"
+      ],
+      "distinct_from_prior_slides": "none",
+      "recognizable_subject": "",
+      "role": "hook",
+      "fallback": false
+    },
+    "slide_1_text": {
+      "overlay_facts": [
+        "Overcrowded classrooms",
+        "teacher shortages",
+        "unsafe facilities",
+        "nationwide demonstrations"
+      ],
+      "evidence_mode": "documentary_context",
+      "central_visual_subject": "a classroom",
+      "visible_action_or_state": "students seated at desks with limited space between them, a teacher standing at the front with a few empty chairs",
+      "setting": "a public school classroom",
+      "composition": "centered, medium shot",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "specific school or city",
+        "identifiable students or teachers",
+        "historical event",
+        "demonstrations happening in the frame"
+      ],
+      "distinct_from_prior_slides": "does not use empty classrooms (Slide 1 hook used empty classrooms), avoids showing demonstrations directly (Slide 1 hook used empty hallway, not demonstrations)",
+      "recognizable_subject": "",
+      "role": "context",
+      "fallback": false
+    },
+    "slide_2_text": {
+      "overlay_facts": [
+        "Burned schools",
+        "5,000 arrests",
+        "78 staff injuries",
+        "record level of violence against educators"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "charred school wall fragment",
+      "visible_action_or_state": "smoke residue and scorched marks on a section of wall",
+      "setting": "generic public school building exterior",
+      "composition": "medium shot, low angle focusing on wall fragment with visible scorch marks",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "identifiable public figure",
+        "specific named location",
+        "documented historical event",
+        "fabricated arrest scene",
+        "graphic injury depiction"
+      ],
+      "distinct_from_prior_slides": "avoids classroom setting of Slide 2 and hallway of Slide 1 by using exterior building damage",
+      "recognizable_subject": "",
+      "role": "mechanism",
+      "fallback": false
+    },
+    "slide_3_text": {
+      "overlay_facts": [
+        "Masked demonstrators set fires and clashed with police during Friday protests, turning peaceful demands violent"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of demonstrators and set and fires, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "wide documentary view of the affected reality and the anonymous people it touches",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "impact",
+      "fallback": true
+    },
+    "slide_4_text": {
+      "overlay_facts": [
+        "a teacher was doused in gasoline",
+        "during a Friday protest",
+        "cited by the minister as evidence of targeted attacks"
+      ],
+      "evidence_mode": "material_consequence",
+      "central_visual_subject": "a single piece of fabric",
+      "visible_action_or_state": "a faint, even stain of gasoline residue on the fabric",
+      "setting": "a generic school staff room",
+      "composition": "a tight close-up of the fabric stain against a neutral, unadorned background, with the stain centered and visible at the same scale as a person's hand",
+      "lower_third_reserve": true,
+      "must_not_imply": [
+        "a specific person or event",
+        "a minister's presence",
+        "the teacher's identity",
+        "the protest's location",
+        "the attack itself",
+        "the minister's statement"
+      ],
+      "distinct_from_prior_slides": "avoids school hallway (slide 1), classroom (slide 2), charred wall (slide 3), and editorial still life (slide 4); focuses on a material consequence of the gasoline dousing rather than the setting or action",
+      "recognizable_subject": "",
+      "role": "conclusion",
+      "fallback": false
+    },
+    "slide_5_text": {
+      "overlay_facts": [
+        "The French government faces mounting pressure as students demand systemic school reforms"
+      ],
+      "evidence_mode": "symbolic_evidence",
+      "central_visual_subject": "a restrained editorial still life of french and government and faces, photographed as physical objects under natural light",
+      "visible_action_or_state": "the objects sit arranged in a quiet composition, stating nothing beyond their plain presence",
+      "setting": "a plain neutral tabletop under soft daylight",
+      "composition": "calm end-card-compatible detail with generous negative space",
+      "lower_third_reserve": true,
+      "recognizable_subject": "",
+      "must_not_imply": [
+        "no identifiable real person",
+        "no famous or specific location",
+        "no event reconstruction",
+        "no numbers, prices, or percentage figures"
+      ],
+      "distinct_from_prior_slides": "generic fallback; differs by relying only on this slide's overlay text",
+      "role": "outro",
+      "fallback": true
+    }
+  },
+  "deck": [
+    {
+      "id": "title_text",
+      "kind": "image",
+      "file": "article_115378_title.png",
+      "text": "French education minister Edouard Geffray confirmed 400-500 high schools closed Monday amid protests",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: French education minister Edouard Geffray confirmed 400-500 high schools closed Monday amid protests (never as visible words).\nVisual evidence mode: institutional_environment.\nShow: a quiet high school hallway.\nVisible state/action: empty classrooms with closed doors.\nSetting: a contemporary public high school hallway.\nComposition: centered, head-and-shoulders shot, face fully visible, well-lit; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_1_text",
+      "kind": "image",
+      "file": "article_115378_slide_1.png",
+      "text": "Overcrowded classrooms, teacher shortages, and unsafe facilities sparked nationwide demonstrations.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Overcrowded classrooms, teacher shortages, and unsafe facilities sparked nationwide demonstrations. (never as visible words).\nVisual evidence mode: documentary_context.\nShow: a classroom.\nVisible state/action: students seated at desks with limited space between them, a teacher standing at the front with a few empty chairs.\nSetting: a public school classroom.\nComposition: centered, medium shot; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_2_text",
+      "kind": "image",
+      "file": "article_115378_slide_2.png",
+      "text": "Burned schools, 5,000 arrests, and 78 staff injuries mark a record level of violence against educators.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Burned schools, 5,000 arrests, and 78 staff injuries mark a record level of violence against educators. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: charred school wall fragment.\nVisible state/action: smoke residue and scorched marks on a section of wall.\nSetting: generic public school building exterior.\nComposition: medium shot, low angle focusing on wall fragment with visible scorch marks; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_3_text",
+      "kind": "image",
+      "file": "article_115378_slide_3.png",
+      "text": "Masked demonstrators set fires and clashed with police during Friday protests, turning peaceful demands violent.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: Masked demonstrators set fires and clashed with police during Friday protests, turning peaceful demands violent. (never as visible words).\nVisual evidence mode: symbolic_evidence.\nShow: a restrained editorial still life of demonstrators and set and fires, photographed as physical objects under natural light.\nVisible state/action: the objects sit arranged in a quiet composition, stating nothing beyond their plain presence.\nSetting: a plain neutral tabletop under soft daylight.\nComposition: wide documentary view of the affected reality and the anonymous people it touches; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "slide_4_text",
+      "kind": "image",
+      "file": "article_115378_slide_4.png",
+      "text": "A teacher was doused in gasoline during a Friday protest, cited by the minister as evidence of targeted attacks.",
+      "prompt": "Vertical 4:5 editorial-news photograph.\n\nMeaning to communicate: A teacher was doused in gasoline during a Friday protest, cited by the minister as evidence of targeted attacks. (never as visible words).\nVisual evidence mode: material_consequence.\nShow: a single piece of fabric.\nVisible state/action: a faint, even stain of gasoline residue on the fabric.\nSetting: a generic school staff room.\nComposition: a tight close-up of the fabric stain against a neutral, unadorned background, with the stain centered and visible at the same scale as a person's hand; place the meaningful action in the upper and middle frame and retain a calm, uncluttered lower third for a separately composited headline.\nThe photograph must fill the ENTIRE canvas edge to edge — the calm lower third stays fully photographic (floor, ground, surface, texture), never a blank band or solid panel; no text panel, caption box, strip, or box of lettering of any kind may appear anywhere in the frame, because the headline is later composited directly on top of the photo.\n\nThis is a restrained illustrative documentary image, not a reconstruction, archival photograph, or proof that an unobserved event occurred.\nNatural occupancy: if the setting is a place whose real-life function is busy — a courtroom in session, a parliament, an office, a station, a market, a school, a stadium — render the anonymous people who would normally be there, individually varied (no repeated faces, poses, or clothing), no identifiable or famous individuals. Do NOT show such an environment artificially empty or deserted: an empty venue reads as a factual distortion. Only depict it empty when the overlay itself describes an absence, vacancy, or aftermath.\nEra & mood: contemporary education; current classrooms, campuses, and learning technology Every object, machine, vehicle, building, and piece of equipment in the frame must be current-era and consistent with this world — no anachronistic, outdated, or retro props that the topic vibe contradicts.\nMake the frame remarkable and iconic: ONE dominant, instantly readable subject, bold composition, striking natural light, rich texture, and a decisive-moment feel — never clutter, shock, or drama.\nDo not depict recognizable public figures, famous locations, text, signage, documents, notes, papers, any object covered in dense writing or symbols, charts, UI, screens, numbers, gore, or sensational drama. For any person shown: never crop or cut a face in half at the frame edge — render a full-body shot with a complete face, or frame without the head.\nThe photograph fills the ENTIRE canvas edge to edge with real subject matter: no blank zone, solid panel, empty band, margin, or reserved text area anywhere, and never a photo with a separate caption box, strip, or box of text — the final slide is ONE single continuous photograph.",
+      "user_source": "",
+      "fixed": false,
+      "slot": false
+    },
+    {
+      "id": "fixed_last_image",
+      "kind": "image",
+      "file": "fixed_last.png",
+      "text": "",
+      "prompt": "",
+      "user_source": "",
+      "fixed": true,
+      "slot": false
+    }
+  ]
+}

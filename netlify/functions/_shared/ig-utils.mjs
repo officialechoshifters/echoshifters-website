@@ -3,7 +3,7 @@
 
 import { getStore } from '@netlify/blobs'
 
-export const CAROUSEL_STORE = 'nigghters-carousels'
+export const CAROUSEL_STORE = 'echoshifters-carousels'
 export const BLOB_PREFIX = '/media/'
 
 export function store() {
@@ -12,15 +12,27 @@ export function store() {
 
 // The access token lives in a blob so the scheduled refresh function can renew
 // it. Falls back to the IG_ACCESS_TOKEN environment variable on first run.
+//
+// A token is only valid for the account that issued it. To survive an account
+// switch, the blob entry records which account it belongs to and is only used
+// for that account — otherwise the sync would keep failing with "missing
+// permissions" on every post. Entries with no account (written before tagging
+// existed) are trusted only when no env token is configured, since the env var
+// is then the deliberate source of truth.
 export async function getIgToken() {
   const s = store()
   const entry = await s.get('config/ig-token', { type: 'json' }).catch(() => null)
-  if (entry && entry.token) return entry.token
+  if (entry && entry.token) {
+    const currentAccount = env('IG_USER_ID')
+    if (!currentAccount) return entry.token
+    if (!entry.account) return process.env.IG_ACCESS_TOKEN || entry.token
+    if (String(entry.account) === String(currentAccount)) return entry.token
+  }
   return process.env.IG_ACCESS_TOKEN || ''
 }
 
 export async function setIgToken(token) {
-  await store().setJSON('config/ig-token', { token, refreshedAt: new Date().toISOString() })
+  await store().setJSON('config/ig-token', { token, account: env('IG_USER_ID'), refreshedAt: new Date().toISOString() })
 }
 
 export function env(key) {
@@ -62,14 +74,18 @@ const TOPIC_CATALOG = ['AI', 'Business', 'Culture', 'Finance', 'Health', 'Lifest
 // absorbed them (ARTS -> CULTURE, ECONOMY -> BUSINESS, MARKETS -> FINANCE).
 const TOPIC_ALIASES = { arts: 'Culture', economy: 'Business', markets: 'Finance' }
 
-// Pulls topic names and tags out of caption hashtags (e.g. "#AI #Markets").
+// Pulls topics from Instagram hashtags (e.g. "#AI #Markets") and the
+// category heading used by our posts (e.g. "AI & BUSINESS:").
 export function topicsFromCaption(caption) {
-  const hashtags = String(caption || '').match(/#[\w-]+/g) || []
+  const text = String(caption || '')
+  const hashtags = text.match(/#[\w-]+/g) || []
   const tags = hashtags.map((t) => t.slice(1).toLowerCase())
+  const heading = text.split(/\r?\n/, 1)[0].match(/^\s*([^:]+):\s*$/)?.[1] || ''
+  const headingTopics = heading.split(/[&,/]+/).map((name) => name.trim().toLowerCase()).filter(Boolean)
   const topics = []
-  for (const tag of tags) {
-    const match = TOPIC_CATALOG.find((name) => name.toLowerCase() === tag)
-    const merged = match || TOPIC_ALIASES[tag]
+  for (const candidate of [...headingTopics, ...tags]) {
+    const match = TOPIC_CATALOG.find((name) => name.toLowerCase() === candidate)
+    const merged = match || TOPIC_ALIASES[candidate]
     if (merged && !topics.includes(merged)) topics.push(merged)
   }
   return { topics, tags }
@@ -116,28 +132,44 @@ export async function deleteCarouselBlobs(entry) {
   return keys.size
 }
 
-// Downloads a URL into a blob. Returns the public-facing /media/ path.
-// Each download is aborted after 8s so a single slow media URL can never stall
-// an entire sync run past Netlify's function time limits.
-export async function ingestFile(url, key, contentType) {
+// One download attempt. The timeout covers the whole transfer, including
+// reading the body — the old code only timed out the response headers, so a
+// CDN that sent headers then stalled mid-body hung instead of failing.
+async function downloadOnce(url, timeoutMs) {
   const controller = new AbortController()
-  const timer = setTimeout(() => controller.abort(), 8000)
-  let response
+  const timer = timeoutMs ? setTimeout(() => controller.abort(), timeoutMs) : null
   try {
-    response = await fetch(url, { signal: controller.signal })
-  } catch (error) {
-    throw new Error(`Download aborted/timed out for ${url}: ${error && error.message ? error.message : error}`)
+    const response = await fetch(url, { signal: controller.signal })
+    if (!response.ok) throw new Error(`Download failed (${response.status})`)
+    return await response.arrayBuffer()
   } finally {
-    clearTimeout(timer)
+    if (timer) clearTimeout(timer)
   }
-  if (!response.ok) throw new Error(`Download failed (${response.status}) for ${url}`)
-  const buffer = await response.arrayBuffer()
+}
+
+export async function ingestFile(url, key, contentType) {
+  let buffer
+  try {
+    buffer = await downloadOnce(url, 8000)
+  } catch (firstError) {
+    try {
+      buffer = await downloadOnce(url, 0)
+    } catch (secondError) {
+      throw new Error(`Download failed for ${url}: ${(secondError && secondError.message) || secondError}`)
+    }
+  }
   await store().set(key, buffer, { contentType })
   return mediaUrlFor(key)
 }
 
 // Fetches one media object (with children for carousel albums) from the
 // Instagram Graph API.
+//
+// `children` is requested as a nested field: a CAROUSEL_ALBUM has no media_url
+// of its own, so the album's slides only come back through this expansion. The
+// separate /children edge is still called as a fallback (it is unpaginated at
+// Instagram's 10-slide album limit), but the nested form is what the docs
+// guarantee.
 export async function fetchIgMedia(mediaId, token) {
   const fields = ['id', 'caption', 'media_type', 'media_url', 'timestamp', 'permalink', 'thumbnail_url']
   const params = new URLSearchParams({ fields: fields.join(','), access_token: token })
@@ -152,6 +184,16 @@ export async function fetchIgMedia(mediaId, token) {
     const childrenData = await childrenResponse.json()
     if (childrenResponse.ok && Array.isArray(childrenData.data)) {
       data.children = childrenData.data.filter((child) => child.media_url)
+    }
+    if (!Array.isArray(data.children) || !data.children.length) {
+      // Fallback: nested expansion, in case the children edge is unavailable.
+      const nestedParams = new URLSearchParams({
+        fields: 'id,media_type,children{media_type,media_url}',
+        access_token: token,
+      })
+      const nested = await fetch(`https://graph.instagram.com/${mediaId}?${nestedParams}`).then((r) => r.json())
+      const list = Array.isArray(nested.children) ? nested.children : nested.children?.data
+      if (Array.isArray(list)) data.children = list.filter((child) => child.media_url)
     }
   }
   return data

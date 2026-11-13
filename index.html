@@ -7,14 +7,14 @@
     <!-- Fonts are self-hosted: no third-party requests or IP sharing before consent. -->
     <link rel="preload" href="/fonts/fonts-app.css" as="style" />
     <link rel="stylesheet" href="/fonts/fonts-app.css" />
-    <meta name="description" content="NIGGHTERS, ideas worth staying up for." />
+    <meta name="description" content="ECHOSHIFTERS, ideas worth staying up for." />
     <meta name="theme-color" content="#0b0d0d" />
-    <meta property="og:title" content="NIGGHTERS, Ideas after dark" />
+    <meta property="og:title" content="ECHOSHIFTERS, Ideas after dark" />
     <meta property="og:description" content="Sharp ideas, thoughtful stories, and visual culture for the curious." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://localhost:5173/" />
     <meta name="twitter:card" content="summary" />
-    <title>NIGGHTERS, Ideas after dark</title>
+    <title>ECHOSHIFTERS, Ideas after dark</title>
     <style>
       .cookie-banner{position:fixed;left:18px;bottom:18px;z-index:80;max-width:360px;background:#0f1514;border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;box-shadow:0 18px 48px #0009}
       .cookie-banner[hidden]{display:none}
@@ -28,6 +28,8 @@
       .cookie-decline{background:transparent;color:var(--text);border:1px solid var(--line)}
       .cookie-decline:hover{color:var(--accent-soft);border-color:var(--accent-soft)}
       @media(max-width:440px){.cookie-banner{left:12px;right:12px;bottom:12px;max-width:none}}
+      /* The banner is fixed to the bottom of the viewport. Reserve matching space at the end of the page so it never sits on top of the last screenful — otherwise it covers whatever ends up there, e.g. the contact button. */
+      body:has(.cookie-banner:not([hidden])) main{padding-bottom:230px}
       .cookie-modal{display:none;position:fixed;inset:0;background:#050707c9;backdrop-filter:blur(9px);z-index:85;align-items:center;justify-content:center;padding:20px}
       .cookie-modal.show{display:flex}
       .cookie-modal-card{width:100%;max-width:430px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px;box-shadow:0 20px 90px #000;position:relative}
@@ -69,7 +71,7 @@
         <button class="close" data-cookie-close aria-label="Close cookie settings">×</button>
         <div class="eyebrow">Privacy choices</div>
         <h2>Cookie settings.</h2>
-        <p>Choose which cookies NIGGHTERS may use. You can come back and change this anytime via the footer link.</p>
+        <p>Choose which cookies ECHOSHIFTERS may use. You can come back and change this anytime via the footer link.</p>
         <div class="ck-row">
           <span><b>Strictly necessary</b><small>Sign-in, security, and remembering this choice. Always on.</small></span>
           <label class="switch"><input type="checkbox" checked disabled aria-label="Strictly necessary cookies, always on"><em></em></label>
@@ -88,7 +90,7 @@
     <script type="module" src="/src/main.js"></script>
     <script>
       ;(function () {
-        var KEY = 'nigghters-cookie-consent'
+        var KEY = 'echoshifters-cookie-consent'
         var banner = document.getElementById('cookie-banner')
         var modal = document.getElementById('cookieModal')
         var gaLoaded = false
@@ -140,7 +142,7 @@
           document.getElementById('ck-analytics').checked = readSaved() ? readSaved().analytics === 'granted' : false
           modal.classList.add('show')
         }
-        window.__nigghtersOpenCookieSettings = openModal
+        window.__echoshiftersOpenCookieSettings = openModal
         var saved = readSaved()
         if (saved) { apply(saved.analytics) } else { banner.hidden = false }
         document.getElementById('cookie-accept').onclick = function () {
